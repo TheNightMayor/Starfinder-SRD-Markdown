@@ -3,9 +3,9 @@ abilitymods:
   - STR: 4
   - DEX: 1
   - CON: 2
-  - INT: "+0"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: 0
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 14 KAC: 16" 
 alignment: CN
 Aura: "melting aura (5 ft., 1d4 F)"
@@ -40,15 +40,15 @@ offabilities:
 otherabil: "deaf, [[Earth Glide Ex]]"
 Perception: 8
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 2 
 Senses: "[[blindsight]] (vibration) 60 ft., [[Sightless Ex]]"
 size: Large
 Skills:
-  - Acrobatics: "+8 (`dice: 1d20+8`)"
-  - Athletics: "+13 (`dice: 1d20+13`)"
-  - Intimidate: "+8 (`dice: 1d20+8`)" 
+  - Acrobatics: 8
+  - Athletics: 13
+  - Intimidate: 8 
 source: Alien Archive 4 
 specialabil:
   - name: "Deaf (Ex)"

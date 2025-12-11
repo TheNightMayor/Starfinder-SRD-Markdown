@@ -45,14 +45,11 @@ image: "[[spectra, aspecna.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "balancing gaze, hyperflux"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 18th;melee +27)"
-  - name: "1/day"
-    desc: "[[Chain Surge]],  (DC 27), [[Discharge, Greater]](DC 27)"
-  - name: "3/day"
-    desc: "[[Control Machines]] (DC 26), [[Holographic Image]] (5th level), [[Remove Radioactivity]], [[Synapse Overload]] (DC 26)"
-  - name: "At will"
-    desc: "[[Implant Data]], [[Recharge]], [[True Seeing]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 18th;melee +27)"
+  - 1/day: "[[Chain Surge]],  (DC 27), [[Discharge, Greater]](DC 27)"
+  - 3/day: "[[Control Machines]] (DC 26), [[Holographic Image]] (5th level), [[Remove Radioactivity]], [[Synapse Overload]] (DC 26)"
+  - At will: "[[Implant Data]], [[Recharge]], [[True Seeing]]"
 otherabil: "seek outcome, slip drive, [[Spaceflight (Su)]] (Mysticism)"
 Perception: 31
 Ranged:
@@ -60,17 +57,17 @@ Ranged:
     desc: "bloom beam +27 to hit (3d12+18 F; critical stunned)"
 reach: "15 ft."
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+22 (`dice: 1d20+22`)" 
+  - Fort: 16
+  - Ref: 16
+  - Will: 22 
 Senses: "[[darkvision]] 60 ft., detect alignment"
 size: Huge
 Skills:
-  - Acrobatics: "+31 (`dice: 1d20+31`) (+39 to fly)"
-  - Computers: "+36 (`dice: 1d20+36`)"
-  - Engineering: "+36 (`dice: 1d20+36`)"
-  - Mysticism: "+36 (`dice: 1d20+36`)"
-  - Sense Motive: "+31 (`dice: 1d20+31`)" 
+  - Acrobatics: 31
+  - Computers: 36
+  - Engineering: 36
+  - Mysticism: 36
+  - Sense Motive: 31 
 source: Alien Archive 3 
 space: "15 ft."
 specialabil:

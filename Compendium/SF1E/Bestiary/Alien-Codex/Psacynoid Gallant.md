@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 3
   - DEX: 4
-  - CON: "+0"
+  - CON: 0
   - INT: 1
   - WIS: 2
   - CHA: 6
@@ -45,15 +45,15 @@ Ranged:
     desc: advanced semi-auto pistol +19 to hit (2d6+9 P)
 RP: 4
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 11
+  - Ref: 9
+  - Will: 10
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Athletics: "+17 (`dice: 1d20+17`)"
-  - Mysticism: "+17 (`dice: 1d20+17`)"
-  - Physical Science: "+22 (`dice: 1d20+22`)"
+  - Athletics: 17
+  - Mysticism: 17
+  - Physical Science: 22
 source: Alien Archive 4
 species: "[[Psacynoid]]"
 Speed: 30 ft.

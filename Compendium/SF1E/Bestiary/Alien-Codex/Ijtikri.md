@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 1
-  - DEX: "+0"
+  - DEX: 0
   - CON: 3
-  - INT: "+0"
+  - INT: 0
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 10 KAC: 11" 
 alignment: N
 cr: 1/2
@@ -40,22 +40,21 @@ Perception: 4
 Ranged:
   - name: "Ranged"
     desc: "needler pistol +3 to hit (1d4 P; critical injection DC +2)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 1st)"
-  - name: "1/day"
-    desc: "[[Wisp Ally]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 1st)"
+  - 1/day: "[[Wisp Ally]]"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+0 (`dice: 1d20+0`)"
-  - Will: "+2 (`dice: 1d20+2`) (+4 vs. critical hit effects)"
+  - Fort: 3
+  - Ref: 0
+  - Will: 2
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Athletics: "+9 (`dice: 1d20+9`)"
-  - Life Science: "+4 (`dice: 1d20+4`)"
-  - Piloting: "+4 (`dice: 1d20+4`)"
-  - Stealth: "+9 (`dice: 1d20+9`)"
-  - Survival: "+9 (`dice: 1d20+9`)" 
+  - Athletics: 9
+  - Life Science: 4
+  - Piloting: 4
+  - Stealth: 9
+  - Survival: 9 
 source: Alien Archive 3 
 specialabil:
   - name: "Hardened Mantle (Ex)"

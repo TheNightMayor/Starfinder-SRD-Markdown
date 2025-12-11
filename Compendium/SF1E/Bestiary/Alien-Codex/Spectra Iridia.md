@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 2
   - INT: 6
@@ -45,27 +45,24 @@ Perception: 16
 Ranged:
   - name: "Ranged"
     desc: "dusk ray +18 to hit (1d10+8 C & E)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 8th; ranged +18)"
-  - name: "1/day"
-    desc: "[[Holographic Image]] (3rd level), [[Teleport]] (self only)"
-  - name: "3/day"
-    desc: "[[Caustic Conversion]], [[Implant Data]], [[Make Whole]], [[Recharge]]"
-  - name: "At will"
-    desc: "[[Detect Tech]], [[Disguise Self]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 8th; ranged +18)"
+  - 1/day: "[[Holographic Image]] (3rd level), [[Teleport]] (self only)"
+  - 3/day: "[[Caustic Conversion]], [[Implant Data]], [[Make Whole]], [[Recharge]]"
+  - At will: "[[Detect Tech]], [[Disguise Self]]"
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+13 (`dice: 1d20+13`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 13 
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`) (+24 to fly)"
-  - Computers: "+21 (`dice: 1d20+21`)"
-  - Diplomacy: "+16 (`dice: 1d20+16`)"
-  - Engineering: "+21 (`dice: 1d20+21`)"
-  - Mysticism: "+21 (`dice: 1d20+21`)"
-  - Sense Motive: "+16 (`dice: 1d20+16`)" 
+  - Acrobatics: 16
+  - Computers: 21
+  - Diplomacy: 16
+  - Engineering: 21
+  - Mysticism: 21
+  - Sense Motive: 16 
 source: Alien Archive 3 
 specialabil:
   - name: "Dusk Ray (Ex)"

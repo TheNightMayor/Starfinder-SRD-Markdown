@@ -43,15 +43,15 @@ offabilities:
 Perception: 23
 reach: "25 ft."
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+17 (`dice: 1d20+17`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 17
+  - Ref: 17
+  - Will: 12 
 Senses: "[[low-light vision]]"
 size: Gargantuan
 Skills:
-  - Acrobatics: "+23 (`dice: 1d20+23`) (+31 to fly)"
-  - Athletics: "+28 (`dice: 1d20+28`)"
-  - Stealth: "+23 (`dice: 1d20+23`)"
+  - Acrobatics: 23
+  - Athletics: 28
+  - Stealth: 23
 source: Alien Archive 4 
 space: "20 ft."
 specialabil:

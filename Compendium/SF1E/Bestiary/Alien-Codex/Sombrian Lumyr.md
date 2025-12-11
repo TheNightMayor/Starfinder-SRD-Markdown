@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 6
-  - CON: "+0"
+  - CON: 0
   - INT: 2
   - WIS: 2
   - CHA: 4 
@@ -39,29 +39,26 @@ image: "[[sombrian, lumyr.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "ill omen"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 8th)"
-  - name: "1/day"
-    desc: "[[Animate Dead]]"
-  - name: "3/day"
-    desc: "[[Command Undead]] (DC 19), [[Fog Cloud]] , [[Invisibility]], [[Mirror Image]]"
-  - name: "At will"
-    desc: "[[Charm Person]] (DC 18), [[Wisp Ally]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 8th)"
+  - 1/day: "[[Animate Dead]]"
+  - 3/day: "[[Command Undead]] (DC 19), [[Fog Cloud]] , [[Invisibility]], [[Mirror Image]]"
+  - At will: "[[Charm Person]] (DC 18), [[Wisp Ally]]"
 otherabil: "limited spaceflight"
 Perception: 21
 Ranged:
   - name: "Ranged"
     desc: "+14 cryobolt (1d10+8 C plus confounding frost)"
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+11 (`dice: 1d20+11`)" 
+  - Fort: 9
+  - Ref: 9
+  - Will: 11 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`)"
-  - Bluff: "+16 (`dice: 1d20+16`)"
-  - Stealth: "+21 (`dice: 1d20+21`)" 
+  - Acrobatics: 16
+  - Bluff: 16
+  - Stealth: 21 
 source: Alien Archive 4 
 specialabil:
   - name: "Confounding Frost (Su)"

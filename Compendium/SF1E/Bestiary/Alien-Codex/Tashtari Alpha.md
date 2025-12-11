@@ -41,17 +41,17 @@ Ranged:
   - name: "Ranged"
     desc: "muzzle beam +18 to hit (2d6+7 F; critical burn 1d6)"
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 11
+  - Ref: 11
+  - Will: 6
   - name: "[[Energy Resistance]]"
     desc: "fire 5"
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Athletics: "+14 (`dice: 1d20+14`) (+22 to climb)"
-  - Stealth: "+19 (`dice: 1d20+19`)"
+  - Acrobatics: 14
+  - Athletics: 14
+  - Stealth: 19
 source: Alien Archive 2 
 specialabil:
   - name: "Bristle Nova (Ex)"

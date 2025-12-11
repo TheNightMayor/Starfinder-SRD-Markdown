@@ -4,10 +4,10 @@ cssclasses:
 abilitymods:
   - STR: 3
   - DEX: 1
-  - CON: "+0"
+  - CON: 0
   - INT: -3
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 11 KAC: 12" 
 alignment: N
 climate: any
@@ -38,14 +38,14 @@ image: "[[elemental, tiny air.jpg]]"
 Perception: 3
 planet: []
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+0"
+  - Fort: 3
+  - Ref: 1
+  - Will: 0
 Senses: "[[darkvision]] 60 ft."
-size: tiny
+size: Tiny
 Skills:
-  - Acrobatics: "+3 (`dice: 1d20+3`)"
-  - Athletics: "+3 (`dice: 1d20+3`)"
+  - Acrobatics: 3
+  - Athletics: 3
 source: Alien Archive
 Speed: 20 ft. 
 statblock: true
@@ -63,3 +63,4 @@ XP: 135
 ```statblock
 creature: Elemental, Tiny Elemental
 ```
+

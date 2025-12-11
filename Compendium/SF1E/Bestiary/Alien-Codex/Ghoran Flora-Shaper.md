@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
   - CON: 3
   - INT: -1
@@ -43,20 +43,14 @@ image: "[[Ghoran Flora-Shaper.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: grasping vines (DC 18)
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 6th)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 6th)
-  - name: 2nd (3/day)
-    desc: "[[Fog Cloud]], [[Mind Thrust]] (DC 18), [[Summon-Creature]] (skittermander whelp, small first world beast, tiny earth elemental, or tiny water elemental)"
-  - name: 1st (6/day)
-    desc: "[[Remove Condition, Lesser]], [[Life Bubble]], [[Mystic-Cure|Mystic Cure]], [[Wisp Ally]]"
-  - name: (at will)
-    desc: "[[Fatigue]] (DC 16), [[Stabilize]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Xenodruid]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 6th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known (CL 6th)"
+  - 2nd (3/day): "[[Fog Cloud]], [[Mind Thrust]] (DC 18), [[Summon-Creature]] (skittermander whelp, small first world beast, tiny earth elemental, or tiny water elemental)"
+  - 1st (6/day): "[[Remove Condition, Lesser]], [[Life Bubble]], [[Mystic-Cure|Mystic Cure]], [[Wisp Ally]]"
+  - (at will): "[[Fatigue]] (DC 16), [[Stabilize]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Xenodruid]]"
 otherabil: "[[Xenodruid#Animal Adaptation (SU) - 6TH Level|animal adaptation]], [[Xenodruid#Speak with Animals (SU) - 1ST Level|speak with animals]]"
 Perception: 18
 Ranged:
@@ -64,17 +58,17 @@ Ranged:
     desc: corona laser pistol +12 to hit (2d4+6 F)
 RP: 4
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+9 (`dice: 1d20+9`)"
-size: medium
+  - Fort: 5
+  - Ref: 5
+  - Will: 9
+size: Medium
 Skills:
-  - Diplomacy: "+13 (`dice: 1d20+13`)"
-  - Intimidate: "+18 (`dice: 1d20+18`)"
-  - Life Science: "+18 (`dice: 1d20+18`)"
-  - Mysticism: "+18 (`dice: 1d20+18`)"
-  - Sense Motive: "+13 (`dice: 1d20+13`)"
-  - Survival: "+18 (`dice: 1d20+18`)"
+  - Diplomacy: 13
+  - Intimidate: 18
+  - Life Science: 18
+  - Mysticism: 18
+  - Sense Motive: 13
+  - Survival: 18
 source: Alien Archive 2
 specialabil:
   - name: Delicious (Ex)

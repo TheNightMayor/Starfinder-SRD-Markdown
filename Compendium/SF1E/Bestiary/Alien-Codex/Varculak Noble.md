@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 5
   - CON: 1
   - INT: 4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 8
 ac: "EAC: 26 KAC: 27"
 alignment: CN
@@ -47,17 +47,17 @@ Ranged:
     desc: advanced tetrad rings +23 to hit (2d6+12 B; critical push [5 ft.])
 RP: 5
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+13 (`dice: 1d20+13`)"
+  - Fort: 11
+  - Ref: 15
+  - Will: 13
 Senses: "[[darkvision]] 60 ft."
 size: Small
 Skills:
-  - Athletics: "+22 (`dice: 1d20+22`)"
-  - Bluff: "+27 (`dice: 1d20+27`)"
-  - Diplomacy: "+22 (`dice: 1d20+22`)"
-  - Intimidate: "+27 (`dice: 1d20+27`)"
-  - Sense Motive: "+22 (`dice: 1d20+22`)"
+  - Athletics: 22
+  - Bluff: 27
+  - Diplomacy: 22
+  - Intimidate: 27
+  - Sense Motive: 22
 source: Alien Archive 3
 specialabil:
   - name: Deathless Vitality (Ex)

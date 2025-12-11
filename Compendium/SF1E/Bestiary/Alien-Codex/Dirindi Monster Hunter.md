@@ -2,9 +2,9 @@
 abilitymods:
   - STR: 1
   - DEX: 5
-  - CON: "+0"
-  - INT: "+0"
-  - WIS: "+0"
+  - CON: 0
+  - INT: 0
+  - WIS: 0
   - CHA: 3
 ac: "EAC: 17 KAC: 19"
 alignment: CG
@@ -35,29 +35,27 @@ image: "[[Dirindi Monster Hunter.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Stellar Revelations]] ([[Stellar Revelations#Black Hole (SU)|black hole]] [20-ft. radius, pull 10 ft., DC 13], [[Stellar Revelations#Gravity Hold (SU))|gravity hold]] [DC 13], [[Stellar Revelations#Radiation (SU)|radiation]] [DC 13], [[Stellar Revelations#GSupernova (SU))|supernova]] [10-ft. radius, 5d6 F, DC 13])"
-  - name: Spell-Like Abilities
-    desc: (CL 4th; melee +9, ranged +12)
-  - name: 1/day
-    desc: "[[Jolting Surge]]"
-  - name: At will
-    desc: "[[Energy Ray]] (electricity only)"
+Spells:
+  - "**Spell-Like Abilities** (CL 4th; melee +9, ranged +12)"
+  - 1/day: "[[Jolting Surge]]"
+  - At will: "[[Energy Ray]] (electricity only)"
 otherabil: "[[Solarian#Solar Manifestation (SU) - 1ST Level|solar manifestation]] ([[Solarian#Solar Armor|solar armor]]), [[Stellar Alignment Su|Stellar Alignment]] "
 Perception: 15
 Ranged:
   - name: Ranged
     desc: static polarity rifle +12 to hit (1d8+4 E)
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 6
+  - Ref: 4
+  - Will: 5
   - name: "[[Energy Resistance]]"
     desc: electricity 5
 Senses: "[[blindsight]] (electricity) 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - diplomacy: "+15 (`dice: 1d20+15`)"
-  - Mysticism: "+10 (`dice: 1d20+10`)"
-  - Survival: "+10 (`dice: 1d20+10`)"
+  - diplomacy: 15
+  - Mysticism: 10
+  - Survival: 10
 source: Alien Archive 3
 species: "[[Dirindi]]"
 Speed: 30 ft.

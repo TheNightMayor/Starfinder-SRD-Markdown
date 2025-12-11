@@ -6,8 +6,8 @@ abilitymods:
   - DEX: 11
   - CON: 6
   - INT: -3
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 34 KAC: 35" 
 alignment: N
 Aura: "gravitational pull aura (120 ft.)"
@@ -47,13 +47,13 @@ Ranged:
   - name: "Ranged"
     desc: "solar ray +34 to hit (8d8+19 F; critical burn 6d6)"
 saves:
-  - Fort: "+22 (`dice: 1d20+22`)"
-  - Ref: "+20 (`dice: 1d20+20`)"
-  - Will: "+16 (`dice: 1d20+16`)" 
+  - Fort: 22
+  - Ref: 20
+  - Will: 16 
 Senses: "[[darkvision]] 60 ft."
 size: Small
 Skills:
-  - Acrobatics: "+37 (`dice: 1d20+37`) (+45 to fly)"
+  - Acrobatics: 37
 source: Alien Archive 2 
 specialabil:
   - name: "Aglow (Ex)"

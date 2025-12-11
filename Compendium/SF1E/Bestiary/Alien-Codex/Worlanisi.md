@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 4 
 ac: "EAC: 11 KAC: 12" 
 alignment: CG
@@ -38,18 +38,18 @@ Ranged:
   - name: "Ranged"
     desc: "pulsecaster pistol +6 to hit (1d4+1 E nonlethal)"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+4 (`dice: 1d20+4`) –1 vs. mind-affecting effects"
+  - Fort: 1
+  - Ref: 3
+  - Will: "+4 –1 vs. mind-affecting effects"
   - name: "Weaknesses"
     desc: "psychic reverb"
 size: Small
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Athletics: "+10 (`dice: 1d20+10`) (+18 to climb)"
-  - Bluff: "+10 (`dice: 1d20+10`)"
-  - Culture: "+5 (`dice: 1d20+5`)"
-  - Mysticism: "+5 (`dice: 1d20+5`)" 
+  - Acrobatics: 10
+  - Athletics: 10
+  - Bluff: 10
+  - Culture: 5
+  - Mysticism: 5 
 source: Alien Archive 4 
 specialabil:
   - name: "Psychic Reverb (Ex)"

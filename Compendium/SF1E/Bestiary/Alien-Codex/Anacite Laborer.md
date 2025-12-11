@@ -2,7 +2,7 @@
 abilitymods:
   - STR: +5
   - DEX: +2
-  - CON: "—"
+  - CON: —
   - INT: +4
   - WIS: +0
   - CHA: +0
@@ -28,7 +28,7 @@ Languages: "Common; shortwave 100 ft."
 linter-yaml-title-alias: Anacite
 Melee:
   - name: "Melee"
-    desc: "plasma cutter +16 to hit (16 (1d8+12) F)"
+    desc: "plasma cutter +16 to hit (1d8+12 F)"
 modifier: 2
 name: "Anacite, Laborer"
 image: "[[Anacite Laborer.png]]"
@@ -38,18 +38,18 @@ Perception: 19
 planet: Aballon
 Ranged:
   - name: "Ranged"
-    desc: "electrical burst +14 to hit (11 (1d8+7) E)"
+    desc: "electrical burst +14 to hit (1d8+7 E)"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
+  - Fort: 4
+  - Ref: 4
+  - Will: 8 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Computers: "+19 (`dice: 1d20+19`)"
-  - Engineering: "+19 (`dice: 1d20+19`)"
-  - Piloting: "+14 (`dice: 1d20+14`)"
-  - Stealth: "+14 (`dice: 1d20+14`)" 
+  - Computers: 19
+  - Engineering: 19
+  - Piloting: 14
+  - Stealth: 14 
 source: Alien Archive
 specialabil:
   - name: "Shortwave (Ex)"

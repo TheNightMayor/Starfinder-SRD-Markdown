@@ -2,9 +2,9 @@
 abilitymods:
   - STR: 2
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 6
 ac: "EAC: 20 KAC: 21"
 alignment: LN
@@ -40,18 +40,18 @@ Ranged:
 reach: 10 ft. (15 ft. with advanced lance)
 RP: 4
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 7
+  - Ref: 9
+  - Will: 11
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - computers: "+21 (`dice: 1d20+21`)"
-  - Diplomacy: "+21 (`dice: 1d20+21`)"
-  - Life Science: "+16 (`dice: 1d20+16`)"
-  - Medicine: "+21 (`dice: 1d20+21`)"
-  - Sense Motive: "+21 (`dice: 1d20+21`)"
-  - Survival: "+16 (`dice: 1d20+16`)"
+  - computers: 21
+  - Diplomacy: 21
+  - Life Science: 16
+  - Medicine: 21
+  - Sense Motive: 21
+  - Survival: 16
 source: Alien Archive 3
 space: 10 ft.
 specialabil:

@@ -47,25 +47,22 @@ Perception: 22
 Ranged:
   - name: "Ranged"
     desc: "returning buzzblade spear +23 to hit (3d6+16 P) or impulse storm coil +23 to hit (4d6+12 E)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 12th)"
-  - name: "1/day"
-    desc: "[[Mystic Cure]] (4th level)"
-  - name: "3/day"
-    desc: "[[Arcing Surge]] (DC 18), [[Speak with Dead]](DC 18), [[Tongues]]"
-  - name: "At will"
-    desc: "[[Plane Shift]] (self only)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 12th)"
+  - 1/day: "[[Mystic Cure]] (4th level)"
+  - 3/day: "[[Arcing Surge]] (DC 18), [[Speak with Dead]](DC 18), [[Tongues]]"
+  - At will: "[[Plane Shift]] (self only)"
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+13 (`dice: 1d20+13`)" 
+  - Fort: 14
+  - Ref: 14
+  - Will: 13 
 Senses: "[[darkvision]] 60 ft., death sense 30 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+22 (`dice: 1d20+22`) (+30 to fly)"
-  - Medicine: "+22 (`dice: 1d20+22`)"
-  - Sense Motive: "+27 (`dice: 1d20+27`)"
-  - Survival: "+22 (`dice: 1d20+22`)" 
+  - Acrobatics: 22
+  - Medicine: 22
+  - Sense Motive: 27
+  - Survival: 22 
 specialabil:
   - name: "Battle Trained (Ex)"
     desc: "A valkyrie is proficient with all armor and ignores negative speed adjustments from armor."

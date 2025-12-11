@@ -1,12 +1,12 @@
 ---
-aliases: 
-cssclasses: 
+aliases:
+cssclasses:
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 6
-  - CON: "+0"
+  - CON: 0
   - INT: 4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 2
 ac: "EAC: 23 KAC: 24"
 alignment: LN
@@ -49,17 +49,17 @@ Ranged:
 reach: 10 ft.
 RP: 4
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 7
+  - Ref: 7
+  - Will: 11
 Senses: "[[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+21 (`dice: 1d20+21`)"
-  - Computers: "+21 (`dice: 1d20+21`)"
-  - Engineering: "+21 (`dice: 1d20+21`)"
-  - Intimidate: "+16 (`dice: 1d20+16`)"
-  - Piloting: "+16 (`dice: 1d20+16`)"
+  - Acrobatics: 21
+  - Computers: 21
+  - Engineering: 21
+  - Intimidate: 16
+  - Piloting: 16
 source: Alien Archive
 space: 10 ft.
 specialabil:

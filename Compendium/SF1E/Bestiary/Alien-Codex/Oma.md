@@ -3,7 +3,7 @@ abilitymods:
   - STR: 3
   - DEX: 3
   - CON: 7
-  - INT: "+0"
+  - INT: 0
   - WIS: 10
   - CHA: 5 
 ac: "EAC: 30 KAC: 31" 
@@ -36,10 +36,9 @@ image: "[[Oma.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "[[Swallow Whole Ex]] (5d4+16 E, eac 30, KAC: 27, 71 hp)"
-  - name: Spells Known 
-    desc: "(CL 16th)"
-  - name: "1/day"
-    desc: "[[Chain Surge]],  (DC 24), greater [[Discharge]](DC 24)"
+Spells:
+  - "**Spells Known** (CL 16th)"
+  - 1/day: "[[Chain Surge]],  (DC 24), greater [[Discharge]](DC 24)"
 otherabil: "cavatina, [[No Breath Ex]]"
 Perception: 28
 Ranged:
@@ -47,15 +46,15 @@ Ranged:
     desc: "electrical discharge +29 to hit (6d4+16 E; critical overload [DC 24])"
 reach: "20 ft. (30 ft. with tail slap)"
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+19 (`dice: 1d20+19`)" 
+  - Fort: 16
+  - Ref: 16
+  - Will: 19 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: colossal
+size: Colossal
 Skills:
-  - Acrobatics: "+33 (`dice: 1d20+33`) (+25 when flying)"
-  - Piloting: "+33 (`dice: 1d20+33`)"
-  - Sense Motive: "+28 (`dice: 1d20+28`)" 
+  - Acrobatics: 33
+  - Piloting: 33
+  - Sense Motive: 28 
 source: Alien Archive
 space: "30 ft."
 specialabil:

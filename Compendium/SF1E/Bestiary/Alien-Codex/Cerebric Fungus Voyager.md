@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 2
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: 2
   - WIS: 6
@@ -33,7 +33,6 @@ Ecology:
   - name: Organization
     desc: solitary, pair, or excursion (1–2 plus 4–10 cerebric fungi)
 Environment: any
-environment: any
 Gear:
   - name: Gear
     desc: "[[D-Suit#D-suit, Ii|d-suit II]], [[Laser Pistol#Laser Pistol, Aphelion|aphelion laser pistol]] with 2 [[Battery#Battery, High-capacity|High-capacity Batteries]] (40 charges each), [[Incapacitator]] with 2 [[Battery#Battery, Standard|Batteries]] (20 charges each)"
@@ -52,26 +51,17 @@ image: "[[cerebric fungus voyager.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: star shriek (DC 18)
-  - name: Cerebric Fungus Spell-Like Abilities
-    desc: (CL 9th)
-  - name: 3/day
-    desc: "[[fear]] (1st level, DC 18), [[lesser confusion]] (DC 18)"
-  - name: At will
-    desc: "[[daze]] (DC 17), [[Detect Thoughts]] (DC 18)"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 9th)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 9th)
-  - name: 3rd (3/day)
-    desc: "[[irradiate]] (DC 20), [[suggestion]] (DC 20)"
-  - name: 2nd (6/day)
-    desc: "[[darkvision]], [[Force Blast]] (DC 19), [[Mind Thrust]] (DC 19), [[mystic cure]]"
-  - name: 1st (at will)
-    desc: "[[identify]], shooting stars (as [[magic missile]])"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Star Shaman]]"
+Spells:
+  - Cerebric Fungus Spell-Like Abilities (CL 9th)
+  - 3/day: "[[fear]] (1st level, DC 18), [[lesser confusion]] (DC 18)"
+  - At will: "[[daze]] (DC 17), [[Detect Thoughts]] (DC 18)"
+  - "**Mystic Spell-Like Abilities** (CL 9th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 9th)"
+  - 3rd (3/day): "[[irradiate]] (DC 20), [[suggestion]] (DC 20)"
+  - 2nd (6/day): "[[darkvision]], [[Force Blast]] (DC 19), [[Mind Thrust]] (DC 19), [[mystic cure]]"
+  - 1st (at will): "[[identify]], shooting stars (as [[magic missile]])"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Star Shaman]]"
 otherabil: "[[Star Shaman#Stargazer (SU) - 6TH Level|stargazer]], [[Star Shaman#Starlight Form (SU) - 3RD Level|starlight form]] (9 minutes, DC 18), [[Star Shaman#Walk the Void (SU) - 1ST Level|walk the void]]"
 Perception: 22
 planet: []
@@ -80,17 +70,17 @@ Ranged:
     desc: aphelion laser pistol +15 to hit (3d4+9 F; critical burn 1d4)
 reach: 5 ft. (15 ft. with tendrils)
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+12 (`dice: 1d20+12`)"
+  - Fort: 10
+  - Ref: 8
+  - Will: 12
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`)"
-  - Bluff: "+17 (`dice: 1d20+17`)"
-  - Diplomacy: "+22 (`dice: 1d20+22`)"
-  - Mysticism: "+22 (`dice: 1d20+22`)"
-  - Piloting: "+17 (`dice: 1d20+17`)"
+  - Acrobatics: 17
+  - Bluff: 17
+  - Diplomacy: 22
+  - Mysticism: 22
+  - Piloting: 17
 source: Alien Archive 2
 space: 5 ft.
 specialabil:

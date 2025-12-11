@@ -38,17 +38,17 @@ Ranged:
     desc: frostbite-class zero pistol +10 to hit (1d6+2 C; critical staggered [DC 15])
 reach: 0 ft. (5 ft. with one-handed items)
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 5
+  - Ref: 5
+  - Will: 5
 Senses: "[[low-light vision]]"
 size: Tiny
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Computers: "+15 (`dice: 1d20+15`)"
-  - Engineering: "+15 (`dice: 1d20+15`)"
-  - Life Science: "+15 (`dice: 1d20+15`)"
-  - Stealth: "+10 (`dice: 1d20+10`)"
+  - Acrobatics: 10
+  - Computers: 15
+  - Engineering: 15
+  - Life Science: 15
+  - Stealth: 10
 source: Alien Archive 3
 space: 2-1/2 ft.
 specialabil:

@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 2
   - DEX: 3
-  - CON: "—"
+  - CON: —
   - INT: -5
   - WIS: 1
   - CHA: -2 
@@ -31,7 +31,7 @@ KAC: 12
 Languages: "Common (can’t speak) shortwave 100 ft."
 Melee:
   - name: "Melee"
-    desc: "bite +4 to hit (5 (1d6+2) P)"
+    desc: "bite +4 to hit (1d6+2 P)"
 modifier: 3
 name: "Anacite Wingbot"
 image: "[[Anacite Wingbot.png]]"
@@ -46,14 +46,14 @@ Ranged:
   - name: "Ranged"
     desc: "laser ray +7 to hit (2 (1d4) F; critical burn 2(1d4))"
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+0 (`dice: 1d20+0`)"
-  - Will: "-2 (`dice: 1d20+2`)" 
+  - Fort: 0
+  - Ref: 0
+  - Will: -2 
 Senses: "[[darkvision]] 60 ft., [[low light vision]]"
-size: small
+size: Small
 Skills:
-  - Athletics: "+9 (`dice: 1d20+9`) (+17 when climbing)"
-  - Stealth: "+4 (`dice: 1d20+4`)" 
+  - Athletics: 9
+  - Stealth: 4 
 source: Alien Archive
 specialabil:
   - name: "Shortwave (Ex)"

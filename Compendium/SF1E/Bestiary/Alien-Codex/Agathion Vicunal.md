@@ -3,7 +3,7 @@ abilitymods:
   - STR: 2
   - DEX: 1
   - CON: 1
-  - INT: "+0"
+  - INT: 0
   - WIS: 3
   - CHA: 3
 ac: "EAC: 11 KAC: 12"
@@ -29,7 +29,7 @@ KAC: 12
 Languages: Celestial, Common, speak with animals, [[Truespeech (Su)]]"
 Melee:
   - name: Melee
-    desc: hoof +5 to hit (5 (1d4+3) B); critical knockdown
+    desc: hoof +5 to hit (1d4+3 B); critical knockdown
 modifier: 1
 name: Agathion, Vicunal
 image: "[[agthion, vicunal.png]]"
@@ -38,21 +38,21 @@ otherabil: "[[Healer#Healing Channel (SU) - 1ST Level|healing channel]] 8 (2d8),
 Perception: 10
 Ranged:
   - name: Ranged
-    desc: trailblazer subzero hail pistol +7 to hit (3 (1d4+1) C&P critical bleed 2 (1d4))
+    desc: trailblazer subzero hail pistol +7 to hit (1d4+1 C&P critical bleed 2 (1d4))
 RP: 3
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 3
+  - Ref: 1
+  - Will: 4
   - "4": vs poison
 Senses: "[[low-light vision]]"
 size: Medium
 Skills:
-  - Diplomacy: "+5 (`dice: 1d20+5`)"
-  - Life Science: "+5 (`dice: 1d20+5`)"
-  - Medicine: "+10 (`dice: 1d20+10`)"
-  - Stealth: "+5 (`dice: 1d20+5`)"
-  - Survival: "+10 (`dice: 1d20+10`)"
+  - Diplomacy: 5
+  - Life Science: 5
+  - Medicine: 10
+  - Stealth: 5
+  - Survival: 10
 specialabil:
   - name: Nurture (Su)
     desc: When a vicunal uses its healing channel ability, it can choose to nurture one of the creatures it healed. If it does so, the vicunal loses its [[Fast Healing Ex|fast healing]] and grants that [[Fast Healing Ex|fast healing]] to the nurtured creature. This effect lasts for a number of rounds equal to the vicunal’s Charisma modifier (3 rounds for a typical vicunal).

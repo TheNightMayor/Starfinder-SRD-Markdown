@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
-  - CON: "+0"
+  - CON: 0
   - INT: 2
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 14 KAC: 15"
 alignment: N
 class: "[[Operative]]"
@@ -44,16 +44,16 @@ Ranged:
   - name: Ranged
     desc: semi-auto tactical pistol +9 to hit (1d6+3 P)
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 2
+  - Ref: 5
+  - Will: 6
 size: Medium
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`) (+16 to escape grapple)"
-  - Athletics: "+9 (`dice: 1d20+9`)"
-  - Culture: "+14 (`dice: 1d20+14`)"
-  - Stealth: "+9 (`dice: 1d20+9`)"
-  - Survival: "+14 (`dice: 1d20+14`)"
+  - Acrobatics: 14
+  - Athletics: 9
+  - Culture: 14
+  - Stealth: 9
+  - Survival: 14
 source: Alien Archive 4
 specialabil:
   - name: Tattoo Magic (Sp)

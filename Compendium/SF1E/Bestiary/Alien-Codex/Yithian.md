@@ -40,10 +40,9 @@ name: "Yithian"
 image: "[[Yithian.png]]"
 
 offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 9th)"
-  - name: "At will"
-    desc: "[[Detect Thoughts]] (range 100 ft., DC 16), [[Mind Swap]] (DC 21), [[Modify Memory]] (DC 20)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 9th)"
+  - At will: "[[Detect Thoughts]] (range 100 ft., DC 16), [[Mind Swap]] (DC 21), [[Modify Memory]] (DC 20)"
 otherabil: "mind swap mastery "
 Perception: 17
 Ranged:
@@ -51,17 +50,17 @@ Ranged:
     desc: "jolt storm coil +17 to hit (2d6+9 E)"
 reach: "10 ft."
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+14 (`dice: 1d20+14`)"
+  - Fort: 8
+  - Ref: 8
+  - Will: 14
 Senses: "[[blindsense]] (thought) 100 ft., [[darkvision]] 60 ft."
 size: Large
 Skills:
-  - culture:  "+22 (`dice: 1d20+22`)"
-  - Engineering: "+17 (`dice: 1d20+17`)"
-  - Life Science: "+22 (`dice: 1d20+22`)"
-  - Mysticism: "+17 (`dice: 1d20+17`)"
-  - Physical Science: "+22 (`dice: 1d20+22`)"
+  - culture:  22
+  - Engineering: 17
+  - Life Science: 22
+  - Mysticism: 17
+  - Physical Science: 22
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

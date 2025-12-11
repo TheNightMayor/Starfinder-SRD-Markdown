@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 4
   - CON: 3
   - INT: -3
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 22 KAC: 24"
 alignment: N
 climate: any
@@ -37,14 +37,14 @@ image: "[[elemental, greater fire.jpg]]"
 Perception: 17
 reach: "15 ft."
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 13
+  - Ref: 11
+  - Will: 8
 Senses: "[[darkvision]] 60 ft."
-size: huge
+size: Huge
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`)"
-  - Athletics: "+17 (`dice: 1d20+17`)"
+  - Acrobatics: 17
+  - Athletics: 17
 source: Alien Archive
 space: "15 ft."
 Speed: 20 ft.

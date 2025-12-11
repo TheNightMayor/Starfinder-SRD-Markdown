@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 4
   - CON: 6
   - INT: -2
-  - WIS: "+0"
+  - WIS: 0
   - CHA: -3 
 ac: "EAC: 28 KAC: 30" 
 alignment: N
@@ -43,14 +43,14 @@ Ranged:
     desc: "plasma blast +25 to hit (8d6 E & F)"
 reach: "5 ft."
 saves:
-  - Fort: "+18 (`dice: 1d20+18`)"
-  - Ref: "+18 (`dice: 1d20+18`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 18
+  - Ref: 18
+  - Will: 12 
 Senses: "[[blindsight]] (electricity) 60 ft., [[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Acrobatics: "+25 (`dice: 1d20+25`)"
-  - Athletics: "+30 (`dice: 1d20+30`)" 
+  - Acrobatics: 25
+  - Athletics: 30 
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

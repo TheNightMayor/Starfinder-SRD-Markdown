@@ -5,7 +5,7 @@ abilitymods:
   - CON: 8
   - INT: -4
   - WIS: 6
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 30 KAC: 32" 
 alignment: N
 cr: 18
@@ -43,15 +43,15 @@ Ranged:
     desc: "gravity pulse +29 to hit (6d10+18 plus entangle)"
 reach: "20 ft."
 saves:
-  - Fort: "+21 (`dice: 1d20+21`)"
-  - Ref: "+19 (`dice: 1d20+19`)"
-  - Will: "+16 (`dice: 1d20+16`)" 
+  - Fort: 21
+  - Ref: 19
+  - Will: 16 
 Senses: "gravity sense 300 ft., [[low-light vision]]"
 size: Gargantuan
 Skills:
-  - Acrobatics: "+31 (`dice: 1d20+31`)"
-  - Athletics: "+36 (`dice: 1d20+36`)"
-  - Stealth: "+31 (`dice: 1d20+31`)" 
+  - Acrobatics: 31
+  - Athletics: 36
+  - Stealth: 31 
 source: Alien Archive 4 
 space: "20 ft."
 specialabil:

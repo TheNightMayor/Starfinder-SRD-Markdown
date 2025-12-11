@@ -1,9 +1,9 @@
 ---
 abilitymods:
   - STR: 5
-  - DEX: "+0"
+  - DEX: 0
   - CON: 3
-  - INT: "—"
+  - INT: —
   - WIS: 1
   - CHA: 2
 ac: "EAC: 16 KAC: 17" 
@@ -38,18 +38,16 @@ image: "[[Harpy Jasmine.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "haunting memory"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 5th)"
-  - name: "3/day"
-    desc: "[[Hold Person]] (DC 17), [[Song Of The Cosmos]] (DC 17) 6/day—[[Charm Person]] (DC 16), [[Confusion Lesser]](DC 16), [[Wisp Ally]]"
-  - name: "At will"
-    desc: "[[Dancing Lights]], [[Ghost Sound]] (DC 15)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 5th)"
+  - 3/day: "[[Hold Person]] (DC 17), [[Song Of The Cosmos]] (DC 17) 6/day—[[Charm Person]] (DC 16), [[Confusion Lesser]](DC 16), [[Wisp Ally]]"
+  - At will: "[[Dancing Lights]], [[Ghost Sound]] (DC 15)"
 Perception: 16
 reach: "10 ft."
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
+  - Fort: 6
+  - Ref: 2
+  - Will: 8 
 Senses: "[[blindsense]] (thought) 60 ft."
 size: Medium
 source: Alien Archive 4 

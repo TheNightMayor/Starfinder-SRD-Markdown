@@ -11,6 +11,7 @@ This vault is usable, but there is still some cleaning up to do. Please do not m
 ### CSS
 
 - [ITS Callouts](https://github.com/SlRvb/Obsidian--ITS-Theme/tree/main/Snippets) for the `[!infobox]` CSS.
+*not required if using ITS Theme
 
 ### Plugins
 

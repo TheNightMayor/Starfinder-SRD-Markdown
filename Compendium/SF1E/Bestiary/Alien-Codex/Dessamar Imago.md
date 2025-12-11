@@ -1,68 +1,70 @@
 ---
-ac: "EAC: 11 KAC: 12" 
+ac: "EAC: 11 KAC: 12"
 alignment: CG
 cr: 1
 date created: Monday, January 1st 2024, 3:13:12 pm
 date modified: Tuesday, July 30th 2024, 10:08:05 pm
 defabilities:
-  - name:
+  - name: 
     desc: -2 vs. severe wound and wound effects to arms, legs, and wings"
 EAC: 11
 Ecology:
-  - name: "Environment"
-    desc: "any (Koshoria)"
-  - name: "Organization"
-    desc: "solitary, pair, or kaleidoscope (3–7)"
+  - name: Environment
+    desc: any (Koshoria)
+  - name: Organization
+    desc: solitary, pair, or kaleidoscope (3–7)
 Environment: any (Koshoria)
 Gear:
-  - name: "Gear"
+  - name: Gear
     desc: "[[Second Skin]], [[Spear#Spear, Tactical|Tactical Spear]]"
 hp: 17
 Init: 1
 KAC: 12
-Languages: "Koshorian"
+Languages: Koshorian
 Melee:
-  - name: "Melee"
-    desc: "tactical spear +6 to hit (1d6 P)"
+  - name: Melee
+    desc: tactical spear +6 to hit (1d6 P)
 modifier: 1
-name: "Dessamar, Imago"
-image: "[[Dessamar Imago.png]]"
-
+name: Dessamar, Imago
+image: "[[Starfinder-SRD/Compendium/Species/Dessamar Imago/Dessamar Imago.png]]"
 offabilities:
-  - name: "Offensive Abilities"
-    desc: "twinkle"
-  - name: Dessamar Spell-Like Abilities 
-    desc: "(CL 1st)"
-  - name: "1/day"
+  - name: Offensive Abilities
+    desc: twinkle
+  - name: Dessamar Spell-Like Abilities
+    desc: (CL 1st)
+  - name: 1/day
     desc: "[[Charm Person]] (DC 12)"
-  - name: "At will"
-    desc: "[[Detect Magic]], [[Telepathic Message]]"
+  - At will: "[[Detect Magic]], [[Telepathic Message]]"
 Perception: 5
 Ranged:
-  - name: "Ranged"
-    desc: "tactical spear +6 to hit (1d6 P)"
+  - name: Ranged
+    desc: tactical spear +6 to hit (1d6 P)
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 1
+  - Ref: 3
+  - Will: 4
 Senses: "[[blindsense]] (scent) 30 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+5 (`dice: 1d20+5`)"
-  - Diplomacy: "+10 (`dice: 1d20+10`)"
-  - Mysticism: "+5 (`dice: 1d20+5`)"
-  - Sense Motive: "+10 (`dice: 1d20+10`)" 
-source: Alien Archive 3 
+  - Acrobatics: 5
+  - Diplomacy: 10
+  - Mysticism: 5
+  - Sense Motive: 10
+source: Alien Archive 3
 specialabil:
-  - name: "Twinkle (Su)"
-    desc: "Once per day as a move action, a dessamar can teleport 40 feet. The dessamar can’t bring other creatures along, and if a solid body occupies the arrival point, the ability fails without expending its daily use. This ability otherwise functions as the dimension door spell."
-Speed: 20 ft., fly 20 ft. (Ex, average) 
+  - name: Twinkle (Su)
+    desc: Once per day as a move action, a dessamar can teleport 40 feet. The dessamar can’t bring other creatures along, and if a solid body occupies the arrival point, the ability fails without expending its daily use. This ability otherwise functions as the dimension door spell.
+Speed: 20 ft., fly 20 ft. (Ex, average)
 statblock: true
 subtype: (dessamar)
-tags: [dessamar, humanoid, LawfulGood, Medium]
-Type: "CG Medium humanoid (dessamar)"
+tags:
+  - dessamar
+  - humanoid
+  - LawfulGood
+  - Medium
+Type: CG Medium humanoid (dessamar)
 type: humanoid
-XP: 400 
+XP: 400
 ---
 
 ```statblock

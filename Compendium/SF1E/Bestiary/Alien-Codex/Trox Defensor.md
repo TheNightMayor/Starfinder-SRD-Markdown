@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 6
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: 1
   - WIS: 3
@@ -50,15 +50,15 @@ Ranged:
 reach: 10 ft. (15 ft. with advanced swoop hammer)
 RP: 4
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 13
+  - Ref: 12
+  - Will: 10
 Senses: "[[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - Athletics: "+22 (`dice: 1d20+22`)"
-  - Intimidate: "+17 (`dice: 1d20+17`)"
-  - Mysticism: "+17 (`dice: 1d20+17`)"
+  - Athletics: 22
+  - Intimidate: 17
+  - Mysticism: 17
 source: Alien Archive 2
 space: 10 ft.
 specialabil:

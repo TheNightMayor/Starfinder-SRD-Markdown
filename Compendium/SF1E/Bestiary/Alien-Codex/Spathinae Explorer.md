@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 3
   - DEX: 8
-  - CON: "+0"
-  - INT: "+0"
+  - CON: 0
+  - INT: 0
   - WIS: 5
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 24 KAC: 25"
 alignment: CG
 class: "[[Operative]]"
@@ -44,17 +44,17 @@ Ranged:
   - name: Ranged
     desc: wave modulator IV +22 to hit (2d8+11 F or So) or triple multistage rifle +22 to hit (3d8+11 B)
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+14 (`dice: 1d20+14`) +2 vs. mind-affecting effects"
+  - Fort: 10
+  - Ref: 13
+  - Will: +14 +2 vs. mind-affecting effects
 Senses: "[[blindsense]] (vibration) 30 ft., [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+26 (`dice: 1d20+26`)"
-  - Culture: "+26 (`dice: 1d20+26`)"
-  - Life Science: "+21 (`dice: 1d20+21`)"
-  - Stealth: "+21 (`dice: 1d20+21`)"
-  - Survival: "+26 (`dice: 1d20+26`)"
+  - Acrobatics: 26
+  - Culture: 26
+  - Life Science: 21
+  - Stealth: 21
+  - Survival: 26
 source: Alien Archive 3
 specialabil:
   - name: Shapable (Ex)

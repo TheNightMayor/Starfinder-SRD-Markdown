@@ -3,8 +3,8 @@ abilitymods:
   - STR: 2
   - DEX: 4
   - CON: 1
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: 1 
 ac: "EAC: 14 KAC: 16" 
 alignment: CN
@@ -43,15 +43,15 @@ Ranged:
   - name: "Ranged"
     desc: "tactical rail gun +10 to hit (1d8+3 P)"
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 2 
 Senses: "[[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Athletics: "+8 (`dice: 1d20+8`)"
-  - Survival: "+8 (`dice: 1d20+8`)" 
+  - Acrobatics: 13
+  - Athletics: 8
+  - Survival: 8 
 source: Alien Archive 4 
 specialabil:
   - name: "Fluttercloud (Ex)"

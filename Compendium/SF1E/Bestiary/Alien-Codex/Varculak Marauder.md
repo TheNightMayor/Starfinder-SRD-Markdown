@@ -3,8 +3,8 @@ abilitymods:
   - STR: 4
   - DEX: 2
   - CON: 1
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: 1
 ac: "EAC: 13 KAC: 15"
 alignment: NE
@@ -46,15 +46,15 @@ Ranged:
   - name: Ranged
     desc: tactical acid dart rifle +8 to hit (1d8+2 A & P; critical corrode 1d4) or incendiary grenade I +8 to hit (explode [5 ft., 1d6 F plus 1d4 burn, DC 13])
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 4
+  - Ref: 2
+  - Will: 3
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Athletics: "+12 (`dice: 1d20+12`)"
-  - Intimidate: "+7 (`dice: 1d20+7`)"
-  - Stealth: "+7 (`dice: 1d20+7`)"
+  - Athletics: 12
+  - Intimidate: 7
+  - Stealth: 7
 source: Alien Archive 3
 specialabil:
   - name: Deathless Vitality (Ex)

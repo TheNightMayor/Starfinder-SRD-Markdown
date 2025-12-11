@@ -41,29 +41,27 @@ image: "[[Images/Aliens/Enemies/monstrous humanoid/contemplative/contemplative.p
 offabilities:
   - name: "Offensive Abilities"
     desc: "applied knowledge"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 2nd)"
-  - name: "1/day"
-    desc: "[[Detect Thoughts]] (DC 15), [[Mind Thrust]] (1st-level, DC 15)"
-  - name: "At will"
-    desc: "[[Daze]] (DC 14), [[psychokinetic hand]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 2nd)"
+  - 1/day: "[[Detect Thoughts]] (DC 15), [[Mind Thrust]] (1st-level, DC 15)"
+  - At will: "[[Daze]] (DC 14), [[psychokinetic hand]]"
 Perception: 7
 planet: Akiton
 Ranged:
   - name: "Ranged"
     desc: "azimuth laser pistol +7 to hit (1d4+2 F; critical burn 1d4)"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+7 (`dice: 1d20+7`) (+11 vs. mind-affecting effects) "
+  - Fort: 1
+  - Ref: 3
+  - Will: "+7 "
 Senses: "[[blindsense]] (thought) 60 ft., [[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - computers:  "+7 (`dice: 1d20+7`)"
-  - Engineering: "+7 (`dice: 1d20+7`)"
-  - Life Science: "+12 (`dice: 1d20+12`)"
-  - Mysticism: "+12 (`dice: 1d20+12`)"
-  - Physical Science: "+7 (`dice: 1d20+7`)"
+  - computers:  7
+  - Engineering: 7
+  - Life Science: 12
+  - Mysticism: 12
+  - Physical Science: 7
 source: Alien Archive 
 specialabil:
   - name: "Applied Knowledge (Ex)"

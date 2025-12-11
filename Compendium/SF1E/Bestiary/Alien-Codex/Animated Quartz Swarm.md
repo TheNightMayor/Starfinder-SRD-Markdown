@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 5
   - DEX: 8
-  - CON: "—"
-  - INT: "—"
+  - CON: —
+  - INT: —
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 23 KAC: 25" 
 alignment: N
 cr: 11
@@ -30,7 +30,7 @@ Init: 8
 KAC: 25
 Melee:
   - name: "Melee"
-    desc: "swarm attack (22 (2d6+16) B & E)"
+    desc: "swarm attack (2d6+16 B & E)"
 modifier: 8
 name: "Animated Quartz Swarm"
 image: "[[Animated Quartz Swarm.png]]"
@@ -39,14 +39,14 @@ otherabil: "[[Mindless Ex]], piezoelectric, [[Unliving Ex|unliving]]"
 Perception: 20
 reach: "0 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
+  - Fort: 11
+  - Ref: 11
+  - Will: 8 
 Senses: "[[blindsight]] (vibration) 60 ft."
 size: Fine
 Skills:
-  - Acrobatics: "+25 (`dice: 1d20+25`) (+33 to fly)"
-  - Athletics: "+20 (`dice: 1d20+20`)" 
+  - Acrobatics: 25
+  - Athletics: 20 
 space: "10 ft."
 specialabil:
   - name: "Birefringence (Ex)"

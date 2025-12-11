@@ -5,7 +5,7 @@ abilitymods:
   - CON: 6
   - INT: -4
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 22 KAC: 24" 
 alignment: N
 cr: 9
@@ -41,15 +41,15 @@ Ranged:
     desc: "spines +18 to hit (5d4+9 P)"
 reach: "10 ft."
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
+  - Fort: 13
+  - Ref: 13
+  - Will: 8 
 Senses: "[[blindsense]] (scent) 90 ft., [[low-light vision]]"
 size: Large
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`)"
-  - Athletics: "+17 (`dice: 1d20+17`) (+25 to climb)"
-  - Stealth: "+22 (`dice: 1d20+22`)" 
+  - Acrobatics: 17
+  - Athletics: 17
+  - Stealth: 22 
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

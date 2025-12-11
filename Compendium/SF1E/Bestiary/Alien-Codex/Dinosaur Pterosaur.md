@@ -3,7 +3,7 @@ cssclasses:
 abilitymods:
   - STR: 2
   - DEX: 4
-  - CON: "+0"
+  - CON: 0
   - INT: -4
   - WIS: 1
   - CHA: -2 
@@ -39,11 +39,11 @@ Perception: 8
 planet: []
 reach: "10 ft."
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 5
+  - Ref: 8
+  - Will: 2
 Senses: "[[low-light vision]]"
-size: large
+size: Large
 Skills:
   - Acrobatics: "+13 to hit (+5 to fly)"
 source: Alien Archive 2 

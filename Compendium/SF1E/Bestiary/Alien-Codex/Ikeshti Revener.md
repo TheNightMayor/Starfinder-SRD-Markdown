@@ -5,7 +5,7 @@ abilitymods:
   - CON: 5
   - INT: -3
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 18 KAC: 20" 
 alignment: N
 climate: any
@@ -35,14 +35,14 @@ Perception: 11
 planet: Akiton
 reach: "10 ft."
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`)"
-size: large
+  - Fort: 9
+  - Ref: 7
+  - Will: 4
+size: Large
 Skills:
-  - Athletics: "+16 (`dice: 1d20+16`)"
-  - Acrobatics: "+11 (`dice: 1d20+11`)"
-  - Stealth: "+11 (`dice: 1d20+11`)" 
+  - Athletics: 16
+  - Acrobatics: 11
+  - Stealth: 11 
 source: Alien Archive 
 space: "10 ft."
 Speed: 30 ft., climb 15 ft. 

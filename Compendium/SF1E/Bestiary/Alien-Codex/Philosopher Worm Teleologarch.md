@@ -3,7 +3,7 @@ aliases:
 cssclasses:
 abilitymods:
   - STR: 2
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: 8
   - WIS: 7
@@ -33,31 +33,28 @@ image: "[[philosopher worm teleologarch.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "reality storm"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 16th; ranged +29)"
-  - name: "1/day"
-    desc: "[[Telepathic Jaunt]], [[Vision]]"
-  - name: "3/day"
-    desc: "[[Divination]],  [[Dispel Magic#Dispel Magic, Greater|greater dispel magic]] ,  [[Synaptic Pulse, Greater]] (DC 23), [[Mind Probe]] (DC 22), [[Retrocognition]]"
-  - name: "At will"
-    desc: "[[Augury]], [[Command]] (DC 19), [[Detect Thoughts]] (DC 19), [[Discern Lies]] (DC 22), [[Mindlink]], [[Mind Thrust]] (4th level DC 22), [[Psychokinetic Hand]], [[Status]], [[Telekinetic Projectile]], [[Telepathic Bond]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 16th; ranged +29)"
+  - 1/day: "[[Telepathic Jaunt]], [[Vision]]"
+  - 3/day: "[[Divination]],  [[Dispel Magic#Dispel Magic, Greater|greater dispel magic]] ,  [[Synaptic Pulse, Greater]] (DC 23), [[Mind Probe]] (DC 22), [[Retrocognition]]"
+  - At will: "[[Augury]], [[Command]] (DC 19), [[Detect Thoughts]] (DC 19), [[Discern Lies]] (DC 22), [[Mindlink]], [[Mind Thrust]] (4th level DC 22), [[Psychokinetic Hand]], [[Status]], [[Telekinetic Projectile]], [[Telepathic Bond]]"
 otherabil: "evaluate"
 Perception: 28
 reach: "5 ft."
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+21 (`dice: 1d20+21`)" 
+  - Fort: 16
+  - Ref: 14
+  - Will: 21 
 Senses: "[[blindsight]] (thought) 60 ft., [[darkvision]] 60 ft."
 size: Large
 Skills:
-  - culture:  "+28 (`dice: 1d20+28`)"
-  - Diplomacy: "+33 (`dice: 1d20+33`)"
-  - Life Science: "+28 (`dice: 1d20+28`)"
-  - Medicine: "+28 (`dice: 1d20+28`)"
-  - Mysticism: "+33 (`dice: 1d20+33`)"
-  - Physical Science: "+28 (`dice: 1d20+28`)"
-  - Sense Motive: "+33 (`dice: 1d20+33`)" 
+  - culture:  28
+  - Diplomacy: 33
+  - Life Science: 28
+  - Medicine: 28
+  - Mysticism: 33
+  - Physical Science: 28
+  - Sense Motive: 33 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

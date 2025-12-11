@@ -1,5 +1,5 @@
 ---
-cssclasses:
+cssclasses: []
 aliases:
   - Alien Codex
 date created: Tuesday, August 22nd 2023, 4:01:13 pm
@@ -10,13 +10,11 @@ tags: []
 
 ```dataview
 TABLE WITHOUT ID
-	R.cr AS "CR", R.file.link AS "Name", R.type AS "Type"
-FROM "Compendium/SF1E/Bestiary/Alien-Codex" 
-WHERE file.name != "Alien-Codex"
+	R.cr AS "CR", R.file.link AS "Name", R.type AS "Type", embed(link(R.image, "75")) AS "Image"
+FROM "Starfinder-SRD/Compendium/Bestiary/Alien-Codex" and !"Starfinder-SRD/Compendium/Bestiary/Alien-Codex/Alien-Codex.md" 
 GROUP BY cr
 FLATTEN rows as R
 SORT R.cr ASC, R.file.link ASC
 SORT choice(cr = "1/3", "1",
 choice(cr = "1/2", "2", "other"))
-
 ```

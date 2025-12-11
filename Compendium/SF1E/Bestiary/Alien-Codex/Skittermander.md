@@ -2,8 +2,8 @@
 abilitymods:
   - STR: 1
   - DEX: 2
-  - CON: "+0"
-  - INT: "+0"
+  - CON: 0
+  - INT: 0
   - WIS: 1
   - CHA: 4
 ac: "EAC: 14 KAC: 15"
@@ -44,17 +44,17 @@ Ranged:
   - name: Ranged
     desc: static arc pistol (1d6+2 E; critical arc 2)
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 1
+  - Ref: 3
+  - Will: 5
 Senses: "[[low-light vision]]"
-size: small
+size: Small
 Skills:
-  - Acrobatics: "+7 (`dice: 1d20+7`)"
-  - Bluff: "+12 (`dice: 1d20+12`)"
-  - Diplomacy: "+12 (`dice: 1d20+12`)"
-  - Sense Motive: "+12 (`dice: 1d20+12`)"
-  - Stealth: "+7 (`dice: 1d20+7`)"
+  - Acrobatics: 7
+  - Bluff: 12
+  - Diplomacy: 12
+  - Sense Motive: 12
+  - Stealth: 7
 source: Alien Archive
 specialabil:
   - name: Hyper (Ex)

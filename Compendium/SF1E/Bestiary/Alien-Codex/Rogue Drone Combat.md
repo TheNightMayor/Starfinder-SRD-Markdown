@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 8
   - DEX: 6
-  - CON: "—"
+  - CON: —
   - INT: 2
   - WIS: 4
   - CHA: -1 
@@ -44,13 +44,13 @@ Ranged:
   - name: "Ranged"
     desc: "obscuring absolute-zero hailcannon +24 to hit (6d8+14 C & P; critical staggered [DC 20])"
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+10 (`dice: 1d20+10`)" 
+  - Fort: 14
+  - Ref: 14
+  - Will: 10 
 Senses: "[[blindsense]] (sound) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Athletics: "+25 (`dice: 1d20+25`)" 
+  - Athletics: 25 
 source: Alien Archive 3 
 specialabil:
   - name: "Drone Mods (Ex)"

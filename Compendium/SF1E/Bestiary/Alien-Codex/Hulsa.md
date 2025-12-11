@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 1
-  - DEX: "+0"
+  - DEX: 0
   - CON: 1
   - INT: 3
   - WIS: 5
@@ -37,12 +37,10 @@ image: "[[Hulsa.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "[[Longsword#Longsword, Sintered|sintered longswords]], kaleidoscopic glow, [[Stellar Revelations]] (miniature star [10-ft. radius, 5d6 F], [[Stellar Revelations#GSupernova (SU))|supernova]] [15-ft. radius, 11d6 F; DC 19])"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 10th)"
-  - name: "At will"
-    desc: "[[Life Bubble]]  (DC 19)"
-  - name: "Constant"
-    desc: "[[See Invisibility]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 10th)"
+  - At will: "[[Life Bubble]]  (DC 19)"
+  - Constant: "[[See Invisibility]]"
 otherabil: "life-giving glow, [[Solarian#Solar Manifestation (SU) - 1ST Level|solar manifestation]] ([[Solarian#Solar Weapon|solar weapon]]), [[Stellar Alignment Su|Stellar Alignment]] ([[Solarian#Photon Mode|photon]])"
 Perception: 19
 Ranged:
@@ -50,16 +48,16 @@ Ranged:
     desc: "light ray +20 to hit (3d6+11 E & F; critical burn 1d6)"
 RP: 5 
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+13 (`dice: 1d20+13`)" 
+  - Fort: 11
+  - Ref: 9
+  - Will: 13 
 Senses: "[[low-light vision]], [[See Invisibility]]"
 size: Medium
 Skills:
-  - Acrobatics: "+19 (`dice: 1d20+19`) (+27 to fly)"
-  - Life Science: "+24 (`dice: 1d20+24`)"
-  - Mysticism: "+24 (`dice: 1d20+24`)"
-  - Physical Science: "+24 (`dice: 1d20+24`)" 
+  - Acrobatics: 19
+  - Life Science: 24
+  - Mysticism: 24
+  - Physical Science: 24 
 source: Alien Archive 4 pg. 48, Starfinder The Rune Drive Gambit 
 specialabil:
   - name: "Electromagnetic Communication (Su)"

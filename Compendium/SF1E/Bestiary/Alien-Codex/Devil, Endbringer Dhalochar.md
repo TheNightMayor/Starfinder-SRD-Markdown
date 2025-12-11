@@ -46,12 +46,10 @@ name: "Endbringer Devil (Dhalochar)"
 image: "[[devil, endbringer (dhalochar).png]]"
 
 offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 19th)"
-  - name: "1/day"
-    desc: "[[Plane Shift]]"
-  - name: "At will"
-    desc: "[[Teleport]] (self plus contents of cargo cavity)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 19th)"
+  - 1/day: "[[Plane Shift]]"
+  - At will: "[[Teleport]] (self plus contents of cargo cavity)"
 otherabil: "cargo cavity, [[No Breath Ex]]"
 Perception: 32
 planet: Hell
@@ -61,17 +59,17 @@ Ranged:
 reach: "30 ft. (40 ft. with legs)"
 RP: 6 
 saves:
-  - Fort: "+20 (`dice: 1d20+20`)"
-  - Ref: "+20 (`dice: 1d20+20`)"
-  - Will: "+18 (`dice: 1d20+18`)" 
+  - Fort: 20
+  - Ref: 20
+  - Will: 18 
 Senses: "[[darkvision]] 60 ft., [[See In Darkness (Su)]]"
 size: Colossal
 Skills:
-  - computers:  "+32 (`dice: 1d20+32`)"
-  - Engineering: "+32 (`dice: 1d20+32`)"
-  - Intimidate: "+37 (`dice: 1d20+37`)"
-  - Mysticism: "+32 (`dice: 1d20+32`)"
-  - Piloting: "+32 (`dice: 1d20+32`)" 
+  - computers:  32
+  - Engineering: 32
+  - Intimidate: 37
+  - Mysticism: 32
+  - Piloting: 32 
 source: Alien Archive
 space: "30 ft."
 specialabil:
@@ -131,9 +129,9 @@ offabilities:
   - name: "Offensive Abilities"
     desc: "cataclysm"
 Skills:
-  - computers: "+34 (`dice: 1d20+34`)"
-  - Engineering: "+32 (`dice: 1d20+32`)"
-  - Piloting: "+32 (`dice: 1d20+32`)" 
+  - computers: 34
+  - Engineering: 32
+  - Piloting: 32 
 Power Core Inferno Core (400 PCU)
 defabilities: 
   - name: DR

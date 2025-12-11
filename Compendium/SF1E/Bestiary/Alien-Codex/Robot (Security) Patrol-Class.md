@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 3
   - DEX: 5
-  - CON: "—"
+  - CON: —
   - INT: 1
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 16 KAC: 18" 
 alignment: N
 cr: 4
@@ -48,15 +48,15 @@ Ranged:
   - name: "Ranged"
     desc: "integrated tactical arc emitter +13 to hit (1d4+4 E)"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+1 (`dice: 1d20+1`)" 
+  - Fort: 4
+  - Ref: 4
+  - Will: 1 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Computers: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+15 (`dice: 1d20+15`)" 
+  - Acrobatics: 10
+  - Computers: 10
+  - Intimidate: 15 
 source: Alien Archive 
 specialabil:
   - name: "[[Integrated Weapons (Ex)]] (Ex)"

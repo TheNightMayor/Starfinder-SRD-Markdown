@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 4
   - DEX: 2
-  - CON: "—"
+  - CON: —
   - INT: -4
   - WIS: 1
   - CHA: -2 
@@ -39,15 +39,15 @@ offabilities:
 otherabil: "[[Unliving Ex|unliving]]"
 Perception: 8
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 5
+  - Ref: 5
+  - Will: 4 
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+8 (`dice: 1d20+8`)"
-  - Athletics: "+13 (`dice: 1d20+13`)"
-  - Stealth: "+8 (`dice: 1d20+8`)" 
+  - Acrobatics: 8
+  - Athletics: 13
+  - Stealth: 8 
 source: Alien Archive 4 
 specialabil:
   - name: "Antitech Natural Weapons (Su)"

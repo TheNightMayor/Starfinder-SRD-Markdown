@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 1
-  - DEX: "+0"
+  - DEX: 0
   - CON: 2
   - INT: 1
   - WIS: 4
@@ -45,25 +45,23 @@ image: "[[Cerebric Fungus.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "star shriek (DC 14)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 3rd)"
-  - name: "3/day"
-    desc: "[[fear]] (1st level, DC 16), [[lesser confusion]] (DC 16)"
-  - name: "At will"
-    desc: "[[Daze]] (DC 15), [[Detect Thoughts]] (DC 16)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 3rd)"
+  - 3/day: "[[fear]] (1st level, DC 16), [[lesser confusion]] (DC 16)"
+  - At will: "[[Daze]] (DC 15), [[Detect Thoughts]] (DC 16)"
 Perception: 8
 planet: []
 reach: "5 ft. (15 ft. with tendrils)"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 4
+  - Ref: 2
+  - Will: 6 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Bluff:  "+13 (`dice: 1d20+13`)"
-  - Diplomacy: "+13 (`dice: 1d20+13`)"
-  - Stealth: "+8 (`dice: 1d20+8`)" 
+  - Bluff:  13
+  - Diplomacy: 13
+  - Stealth: 8 
 source: Alien Archive 2 
 space: "5 ft."
 specialabil:

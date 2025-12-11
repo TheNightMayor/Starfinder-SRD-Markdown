@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 4
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 1
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 13 KAC: 15" 
 alignment: NG
 cr: 2
@@ -47,16 +47,16 @@ Ranged:
     desc: "static arc pistol +7 to hit (1d6+2 E; critical arc 2)"
 reach: "10 ft."
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 4
+  - Ref: 4
+  - Will: 3
   - "+2": "vs. mind-affecting effects, paralysis, poison, polymorph, sleep, and stunning"
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Athletics: "+7 (`dice: 1d20+7`) (+15 to swim)"
-  - Mysticism: "+7 (`dice: 1d20+7`)"
-  - Stealth: "+7 (`dice: 1d20+7`) (+11 with bioluminescence suppressed)"
+  - Athletics: 7
+  - Mysticism: 7
+  - Stealth: 7
 space: "5 ft."
 specialabil:
   - name: "Beguiling Glow (Ex)"

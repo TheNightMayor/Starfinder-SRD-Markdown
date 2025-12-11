@@ -3,9 +3,9 @@ abilitymods:
   - STR: 4
   - DEX: 2
   - CON: 1
-  - INT: "+0"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: 0
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 15 KAC: 18"
 alignment: LE
 class: "[[Soldier]]"
@@ -38,25 +38,24 @@ image: "[[oni, kanabo commando.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Fighting Styles]] ([[Arcane Assailant]])"
-  - name: Spell-Like Abilities
-    desc: (CL 3rd)
-  - name: 1/day
-    desc: "[[Disguise Self]], [[Supercharge Weapon]]"
+Spells:
+  - "**Spell-Like Abilities** (CL 3rd)"
+  - 1/day: "[[Disguise Self]], [[Supercharge Weapon]]"
 otherabil: "[[Arcane Assailant#Rune of the Eldritch Knight (SU)|rune of the eldritch knight]] "
 Perception: 8
 Ranged:
   - name: Ranged
     desc: autotarget rifle +9 to hit (1d6+3 P) or flash grenade I +9 to hit (explode [5 ft., blinded 1d4 rounds, DC 12])
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 5
+  - Ref: 5
+  - Will: 4
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Athletics: "+13 (`dice: 1d20+13`)"
-  - Intimidate: "+8 (`dice: 1d20+8`)"
-  - Stealth: "+8 (`dice: 1d20+8`)"
+  - Athletics: 13
+  - Intimidate: 8
+  - Stealth: 8
 source: Alien Archive 2
 specialabil:
   - name: Armor Savant (Ex)

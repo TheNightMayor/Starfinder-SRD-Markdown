@@ -46,14 +46,11 @@ image: "[[Shipmind.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "immerse"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 13th; ranged +23)"
-  - name: "1/day"
-    desc: "[[Telekinesis]] (DC 20)"
-  - name: "3/day"
-    desc: "[[Confusion]](DC 19)"
-  - name: "At will"
-    desc: "[[Slow]](DC 18)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 13th; ranged +23)"
+  - 1/day: "[[Telekinesis]] (DC 20)"
+  - 3/day: "[[Confusion]](DC 19)"
+  - At will: "[[Slow]](DC 18)"
 otherabil: "ship interface"
 Perception: 23
 Ranged:
@@ -61,17 +58,17 @@ Ranged:
     desc: "plasma bolt +23 to hit (5d6+13 E & F; critical burn 1d10)"
 reach: "15 ft."
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+17 (`dice: 1d20+17`)"
-  - Will: "+10 (`dice: 1d20+10`)" 
+  - Fort: 15
+  - Ref: 17
+  - Will: 10 
 Senses: "[[blindsight]] (life) 60 ft., detect alignment"
-size: huge
+size: Huge
 Skills:
-  - computers:  "+23 (`dice: 1d20+23`)"
-  - Engineering: "+23 (`dice: 1d20+23`)"
-  - Mysticism: "+23 (`dice: 1d20+23`)"
-  - Piloting: "+28 (`dice: 1d20+28`)"
-  - Sense Motive: "+23 (`dice: 1d20+23`)" 
+  - computers:  23
+  - Engineering: 23
+  - Mysticism: 23
+  - Piloting: 28
+  - Sense Motive: 23 
 source: Alien Archive 2 
 space: "15 ft."
 specialabil:

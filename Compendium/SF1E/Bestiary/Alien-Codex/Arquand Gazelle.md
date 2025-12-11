@@ -2,9 +2,9 @@
 abilitymods:
   - STR: 3
   - DEX: 5
-  - CON: "+0"
+  - CON: 0
   - INT: -4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 1 
 ac: "EAC: 16 KAC: 18" 
 alignment: N
@@ -47,13 +47,13 @@ Perception: 10
 planet: Arquand
 reach: "10 ft."
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 7
+  - Ref: 9
+  - Will: 3
 Senses: "[[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - Athletics: "+15 (`dice: 1d20+15`)"
+  - Athletics: 15
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

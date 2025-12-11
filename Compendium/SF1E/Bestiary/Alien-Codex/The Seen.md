@@ -35,25 +35,22 @@ Perception: 27
 Ranged:
   - name: "Ranged"
     desc: "wave blast +23 to hit (2d8+12; critical staggered)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 12th)"
-  - name: "1/day"
-    desc: "[[Mind Thrust]] (4th level, DC 21)"
-  - name: "3/day"
-    desc: "[[Displacement]] (DC 20)"
-  - name: "At will"
-    desc: "[[Invisibility]] (self only)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 12th)"
+  - 1/day: "[[Mind Thrust]] (4th level, DC 21)"
+  - 3/day: "[[Displacement]] (DC 20)"
+  - At will: "[[Invisibility]] (self only)"
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+17 (`dice: 1d20+17`)"
+  - Fort: 11
+  - Ref: 11
+  - Will: 17
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+22 (`dice: 1d20+22`)"
-  - Disguise: "+27 (`dice: 1d20+27`)"
-  - Intimidate: "+22 (`dice: 1d20+22`)"
-  - Stealth: "+27 (`dice: 1d20+27`)" 
+  - Acrobatics: 22
+  - Disguise: 27
+  - Intimidate: 22
+  - Stealth: 27 
 source: Alien Archive 4 
 specialabil:
   - name: "Quantum Duality (Ex)"

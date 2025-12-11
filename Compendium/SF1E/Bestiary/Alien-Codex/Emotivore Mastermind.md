@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 5
   - CON: —
   - INT: 3
@@ -47,24 +47,16 @@ image: "[[Emotivore Mastermind.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: Backlash (17 damage), feed, mental anguish (DC 26), mindbreaking link (DC 26), mindkiller (DC 26), sow doubt (DC 26, 8 rounds)
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 17th)
-  - name: At will
-    desc: "[[Mindlink]], [[Telepathic Bond]]"
-  - name: Mystic Spells Known
-    desc: (CL 17th; ranged +28)
-  - name: 6th (3/day)
-    desc: "[[Snuff life]] (DC 26), [[Telepathic Jaunt]]"
-  - name: 5th (6/day)
-    desc: "[[Feeblemind]] (DC 25), greater [[Synaptic Pulse]] (DC 25), [[Modify Memory]] (DC 25)"
-  - name: 4th (at will)
-    desc: "[[Confusion]](DC 24), [[Enervation]] (DC 24), [[Fear]](DC 24)"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Mindbreaker]]"
-  - name: Spell-Like Abilities
-    desc: (CL 17th)
-  - name: At will
-    desc: "[[Detect Thoughts]] (DC 21), [[Holographic Image]] (3rd level; DC 23), [[Mind Thrust]] (3rd level DC 23)"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 17th)"
+  - At will: "[[Mindlink]], [[Telepathic Bond]]"
+  - "**Mystic Spells Known** (CL 17th; ranged +28)"
+  - 6th (3/day): "[[Snuff life]] (DC 26), [[Telepathic Jaunt]]"
+  - 5th (6/day): "[[Feeblemind]] (DC 25), greater [[Synaptic Pulse]] (DC 25), [[Modify Memory]] (DC 25)"
+  - 4th (at will): "[[Confusion]](DC 24), [[Enervation]] (DC 24), [[Fear]](DC 24)"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Mindbreaker]]"
+  - "**Spell-Like Abilities** (CL 17th)"
+  - At will: "[[Detect Thoughts]] (DC 21), [[Holographic Image]] (3rd level; DC 23), [[Mind Thrust]] (3rd level DC 23)"
 otherabil: "[[Change Shape Su]] (Medium or Small humanoid), emotionsense, [[Unliving Ex|unliving]]"
 Perception: 29
 planet: []
@@ -73,18 +65,18 @@ Ranged:
     desc: banshee sonic pistol +28 to hit (4d8+17 So; critical deafen [DC 24])
 RP: 6
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+20 (`dice: 1d20+20`)"
+  - Fort: 15
+  - Ref: 15
+  - Will: 20
 Senses: "[[blindsense]] (emotion) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+29 (`dice: 1d20+29`) (+37 to fly)"
-  - Bluff: "+34 (`dice: 1d20+34`)"
-  - Culture: "+29 (`dice: 1d20+29`)"
-  - Intimidate: "+29 (`dice: 1d20+29`)"
-  - Mysticism: "+34 (`dice: 1d20+34`)"
-  - Sense Motive: "+29 (`dice: 1d20+29`)"
+  - Acrobatics: 29
+  - Bluff: 34
+  - Culture: 29
+  - Intimidate: 29
+  - Mysticism: 34
+  - Sense Motive: 29
 source: Alien Archive 2
 specialabil:
   - name: "[[Change Shape Su]]"

@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
-  - CON: "—"
+  - CON: —
   - INT: 4
   - WIS: 1
   - CHA: 4 
@@ -28,7 +28,7 @@ KAC: 20
 Languages: "Common, up to four others; shortwave 100 ft."
 Melee:
   - name: "Melee"
-    desc: "slam +13 to hit (6 (1d6+6) B)"
+    desc: "slam +13 to hit (1d6+6 B)"
 modifier: 3
 name: "Anacite, Ambassador"
 image: "[[Anacite Ambassador.png]]"
@@ -38,18 +38,18 @@ Perception: 13
 planet: Aballon
 Ranged:
   - name: "Ranged"
-    desc: "retractable laser +15 to hit (9 (1d6+6) F; critical burn 2 (1d4)"
+    desc: "retractable laser +15 to hit (1d6+6 F; critical burn 2 (1d4)"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 7 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Bluff: "+13 (`dice: 1d20+13`)"
-  - Culture: "+18 (`dice: 1d20+18`)"
-  - Diplomacy: "+18 (`dice: 1d20+18`)"
-  - Sense Motive: "+13 (`dice: 1d20+13`)" 
+  - Bluff: 13
+  - Culture: 18
+  - Diplomacy: 18
+  - Sense Motive: 13 
 source: Alien Archive 2
 specialabil:
   - name: "Language Assimilation (Ex)"

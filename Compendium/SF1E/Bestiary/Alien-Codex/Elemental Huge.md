@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 4
   - CON: 2
   - INT: -3
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 19 KAC: 21" 
 alignment: N
 climate: any
@@ -40,14 +40,14 @@ Perception: 14
 planet: []
 reach: "15 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 11
+  - Ref: 9
+  - Will: 6 
 Senses: "[[darkvision]] 60 ft."
-size: huge
+size: Huge
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Athletics: "+14 (`dice: 1d20+14`)"
+  - Acrobatics: 14
+  - Athletics: 14
 source: Alien Archive 
 space: "15 ft."
 Speed: 20 ft. 

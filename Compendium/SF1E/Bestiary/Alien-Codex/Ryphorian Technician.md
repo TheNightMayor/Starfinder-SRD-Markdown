@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
   - CON: 2
   - INT: 4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: -1
 ac: "EAC: 12 KAC: 13"
 alignment: NG
@@ -45,19 +45,19 @@ Ranged:
   - name: Ranged
     desc: pulsecaster pistol +6 to hit (1d4+1 E nonlethal)
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 3
+  - Ref: 3
+  - Will: 2
   - name: "[[Energy Resistance]]"
     desc: cold 5
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - computers: "+10 (`dice: 1d20+10`)"
-  - Engineering: "+10 (`dice: 1d20+10`)"
-  - Physical Science: "+5 (`dice: 1d20+5`)"
-  - Piloting: "+10 (`dice: 1d20+10`)"
-  - Survival: "+5 (`dice: 1d20+5`)"
+  - computers: 10
+  - Engineering: 10
+  - Physical Science: 5
+  - Piloting: 10
+  - Survival: 5
 source: Alien Archive
 species: "[[Winterborn ryphorian]]"
 Speed: 30 ft.

@@ -1,10 +1,12 @@
 ---
+aliases: []
+cssclasses:
 abilitymods:
   - STR: 2
   - DEX: 4
   - CON: 1
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: -1
 ac: "EAC: 11 KAC: 13"
 alignment: CE
@@ -35,15 +37,15 @@ Ranged:
   - name: Ranged
     desc: tactical arc emitter +9 to hit (1d4+1 E)
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+3 (`dice: 1d20+3`) +4 vs. fear"
+  - Fort: 3
+  - Ref: 5
+  - Will: "+3 +4 vs. fear"
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Athletics: "+10 (`dice: 1d20+10`)"
-  - Piloting: "+5 (`dice: 1d20+5`)"
-  - Survival: "+5 (`dice: 1d20+5`)"
+  - Athletics: 10
+  - Piloting: 5
+  - Survival: 5
 source: Alien Archive 3
 specialabil:
   - name: Powerful Leap (Ex)

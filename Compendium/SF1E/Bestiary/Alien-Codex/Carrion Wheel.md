@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 5
   - CON: 3
   - INT: -4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: -1 
 ac: "EAC: 18 KAC: 20" 
 alignment: NE
@@ -39,15 +39,15 @@ offabilities:
     desc: "ambush, inflame"
 Perception: 18
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 8
+  - Ref: 10
+  - Will: 6 
 Senses: "[[darkvision]] (60 ft.)"
 size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Stealth: "+18 (`dice: 1d20+18`)"
-  - Survival: "+13 (`dice: 1d20+13`)" 
+  - Acrobatics: 13
+  - Stealth: 18
+  - Survival: 13 
 source: Alien Archive 4 
 specialabil:
   - name: "Ambush (Ex)"

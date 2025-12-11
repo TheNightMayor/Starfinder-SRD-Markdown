@@ -3,9 +3,9 @@ abilitymods:
   - STR: 8
   - DEX: 4
   - CON: 5
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 26 KAC: 28" 
 alignment: N
 Aura: "magnetic field (60 ft., Strength DC 16)"
@@ -45,13 +45,13 @@ otherabil: "[[Mindless Ex]]"
 Perception: 22
 reach: "10 ft."
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+9 (`dice: 1d20+9`)" 
+  - Fort: 16
+  - Ref: 12
+  - Will: 9 
 Senses: "[[blindsight]] (magnetism) 60 ft., [[Sightless Ex]]"
 size: Large
 Skills:
-  - stealth:  "+27 (`dice: 1d20+27`)" 
+  - stealth:  27 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

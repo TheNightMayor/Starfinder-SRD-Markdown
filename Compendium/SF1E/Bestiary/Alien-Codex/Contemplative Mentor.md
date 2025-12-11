@@ -2,7 +2,7 @@
 abilitymods:
   - STR: -1
   - DEX: 3
-  - CON: "+0"
+  - CON: 0
   - INT: 11
   - WIS: 8
   - CHA: 6
@@ -43,20 +43,14 @@ image: "[[Contemplative Mentor.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: applied knowledge, [[Backlash]] (18 damage), explode head (DC 27), mental anguish (DC 27), mind-breaking link (DC 27), mindkiller (DC 27), sow doubt (9 rounds, DC 27)
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 18th)
-  - name: At will
-    desc: "[[Mindlink]], [[Telepathic Bond]]"
-  - name: Mystic Spells Known
-    desc: (CL 18th; ranged +28)
-  - name: 6th (3/day)
-    desc: "[[Mind Thrust]] (DC 27), [[psychic surgery]]"
-  - name: 5th (6/day)
-    desc: "[[crush skull]] (DC 26), [[feeblemind]] (DC 26), [[greater [[Synaptic Pulse]] (DC 26), [[modify memory]](DC 26)"
-  - name: 4th (at will)
-    desc: "[[confusion]] (DC 25), [[mind probe]] (DC 25)"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Mindbreaker]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 18th)"
+  - At will: "[[Mindlink]], [[Telepathic Bond]]"
+  - "**Mystic Spells Known** (CL 18th; ranged +28)"
+  - 6th (3/day): "[[Mind Thrust]] (DC 27), [[psychic surgery]]"
+  - 5th (6/day): "[[crush skull]] (DC 26), [[feeblemind]] (DC 26), [[greater [[Synaptic Pulse]] (DC 26), [[modify memory]](DC 26)"
+  - 4th (at will): "[[confusion]] (DC 25), [[mind probe]] (DC 25)"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Mindbreaker]]"
 Perception: 31
 planet: Akiton
 Ranged:
@@ -64,17 +58,17 @@ Ranged:
     desc: zenith laser pistol +28 to hit (8d4+18 F; critical burn 4d4)
 RP: 6
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+17 (`dice: 1d20+17`)"
-  - Will: "+22 (`dice: 1d20+22`) (+26 vs. mind-affecting effects)"
+  - Fort: 15
+  - Ref: 17
+  - Will: 22
 Senses: "[[blindsense]] (thought) 60 ft., [[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - computers: "+30 (`dice: 1d20+30`)"
-  - Engineering: "+30 (`dice: 1d20+30`)"
-  - Life Science: "+36 (`dice: 1d20+36`)"
-  - Mysticism: "+36 (`dice: 1d20+36`)"
-  - Physical Science: "+30 (`dice: 1d20+30`)"
+  - computers: 30
+  - Engineering: 30
+  - Life Science: 36
+  - Mysticism: 36
+  - Physical Science: 30
 source: Alien Archive
 specialabil:
   - name: Applied Knowledge (Ex)

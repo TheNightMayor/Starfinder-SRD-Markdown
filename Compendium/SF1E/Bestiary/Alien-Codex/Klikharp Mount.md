@@ -36,15 +36,15 @@ Ranged:
     desc: "shriek +11 to hit (1d6+5 So)"
 reach: "10 ft."
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`) +2 vs. emotion and pain"
+  - Fort: 9
+  - Ref: 7
+  - Will: "+4 +2 vs. emotion and pain"
 Senses: "[[blindsense]] (vibration) 60 ft., [[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Acrobatics: "+11 (`dice: 1d20+11`)"
-  - Athletics: "+16 (`dice: 1d20+16`) (+24 to climb)"
-  - Survival: "+11 (`dice: 1d20+11`)" 
+  - Acrobatics: 11
+  - Athletics: 16
+  - Survival: 11 
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

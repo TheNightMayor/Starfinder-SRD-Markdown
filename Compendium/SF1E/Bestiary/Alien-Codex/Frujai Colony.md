@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 10
-  - DEX: "+0"
+  - DEX: 0
   - CON: 9
   - INT: 2
   - WIS: 4
@@ -50,15 +50,15 @@ Ranged:
 reach: "30 ft."
 RP: 6 
 saves:
-  - Fort: "+22 (`dice: 1d20+22`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+20 (`dice: 1d20+20`)" 
+  - Fort: 22
+  - Ref: 15
+  - Will: 20 
 Senses: "[[low-light vision]]"
-size: colossal
+size: Colossal
 Skills:
-  - intimidate:  "+37 (`dice: 1d20+37`)"
-  - Life Science: "+32 (`dice: 1d20+32`)"
-  - Survival: "+32 (`dice: 1d20+32`)" 
+  - intimidate:  37
+  - Life Science: 32
+  - Survival: 32 
 source: Alien Archive 
 space: "30 ft."
 specialabil:

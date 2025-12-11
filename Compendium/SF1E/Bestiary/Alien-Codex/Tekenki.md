@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 11
   - DEX: 8
-  - CON: "—"
+  - CON: —
   - INT: 5
   - WIS: 5
   - CHA: 5 
@@ -47,17 +47,17 @@ Ranged:
     desc: "integrated white star plasma cannon +29 to hit (6d10+17 E & F; critical burn 3d8)"
 reach: "60 ft."
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+17 (`dice: 1d20+17`)" 
+  - Fort: 17
+  - Ref: 13
+  - Will: 17 
 Senses: "[[blindsense]] (thought) 120 ft., sense the masses"
 size: Colossal
 Skills:
-  - Acrobatics: "+29 (`dice: 1d20+29`) (+21 to fly)"
-  - Athletics: "+29 (`dice: 1d20+29`)"
-  - Intimidate: "+34 (`dice: 1d20+34`)"
-  - Piloting: "+29 (`dice: 1d20+29`)"
-  - Sense Motive: "+29 (`dice: 1d20+29`)" 
+  - Acrobatics: 29
+  - Athletics: 29
+  - Intimidate: 34
+  - Piloting: 29
+  - Sense Motive: 29 
 space: "150 ft."
 specialabil:
   - name: "Demolish Structures (Ex)"

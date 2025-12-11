@@ -1,9 +1,9 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
   - CON: 2
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
   - CHA: 4 
 ac: "EAC: 13 KAC: 12" 
@@ -48,24 +48,21 @@ planet: []
 Ranged:
   - name: "Ranged"
     desc: "[[Energy Ray]] +5 to hit (1d3 A, C, E, or F)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 2nd; +3 melee, +5 ranged)"
-  - name: "1/day"
-    desc: "[[Jolting Surge]], [[Overheat]] (DC 15)"
-  - name: "At will"
-    desc: "[[Energy Ray]], [[Mending]]"
-  - name: "Constant"
-    desc: "[[Detect Radiation]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 2nd; +3 melee, +5 ranged)"
+  - 1/day: "[[Jolting Surge]], [[Overheat]] (DC 15)"
+  - At will: "[[Energy Ray]], [[Mending]]"
+  - Constant: "[[Detect Radiation]]"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+5 (`dice: 1d20+5`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 5 
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - diplomacy:  "+12 (`dice: 1d20+12`)"
-  - Engineering: "+7 (`dice: 1d20+7`)"
-  - Physical Science: "+12 (`dice: 1d20+12`)" 
+  - diplomacy:  12
+  - Engineering: 7
+  - Physical Science: 12 
 source: Alien Archive
 specialabil:
   - name: "Mutating Touch (Su)"

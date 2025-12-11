@@ -50,12 +50,10 @@ image: "[[devil, warmonger (levaloch).png]]"
 offabilities:
   - name: Offensive Abilities
     desc: merciless blow
-  - name: Spell-Like Abilities
-    desc: (CL 7th)
-  - name: 1/day
-    desc: "[[Summon Allies Sp]] (1 levaloch 35%)"
-  - name: At will
-    desc: "[[Teleport]] (self plus 5 bulk of gear only)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 7th)"
+  - 1/day: "[[Summon Allies Sp]] (1 levaloch 35%)"
+  - At will: "[[Teleport]] (self plus 5 bulk of gear only)"
 otherabil: hellstrider, phalanx
 Perception: 19
 planet: Hell
@@ -64,18 +62,18 @@ Ranged:
     desc: corona laser rifle +15 to hit (2d6+7 F; critical burn 1d6) or nyfiber net +15 to hit (entangle)
 reach: 10 ft.
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 11
+  - Ref: 9
+  - Will: 6
 Senses: "[[darkvision]] 60 ft., [[See In Darkness (Su)]]"
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Athletics: "+14 (`dice: 1d20+14`) (+22 to climb)"
-  - Engineering: "+14 (`dice: 1d20+14`)"
-  - Intimidate: "+14 (`dice: 1d20+14`)"
-  - Mysticism: "+14 (`dice: 1d20+14`)"
-  - Stealth: "+14 (`dice: 1d20+14`)"
+  - Acrobatics: 14
+  - Athletics: 14
+  - Engineering: 14
+  - Intimidate: 14
+  - Mysticism: 14
+  - Stealth: 14
 source: Alien Archive 2
 space: 10 ft.
 specialabil:

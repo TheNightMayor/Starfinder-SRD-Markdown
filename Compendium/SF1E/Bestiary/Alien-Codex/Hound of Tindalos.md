@@ -39,29 +39,25 @@ image: "[[Hound of Tindalos.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "ripping gaze (30 ft., 4d6 S Fort: DC 17)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 7th; ranged +16)"
-  - name: "1/day"
-    desc: "[[Haste]], [[Slow]](DC 18)"
-  - name: "3/day"
-    desc: "[[Dimensional Anchor]], [[Fog Cloud]], [[Invisibility]], [[Plane Shift]] (self only)"
-  - name: At will
-    desc: "[[Interplanetary Teleport]] (casting time swift action; self only)"
-  - name: Constant
-    desc: "[[Flight]] (3rd level; 40-ft. speed; self only)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 7th; ranged +16)"
+  - 1/day: "[[Haste]], [[Slow]](DC 18)"
+  - 3/day: "[[Dimensional Anchor]], [[Fog Cloud]], [[Invisibility]], [[Plane Shift]] (self only)"
+  - At will: "[[Interplanetary Teleport]] (casting time swift action; self only)"
+  - Constant: "[[Flight]] (3rd level; 40-ft. speed; self only)"
 otherabil: "angled entry"
 Perception: 19
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
+  - Fort: 6
+  - Ref: 10
+  - Will: 8 
 Senses: "[[darkvision]] 120 ft., discern prey"
 size: Medium
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Mysticism: "+19 (`dice: 1d20+19`)"
-  - Sense Motive: "+19 (`dice: 1d20+19`)"
-  - Stealth: "+14 (`dice: 1d20+14`)" 
+  - Acrobatics: 14
+  - Mysticism: 19
+  - Sense Motive: 19
+  - Stealth: 14 
 source: Alien Archive 3 
 specialabil:
   - name: "Angled Entry (Sp)"

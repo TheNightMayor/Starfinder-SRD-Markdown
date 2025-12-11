@@ -35,15 +35,11 @@ Melee:
 modifier: 5
 name: Hortus, Hortinarch
 image: "[[hortinarch.png]]"
-offabilities:
-  - name: Technomancer Spells Known
-    desc: (CL 11th; melee +17, ranged +19)
-  - name: 4th (3/day)
-    desc: "[[Corrosive Haze]] (DC 22), [[Invisibility, Greater]]"
-  - name: 3rd (6/day)
-    desc: "[[Displacement]], [[Instant Virus]] (DC 21), [[Slow]](DC 21), [[Tongues]]"
-  - name: 2nd (at will)
-    desc: "[[Caustic Conversion]], [[Flight]]"
+Spells:
+  - "**Technomancer Spells Known** (CL 11th; melee +17, ranged +19)"
+  - 4th (3/day): "[[Corrosive Haze]] (DC 22), [[Invisibility, Greater]]"
+  - 3rd (6/day): "[[Displacement]], [[Instant Virus]] (DC 21), [[Slow]](DC 21), [[Tongues]]"
+  - 2nd (at will): "[[Caustic Conversion]], [[Flight]]"
 otherabil: atmospheric alteration (DC 20), [[technomancer#Cache Capacitor (SU) - 6TH Level| cache capacitor 1]] ([[Unseen Servant]]), [[technomancer#Magic Hack - 2ND Level|magic hacks]] ([[Magic Hacks#Flash Teleport (SP)|flash teleport]], [[Magic Hacks#Reboot Mind (SU)|reboot mind]]), [[Technomancer#Spell Cache (SU) - 1ST Level|spell cache]] ([[Living Staff#Living Staff, Advanced|advanced living staff]])
 Perception: 20
 Ranged:
@@ -52,15 +48,15 @@ Ranged:
 reach: 5 ft. (10 ft. with advanced living staff)
 RP: 5
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+14 (`dice: 1d20+14`) +2 vs. mind-affecting, paralysis, poison, polymorph, sleep, stunned"
+  - Fort: 12
+  - Ref: 10
+  - Will: +14 +2 vs. mind-affecting, paralysis, poison, polymorph, sleep, stunned
 Senses: "[[low-light vision]]"
 size: Medium
 Skills:
-  - Computers: "+25 (`dice: 1d20+25`)"
-  - Mysticism: "+20 (`dice: 1d20+20`)"
-  - Physical Science: "+25 (`dice: 1d20+25`)"
+  - Computers: 25
+  - Mysticism: 20
+  - Physical Science: 25
 source: Alien Archive 3
 space: 5 ft.
 specialabil:

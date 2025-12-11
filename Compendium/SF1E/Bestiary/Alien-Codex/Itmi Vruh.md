@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 2
   - DEX: 5
-  - CON: "—"
-  - INT: "+0"
+  - CON: —
+  - INT: 0
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 17 KAC: 19" 
 alignment: LE
 cr: 5
@@ -42,15 +42,15 @@ offabilities:
 otherabil: "drift attraction, [[Unliving Ex|unliving]]"
 Perception: 11
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 6 
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+11 (`dice: 1d20+11`)"
-  - Sense Motive: "+11 (`dice: 1d20+11`)"
-  - Stealth: "+16 (`dice: 1d20+16`)" 
+  - Acrobatics: 11
+  - Sense Motive: 11
+  - Stealth: 16 
 source: Alien Archive 4 
 specialabil:
   - name: "Captivating Memento(Su)"

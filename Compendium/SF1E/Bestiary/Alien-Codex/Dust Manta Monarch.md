@@ -5,9 +5,9 @@ abilitymods:
   - STR: 5
   - DEX: 8
   - CON: 4
-  - INT: "+0"
+  - INT: 0
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 26 KAC: 28"
 alignment: N
 Aura: "sandstorm (120 ft., DC 19)"
@@ -49,15 +49,15 @@ offabilities:
 Perception: "+22 "
 reach: "15 ft."
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 16
+  - Ref: 16
+  - Will: 11
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], [[Sense Through]] (vision [sand only])"
-size: huge
+size: Huge
 Skills:
-  - Acrobatics: "+22 (`dice: 1d20+22`)"
-  - Athletics: "+22 (`dice: 1d20+22`)"
-  - Stealth: "+27 (`dice: 1d20+27`)"
+  - Acrobatics: 22
+  - Athletics: 22
+  - Stealth: 27
 source: Alien Archive 2 
 space: "15 ft."
 specialabil:

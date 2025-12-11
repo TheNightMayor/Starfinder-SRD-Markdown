@@ -35,29 +35,24 @@ Melee:
 modifier: 2
 name: "Kami, Chinjugami"
 image: "[[kami, chinjugami.png]]"
-
-offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 16th)"
-  - name: "1/day"
-    desc: "[[Chain Surge]],  (DC 26), [[Divination]],  [[Terraform]]"
-  - name: "3/day"
-    desc: "[[Creation]], greater [[Dispel Magic]], [[Mystic Cure]] (5th level), greater [[Remove Condition]], [[Summon Creature]]  (5th level; three 4th-level kami)"
-  - name: "At will"
-    desc: "[[Cosmic Eddy]]  (DC 24), [[Life Bubble]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 16th)"
+  - 1/day: "[[Chain Surge]],  (DC 26), [[Divination]],  [[Terraform]]"
+  - 3/day: "[[Creation]], greater [[Dispel Magic]], [[Mystic Cure]] (5th level), greater [[Remove Condition]], [[Summon Creature]]  (5th level; three 4th-level kami)"
+  - At will: "[[Cosmic Eddy]]  (DC 24), [[Life Bubble]]"
 otherabil: "merge with ward (space station park), [[No Breath Ex]]"
 Perception: 28
 reach: "20 ft. (25 ft. with biomechanical staff)"
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+19 (`dice: 1d20+19`)" 
+  - Fort: 16
+  - Ref: 14
+  - Will: 19 
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
 size: Gargantuan
 Skills:
-  - Acrobatics: "+28 (`dice: 1d20+28`) (+36 to fly)"
-  - Engineering: "+28 (`dice: 1d20+28`)"
-  - Mysticism: "+33 (`dice: 1d20+33`)" 
+  - Acrobatics: 28
+  - Engineering: 28
+  - Mysticism: 33 
 source: Alien Archive 3 
 space: "20 ft."
 specialabil:

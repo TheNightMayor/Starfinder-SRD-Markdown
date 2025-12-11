@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
-  - CON: "+0"
+  - CON: 0
   - INT: 5
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 15 KAC: 16"
 alignment: N
 class: "[[Technomancer]]"
@@ -37,29 +37,24 @@ Perception: 10
 Ranged:
   - name: Ranged
     desc: tactical semi-auto pistol +8 to hit (1d6+2 P)
-  - name: Spell-Like Abilities
-    desc: (CL 4th)
-  - name: At will
-    desc: "[[Detect Magic]], [[Grave Words]], [[Stabilize]] "
-  - name: Technomancer Spells Known
-    desc: (CL 4th; melee +6)
-  - name: 2nd (3/day)
-    desc: "[[Inject Nanobots]] (DC 17), [[Make Whole]] "
-  - name: 1st (6/day)
-    desc: "[[Comprehend Languages]], [[identify]], [[Magic Missile]] "
-  - name: (at will)
-    desc: "[[Mending]], [[Psychokinetic Hand]]"
+Spells:
+  - "**Spell-Like Abilities** {CL 4th)"
+  - At will: "[[Detect Magic]], [[Grave Words]], [[Stabilize]] "
+  - "**Technomancer Spells Known** (CL 4th; melee +6)"
+  - 2nd (3/day): "[[Inject Nanobots]] (DC 17), [[Make Whole]] "
+  - 1st (6/day): "[[Comprehend Languages]], [[identify]], [[Magic Missile]] "
+  - at will: "[[Mending]], [[Psychokinetic Hand]]"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+7 (`dice: 1d20+7`)"
+  - Fort: 3
+  - Ref: 5
+  - Will: 7
   - "+2": vs. death effects, disease, fear effects, poison
 size: Medium
 Skills:
-  - computers: "+15 (`dice: 1d20+15`)"
-  - Engineering: "+10 (`dice: 1d20+10`)"
-  - Mysticism: "+10 (`dice: 1d20+10`)"
-  - Sense Motive: "+10 (`dice: 1d20+10`)"
+  - computers: 15
+  - Engineering: 10
+  - Mysticism: 10
+  - Sense Motive: 10
 source: Alien Archive 3
 specialabil:
   - name: Psychometry (Su)

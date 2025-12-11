@@ -42,17 +42,17 @@ Ranged:
     desc: corona laser pistol +14 to hit (2d4+7 F; critical burn 1d4) or mk 3 holo grenade +14 to hit (explode [20 ft. 3rd-level [[Holographic Image]], CL 9th, 10 rounds DC 17])
 RP: 4
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 8
+  - Ref: 6
+  - Will: 10
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - culture: "+19 (`dice: 1d20+19`)"
-  - Diplomacy: "+19 (`dice: 1d20+19`)"
-  - Engineering: "+19 (`dice: 1d20+19`)"
-  - Medicine: "+14 (`dice: 1d20+14`)"
-  - Sense Motive: "+14 (`dice: 1d20+14`)"
+  - culture: 19
+  - Diplomacy: 19
+  - Engineering: 19
+  - Medicine: 14
+  - Sense Motive: 14
 source: Alien Archive 3
 specialabil:
   - name: Flashback (Ex)

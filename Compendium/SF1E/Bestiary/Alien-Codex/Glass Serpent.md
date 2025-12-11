@@ -46,15 +46,15 @@ Perception: 16
 planet: Eox
 reach: "30 ft."
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 9
+  - Ref: 9
+  - Will: 4 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: gargantuan
+size: Gargantuan
 Skills:
-  - Athletics: "+13 (`dice: 1d20+13`) (+21 to climb or swim)"
-  - Stealth: "+13 (`dice: 1d20+13`)"
-  - Survival: "+13 (`dice: 1d20+13`)" 
+  - Athletics: 13
+  - Stealth: 13
+  - Survival: 13 
 source: Alien Archive 2
 space: "20 ft."
 specialabil:

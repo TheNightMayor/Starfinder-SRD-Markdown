@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 3
   - CON: 2
   - INT: -3
-  - WIS: "+0"
+  - WIS: 0
   - CHA: -1
 ac: "EAC: 14 KAC: 14"
 alignment: N
@@ -43,15 +43,15 @@ offabilities:
 Perception: 8
 planet: []
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 4
+  - Ref: 2
+  - Will: 4
 Senses: "[[blindsight]] (vibration) 60 ft."
-size: small
+size: Small
 Skills:
-  - Athletics: "+8 (`dice: 1d20+8`) (+16 to climb)"
-  - Disguise: "+8 (`dice: 1d20+8`)"
-  - Stealth: "+13 (`dice: 1d20+13`); see neural integration" 
+  - Athletics: 8
+  - Disguise: 8
+  - Stealth: "+13; see neural integration" 
 source: Alien Archive 2 
 specialabil:
   - name: "Neural Integration (Su)"

@@ -37,7 +37,7 @@ Languages: "Celestial, Draconic, Infernal; [[Truespeech (Su)]]"
 linter-yaml-title-alias: "Angel, Barachius"
 Melee:
   - name: "Melee"
-    desc: "holy sintered longsword +16 to hit (16 (2d8+12) S)"
+    desc: "holy sintered longsword +16 to hit (2d8+12 S)"
 modifier: 4
 name: "Angel, Barachius"
 image: "[[Angel, Barachius.png]]"
@@ -45,31 +45,29 @@ image: "[[Angel, Barachius.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "firewall"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 7th)"
-  - name: "1/day"
-    desc: "[[arcing surge]](DC 18), [[interplanetary teleport]] (self only)"
-  - name: "3/day"
-    desc: "[[Inject Nanobots]] (DC 17), [[microbot assault]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 7th)"
+  - 1/day: "[[arcing surge]](DC 18), [[interplanetary teleport]] (self only)"
+  - 3/day: "[[Inject Nanobots]] (DC 17), [[microbot assault]]"
 otherabil: "upgrade"
 Perception: 14
 Ranged:
   - name: "Ranged"
-    desc: "holy corona laser rifle+14 to hit (13 (2d6+7) F; critical burn 3 (1d6))"
+    desc: "holy corona laser rifle+14 to hit (2d6+7 F; critical burn 3 (1d6))"
 reach: "10 ft."
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 8
+  - Ref: 6
+  - Will: 10
   - "+4": "vs. poison"
 Senses: "[[darkvision]] 60 ft., detect alignment, [[low-light vision]]"
 size: Large
 Skills:
-  - Computers: "+19 (`dice: 1d20+19`)"
-  - Culture: "+19 (`dice: 1d20+19`)"
-  - Engineering: "+19 (`dice: 1d20+19`)"
-  - Mysticism: "+14 (`dice: 1d20+14`)"
-  - Sense Motive: "+14 (`dice: 1d20+14`)" 
+  - Computers: 19
+  - Culture: 19
+  - Engineering: 19
+  - Mysticism: 14
+  - Sense Motive: 14 
 space: "10 ft."
 specialabil:
   - name: "Firewall (Su)"

@@ -42,16 +42,11 @@ Melee:
 modifier: 3
 name: "Formian, Myrmarch"
 image: "[[Formian Myrmarch.png]]"
-
-offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 10th; ranged +20)"
-  - name: "1/day"
-    desc: "[[Enervationy]] (DC 18)"
-  - name: "3/day"
-    desc: "[[Charm Monster]] (DC 17)"
-  - name: "At will"
-    desc: "[[Status]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 10th; ranged +20)"
+  - 1/day: "[[Enervationy]] (DC 18)"
+  - 3/day: "[[Charm Monster]] (DC 17)"
+  - At will: "[[Status]]"
 otherabil: "hive mind, inspire hive "
 Perception: "+19 (+23 with hive mind)"
 planet: Castrovel
@@ -60,15 +55,15 @@ Ranged:
     desc: "LFD sonic rifle +20 to hit (2d10+10 So; critical deafen [DC 17])"
 reach: "5 ft."
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 12
+  - Ref: 14
+  - Will: 11
 Senses: "[[blindsense]] (scent) 30 ft., [[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - diplomacy:  "+24 (`dice: 1d20+24`)"
-  - Sense Motive: "+19 (`dice: 1d20+19`)"
-  - Stealth: "+19 (`dice: 1d20+19`)"
+  - diplomacy:  24
+  - Sense Motive: 19
+  - Stealth: 19
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

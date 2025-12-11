@@ -1,12 +1,12 @@
 ---
 aliases: []
-cssclasses: 
+cssclasses:
 abilitymods:
   - STR: 5
   - DEX: 3
   - CON: 2
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: 2
 ac: "EAC: 18 KAC: 20"
 alignment: CE
@@ -37,24 +37,22 @@ offabilities:
     desc: "[[Stellar Revelations]] ([[Stellar Revelations#Black Hole (SU))|black hole]] [25-ft. radius, pull 15 ft., DC 14], [[Stellar Revelations#Defy Gravity (SU))|defy gravity]], [[Stellar Revelations#Stellar Rush (SU))|stellar rush]] [3d6 F, DC 14], [[Stellar Revelations#GSupernova (SU))|supernova]] [10-ft. radius, 7d6 F, DC 14])"
   - name: Lashunta Spell-Like Abilities
     desc: (CL 6th)
-  - name: 1/day
-    desc: "[[detect thoughts]] (DC 13)"
-  - name: At will
-    desc: "[[daze]] (DC 12), [[psychokinetic hand]]"
+  - 1/day: "[[detect thoughts]] (DC 13)"
+  - At will: "[[daze]] (DC 12), [[psychokinetic hand]]"
 otherabil: "[[Solarian#Solar Manifestation (SU) - 1ST Level|solar manifestation]] ([[Solarian#Solar Weapon|solar weapon]]), [[Stellar Alignment Su|Stellar Alignment]]"
 Perception: 13
 Ranged:
   - name: Ranged
     desc: corona laser pistol +13 to hit (2d4+6 F; critical burn 1d4)
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+7 (`dice: 1d20+7`)"
-size: medium
+  - Fort: 8
+  - Ref: 6
+  - Will: 7
+size: Medium
 Skills:
-  - Athletics: "+18 (`dice: 1d20+18`)"
-  - Mysticism: "+13 (`dice: 1d20+13`)"
-  - Stealth: "+13 (`dice: 1d20+13`)"
+  - Athletics: 18
+  - Mysticism: 13
+  - Stealth: 13
 source: Pact Worlds
 species: "[[Korasha lashunta]]"
 Speed: 30 ft.

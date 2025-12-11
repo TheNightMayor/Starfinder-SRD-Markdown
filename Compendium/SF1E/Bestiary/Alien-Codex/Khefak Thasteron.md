@@ -5,8 +5,8 @@ abilitymods:
   - STR: 1
   - DEX: 2
   - CON: 4
-  - INT: "—"
-  - WIS: "+0"
+  - INT: —
+  - WIS: 0
   - CHA: -3
 ac: "EAC: 14 KAC: 16"
 alignment: N
@@ -44,11 +44,11 @@ otherabil: "consume objects, [[Mindless Ex]]"
 Perception: "+8 "
 planet: Akiton
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 7
+  - Ref: 5
+  - Will: 2
 Senses: "[[blindsense]] (vibration) 30 ft., [[darkvision]] 60 ft."
-size: medium
+size: Medium
 source: Alien Archive 2 
 specialabil:
   - name: "Aura of Radiation (Ex)"

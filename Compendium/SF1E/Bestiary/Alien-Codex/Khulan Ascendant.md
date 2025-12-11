@@ -2,7 +2,7 @@
 aliases: 
 cssclasses:
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 5
   - CON: 4
   - INT: 2
@@ -34,30 +34,28 @@ Languages: "Akitonian, Common, Ignan, Terran"
 Melee:
   - name: "Melee"
     desc: "leeching touch +20 to hit (5d6 C; see text) or claw +22 to hit (2d12+12 S)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 12th)"
-  - name: "1/day"
-    desc: "[[Explosive Blast]] (DC 20), [[Remove Radioactivity]] (DC 21)"
-  - name: "Constant"
-    desc: " [[Detect Radiation]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 12th)"
+  - 1/day: "[[Explosive Blast]] (DC 20), [[Remove Radioactivity]] (DC 21)"
+  - Constant: " [[Detect Radiation]]"
 modifier: 5
 name: "Khulan, Ascendant"
 image: "[[khulan ascendant.png]]"
 
 Perception: 22
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+15 (`dice: 1d20+15`)" 
+  - Fort: 13
+  - Ref: 13
+  - Will: 15 
 Senses: "[[blindsight]] 60 ft. (vibration),  [[Detect Radiation]], [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+27 (`dice: 1d20+27`) (+35 to fly)"
-  - Intimidate: "+27 (`dice: 1d20+27`)"
-  - Physical Science: "+22 (`dice: 1d20+22`)"
-  - Sense Motive: "+27 (`dice: 1d20+27`)"
-  - Stealth: "+22 (`dice: 1d20+22`)"
-  - Survival: "+22 (`dice: 1d20+22`)" 
+  - Acrobatics: 27
+  - Intimidate: 27
+  - Physical Science: 22
+  - Sense Motive: 27
+  - Stealth: 22
+  - Survival: 22 
 source: Alien Archive 4 
 specialabil:
   - name: "Geomagnetic Field (Su)"

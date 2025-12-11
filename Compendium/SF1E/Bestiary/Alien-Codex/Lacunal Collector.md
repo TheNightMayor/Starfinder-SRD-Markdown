@@ -45,29 +45,26 @@ image: "[[Lacunal Collector.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: memory extraction (DC 20)
-  - name: Spells Known
-    desc: (CL 11th)
-  - name: 4th (3/day)
-    desc: "[[Fear]](DC 22), [[Mind Thrust]] (DC 22)"
-  - name: 3rd (6/day)
-    desc: "[[Deep Slumber]] (DC 21), [[Psychokinetic Strangulation]] (DC 21)"
-  - name: 2nd (at will)
-    desc: "[[Daze Monster]] (DC 20), [[Hold Person]] (DC 20)"
+Spells:
+  - "**Spells Known** (CL 11th)"
+  - 4th (3/day): "[[Fear]](DC 22), [[Mind Thrust]] (DC 22)"
+  - 3rd (6/day): "[[Deep Slumber]] (DC 21), [[Psychokinetic Strangulation]] (DC 21)"
+  - 2nd (at will): "[[Daze Monster]] (DC 20), [[Hold Person]] (DC 20)"
 otherabil: "[[Android#Constructed|constructed]], [[Android#Flat Affect|flat affect]], [[Unliving Ex|unliving]]"
 Perception: 20
 Ranged:
   - name: Ranged
     desc: sepulcher-class bone pistol +19 to hit (2d8+11 C)
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+16 (`dice: 1d20+16`)"
+  - Fort: 10
+  - Ref: 10
+  - Will: 16
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - engineering: "+25 (`dice: 1d20+25`)"
-  - Intimidate: "+20 (`dice: 1d20+20`)"
-  - Mysticism: "+25 (`dice: 1d20+25`)"
+  - engineering: 25
+  - Intimidate: 20
+  - Mysticism: 25
 source: Alien Archive 4
 specialabil:
   - name: Augmented Scavenger (Ex)

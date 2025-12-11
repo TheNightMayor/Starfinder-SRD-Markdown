@@ -39,17 +39,17 @@ Ranged:
     desc: corona laser pistol +14 to hit (2d4+6 F; critical burn 1d4)
 RP: 4
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 5
+  - Ref: 7
+  - Will: 9
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Bluff: "+13 (`dice: 1d20+13`)"
-  - Culture: "+18 (`dice: 1d20+18`)"
-  - Diplomacy: "+18 (`dice: 1d20+18`)"
-  - Intimidate: "+13 (`dice: 1d20+13`)"
-  - Sense Motive: "+18 (`dice: 1d20+18`)"
+  - Bluff: 13
+  - Culture: 18
+  - Diplomacy: 18
+  - Intimidate: 13
+  - Sense Motive: 18
 source: Alien Archive 3
 species: "[[Brenneri]]"
 Speed: 30 ft., swim 20 ft.

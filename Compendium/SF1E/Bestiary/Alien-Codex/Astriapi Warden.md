@@ -1,9 +1,9 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
   - CON: 3
-  - INT: "+0"
+  - INT: 0
   - WIS: 5
   - CHA: 2
 ac: "EAC: 17 KAC: 18"
@@ -35,21 +35,14 @@ image: "[[Astriapi Warden.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Xenodruid#Grasping Vines (SU) - 3RD Level|grasping vines]] (DC 16)"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 6th)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 6th)
-  - name: 2nd (3/day)
-    desc: "[[Daze Monster]] (DC 18), [[Fog Cloud]] "
-  - name: 1st (6/day)
-    desc: "[[Fear]](DC 17), [[Life Bubble]] , [[Wisp Ally]]"
-  - name: (at will)
-    desc: "[[Stabilize]], [[Telepathic Message]]"
-  - name:
-      - - Mystic#Connection - 1ST Level|Connection
-    desc: "[[Xenodruid]]"
+Spells:
+  - "**[[Mystic]] Spell-Like Abilities** (CL 6th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 6th)"
+  - 2nd (3/day): "[[Daze Monster]] (DC 18), [[Fog Cloud]] "
+  - 1st (6/day): "[[Fear]](DC 17), [[Life Bubble]] , [[Wisp Ally]]"
+  - (at will): "[[Stabilize]], [[Telepathic Message]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]**: [[Xenodruid]]"
 otherabil: "[[Xenodruid#Animal Adaptation (SU) - 6TH Level|animal adaptation]] (6 minutes), honey production"
 Perception: 13
 Ranged:
@@ -57,17 +50,17 @@ Ranged:
     desc: corona laser pistol +12 to hit (2d4+6 F; critical burn 1d4)
 RP: 4
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 5
+  - Ref: 5
+  - Will: 9
 Senses: "[[blindsense]] (scent) 30 ft., [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Diplomacy: "+18 (`dice: 1d20+18`)"
-  - Life Science: "+13 (`dice: 1d20+13`)"
-  - Mysticism: "+18 (`dice: 1d20+18`)"
-  - Survival: "+13 (`dice: 1d20+13`)"
+  - Acrobatics: 13
+  - Diplomacy: 18
+  - Life Science: 13
+  - Mysticism: 18
+  - Survival: 13
 source: Alien Archive 4
 specialabil:
   - name: Honey Production (Ex)

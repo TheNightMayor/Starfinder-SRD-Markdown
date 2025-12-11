@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: -2
-  - DEX: "+0"
+  - DEX: 0
   - CON: 1
   - INT: 2
   - WIS: 1
@@ -38,16 +38,16 @@ image: "[[Images/Aliens/Enemies/ooze/entu colony/entu colony.png]]"
 otherabil: "tactical symbiosis"
 Perception: 4
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "-2 (`dice: 1d20+2`)"
-  - Will: "+1 (`dice: 1d20+1`)" 
+  - Fort: 2
+  - Ref: -2
+  - Will: 1 
 Senses: "[[blindsight]] (emotion) 60 ft."
 size: Small
 Skills:
-  - diplomacy:  "+9 (`dice: 1d20+9`)"
-  - Life Science: "+9 (`dice: 1d20+9`)"
-  - Sense Motive: "+9 (`dice: 1d20+9`)"
-  - Stealth: "+4 (`dice: 1d20+4`)" 
+  - diplomacy:  9
+  - Life Science: 9
+  - Sense Motive: 9
+  - Stealth: 4 
 source: Alien Archive 4 
 specialabil:
   - name: "Limited Ooze Benefits (Ex)"

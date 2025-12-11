@@ -1,4 +1,6 @@
 ---
+aliases: []
+cssclasses:
 abilitymods:
   - STR: 1
   - DEX: 2
@@ -30,19 +32,22 @@ image: "[[predator, medium.jpg]]"
 
 Perception: 5
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+1 (`dice: 1d20+1`)"
+  - Fort: 3
+  - Ref: 3
+  - Will: 1
 Senses: "[[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+5 (`dice: 1d20+5`)"
-  - Athletics: "+5 (`dice: 1d20+5`)"
-  - Stealth: "+5 (`dice: 1d20+5`)"
+  - Acrobatics: 5
+  - Athletics: 5
+  - Stealth: 5
 source: Alien Archive 2 
 Speed: 40 ft.
 statblock: true
-tags: [animal, Medium, Neutral]
+tags:
+  - animal
+  - Medium
+  - Neutral
 Type: "N Medium animal"
 type: animal
 XP: 400

@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 2
   - INT: -1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 1
 ac: "EAC: 11 KAC: 12"
 alignment: N
@@ -49,17 +49,17 @@ Ranged:
   - name: Ranged
     desc: tactical semi-auto pistol +6 to hit (1d6 P)
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+4 (`dice: 1d20+4`)"
-size: small
+  - Fort: 1
+  - Ref: 4
+  - Will: 4
+size: Small
 Skills:
-  - culture: "+11 (`dice: 1d20+11`)"
-  - Diplomacy: "+5 (`dice: 1d20+5`)"
-  - Life Science: "+11 (`dice: 1d20+11`)"
-  - Medicine: "+11 (`dice: 1d20+11`)"
-  - Sense Motive: "+11 (`dice: 1d20+11`)"
-  - Survival: "+11 (`dice: 1d20+11`) (+15 with trick attack)"
+  - culture: 11
+  - Diplomacy: 5
+  - Life Science: 11
+  - Medicine: 11
+  - Sense Motive: 11
+  - Survival: 11
 source: Alien Archive 2
 specialabil:
   - name: Delicious (Ex)

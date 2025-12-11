@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 11
   - DEX: 5
-  - CON: "—"
+  - CON: —
   - INT: 5
   - WIS: 6
   - CHA: 9 
@@ -41,14 +41,11 @@ image: "[[Tzitzimitl.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "eclipse, electric force, energy drain (2 levels, DC 24), light to dark"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 19th)"
-  - name: "3/day"
-    desc: "[[Animate Dead]], [[Haste]], [[Interplanetary Teleport]]"
-  - name: "At will"
-    desc: "[[Bestow Curse]] (DC 21)"
-  - name: "Constant"
-    desc: "[[Arcane Sight]], [[True Seeing]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 19th)"
+  - 3/day: "[[Animate Dead]], [[Haste]], [[Interplanetary Teleport]]"
+  - At will: "[[Bestow Curse]] (DC 21)"
+  - Constant: "[[Arcane Sight]], [[True Seeing]]"
 otherabil: "[[Spaceflight (Su)]] (Mysticism)"
 Perception: 32
 Ranged:
@@ -56,16 +53,16 @@ Ranged:
     desc: "eyebeam +30 to hit (8d8+19 E)"
 reach: "20 ft."
 saves:
-  - Fort: "+20 (`dice: 1d20+20`)"
-  - Ref: "+20 (`dice: 1d20+20`)"
-  - Will: "+18 (`dice: 1d20+18`)" 
+  - Fort: 20
+  - Ref: 20
+  - Will: 18 
 Senses: "[[Arcane Sight]], [[blindsense]] (life) 60 ft., [[darkvision]] 120 ft., [[True Seeing]]"
 size: Gargantuan
 Skills:
-  - Acrobatics: "+32 (`dice: 1d20+32`) (+40 to fly)"
-  - Life Science: "+32 (`dice: 1d20+32`)"
-  - Mysticism: "+32 (`dice: 1d20+32`)"
-  - Physical Science: "+32 (`dice: 1d20+32`)" 
+  - Acrobatics: 32
+  - Life Science: 32
+  - Mysticism: 32
+  - Physical Science: 32 
 space: "20 ft."
 specialabil:
   - name: "Eclipse (Su)"

@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 2
   - CON: 1
   - INT: 4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 11 KAC: 12"
 alignment: LN
 class: "[[Mechanic]]"
@@ -48,16 +48,16 @@ Ranged:
   - name: Ranged
     desc: azimuth laser pistol +6 to hit (1d4+1 F; critical 1d4 burn)
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 3
+  - Ref: 3
+  - Will: 2
 size: Medium
 Skills:
-  - computers: "+10 (`dice: 1d20+10`)"
-  - Engineering: "+10 (`dice: 1d20+10`)"
-  - Medicine: "+5 (`dice: 1d20+5`)"
-  - Physical Science: "+10 (`dice: 1d20+10`)"
-  - Piloting: "+5 (`dice: 1d20+5`)"
+  - computers: 10
+  - Engineering: 10
+  - Medicine: 5
+  - Physical Science: 10
+  - Piloting: 5
 source: Alien Archive 3
 specialabil:
   - name: Amplify (Ex)

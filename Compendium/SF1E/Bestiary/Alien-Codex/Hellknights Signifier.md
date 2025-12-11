@@ -1,13 +1,13 @@
 ---
 aliases: []
-cssclasses: 
+cssclasses:
 abilitymods:
   - STR: 2
   - DEX: 1
   - CON: 4
   - INT: 1
   - WIS: 5
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 18 KAC: 19"
 alignment: LN
 class: "[[Mystic]]"
@@ -35,35 +35,29 @@ image: "[[Hellknights, Hellknight Signifier.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Overlord#Inexplicable Commands (SU) - 1ST Level|Inexplicable Commands]], [[Overlord#Forced Amity (SP) - 3RD Level|Forced Amity]](DC 17), [[Star Knight#Anchoring Attack (SU) - 6TH Level|anchoring attack]]"
-  - name: Spell-Like Abilities
-    desc: (CL 7th)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 7th)
-  - name: 3rd (3/day)
-    desc: "[[Dispel Magic]] (DC 20), [[Suggestion]] (DC 20)"
-  - name: 2nd (6/day)
-    desc: "[[Force Blast]] (DC 19), [[Hold Person]] (DC 19), [[Mystic-Cure]], [[See Invisibility]]"
-  - name: 1st (at will)
-    desc: "[[Command]] (DC 18), [[Wisp Ally]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Overlord]]"
+Spells:
+  - "**Spell-Like Abilities** (CL 7th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 7th)"
+  - 3rd (3/day): "[[Dispel Magic]] (DC 20), [[Suggestion]] (DC 20)"
+  - 2nd (6/day): "[[Force Blast]] (DC 19), [[Hold Person]] (DC 19), [[Mystic-Cure]], [[See Invisibility]]"
+  - 1st (at will): "[[Command]] (DC 18), [[Wisp Ally]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Overlord]]"
 Perception: 14
 Ranged:
   - name: Ranged
     desc: "[[Apprehending]] [[Laser Pistol#Laser Pistol, Corona|Corona Laser Pistol]]+11 to hit (2d4+7 F; critical burn 1d4)"
 RP: 4
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+10 (`dice: 1d20+10`)"
-size: medium
+  - Fort: 6
+  - Ref: 6
+  - Will: 10
+size: Medium
 Skills:
-  - culture: "+14 (`dice: 1d20+14`)"
-  - Diplomacy: "+19 (`dice: 1d20+19`)"
-  - Intimidate: "+14 (`dice: 1d20+14`)"
-  - Mysticism: "+19 (`dice: 1d20+19`)"
+  - culture: 14
+  - Diplomacy: 19
+  - Intimidate: 14
+  - Mysticism: 19
 source: Pact Worlds
 species: "[[Human]]"
 Speed: 30 ft.

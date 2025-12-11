@@ -5,7 +5,7 @@ abilitymods:
   - CON: 3
   - INT: -3
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 18 KAC: 19" 
 alignment: N
 cr: 6
@@ -39,16 +39,16 @@ offabilities:
 otherabil: "[[Spaceflight (Su)]]"
 Perception: 18
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+9 (`dice: 1d20+9`)" 
+  - Fort: 5
+  - Ref: 7
+  - Will: 9 
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+18 (`dice: 1d20+18`)"
-  - Athletics: "+13 (`dice: 1d20+13`)"
-  - Piloting: "+18 (`dice: 1d20+18`) (to navigate only)"
-  - Stealth: "+13 (`dice: 1d20+13`)" 
+  - Acrobatics: 18
+  - Athletics: 13
+  - Piloting: 18
+  - Stealth: 13 
 source: Alien Archive 3 
 specialabil:
   - name: "Psychic Shriek (Su)"

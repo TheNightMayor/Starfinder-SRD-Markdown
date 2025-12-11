@@ -44,31 +44,28 @@ image: "[[dragon, mature adult horacalcum.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "[[Breath Weapon (Su)]] (100-ft. line, 16d10 C, Reflex DC 23 half, usable every 1d4 rounds), [[Crush (Ex)]] (5d8+24 B)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 15th)"
-  - name: "1/day"
-    desc: "[[Call Cosmos]], [[Retrocognition]]"
-  - name: "3/day"
-    desc: "[[Divination]], [[Mind-Thrust]] (4th level, DC 22), [[Reincarnate]], [[Resilient Sphere]] (DC 22)"
-  - name: "At will"
-    desc: "[[Haste]], [[Probability Prediction]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 15th)"
+  - 1/day: "[[Call Cosmos]], [[Retrocognition]]"
+  - 3/day: "[[Divination]], [[Mind-Thrust]] (4th level, DC 22), [[Reincarnate]], [[Resilient Sphere]] (DC 22)"
+  - At will: "[[Haste]], [[Probability Prediction]]"
 otherabil: "[[Spaceflight Su]]"
 Perception: 26
 reach: "10 ft. (15 ft. with bite)"
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+20 (`dice: 1d20+20`)" 
+  - Fort: 15
+  - Ref: 15
+  - Will: 20 
 Senses: "[[blindsense]] (vibration) 60 ft., [[darkvision]] 120 ft., [[low-light vision]]"
 size: Huge
 Skills:
-  - Acrobatics: "+26 (`dice: 1d20+26`) (+18 to fly)"
-  - Culture: "+31 (`dice: 1d20+31`)"
-  - Diplomacy: "+31 (`dice: 1d20+31`)"
-  - Mysticism: "+31 (`dice: 1d20+31`)"
-  - Piloting: "+26 (`dice: 1d20+26`) (to navigate only)"
-  - Sense Motive: "+26 (`dice: 1d20+26`)"
-  - Survival: "+26 (`dice: 1d20+26`)" 
+  - Acrobatics: 26
+  - Culture: 31
+  - Diplomacy: 31
+  - Mysticism: 31
+  - Piloting: 26
+  - Sense Motive: 26
+  - Survival: 26 
 source: Alien Archive 3 
 space: "15 ft."
 specialabil:

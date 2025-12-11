@@ -3,8 +3,8 @@ abilitymods:
   - STR: 5
   - DEX: 1
   - CON: 3
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: 1 
 ac: "EAC: 16 KAC: 16" 
 alignment: N
@@ -43,15 +43,15 @@ Ranged:
     desc: "squad machine gun +10 to hit (1d10+4 P)"
 reach: "10 ft."
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+5 (`dice: 1d20+5`)" 
+  - Fort: 6
+  - Ref: 8
+  - Will: 5 
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - intimidate:  "+15 (`dice: 1d20+15`)"
-  - Stealth: "+10 (`dice: 1d20+10`)"
-  - Survival: "+10 (`dice: 1d20+10`)" 
+  - intimidate:  15
+  - Stealth: 10
+  - Survival: 10 
 source: Alien Archive 
 space: "10 ft."
 Speed: 40 ft. 

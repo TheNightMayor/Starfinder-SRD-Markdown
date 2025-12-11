@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 1
   - DEX: 4
-  - CON: "—"
-  - INT: "+0"
-  - WIS: "+0"
-  - CHA: "+0"
+  - CON: —
+  - INT: 0
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 14 KAC: 16" 
 alignment: N
 cr: 3
@@ -44,14 +44,14 @@ otherabil: "[[Unliving Ex|unliving]]"
 Perception: 8
 reach: "0 ft. (or 5 ft.)"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+0 (`dice: 1d20+0`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 0 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Tiny
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Athletics: "+8 (`dice: 1d20+8`)" 
+  - Acrobatics: 13
+  - Athletics: 8 
 source: Alien Archive 3 
 space: "2-1/2 ft."
 specialabil:

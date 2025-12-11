@@ -5,7 +5,7 @@ abilitymods:
   - CON: 4
   - INT: -4
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 22 KAC: 24" 
 alignment: N
 climate: any
@@ -47,14 +47,14 @@ Ranged:
     desc: "acid jet +18 to hit (3d6+9 A)"
 reach: "10 ft."
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
+  - Fort: 13
+  - Ref: 13
+  - Will: 8 
 Senses: "[[low-light vision]], [[Sense Through]] (vision [stone only])"
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`)"
-  - stealth:  "+22 (`dice: 1d20+22`)"
+  - Acrobatics: 17
+  - stealth:  22
 source: Alien Archive
 space: "10 ft."
 specialabil:

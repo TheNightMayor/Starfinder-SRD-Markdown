@@ -3,7 +3,7 @@ abilitymods:
   - STR: 2
   - DEX: 4
   - CON: 1
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
   - CHA: -1 
 ac: "EAC: 14 KAC: 16" 
@@ -42,15 +42,15 @@ Ranged:
   - name: "Ranged"
     desc: "muzzle beam +12 to hit (1d4+3 F; critical burn 1d4)"
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 2 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+8 (`dice: 1d20+8`)"
-  - Athletics: "+8 (`dice: 1d20+8`) (+16 to climb)"
-  - Stealth: "+13 (`dice: 1d20+13`)"
+  - Acrobatics: 8
+  - Athletics: 8
+  - Stealth: 13
 source: Alien Archive 2 
 specialabil:
   - name: "Bristle Flash (Ex)"

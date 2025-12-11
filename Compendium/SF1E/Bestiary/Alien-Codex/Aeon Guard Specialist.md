@@ -1,5 +1,5 @@
 ---
-cssclasses: 
+cssclasses:
 abilitymods:
   - str: 1
   - dex: 5
@@ -32,10 +32,9 @@ hp: 102
 Init: 8
 KAC: 23
 Languages: "[[Azlanti]], Common, 4 additional languages"
-linter-yaml-title-alias: Guard, Aeon Guard Specialist
 Melee:
   - name: Melee
-    desc: tactical knife +13 to hit (15 (2d4 + 9) S)
+    desc: tactical knife +13 to hit (2d4+9 S)
 modifier: 8
 name: Aeon Guard Specialist
 image: "[[aeon guard specialist.png]]"
@@ -46,26 +45,26 @@ otherabil: "[[Operative Exploits#Cloaking Field (EX)|operative exploits (cloakin
 Perception: 15
 Ranged:
   - name: Ranged
-    desc: AG accelerator rifle +15 to hit (16 (3d4+7) P) or corona laser pistol +15 to hit (13 (2d4+7) F; critical 3 (1d4) burn)
+    desc: AG accelerator rifle +15 to hit (3d4+7 P) or corona laser pistol +15 to hit (2d4+7 F; critical 3 (1d4) burn)
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+10 (`dice: 1d20+10`)"
-  - "2": against disease and poison
+  - Fort: 9
+  - Ref: 9
+  - Will: 10
+  - "+2": against disease and poison
 Senses: "[[blindsense]](emotion) 60ft. [[darkvision]] 60ft,. [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - acrobatics: "+20 (`dice: 1d20+20`)"
-  - athletics: "+15 (`dice: 1d20+15`)"
-  - computers: "+20 (`dice: 1d20+20`)"
-  - piloting: "+15 (`dice: 1d20+15`)"
-  - profession (soldier): "+15 (`dice: 1d20+15`)"
-  - stealth: "+20 (`dice: 1d20+20`)"
+  acrobatics: 20
+  athletics: 15
+  computers: 20
+  piloting: 15
+  profession (soldier): 15
+  stealth: 20
 source: Alien Archive
 species: "[[Human]]"
 Speed: 40 ft., fly 30 ft. (jetpack, average)
 statblock: true
-subtype: ([[human]])
+subtype: "[human)"
 tags:
   - human
   - language/Azlanti
@@ -82,7 +81,7 @@ creature: Aeon Guard Specialist
 
 # Guard, Aeon Guard Specialist
 
-The powerful [[Azlanti Star Empire]] maintains its hold on its subject systems through the might of its military, which is divided into two arms: the Imperial Fleet and the [[Aeon Guard]]. Aeon Guards are the elite infantry of the Star Empire
+The powerful [[AZLANTI STAR EMPIRE]] maintains its hold on its subject systems through the might of its military, which is divided into two arms: the Imperial Fleet and the [[Aeon Guard]]. Aeon Guards are the elite infantry of the Star Empire
 
 they serve as marines aboard the warships of the Imperial Fleet, protect imperial government and military installations, quell dissent and crush rebellions, and spearhead invasions to conquer and occupy new territories for the Star Empire.
 

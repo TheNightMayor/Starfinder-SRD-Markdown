@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 6
   - DEX: 8
-  - CON: "—"
+  - CON: —
   - INT: 4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 28 KAC: 30" 
 alignment: N
 cr: 14
@@ -46,15 +46,15 @@ otherabil: "[[Unliving Ex|unliving]]"
 Perception: 25
 reach: "0 ft."
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+10 (`dice: 1d20+10`)" 
+  - Fort: 14
+  - Ref: 16
+  - Will: 10 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], [[Sense Through]] (vision [life-forms only]) 60 ft."
 size: Fine
 Skills:
-  - Acrobatics: "+30 (`dice: 1d20+30`)"
-  - Computers: "+25 (`dice: 1d20+25`)"
-  - Survival: "+25 (`dice: 1d20+25`)" 
+  - Acrobatics: 30
+  - Computers: 25
+  - Survival: 25 
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

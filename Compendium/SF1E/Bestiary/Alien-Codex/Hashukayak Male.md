@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 5
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: -4
   - WIS: 2
@@ -42,14 +42,14 @@ Perception: 10
 planet: Orikolai
 reach: "5 ft."
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 9
+  - Ref: 8
+  - Will: 5
 Senses: "[[blindsense]] (scent) 60 ft., [[low-light vision]] see sexual dimorphism"
-size: large
+size: Large
 Skills:
-  - Athletics: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+15 (`dice: 1d20+15`)"
+  - Athletics: 10
+  - Intimidate: 15
 source: Alien Archive 2
 space: "10 ft."
 specialabil:

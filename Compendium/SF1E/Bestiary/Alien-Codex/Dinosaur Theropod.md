@@ -39,11 +39,11 @@ offabilities:
 Perception: 17
 reach: "20 ft."
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 14
+  - Ref: 11
+  - Will: 9
 Senses: "[[low-light vision]]"
-size: gargantuan
+size: Gargantuan
 source: Alien Archive 2 
 space: "20 ft."
 Speed: 40 ft. 

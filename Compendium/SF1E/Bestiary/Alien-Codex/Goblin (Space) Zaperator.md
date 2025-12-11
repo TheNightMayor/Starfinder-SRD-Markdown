@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
-  - CON: "+0"
+  - CON: 0
   - INT: 1
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 11 KAC: 12" 
 alignment: NE
 climate: any
@@ -43,16 +43,16 @@ Ranged:
   - name: "Ranged"
     desc: "unstable junklaser +3 to hit (1d4 F; critical burn 1d4)"
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 0
+  - Ref: 2
+  - Will: 2
 Senses: "[[darkvision]] 60 ft."
-size: small
+size: Small
 Skills:
-  - computers:  "+7 (`dice: 1d20+7`)"
-  - Engineering: "+7 (`dice: 1d20+7`)"
-  - Stealth: "+7 (`dice: 1d20+7`)"
-  - Survival: "+3 (`dice: 1d20+3`)" 
+  - computers:  7
+  - Engineering: 7
+  - Stealth: 7
+  - Survival: 3 
 source: Alien Archive
 specialabil:
   - name: "Tinker (Ex)"
@@ -69,9 +69,6 @@ XP: 135
 
 ```statblock
 creature: Goblin (Space) Zaperator
-columns: 2
-columnWidth: 300
-forceColumns: true
 
 ```
 
@@ -79,7 +76,7 @@ forceColumns: true
 **CR 1/3**
 
 Goblin legend claims that long ago, a tribe of surprisingly clever goblins stowed away on a spacecraft that left Golarion and made its way to Absalom Station, where the goblins infiltrated the station’s worst neighborhoods and set up camps in its engineering passages. Over time, the goblins learned to build weapons and armor from scavenged parts, though many of their efforts are prone to exploding at the slightest provocation. While space goblins have since managed to hijack other ships and spread to the stars, nowhere are they as prevalent as on Absalom Station—a fact for which all other worlds that are familiar with space goblins are extremely grateful.
-Thanks to the goblins’ rapid reproduction rate, many generations have passed since those first goblins came to Absalom Station. Fluctuating gravity, an entirely new diet, and the occasional radiation leak have made space goblins a distinct offshoot species from Golarion’s goblins. They are a bit more intelligent, instinctively able to take apart technology and rebuild it to suit their strange whims. They are quicker as well, scuttling rapidly into nearby ventilation ducts after swiping unattended datapads or laser pistols.
+Thanks to the goblins’ rapid reproduction rate, many generations have passed since those first goblins came to Absalom Station. Fluctuating gravity, an entirely new diet, and the occasional radiation leak have made space goblins a distinct offshoot species from Golarion’s goblins. They are a bit more intelligent, instinctively able to take apart technology and rebuild it to suit their strange whims. They are quicker as well, scuttling rapidly into nearby ventilation ducts after swiping unattended [[Datapad]] or laser pistols.
 While some space goblins still worship the goblin hero-gods of old, partially adapting their dogma to fit their current lifestyle, many more revere Triune, the machine god. Their innate aptitude for using technology (without knowing how it actually works) leads them to believe that Triune has a plan for them. Some even think it will lead them to some kind of scavenging paradise, where every dawn will bring a new piece of advanced technology to strip for parts. However, neither Triune nor its church has yet officially acknowledged these zealous space goblins.
 Goblins from Golarion were known for their voracious appetites, often eating their body weight each day of what passed for cuisine in the twisted mind of a goblin. Space goblins were not afforded that luxury in those early days aboard Absalom Station
 they had to subsist on discarded scraps of food and other garbage. As such, space goblins aren’t as insatiable, though they are no less orally fixated. There is an even chance that upon encountering a strange item, a space goblin will try to either dismantle it or eat it. A space goblin might even attempt to diagnose a problem with a small piece of technology by putting it in his mouth and tasting every part of it.
@@ -90,4 +87,4 @@ The physical differences between space goblins and their cousins from Golarion (
 ## EXTRA CONTENT
 
 The following extra content was found for this creature: 
-\- Goblin (Space) Race Entry
+\- [[Goblin, Space]] Race Entry

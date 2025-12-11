@@ -47,15 +47,15 @@ Ranged:
     desc: "gravity anchor +22 to hit (6d4+12 force plus reposition or trip)"
 reach: "10 ft."
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 16
+  - Ref: 14
+  - Will: 11
 Senses: "[[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - intimidate:  "+27 (`dice: 1d20+27`)"
-  - Stealth: "+22 (`dice: 1d20+22`)"
-  - Survival: "+22 (`dice: 1d20+22`)"
+  - intimidate:  27
+  - Stealth: 22
+  - Survival: 22
 source: Alien Archive 
 space: "10 ft."
 specialabil:

@@ -3,7 +3,7 @@ abilitymods:
   - STR: 5
   - DEX: 2
   - CON: 3
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
   - CHA: -1
 ac: "EAC: 21 KAC: 23"
@@ -45,14 +45,14 @@ Ranged:
   - name: Ranged
     desc: "[[Plasma Pistol#Plasma Pistol, Red Star|red star plasma pistol]] +13 to hit (1d8+6 E & F; critical burn 1d8) or frag grenade II +13 to hit (explode [15 ft., 2d6 P, DC 14])"
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+7 (`dice: 1d20+7`) (+5 vs. emotion effects)"
-size: medium
+  - Fort: 8
+  - Ref: 6
+  - Will: 7
+size: Medium
 Skills:
-  - Athletics: "+20 (`dice: 1d20+20`)"
-  - Engineering: "+11 (`dice: 1d20+11`)"
-  - Intimidate: "+17 (`dice: 1d20+17`)"
+  - Athletics: 20
+  - Engineering: 11
+  - Intimidate: 17
 source: Alien Archive
 species: "[[Human]]"
 Speed: 30 ft.

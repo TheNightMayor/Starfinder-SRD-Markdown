@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 6
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: -3
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 20 KAC: 22" 
 alignment: N
 climate: any
@@ -50,13 +50,13 @@ otherabil: "pod spawn"
 Perception: 16
 reach: "15 ft."
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+10 (`dice: 1d20+10`)" 
+  - Fort: 12
+  - Ref: 7
+  - Will: 10 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: huge
+size: Huge
 Skills:
-  - Stealth: "+16 (`dice: 1d20+16`) (+21 in dense vegetation)"
+  - Stealth: 16
 source: Alien Archive 2 
 space: "15 ft."
 specialabil:

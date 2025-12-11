@@ -40,29 +40,26 @@ offabilities:
     desc: "virtual mortality"
   - name: Spell-Like Abilities 
     desc: (CL 12th; Melee +22, ranged +24) 
-  - name: "1/day"
-    desc: "[[Holographic Terrain]] (DC 22), [[Overload Systems]] (DC 21)"
-  - name: "3/day"
-    desc: "[[Arcing Surge]] (DC 20), [[Displacement]], [[Holographic Image]] (5th level, DC 22), [[Instant Virus]](DC 20)"
-  - name: At will
-    desc: "[[Holographic Image]] (3th level, DC 20), [[Magic Missile]], [[Remote Operation]]"
+  - 1/day: "[[Holographic Terrain]] (DC 22), [[Overload Systems]] (DC 21)"
+  - 3/day: "[[Arcing Surge]] (DC 20), [[Displacement]], [[Holographic Image]] (5th level, DC 22), [[Instant Virus]](DC 20)"
+  - At will: "[[Holographic Image]] (3th level, DC 20), [[Magic Missile]], [[Remote Operation]]"
 Perception: 22
 Ranged:
   - name: "Ranged"
     desc: "electro discharge +24 to hit (2d8+12 E; critical arc 3d6)"
 reach: "5 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+17 (`dice: 1d20+17`)" 
+  - Fort: 11
+  - Ref: 13
+  - Will: 17 
 Senses: "[[blindsense]] (life) 60 ft., [[darkvision]] 120 ft."
 size: Large
 Skills:
-  - Bluff:  "+27 (`dice: 1d20+27`)"
-  - Computers: "+27 (`dice: 1d20+27`)"
-  - Culture: "+27 (`dice: 1d20+27`)"
-  - Engineering: "+22 (`dice: 1d20+22`)"
-  - Piloting: "+22 (`dice: 1d20+22`)" 
+  - Bluff:  27
+  - Computers: 27
+  - Culture: 27
+  - Engineering: 22
+  - Piloting: 22 
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

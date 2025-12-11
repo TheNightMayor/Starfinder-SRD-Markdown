@@ -34,29 +34,26 @@ image: "[[Images/Aliens/Enemies/humanoid/gray/gray.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "sleep paralysis"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 4th)"
-  - name: "1/day"
-    desc: "[[Deep Slumber]] (DC 18), [[Hold Person]] (DC 17)"
-  - name: "3/day"
-    desc: "[[Detect Thoughts]] (DC 16), [[Mindlink]] (DC 16), [[Mind Thrust]] (1st-level, DC 16)"
-  - name: "At will"
-    desc: "[[Daze]] (DC 15), [[Detect Affliction]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 4th)"
+  - 1/day: "[[Deep Slumber]] (DC 18), [[Hold Person]] (DC 17)"
+  - 3/day: "[[Detect Thoughts]] (DC 16), [[Mindlink]] (DC 16), [[Mind Thrust]] (1st-level, DC 16)"
+  - At will: "[[Daze]] (DC 15), [[Detect Affliction]]"
 Perception: 10
 planet: []
 Ranged:
   - name: "Ranged"
     desc: "needler pistol +8 to hit (1d4+4 P plus blue whinnis)"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+9 (`dice: 1d20+9`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 9 
 Senses: "[[darkvision]] 30 ft."
-size: small
+size: Small
 Skills:
-  - life science:  "+15 (`dice: 1d20+15`)"
-  - Medicine: "+10 (`dice: 1d20+10`)"
-  - Sense Motive: "+15 (`dice: 1d20+15`)" 
+  - life science:  15
+  - Medicine: 10
+  - Sense Motive: 15 
 source: Alien Archive
 specialabil:
   - name: "Phase (Su)"

@@ -1,0 +1,23 @@
+views:
+  - type: cards
+    name: Aliens by CR
+    filters:
+      and:
+        - file.folder == "Starfinder-SRD/Compendium/Bestiary/Alien-Codex"
+        - file.name != "Alien-Codex.base"
+    order:
+      - cr
+      - file.name
+      - type
+      - subtype
+      - image
+    sort:
+      - property: cr
+        direction: ASC
+    columnSize:
+      note.name: 306
+      note.type: 100
+    rowHeight: tall
+    image: note.image
+    imageAspectRatio: 0.85
+    imageFit: contain

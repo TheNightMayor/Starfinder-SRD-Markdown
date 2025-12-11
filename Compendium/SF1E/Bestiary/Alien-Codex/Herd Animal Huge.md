@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 5
-  - DEX: "+0"
+  - DEX: 0
   - CON: 3
   - INT: -4
   - WIS: 1
@@ -31,13 +31,13 @@ image: "[[herd animal, huge.jpg]]"
 Perception: 10
 reach: "15 ft."
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 9
+  - Ref: 6
+  - Will: 4
 Senses: "[[low-light vision]]"
 size: Huge
 Skills:
-  - Athletics: "+15 (`dice: 1d20+15`)"
+  - Athletics: 15
 source: Alien Archive 2 
 space: "15 ft."
 Speed: 30 ft. 

@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 1
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 4
   - WIS: 6
   - CHA: 2
@@ -43,34 +43,28 @@ Perception: 16
 Ranged:
   - name: Ranged
     desc: corona laser pistol +16 to hit (2d4+8 F; critical burn 1d4)
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 8th)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 8th; ranged +16)
-  - name: 3rd (3/day)
-    desc: "[[Remove Affliction]], [[Tongues]]"
-  - name: 2nd (6/day)
-    desc: "[[Augury]], [[Force Blast]] (DC 19), [[Hurl Forcedisk]], [[Zone of Truth]] (DC 19)"
-  - name: 1st (at will)
-    desc: "[[identify]], [[Mystic Cure]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Akashic]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 8th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 8th; ranged +16)"
+  - 3rd (3/day): "[[Remove Affliction]], [[Tongues]]"
+  - 2nd (6/day): "[[Augury]], [[Force Blast]] (DC 19), [[Hurl Forcedisk]], [[Zone of Truth]] (DC 19)"
+  - 1st (at will): "[[identify]], [[Mystic Cure]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Akashic]]"
 RP: 4
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+13 (`dice: 1d20+13`)"
+  - Fort: 7
+  - Ref: 9
+  - Will: 13
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - culture: "+16 (`dice: 1d20+16`)"
-  - Life Science: "+21 (`dice: 1d20+21`)"
-  - Medicine: "+16 (`dice: 1d20+16`)"
-  - Mysticism: "+21 (`dice: 1d20+21`)"
-  - Physical Science: "+21 (`dice: 1d20+21`)"
-  - Profession (professor): "+16 (`dice: 1d20+16`)"
+  - culture: 16
+  - Life Science: 21
+  - Medicine: 16
+  - Mysticism: 21
+  - Physical Science: 21
+  - Profession (professor): 16
 source: Alien Archive 2
 specialabil:
   - name: Slime (Ex)

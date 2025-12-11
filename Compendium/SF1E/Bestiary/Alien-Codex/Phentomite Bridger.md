@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 2
   - DEX: 5
-  - CON: "+0"
+  - CON: 0
   - INT: 2
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 18 KAC: 19"
 alignment: NG
 class: "[[Operative]]"
@@ -48,17 +48,17 @@ Ranged:
   - name: Ranged
     desc: tactical semi-auto pistol +14 to hit (1d6+6 P) or tactical shirren-eye rifle +14 to hit (1d10+6 P)
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 5
+  - Ref: 12
+  - Will: 5
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+19 (`dice: 1d20+19`)"
-  - Athletics: "+19 (`dice: 1d20+19`) (+27 to climb or swim)"
-  - Culture: "+14 (`dice: 1d20+14`)"
-  - Engineering: "+14 (`dice: 1d20+14`)"
-  - Survival: "+19 (`dice: 1d20+19`)"
+  - Acrobatics: 19
+  - Athletics: 19
+  - Culture: 14
+  - Engineering: 14
+  - Survival: 19
 source: Alien Archive 2
 specialabil:
   - name: Acclimated (Ex)

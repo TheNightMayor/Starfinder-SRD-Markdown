@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 6
-  - CON: "—"
+  - CON: —
   - INT: 2
   - WIS: 1
   - CHA: 4 
@@ -35,10 +35,9 @@ Languages: "one language determined by original creator"
 Melee:
   - name: "Melee"
     desc: "hardlight slam +18 to hit (1d12+8 B; critical dazzled [DC 18])"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 8th)"
-  - name: "At will"
-    desc: "[[Holographic Image]] (1st level, DC 16)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 8th)"
+  - At will: "[[Holographic Image]] (1st level, DC 16)"
 modifier: 6
 name: "Living Hologram"
 image: "[[Living Hologram.png]]"
@@ -46,17 +45,17 @@ image: "[[Living Hologram.png]]"
 otherabil: "freeze, [[Unliving Ex|unliving]]"
 Perception: 16
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+9 (`dice: 1d20+9`)" 
+  - Fort: 5
+  - Ref: 5
+  - Will: 9 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+21 (`dice: 1d20+21`) (+29 to fly)"
-  - Bluff: "+16 (`dice: 1d20+16`)"
-  - Computers: "+21 (`dice: 1d20+21`)"
-  - Culture: "+16 (`dice: 1d20+16`)"
-  - Stealth: "+21 (`dice: 1d20+21`)" 
+  - Acrobatics: 21
+  - Bluff: 16
+  - Computers: 21
+  - Culture: 16
+  - Stealth: 21 
 specialabil:
   - name: "Freeze (Ex)"
     desc: "A living hologram can hold perfectly still so that it appears to be a normal hologram. It can take 20 on Stealth checks to hide in plain sight as a hologram (usually among other holograms)."

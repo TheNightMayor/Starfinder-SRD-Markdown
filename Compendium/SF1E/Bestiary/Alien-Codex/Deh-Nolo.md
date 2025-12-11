@@ -50,33 +50,30 @@ image: "[[Deh-Nolo.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "brain collection"
-  - name: "Spells Known" 
-    desc: "(CL 14th melee +21)"
-  - name: "5th (3/day)"
-    desc: "[[Control Machines]] (DC 24), [[Synapse Overload]] (DC 24)"
-  - name: "4th (6/day)"
-    desc: "[[Corrosive Haze]] (DC 23), [[Dimension Door]], [[Overload Systems]] (DC 23), [[Rewire Flesh]] (DC 23)"
-  - name: "3rd (at will)"
-    desc: "[[Discharge]] (DC 22), [[Instant Virus]] (DC 22)"
+Spells:
+  - "**Spells Known** (CL 14th melee +21)"
+  - 5th (3/day): "[[Control Machines]] (DC 24), [[Synapse Overload]] (DC 24)"
+  - 4th (6/day): "[[Corrosive Haze]] (DC 23), [[Dimension Door]], [[Overload Systems]] (DC 23), [[Rewire Flesh]] (DC 23)"
+  - 3rd (at will): "[[Discharge]] (DC 22), [[Instant Virus]] (DC 22)"
 Perception: 30
 Ranged:
   - name: "Ranged"
     desc: "synthesized projectile +23 to hit (4d8+14 P plus [[Dominion Bile]] or spell-slot sacrifice)"
 reach: "5 ft."
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+19 (`dice: 1d20+19`)" 
+  - Fort: 12
+  - Ref: 12
+  - Will: 19 
 Senses: "[[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - computers:  "+25 (`dice: 1d20+25`)"
-  - Culture: "+25 (`dice: 1d20+25`)"
-  - Engineering: "+30 (`dice: 1d20+30`)"
-  - Life Science: "+30 (`dice: 1d20+30`)"
-  - Medicine: "+25 (`dice: 1d20+25`)"
-  - Mysticism: "+30 (`dice: 1d20+30`)"
-  - Physical Science: "+25 (`dice: 1d20+25`)" 
+  - computers:  25
+  - Culture: 25
+  - Engineering: 30
+  - Life Science: 30
+  - Medicine: 25
+  - Mysticism: 30
+  - Physical Science: 25 
 source: Alien Archive
 space: "10 ft."
 specialabil:

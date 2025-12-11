@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 8
   - CON: 2
   - INT: 3
@@ -43,24 +43,21 @@ Perception: 25
 Ranged:
   - name: "Ranged"
     desc: "neutron radshot +20 to hit (5d4+14 F; critical irradiate [DC 22])"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 14th; ranged +20)"
-  - name: "1/day"
-    desc: "greater [[Synaptic Pulse]] (DC 24), [[Plane Shift]] (Elemental Planes, First World, or Material Plane; self only), [[Waves of Fatigue]]"
-  - name: "3/day"
-    desc: "[[Confusion]](DC 23), [[Enervationy]], [[Mind Probe]] (DC 23), [[Mind Thrust]] (4th level, DC 23)"
-  - name: "At will"
-    desc: "[[Fear]](3rd level, DC 22), [[Irradiate]] (DC 22)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 14th; ranged +20)"
+  - 1/day: "greater [[Synaptic Pulse]] (DC 24), [[Plane Shift]] (Elemental Planes, First World, or Material Plane; self only), [[Waves of Fatigue]]"
+  - 3/day: "[[Confusion]](DC 23), [[Enervationy]], [[Mind Probe]] (DC 23), [[Mind Thrust]] (4th level, DC 23)"
+  - At will: "[[Fear]](3rd level, DC 22), [[Irradiate]] (DC 22)"
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+17 (`dice: 1d20+17`)" 
+  - Fort: 14
+  - Ref: 14
+  - Will: 17 
 Senses: "[[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+25 (`dice: 1d20+25`) (+33 to fly)"
-  - Mysticism: "+25 (`dice: 1d20+25`)"
-  - Stealth: "+30 (`dice: 1d20+30`)" 
+  - Acrobatics: 25
+  - Mysticism: 25
+  - Stealth: 30 
 source: Alien Archive 3 
 specialabil:
   - name: "Blend with Light (Su)"

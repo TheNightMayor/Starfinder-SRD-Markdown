@@ -5,7 +5,7 @@ abilitymods:
   - CON: 2
   - INT: 5
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 18 KAC: 19" 
 alignment: NE
 climate: any
@@ -53,18 +53,18 @@ Ranged:
   - name: "Ranged"
     desc: "mi-go frostbite-class zero rifle +14 to hit (1d8+5 C; critical staggered [DC 16])"
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+5 (`dice: 1d20+5`)" 
+  - Fort: 11
+  - Ref: 5
+  - Will: 5 
 Senses: "[[blindsight]] (vibration) 30 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Bluff: "+18 (`dice: 1d20+18`)"
-  - Engineering: "+13 (`dice: 1d20+13`)"
-  - Life Science: "+18 (`dice: 1d20+18`)"
-  - Medicine: "+13 (`dice: 1d20+13`)"
-  - Mysticism: "+18 (`dice: 1d20+18`)" 
+  - Acrobatics: 13
+  - Bluff: 18
+  - Engineering: 13
+  - Life Science: 18
+  - Medicine: 13
+  - Mysticism: 18 
 source: Alien Archive 2 
 specialabil:
   - name: "Evisceration (Ex)"

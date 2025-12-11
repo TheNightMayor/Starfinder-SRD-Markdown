@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 3
   - CON: 2
   - INT: -3
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 17 KAC: 19" 
 alignment: N
 cr: 5
@@ -42,14 +42,14 @@ offabilities:
     desc: "spinning charge"
 Perception: 11
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 9
+  - Ref: 7
+  - Will: 4 
 Senses: "[[blindsense]] (vibration) 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`)"
-  - Athletics: "+11 (`dice: 1d20+11`)"
+  - Acrobatics: 16
+  - Athletics: 11
 source: Alien Archive 4 
 specialabil:
   - name: "Epicuticular Enzyme (Ex)"

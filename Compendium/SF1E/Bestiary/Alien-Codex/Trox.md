@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 4
-  - DEX: "+0"
+  - DEX: 0
   - CON: 2
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 13 KAC: 15" 
 alignment: NG
 climate: any
@@ -46,15 +46,15 @@ Perception: 7
 planet: Nchak
 reach: "10 ft."
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 6
+  - Ref: 5
+  - Will: 3 
 Senses: "[[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - Athletics: "+12 (`dice: 1d20+12`)"
-  - Intimidate: "+7 (`dice: 1d20+7`)"
-  - Mysticism: "+7 (`dice: 1d20+7`)" 
+  - Athletics: 12
+  - Intimidate: 7
+  - Mysticism: 7 
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

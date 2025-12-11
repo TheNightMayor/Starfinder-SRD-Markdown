@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
-  - DEX: "+0"
+  - STR: 0
+  - DEX: 0
   - CON: 4
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 2 
 ac: "EAC: 13 KAC: 14"
 alignment: N
@@ -51,17 +51,17 @@ Ranged:
   - name: "Ranged"
     desc: "static arc pistol +7 to hit (1d6+2 E; critical arc 2)"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+7 (`dice: 1d20+7`) +2 vs. bleed"
+  - Fort: 3
+  - Ref: 1
+  - Will: "+7 +2 vs. bleed"
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+7 (`dice: 1d20+7`)"
-  - Computers: "+7 (`dice: 1d20+7`)"
-  - Diplomacy: "+12 (`dice: 1d20+12`)"
-  - Physical Science: "+12 (`dice: 1d20+12`)"
-  - Sense Motive: "+12 (`dice: 1d20+12`)" 
+  - Athletics: 7
+  - Computers: 7
+  - Diplomacy: 12
+  - Physical Science: 12
+  - Sense Motive: 12 
 source: Alien Archive 2 
 specialabil:
   - name: "Endothermic (Ex)"

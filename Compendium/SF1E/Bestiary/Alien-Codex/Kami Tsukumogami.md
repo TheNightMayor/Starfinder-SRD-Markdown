@@ -29,30 +29,25 @@ Melee:
 modifier: 5
 name: "Kami, Tsukumogami"
 image: "[[kami, tsukumogami.png]]"
-
-offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 4th, melee +9)"
-  - name: "1/day"
-    desc: "[[Inject Nanobots]] (DC 17), [[Invisibility]]"
-  - name: "3/day"
-    desc: "[[Holographic Image]] (1st level, DC 16), [[Jolting Surge]], [[Magic Missile]]"
-  - name: "At will"
-    desc: "[[Ghost Sound]] (DC 15), [[Mending]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 4th, melee +9)"
+  - 1/day: "[[Inject Nanobots]] (DC 17), [[Invisibility]]"
+  - 3/day: "[[Holographic Image]] (1st level, DC 16), [[Jolting Surge]], [[Magic Missile]]"
+  - At will: "[[Ghost Sound]] (DC 15), [[Mending]]"
 otherabil: "merge with ward (personal comm unit), [[No Breath Ex]], permanent merge"
 Perception: 10
 reach: "0 ft."
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+9 (`dice: 1d20+9`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 9 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Diminutive
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Engineering: "+10 (`dice: 1d20+10`)"
-  - Mysticism: "+10 (`dice: 1d20+10`)"
-  - Stealth: "+15 (`dice: 1d20+15`)" 
+  - Acrobatics: 10
+  - Engineering: 10
+  - Mysticism: 10
+  - Stealth: 15 
 source: Alien Archive 3 
 space: "1 ft."
 specialabil:

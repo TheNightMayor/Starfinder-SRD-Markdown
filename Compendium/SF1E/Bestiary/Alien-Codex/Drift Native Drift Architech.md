@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 8
-  - CON: "+0"
+  - CON: 0
   - INT: 5
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 23 KAC: 24"
 alignment: N
 cr: 10
@@ -38,17 +38,17 @@ otherabil: "traverse space"
 Perception: 19
 reach: "15 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+13 (`dice: 1d20+13`)"
+  - Fort: 11
+  - Ref: 9
+  - Will: 13
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Acrobatics: "+24 (`dice: 1d20+24`) (+32 to fly)"
-  - Engineering: "+19 (`dice: 1d20+19`)"
-  - Life Science: "+24 (`dice: 1d20+24`)"
-  - Mysticism: "+19 (`dice: 1d20+19`)"
-  - Physical Science: "+24 (`dice: 1d20+24`)"
+  - Acrobatics: 24
+  - Engineering: 19
+  - Life Science: 24
+  - Mysticism: 19
+  - Physical Science: 24
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

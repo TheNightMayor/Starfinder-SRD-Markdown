@@ -4,10 +4,10 @@ cssclasses:
 abilitymods:
   - STR: 8
   - DEX: 6
-  - CON: "—"
+  - CON: —
   - INT: 4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 27 KAC: 29" 
 alignment: NE
 Aura: "gravity well (5 ft., DC 21)"
@@ -43,14 +43,14 @@ offabilities:
 otherabil: "[[Unliving Ex|unliving]]"
 Perception: 23
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+14 (`dice: 1d20+14`)" 
+  - Fort: 15
+  - Ref: 15
+  - Will: 14 
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+28 (`dice: 1d20+28`) (+36 when climbing)"
-  - Stealth: "+23 (`dice: 1d20+23`)" 
+  - Athletics: 28
+  - Stealth: 23 
 source: Alien Archive 
 specialabil:
   - name: "Decompression Gaze (Su)"

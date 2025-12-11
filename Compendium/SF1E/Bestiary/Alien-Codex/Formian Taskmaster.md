@@ -47,24 +47,21 @@ planet: Castrovel
 Ranged:
   - name: "Ranged"
     desc: "thunderstrike streetsweeper +14 to hit (1d10+7 So; critical knockdown)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 7th; ranged +14)"
-  - name: "1/day"
-    desc: "[[Suggestion]] (DC 20), [[Tongues]]"
-  - name: "3/day"
-    desc: "[[Daze Monster]] (DC 19), [[Force Blast]] (DC 19), [[Hurl Forcedisk]], [[Mystic Cure]] (2nd level)"
-  - name: "At will"
-    desc: "[[Charm Person]] (DC 18), [[Mindlink]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 7th; ranged +14)"
+  - 1/day: "[[Suggestion]] (DC 20), [[Tongues]]"
+  - 3/day: "[[Daze Monster]] (DC 19), [[Force Blast]] (DC 19), [[Hurl Forcedisk]], [[Mystic Cure]] (2nd level)"
+  - At will: "[[Charm Person]] (DC 18), [[Mindlink]]"
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 6
+  - Ref: 8
+  - Will: 12 
 Senses: "[[blindsense]] (scent) 30 ft., [[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - diplomacy:  "+19 (`dice: 1d20+19`)"
-  - Profession (merchant): "+19 (`dice: 1d20+19`)"
-  - Sense Motive: "+14 (`dice: 1d20+14`)" 
+  - diplomacy:  19
+  - Profession (merchant): 19
+  - Sense Motive: 14 
 source: Alien Archive 2 
 specialabil:
   - name: "Hive Mind (Ex)"

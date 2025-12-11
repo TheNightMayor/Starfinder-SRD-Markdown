@@ -3,8 +3,8 @@ abilitymods:
   - STR: 2
   - DEX: 4
   - CON: 1
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: 1 
 ac: "EAC: 11 KAC: 13"
 alignment: LE
@@ -44,15 +44,15 @@ Ranged:
     desc: "azimuth laser rifle +8 to hit (1d8+1 F; critical burn 1d6) or stickybomb grenade I +8 to hit (explode [10ft., entangled 2d4 rounds, DC 10])"
 reach: "5 ft. (10 ft. with standard taclash)"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+1 (`dice: 1d20+1`)" 
+  - Fort: 3
+  - Ref: 5
+  - Will: 1 
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+5 (`dice: 1d20+5`)"
-  - Intimidate: "+5 (`dice: 1d20+5`)"
-  - Stealth: "+10 (`dice: 1d20+10`)" 
+  - Athletics: 5
+  - Intimidate: 5
+  - Stealth: 10 
 source: Alien Archive 2 
 space: "5 ft."
 specialabil:

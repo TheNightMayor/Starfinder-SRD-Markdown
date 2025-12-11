@@ -5,7 +5,7 @@ abilitymods:
   - CON: —
   - INT: 1
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 14 KAC: 15"
 alignment: NE
 class: "[[Operative]]"
@@ -51,16 +51,16 @@ Ranged:
   - name: Ranged
     desc: static arc pistol +9 to hit (1d6+3 E; critical arc 2) or tactical shirren-eye rifle +9 to hit (1d10+3 P)
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+7 (`dice: 1d20+7`)"
+  - Fort: 3
+  - Ref: 6
+  - Will: 7
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+9 (`dice: 1d20+9`)"
-  - Intimidate: "+9 (`dice: 1d20+9`)"
-  - Sleight of Hand +14 (`dice: 1d20+14`)"
-  - Stealth: "+14 (`dice: 1d20+14`)"
+  - Acrobatics: 9
+  - Intimidate: 9
+  - Sleight of Hand +14"
+  - Stealth: 14
 species: "[[Corpsefolk]]"
 Speed: 40 ft.
 statblock: true

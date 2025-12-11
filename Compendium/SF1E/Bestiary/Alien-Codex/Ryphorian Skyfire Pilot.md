@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 1
   - DEX: 5
-  - CON: "+0"
+  - CON: 0
   - INT: 3
   - WIS: 2
   - CHA: 1
@@ -50,17 +50,17 @@ Ranged:
     desc: thunderstrike sonic pistol +12 to hit (1d8+5 So; critical deafened [DC 15])
 RP: 4
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 4
+  - Ref: 7
+  - Will: 8
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Bluff: "+12 (`dice: 1d20+12`)"
-  - Culture: "+17 (`dice: 1d20+17`)"
-  - Engineering: "+12 (`dice: 1d20+12`)"
-  - Piloting: "+17 (`dice: 1d20+17`)"
-  - Survival: "+17 (`dice: 1d20+17`)"
+  - Bluff: 12
+  - Culture: 17
+  - Engineering: 12
+  - Piloting: 17
+  - Survival: 17
 source: Alien Archive
 species: "[[Summerborn ryphorian]]"
 Speed: 40 ft., fly 30 ft. (jetpack, average)

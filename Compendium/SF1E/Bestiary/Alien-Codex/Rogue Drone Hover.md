@@ -32,14 +32,14 @@ Ranged:
   - name: "Ranged"
     desc: "merciful tactical rotating pistol +15 to hit (2d4+6 P nonlethal)"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 7 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Tiny
 Skills:
-  - Acrobatics: "+18 (`dice: 1d20+18`) (+26 to fly)"
-  - Engineering: "+18 (`dice: 1d20+18`)" 
+  - Acrobatics: 18
+  - Engineering: 18 
 source: Alien Archive 3 
 specialabil:
   - name: "Drone Mods (Ex)"

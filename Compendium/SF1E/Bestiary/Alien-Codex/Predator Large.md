@@ -31,13 +31,13 @@ image: "[[predator, large.jpg]]"
 Perception: 10
 reach: "10 ft."
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 6
+  - Ref: 6
+  - Will: 3
 Senses: "[[low-light vision]]"
 size: Large
 Skills:
-  - Athletics: "+10 (`dice: 1d20+10`)"
+  - Athletics: 10
 source: Alien Archive 2 
 space: "10 ft."
 Speed: 40 ft. 

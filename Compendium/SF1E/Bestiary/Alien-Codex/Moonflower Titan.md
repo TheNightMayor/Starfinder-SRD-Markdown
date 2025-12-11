@@ -7,7 +7,7 @@ abilitymods:
   - CON: 7
   - INT: -2
   - WIS: 5
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 30 KAC: 32" 
 alignment: N
 climate: any
@@ -52,13 +52,13 @@ otherabil: "pod spawn"
 Perception: 28
 reach: "20 ft."
 saves:
-  - Fort: "+20 (`dice: 1d20+20`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+18 (`dice: 1d20+18`)" 
+  - Fort: 20
+  - Ref: 14
+  - Will: 18 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: gargantuan
+size: Gargantuan
 Skills:
-  - Stealth: "+28 (`dice: 1d20+28`) (+33 in dense vegetation)"
+  - Stealth: 28
 source: Alien Archive 2 
 space: "20 ft."
 specialabil:

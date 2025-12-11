@@ -5,7 +5,7 @@ abilitymods:
   - CON: 4
   - INT: -4
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 12 KAC: 13" 
 alignment: N
 climate: any
@@ -27,7 +27,7 @@ Init: 6
 KAC: 13
 Melee:
   - name: "Melee"
-    desc: "bite +8 to hit (5 (1d6+2) P plus void bite)"
+    desc: "bite +8 to hit (1d6+2 P plus void bite)"
 modifier: 6
 name: "Akata"
 image: "[[Akata.png]]"
@@ -36,15 +36,15 @@ otherabil: "deaf, hibernation, [[No Breath Ex]]"
 Perception: 5
 planet: []
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 3 
 Senses: "[[Blindsense]] (life) 10 ft., [[Blindsense]] (scent) 60 ft., [[Darkvision Ex or Su]] 120 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+5 (`dice: 1d20+5`)"
-  - Athletics: "+5 (`dice: 1d20+5`) (+13 to climb)"
-  - Stealth: "+10 (`dice: 1d20+10`)" 
+  - Acrobatics: 5
+  - Athletics: 5
+  - Stealth: 10 
 source: Alien Archive 2
 specialabil:
   - name: "Deaf (Ex)"

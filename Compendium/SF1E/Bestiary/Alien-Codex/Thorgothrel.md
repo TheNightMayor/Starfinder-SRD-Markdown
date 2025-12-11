@@ -1,10 +1,10 @@
 ---
 abilitymods:
   - STR: 6
-  - DEX: "+0"
+  - DEX: 0
   - CON: 2
   - INT: 4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 1 
 ac: "EAC: 20 KAC: 21" 
 alignment: LE
@@ -45,17 +45,17 @@ Ranged:
 reach: "10 ft."
 RP: 4 
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+9 (`dice: 1d20+9`)" 
+  - Fort: 9
+  - Ref: 5
+  - Will: 9 
 Senses: "[[blindsight]] (life) 100 ft., [[Sightless Ex]]"
 size: Large
 Skills:
-  - computers:  "+16 (`dice: 1d20+16`)"
-  - Engineering: "+21 (`dice: 1d20+21`)"
-  - Life Science: "+21 (`dice: 1d20+21`)"
-  - Medicine: "+21 (`dice: 1d20+21`)"
-  - Physical Science: "+16 (`dice: 1d20+16`)" 
+  - computers:  16
+  - Engineering: 21
+  - Life Science: 21
+  - Medicine: 21
+  - Physical Science: 16 
 space: "10 ft."
 specialabil:
   - name: "Field Overload (Ex)"

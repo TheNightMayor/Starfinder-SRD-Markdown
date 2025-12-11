@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 2
-  - DEX: "+0"
+  - DEX: 0
   - CON: 3
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 10 KAC: 12" 
 alignment: NG
 climate: any
@@ -41,15 +41,15 @@ Ranged:
   - name: "Ranged"
     desc: "pulsecaster rifle +3 to hit (1d6 E)"
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 2
+  - Ref: 1
+  - Will: 2 
 Senses: "[[low-light vision]], [[blindsense]] (30 ft.)"
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+4 (`dice: 1d20+4`) (+12 when climbing)"
-  - Stealth: "+4 (`dice: 1d20+4`)"
-  - Survival: "+9 (`dice: 1d20+9`)" 
+  - Athletics: "+4 ( +12 when climbing)"
+  - Stealth: 4 
+  - Survival: 9
 source: Alien Archive
 Speed: 30 ft., climb 20 ft. 
 statblock: true

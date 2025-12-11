@@ -4,10 +4,10 @@ cssclasses:
 abilitymods:
   - STR: 1
   - DEX: 4
-  - CON: "+0"
-  - INT: "+0"
+  - CON: 0
+  - INT: 0
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 11 KAC: 12" 
 alignment: CE
 cr: 1
@@ -44,29 +44,27 @@ image: "[[grioth.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "mindshock"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 1st)"
-  - name: "1/day"
-    desc: "[[Detect Tech]], [[Confusion Lesser]](DC 12)"
-  - name: "At will"
-    desc: "[[Daze]] (DC 11), [[Detect Magic]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 1st)"
+  - 1/day: "[[Detect Tech]], [[Confusion Lesser]](DC 12)"
+  - At will: "[[Daze]] (DC 11), [[Detect Magic]]"
 otherabil: "[[No Breath Ex]], [[Void Adaptation Ex or Su]]"
 Perception: 10
 Ranged:
   - name: "Ranged"
     desc: "bruiser decoupler +5 to hit (1d4+1 A; critical demoralize)"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 1
+  - Ref: 3
+  - Will: 6 
 Senses: "[[blindsight]] (sound) 60 ft., [[See In Darkness (Su)]]"
 size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Athletics: "+5 (`dice: 1d20+5`)"
-  - Intimidate: "+10 (`dice: 1d20+10`)"
-  - Mysticism: "+5 (`dice: 1d20+5`)"
-  - Stealth: "+5 (`dice: 1d20+5`)" 
+  - Acrobatics: 10
+  - Athletics: 5
+  - Intimidate: 10
+  - Mysticism: 5
+  - Stealth: 5 
 source: Alien Archive 4 
 specialabil:
   - name: "Mindshock (Su)"

@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 4
   - CON: 3
   - INT: -4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 2 
 ac: "EAC: 19 KAC: 21" 
 alignment: N
@@ -37,15 +37,15 @@ offabilities:
 otherabil: "dissipate"
 Perception: 14
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 11
+  - Ref: 11
+  - Will: 6 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`) (+6 to fly)"
-  - Survival: "+14 (`dice: 1d20+14`)"
-  - Stealth: "+19 (`dice: 1d20+19`)" 
+  - Acrobatics: 14
+  - Survival: 14
+  - Stealth: 19 
 source: Alien Archive 4 
 specialabil:
   - name: "Dissipate (Su)"

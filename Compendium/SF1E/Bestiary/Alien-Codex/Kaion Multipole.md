@@ -6,7 +6,7 @@ abilitymods:
   - DEX: 8
   - CON: 5
   - INT: -4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: -2 
 ac: "EAC: 23 KAC: 26" 
 alignment: N
@@ -42,14 +42,14 @@ Ranged:
   - name: "Ranged"
     desc: "sclerite +23 to hit (3d10+11 P plus entangle)"
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+10 (`dice: 1d20+10`)" 
+  - Fort: 14
+  - Ref: 16
+  - Will: 10 
 Senses: "[[blindsense]] (electromagnetism) 60 ft., [[low-light vision]]"
 size: Huge
 Skills:
-  - Acrobatics: "+20 (`dice: 1d20+20`) (+28 to fly)"
-  - Athletics: "+20 (`dice: 1d20+20`)" 
+  - Acrobatics: 20
+  - Athletics: 20 
 source: Alien Archive 4 
 specialabil:
   - name: "Magnetic Levitation (Ex)"

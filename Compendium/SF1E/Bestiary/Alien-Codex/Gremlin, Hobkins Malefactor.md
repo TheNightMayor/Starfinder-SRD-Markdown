@@ -2,7 +2,7 @@
 abilitymods:
   - STR: -1
   - DEX: 5
-  - CON: "+0"
+  - CON: 0
   - INT: 1
   - WIS: 3
   - CHA: 1 
@@ -30,14 +30,11 @@ Languages: "Aklo, Common; [[Limited Telepathy (Ex or Su)]] 60 ft."
 Melee:
   - name: "Melee"
     desc: "bite +7 to hit (1d4+3 P) or claw +7 to hit (1d4+3 S)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 4th, ranged +7)"
-  - name: "1/day"
-    desc: "[[Hologram Memory]] (2nd level, DC 17), [[Hurl Forcedisk]] (DC 17)"
-  - name: "3/day"
-    desc: "[[Fear]](1st level, DC 16), [[Mind Thrust]] (1st level, DC 16), [[Reflecting Armor]] (DC 16)"
-  - name: "At will"
-    desc: "[[Ghost Sound]] (DC 15), [[Psychokinetic Hand]] (DC 15)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 4th, ranged +7)"
+  - 1/day: "[[Hologram Memory]] (2nd level, DC 17), [[Hurl Forcedisk]] (DC 17)"
+  - 3/day: "[[Fear]](1st level, DC 16), [[Mind Thrust]] (1st level, DC 16), [[Reflecting Armor]] (DC 16)"
+  - At will: "[[Ghost Sound]] (DC 15), [[Psychokinetic Hand]] (DC 15)"
 modifier: 5
 name: "Gremlin, Hobkins, Malefactor"
 image: "[[gremlin, hobkins malefactor.png]]"
@@ -45,16 +42,16 @@ image: "[[gremlin, hobkins malefactor.png]]"
 otherabil: "collateral damage, minor levitation, perfect coordination"
 Perception: 10
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 5
+  - Ref: 5
+  - Will: 7 
 Senses: "[[darkvision]] 60 ft."
 size: Small
 Skills:
-  - computers:  "+10 (`dice: 1d20+10`)"
-  - Engineering: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+15 (`dice: 1d20+15`)"
-  - Stealth: "+15 (`dice: 1d20+15`)" 
+  - computers:  10
+  - Engineering: 10
+  - Intimidate: 15
+  - Stealth: 15 
 source: Alien Archive 3 
 specialabil:
   - name: "Collateral Damage (Su)"

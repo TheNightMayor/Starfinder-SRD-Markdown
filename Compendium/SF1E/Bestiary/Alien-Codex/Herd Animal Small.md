@@ -2,7 +2,7 @@
 abilitymods:
   - STR: -2
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: -4
   - WIS: 1
   - CHA: -2 
@@ -30,13 +30,13 @@ image: "[[herd animal, small.jpg]]"
 
 Perception: 3
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+1 (`dice: 1d20+1`)"
+  - Fort: 2
+  - Ref: 3
+  - Will: 1
 Senses: "[[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+3 (`dice: 1d20+3`)"
+  - Acrobatics: 3
 source: Alien Archive 2 
 Speed: 30 ft. 
 statblock: true

@@ -1,6 +1,6 @@
 ---
 aliases: []
-cssclasses: 
+cssclasses:
 abilitymods:
   - STR: 1
   - DEX: 5
@@ -43,17 +43,17 @@ Ranged:
   - name: Ranged
     desc: frostbite-class zero pistol +13 to hit (1d6 C; critical staggered [DC 15])
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 6
+  - Ref: 6
+  - Will: 8
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`)"
-  - Athletics: "+11 (`dice: 1d20+11`)"
-  - Engineering: "+11 (`dice: 1d20+11`)"
-  - Sense Motive: "+16 (`dice: 1d20+16`)"
-  - Survival: "+16 (`dice: 1d20+16`)"
+  - Acrobatics: 16
+  - Athletics: 11
+  - Engineering: 11
+  - Sense Motive: 16
+  - Survival: 16
 source: Alien Archive 3
 specialabil:
   - name: Alert the Herd (Ex)
@@ -62,7 +62,7 @@ specialabil:
     desc: When a dromada takes the run full action, they can move up to five times their speed, change direction once during the movement, and cross difficult terrain (though such terrain requires extra movement as normal).
   - name: Savory (Ex)
     desc: A dromada hit by a creature’s bite attack takes a –2 penalty to AC against further bite attacks from the same creature. This effect lasts 1 week and applies only once per creature.
-species: "[[Dromada]]"
+species: "[[Starfinder-SRD/Compendium/Character/Species/Dromada/Dromada/Dromada]]"
 Speed: 40 ft.
 statblock: true
 tags:
@@ -93,4 +93,4 @@ defabilities:
   - name: DR
     desc: omadas do not consider leadership of a dromada herd to be an honor or something to aspire to, as leaders become targets simply by virtue of their position. Most dromada herds elect their leaders democratically and for limited terms, but because an average dromada has no interest in taking on a leadership role, the herd itself nominates candidates for political office—whether an individual wants to run or not. Rather than focusing on their own achievements, many candidates instead highlight the accomplishments of their opponents in hopes of losing the election to someone else.
 Crime within dromada society is rare, as the punishment can be exile—a sentence akin to death for their distant ancestors. In truth, modern dromadas feel much the same way about this punishment, as most dromadas dread the prospect of being without their herd. Dromadas can nonetheless find themselves alone, whether because they were exiled, they were the sole survivors of an attack, or they were left behind due to sickness or injury. Such dromadas instinctively look for a surrogate herd to join as soon as possible. A dromada’s trust is very difficult to earn, as they view everything around them as potentially dangerous and can be extremely skittish, but they are loyal and constant companions to those who eventually gain their friendship. As a result, individual dromadas can form strong bonds with members of other species, especially those with a similar generalized fear of danger, such as the sluglike osharus.
-Dromada adventurers or mercenaries are extremely rare, as dromadas who choose such paths would need to overcome their powerful instincts to flee when in danger. But when they are able to, dromadas make excellent lookouts, first responders, and even body[[Starfinder-SRD/Compendium/Classes/Soldier/Fighting Styles/Guard]]s, using their powerful legs for lightning-fast repositioning in the heat of battle. Their fearful natures also mean that most modern dromadas have some talent configuring and bypassing security systems and devices. Still, choosing an adventurer’s life isn’t easy, as even the bravest dromadas still sometimes find themselves automatically fleeing from dangers, both real and imagined.
+Dromada adventurers or mercenaries are extremely rare, as dromadas who choose such paths would need to overcome their powerful instincts to flee when in danger. But when they are able to, dromadas make excellent lookouts, first responders, and even body[[Starfinder-SRD/Compendium/Character/Classes/Soldier/Fighting Styles/Guard]]s, using their powerful legs for lightning-fast repositioning in the heat of battle. Their fearful natures also mean that most modern dromadas have some talent configuring and bypassing security systems and devices. Still, choosing an adventurer’s life isn’t easy, as even the bravest dromadas still sometimes find themselves automatically fleeing from dangers, both real and imagined.

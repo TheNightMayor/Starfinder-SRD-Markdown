@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 2
   - INT: 1
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 14 KAC: 15" 
 alignment: CG
 cr: 3
@@ -41,16 +41,16 @@ Ranged:
   - name: "Ranged"
     desc: "tactical rail gun +8 to hit (1d8+3 P)"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 4
+  - Ref: 4
+  - Will: 6
 Senses: "[[blindsense]] (scent) 30 ft., [[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Athletics: "+13 (`dice: 1d20+13`) (+21 to climb)"
-  - Mysticism: "+13 (`dice: 1d20+13`)"
-  - Stealth: "+8 (`dice: 1d20+8`)" 
+  - Acrobatics: 13
+  - Athletics: 13
+  - Mysticism: 13
+  - Stealth: 8 
 source: Alien Archive 4 
 specialabil:
   - name: "Predreaming (Su)"

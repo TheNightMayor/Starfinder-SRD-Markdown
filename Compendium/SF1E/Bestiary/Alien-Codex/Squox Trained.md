@@ -28,15 +28,15 @@ offabilities:
 Perception: 5
 reach: "0 ft."
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+1 (`dice: 1d20+1`)"
+  - Fort: 3
+  - Ref: 6
+  - Will: 1
 Senses: "[[blindsense]] (scent) 30 ft., [[low-light vision]]"
-size: tiny
+size: Tiny
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`) (+14 to balance, escape, or tumble)"
-  - Athletics: "+5 (`dice: 1d20+5`) (+13 to climb)"
-  - Stealth: "+10 (`dice: 1d20+10`)"
+  - Acrobatics: 10
+  - Athletics: 5
+  - Stealth: 10
 source: Alien Archive 2 
 space: "2-1/2 ft."
 specialabil:

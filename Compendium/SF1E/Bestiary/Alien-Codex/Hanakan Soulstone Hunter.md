@@ -3,7 +3,7 @@ abilitymods:
   - STR: 6
   - DEX: 4
   - CON: 1
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
   - CHA: 2
 ac: "EAC: 21 KAC: 23"
@@ -42,23 +42,22 @@ offabilities:
     desc: (CL 8th)
   - name: 1/day
     desc: "[[Wisp Ally]]"
-  - name: At will
-    desc: "[[Detect Magic]], [[Token Spell]]"
+  - At will: "[[Detect Magic]], [[Token Spell]]"
 otherabil: "[[Solarian#Solar Manifestation (SU) - 1ST Level|solar manifestation]] ([[Solarian#Solar Weapon|solar weapon]]), [[Stellar Alignment Su|Stellar Alignment]]"
 Perception: 16
 Ranged:
   - name: Ranged
     desc: hybridized gelid hail pistol +17 to hit (2d6 C & P; critical bleed 1d6)
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 10
+  - Ref: 8
+  - Will: 9
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Small
 Skills:
-  - Athletics: "+16 (`dice: 1d20+16`)"
-  - Mysticism: "+21 (`dice: 1d20+21`)"
-  - Stealth: "+16 (`dice: 1d20+16`)"
+  - Athletics: 16
+  - Mysticism: 21
+  - Stealth: 16
 source: Alien Archive 3
 specialabil:
   - name: Atmospheric Adaptation (Ex)

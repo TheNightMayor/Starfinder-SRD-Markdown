@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 6
   - CON: 2
   - INT: -4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 20 KAC: 22" 
 alignment: N
 cr: 8
@@ -41,15 +41,15 @@ offabilities:
 Perception: 16
 reach: "10 ft."
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 12
+  - Ref: 12
+  - Will: 7 
 Senses: "[[blindsight]] 120 ft. (sound), [[Sightless Ex]]"
 size: Large
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`)"
-  - Athletics: "+21 (`dice: 1d20+21`)"
-  - Stealth: "+16 (`dice: 1d20+16`)"
+  - Acrobatics: 16
+  - Athletics: 21
+  - Stealth: 16
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

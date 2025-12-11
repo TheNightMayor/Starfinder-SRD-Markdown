@@ -5,9 +5,9 @@ abilitymods:
   - STR: 3
   - DEX: 1
   - CON: 5
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 16 KAC: 16" 
 alignment: N
 cr: 4
@@ -39,13 +39,13 @@ offabilities:
 Perception: 10
 reach: "10 ft."
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+1 (`dice: 1d20+1`)" 
+  - Fort: 7
+  - Ref: 4
+  - Will: 1 
 Senses: "[[blindsight]] (sound) 120 ft."
 size: Large
 Skills:
-  - Athletics: "+15 (`dice: 1d20+15`)"
+  - Athletics: 15
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

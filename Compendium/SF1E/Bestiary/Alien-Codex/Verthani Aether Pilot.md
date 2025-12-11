@@ -5,7 +5,7 @@ abilitymods:
   - CON: 1
   - INT: 2
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 14 KAC: 15"
 alignment: N
 class: "[[Operative]]"
@@ -50,17 +50,17 @@ Ranged:
   - name: Ranged
     desc: static arc pistol +8 to hit (1d6+2 E; critical arc 2) or tactical shirren-eye rifle +8 to hit (1d10+2 P)
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 1
+  - Ref: 4
+  - Will: 5
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Computers: "+8 (`dice: 1d20+8`)"
-  - Engineering: "+8 (`dice: 1d20+8`)"
-  - Piloting: "+16 (`dice: 1d20+16`)"
-  - Stealth: "+13 (`dice: 1d20+13`)"
+  - Acrobatics: 13
+  - Computers: 8
+  - Engineering: 8
+  - Piloting: 16
+  - Stealth: 13
 source: Alien Archive
 specialabil:
   - name: Skin Mimic (Ex)

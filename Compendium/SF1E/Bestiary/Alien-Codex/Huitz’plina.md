@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 6
   - CON: 3
   - INT: 4
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 22 KAC: 23"
 alignment: NG
 class: "[[Operative]]"
@@ -45,18 +45,18 @@ Ranged:
     desc: aphelion laser pistol +20 to hit (3d4+9 F; critical burn 1d4)
 RP: 4
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+12 (`dice: 1d20+12`)"
+  - Fort: 10
+  - Ref: 10
+  - Will: 12
 Senses: "[[blindsense]] (scent) 30 ft., [[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`)"
-  - Athletics: "+17 (`dice: 1d20+17`) (+25 to climb)"
-  - Culture: "+22 (`dice: 1d20+22`)"
-  - Mysticism: "+22 (`dice: 1d20+22`)"
-  - Stealth: "+17 (`dice: 1d20+17`)"
-  - Survival: "+22 (`dice: 1d20+22`)"
+  - Acrobatics: 17
+  - Athletics: 17
+  - Culture: 22
+  - Mysticism: 22
+  - Stealth: 17
+  - Survival: 22
 source: Alien Archive 4
 specialabil:
   - name: Predreaming (Su)

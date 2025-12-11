@@ -3,8 +3,8 @@ abilitymods:
   - STR: 4
   - DEX: 5
   - CON: 2
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: 1
 ac: "EAC: 19 KAC: 21"
 alignment: LE
@@ -46,15 +46,15 @@ Ranged:
   - name: Ranged
     desc: "[[Laser Rifle#Laser Rifle, Corona|Corona Laser Rifle]] +18 to hit (2d6+7 F; critical burn 1d6) or stickybomb grenade II +17 to hit (explode [15 ft., entangle 2d4 rounds, DC 15])"
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 9
+  - Ref: 7
+  - Will: 8
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+14 (`dice: 1d20+14`)"
-  - Intimidate: "+14 (`dice: 1d20+14`)"
-  - Stealth: "+19 (`dice: 1d20+19`)"
+  - Athletics: 14
+  - Intimidate: 14
+  - Stealth: 19
 source: Alien Archive 2
 specialabil:
   - name: Battle Hardened (Ex)

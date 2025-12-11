@@ -48,32 +48,29 @@ image: "[[dragon, adult silver.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "[[Breath Weapon (Su)]] (50-ft. cone, 15d8 C, Reflex DC 22 half, usable every 1d4 rounds), [[Crush (Ex)]] (6d6+22 B), paralyzing breath (30-ft cone, 1d6+7 rounds, DC 22)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 14th; melee +26)"
-  - name: "1/day"
-    desc: "[[Dispel Magic#Dispel Magic, Greater|greater dispel magic]] [[Heat Leech]] (DC 22)"
-  - name: "3/day"
-    desc: "[[Invisibility, Greater]], [[Overload Systems]] (DC 21), [[Resilient Sphere]] (DC 21), [[Soothing Protocol]] (DC 21)"
-  - name: "At will"
-    desc: "[[Arcing Surge]] (DC 20), [[Probability Prediction]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 14th; melee +26)"
+  - 1/day: "[[Dispel Magic#Dispel Magic, Greater|greater dispel magic]] [[Heat Leech]] (DC 22)"
+  - 3/day: "[[Invisibility, Greater]], [[Overload Systems]] (DC 21), [[Resilient Sphere]] (DC 21), [[Soothing Protocol]] (DC 21)"
+  - At will: "[[Arcing Surge]] (DC 20), [[Probability Prediction]]"
 otherabil: "[[Change Shape Su]] (animal or humanoid)"
 Perception: 25
 reach: "10 ft. (15 ft. with bite)"
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+19 (`dice: 1d20+19`)"
+  - Fort: 14
+  - Ref: 14
+  - Will: 19
 Senses: "[[blindsense]] (vibration) 60 ft., [[darkvision]] 120 ft., detect alignment, [[low-light vision]]"
-size: huge
+size: Huge
 Skills:
-  - Acrobatics: "+25 (`dice: 1d20+25`) (+17 to fly)"
-  - Computers: "+30 (`dice: 1d20+30`)"
-  - Diplomacy: "+30 (`dice: 1d20+30`)"
-  - Disguise: "+25 (`dice: 1d20+25`)"
-  - Life Science: "+30 (`dice: 1d20+30`)"
-  - Mysticism: "+25 (`dice: 1d20+25`)"
-  - Physical Science: "+30 (`dice: 1d20+30`)"
-  - Sense Motive: "+25 (`dice: 1d20+25`)"
+  - Acrobatics: 25
+  - Computers: 30
+  - Diplomacy: 30
+  - Disguise: 25
+  - Life Science: 30
+  - Mysticism: 25
+  - Physical Science: 30
+  - Sense Motive: 25
 source: Alien Archive 2 
 space: "15 ft."
 specialabil:

@@ -40,30 +40,27 @@ image: "[[giant, moon.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "crush (8d6+24 B)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 15th)"
-  - name: "1/day"
-    desc: "[[Call Cosmos]], [[Contact Other Plane]]"
-  - name: "3/day"
-    desc: "[[Bestow Curse]] (DC 19), [[Discern Lies]] (DC 20), [[Divination]], [[Mind Probe]] (DC 20)"
-  - name: "At will"
-    desc: "[[ClairaudienceClairvoyance]], [[Speak with Dead]] (DC 19)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 15th)"
+  - 1/day: "[[Call Cosmos]], [[Contact Other Plane]]"
+  - 3/day: "[[Bestow Curse]] (DC 19), [[Discern Lies]] (DC 20), [[Divination]], [[Mind Probe]] (DC 20)"
+  - At will: "[[ClairaudienceClairvoyance]], [[Speak with Dead]] (DC 19)"
 Perception: 31
 Ranged:
   - name: "Ranged"
     desc: "hurled debris +28 to hit (8d6+30 B plus 10-ft.-radius area of difficult terrain around the spot where the debris hit)"
 reach: "15 ft."
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+17 (`dice: 1d20+17`)"
-  - Will: "+19 (`dice: 1d20+19`)" 
+  - Fort: 17
+  - Ref: 17
+  - Will: 19 
 Senses: "[[low-light vision]], [[Sense Through]] (vision, 60 ft.)"
-size: huge
+size: Huge
 Skills:
-  - intimidate:  "+31 (`dice: 1d20+31`)"
-  - Life Science: "+26 (`dice: 1d20+26`)"
-  - Mysticism: "+31 (`dice: 1d20+31`)"
-  - Sense Motive: "+26 (`dice: 1d20+26`)" 
+  - intimidate:  31
+  - Life Science: 26
+  - Mysticism: 31
+  - Sense Motive: 26 
 source: Alien Archive 2 
 space: "15 ft."
 specialabil:

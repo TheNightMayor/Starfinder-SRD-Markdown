@@ -37,31 +37,25 @@ Perception: 22
 Ranged:
   - name: Ranged
     desc: "perihelion laser pistol +23 to hit (4d4+12 F; critical burn 2d4) Tryziarka Spell-Like Abilities (CL 12th) 1/day—[[Mind Thrust]] (1st level, DC 18) At will—[[Stabilize]] "
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 4th)
-  - name: At will
-    desc: "[[Mindlink]] "
-  - name: Mystic Spells Known
-    desc: (CL 4th)
-  - name: 2nd (3/day)
-    desc: "[[Darkvision]], [[Predict Foe]]"
-  - name: 1st (6/day)
-    desc: "[[Comprehend Customs]], [[Magic Missile]], [[Mystic Cure]] "
-  - name: (at will)
-    desc: "[[Detect Magic]], [[Telepathic Message]] "
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Star Shaman]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 4th)"
+  - At will: "[[Mindlink]] "
+  - "**Mystic Spells Known** (CL 4th)"
+  - 2nd (3/day): "[[Darkvision]], [[Predict Foe]]"
+  - 1st (6/day): "[[Comprehend Customs]], [[Magic Missile]], [[Mystic Cure]] "
+  - at will: "[[Detect Magic]], [[Telepathic Message]] "
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Star Shaman]]"
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+15 (`dice: 1d20+15`)"
+  - Fort: 11
+  - Ref: 13
+  - Will: 15
 size: Medium
 Skills:
   - Acrobatics: + 22
-  - Diplomacy: "+27 (`dice: 1d20+27`)"
-  - Mysticism: "+27 (`dice: 1d20+27`)"
-  - Piloting: "+22 (`dice: 1d20+22`)"
-  - Sense Motive: "+27 (`dice: 1d20+27`)"
+  - Diplomacy: 27
+  - Mysticism: 27
+  - Piloting: 22
+  - Sense Motive: 27
 source: Alien Archive 4
 specialabil:
   - name: Tattoo Magic (Sp)

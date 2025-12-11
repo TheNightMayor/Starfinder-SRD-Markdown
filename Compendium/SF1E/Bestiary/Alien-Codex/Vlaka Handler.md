@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 3
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 5
 ac: "EAC: 18 KAC: 19"
 alignment: NG
@@ -43,17 +43,17 @@ Ranged:
     desc: corona laser pistol +14 to hit (2d4+6 F; critical burn 1d4)
 RP: 4
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 5
+  - Ref: 7
+  - Will: 9
 Senses: blinded, [[blindsight]] (hearing) 60 ft., [[blindsight]] (scent) 30 ft.
-size: medium
+size: Medium
 Skills:
-  - culture: "+13 (`dice: 1d20+13`)"
-  - Diplomacy: "+18 (`dice: 1d20+18`)"
-  - Medicine: "+18 (`dice: 1d20+18`)"
-  - Piloting: "+13 (`dice: 1d20+13`)"
-  - Sense Motive: "+18 (`dice: 1d20+18`)"
+  - culture: 13
+  - Diplomacy: 18
+  - Medicine: 18
+  - Piloting: 13
+  - Sense Motive: 18
 source: Alien Archive 2
 specialabil:
   - name: Buoy (Ex)

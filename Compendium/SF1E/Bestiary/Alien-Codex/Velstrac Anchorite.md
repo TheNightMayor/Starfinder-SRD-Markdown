@@ -3,7 +3,7 @@ abilitymods:
   - STR: 1
   - DEX: 5
   - CON: 3
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
   - CHA: 1
 ac: "EAC: 16 KAC: 18"
@@ -46,16 +46,16 @@ Ranged:
   - name: "Ranged"
     desc: "tactical acid dart rifle +13 to hit (1d8+4 A & P; critical corrode 1d4) or frag grenade II +13 to hit (explode [15 ft., 2d6 P, DC 13])"
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 6
+  - Ref: 8
+  - Will: 3
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+15 (`dice: 1d20+15`)"
-  - Athletics: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+10 (`dice: 1d20+10`)"
-  - Sense Motive: "+10 (`dice: 1d20+10`)"
+  - Acrobatics: 15
+  - Athletics: 10
+  - Intimidate: 10
+  - Sense Motive: 10
 source: Alien Archive 2 
 specialabil:
   - name: "Paired Pain (Su)"

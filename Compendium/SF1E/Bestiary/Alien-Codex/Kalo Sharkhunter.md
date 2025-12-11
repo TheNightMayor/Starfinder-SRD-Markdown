@@ -3,9 +3,9 @@ abilitymods:
   - STR: 1
   - DEX: 4
   - CON: -1
-  - INT: "+0"
+  - INT: 0
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 16 KAC: 17"
 alignment: NG
 class: "[[Soldier]]"
@@ -48,15 +48,15 @@ Ranged:
   - name: Ranged
     desc: underwater autotarget rifle +10 to hit (1d6+2 P) or frag grenade I +10 to hit (explode [15ft., 1d6 P, DC 11])
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 1
+  - Ref: 3
+  - Will: 5
 Senses: "[[blindsight]] (sound) 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+12 (`dice: 1d20+12`) (+20 when swimming)"
-  - Profession (poet): "+7 (`dice: 1d20+7`)"
-  - Stealth: "+12 (`dice: 1d20+12`) (+16 in water)"
+  - Athletics: 12
+  - Profession (poet): 7
+  - Stealth: 12
 source: Alien Archive
 specialabil:
   - name: Three-Dimensional Tactics (Ex)

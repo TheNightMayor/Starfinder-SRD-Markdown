@@ -2,8 +2,8 @@
 abilitymods:
   - STR: 2
   - DEX: 4
-  - CON: "—"
-  - INT: "—"
+  - CON: —
+  - INT: —
   - WIS: 1
   - CHA: 1 
 ac: "EAC: 14 KAC: 16" 
@@ -49,13 +49,13 @@ Ranged:
   - name: "Ranged"
     desc: "integrated static arc pistol +11 to hit (1d6+3 E; critical arc 2)"
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 5
+  - Ref: 5
+  - Will: 4 
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+13 (`dice: 1d20+13`)" 
+  - Athletics: 13 
 source: Alien Archive
 specialabil:
   - name: "[[Integrated Weapons (Ex)]] (Ex)"

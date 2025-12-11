@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 3
   - CON: 1
   - INT: -4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 16 KAC: 18" 
 alignment: N
 Aura: "paralyzing scent (15 ft., Fortitude DC 13)"
@@ -44,15 +44,15 @@ Perception: 10
 planet: Castrovel
 reach: "10 ft."
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 8
+  - Ref: 6
+  - Will: 3 
 Senses: "[[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - Athletics: "+10 (`dice: 1d20+10`)"
-  - Stealth: "+15 (`dice: 1d20+15`)"
-  - Survival: "+10 (`dice: 1d20+10`)"
+  - Athletics: 10
+  - Stealth: 15
+  - Survival: 10
 source: Alien Archive
 space: "10 ft."
 specialabil:

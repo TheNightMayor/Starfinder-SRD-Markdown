@@ -42,27 +42,24 @@ image: "[[Stormghost.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "impaling leap, static charge"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 11th ranged +26)"
-  - name: "1/day"
-    desc: "[[Hailstorm]]"
-  - name: "3/day"
-    desc: "[[Invisibility, Greater]], [[Control Atmosphere]] (DC 20)"
-  - name: "At will"
-    desc: "[[Ray of Exhaustion]] (DC 19)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 11th ranged +26)"
+  - 1/day: "[[Hailstorm]]"
+  - 3/day: "[[Invisibility, Greater]], [[Control Atmosphere]] (DC 20)"
+  - At will: "[[Ray of Exhaustion]] (DC 19)"
 Perception: 31
 reach: "5 ft. (10 ft. with claws)"
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+19 (`dice: 1d20+19`)"
-  - Will: "+15 (`dice: 1d20+15`)" 
+  - Fort: 17
+  - Ref: 19
+  - Will: 15 
 Senses: "[[blindsense]] (scent) 60 ft., [[darkvision]] 90 ft., [[low-light vision]], weathersight"
 size: Large
 Skills:
-  - Acrobatics: "+26 (`dice: 1d20+26`)"
-  - Athletics: "+26 (`dice: 1d20+26`) (+34 to climb)"
-  - Stealth: "+31 (`dice: 1d20+31`)"
-  - Survival: "+26 (`dice: 1d20+26`)" 
+  - Acrobatics: 26
+  - Athletics: 26
+  - Stealth: 31
+  - Survival: 26 
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

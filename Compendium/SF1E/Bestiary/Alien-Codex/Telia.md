@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 1
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: 1
   - WIS: 2
@@ -41,17 +41,17 @@ Ranged:
   - name: "Ranged"
     desc: "static arc pistol +7 to hit (1d6+2 E; critical arc 2)"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 3
+  - Ref: 1
+  - Will: 7 
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - culture:  "+12 (`dice: 1d20+12`)"
-  - Engineering: "+12 (`dice: 1d20+12`)"
-  - Medicine: "+12 (`dice: 1d20+12`)"
-  - Sense Motive: "+7 (`dice: 1d20+7`)"
-  - Survival: "+7 (`dice: 1d20+7`)" 
+  - culture:  12
+  - Engineering: 12
+  - Medicine: 12
+  - Sense Motive: 7
+  - Survival: 7 
 source: Alien Archive 3 
 specialabil:
   - name: "Flashback (Ex)"

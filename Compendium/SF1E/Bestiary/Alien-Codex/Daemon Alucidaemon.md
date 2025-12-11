@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 2
   - DEX: 5
-  - CON: "+0"
+  - CON: 0
   - INT: 1
   - WIS: 1
   - CHA: 3 
@@ -37,30 +37,27 @@ image: "[[daemon, alucidaemon.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "virtual mortality"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 4th)"
-  - name: "1/day"
-    desc: "[[Holographic-Image]](2nd level, DC 15), [[Laser Net]]COM (DC 15)"
-  - name: "1/day"
-    desc: "[[Magic Missile]], [[Overheat]] (DC 14), [[Remote Operation]]COM" 
-  - name: At will
-    desc: "[[Daze]] (DC 13), [[Ghost Sound]] (DC 13)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 4th)"
+  - 1/day: "[[Holographic-Image]](2nd level, DC 15), [[Laser Net]]COM (DC 15)"
+  - 1/day: "[[Magic Missile]], [[Overheat]] (DC 14), [[Remote Operation]]COM" 
+  - At will: "[[Daze]] (DC 13), [[Ghost Sound]] (DC 13)"
 Perception: 10
 Ranged:
   - name: "Ranged"
     desc: "electro discharge +11 to hit (1d4+4 E; critical arc 1d4)"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 3
+  - Ref: 5
+  - Will: 7 
 Senses: "[[blindsense]] (life) 30 ft., [[darkvision]] 60 ft."
 size: Small
 Skills:
-  - Bluff:  "+15 (`dice: 1d20+15`)"
-  - Computers: "+15 (`dice: 1d20+15`)"
-  - Culture: "+15 (`dice: 1d20+15`)"
-  - Engineering: "+10 (`dice: 1d20+10`)"
-  - Piloting: "+10 (`dice: 1d20+10`)" 
+  - Bluff:  15
+  - Computers: 15
+  - Culture: 15
+  - Engineering: 10
+  - Piloting: 10 
 specialabil:
   - name: "Electro Discharge (Su)"
     desc: "An alucidaemon can produce an electric discharge from their gauntlets. This is a ranged attack against eac that has a range increment of 20 feet."

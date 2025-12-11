@@ -49,15 +49,15 @@ Ranged:
   - name: Ranged
     desc: perihelion artillery laser +21 to hit (3d8+11 F; critical burn 2d6) or tactical autobeam rifle +21 to hit (3d8+11 F; critical burn 2d6) or frag grenade IV +20 to hit (explode [15 ft., 6d6 P, DC 18])
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+14 (`dice: 1d20+14`)"
+  - Fort: 13
+  - Ref: 11
+  - Will: 14
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+25 (`dice: 1d20+25`)"
-  - Athletics: "+20 (`dice: 1d20+20`)"
-  - Stealth: "+20 (`dice: 1d20+20`)"
+  - Acrobatics: 25
+  - Athletics: 20
+  - Stealth: 20
 source: Alien Archive 2
 specialabil:
   - name: Paralysis (Ex)

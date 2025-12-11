@@ -4,7 +4,7 @@ cssclasses:
 abilitymods:
   - STR: 1
   - DEX: 1
-  - CON: "—"
+  - CON: —
   - INT: 2
   - WIS: 4
   - CHA: 1 
@@ -44,27 +44,25 @@ image: "[[Lacunal Initiate.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "memory extraction (DC 12)"
-  - name: "Spells Known" 
-    desc: "(CL 1st; ranged +4)"
-  - name: "1st (3/day)"
-    desc: "[[Fear]](DC 14), [[Mind Thrust]] (DC 14)"
-  - name: "at will"
-    desc: "[[Daze]] (DC 13), [[telekinetic projectile]] (DC 13)"
+Spells:
+  - "**Spells Known** (CL 1st; ranged +4)"
+  - 1st (3/day): "[[Fear]](DC 14), [[Mind Thrust]] (DC 14)"
+  - At will: "[[Daze]] (DC 13), [[telekinetic projectile]] (DC 13)"
 otherabil: "augmented scavenger, [[Android#Constructed|constructed]], [[Android#Flat Affectflat affect]], [[Unliving Ex|unliving]]"
 Perception: 5
 Ranged:
   - name: "Ranged"
     desc: "subzero hail pistol +4 to hit (1d4 C & P; critical bleed 1d4)"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 1
+  - Ref: 1
+  - Will: 6 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Engineering: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+5 (`dice: 1d20+5`)"
-  - Mysticism: "+10 (`dice: 1d20+10`)" 
+  - Engineering: 10
+  - Intimidate: 5
+  - Mysticism: 10 
 source: Alien Archive 4 
 specialabil:
   - name: "Augmented Scavenger (Ex)"

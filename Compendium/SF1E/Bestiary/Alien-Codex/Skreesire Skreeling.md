@@ -43,17 +43,17 @@ offabilities:
 Perception: 8
 planet: []
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 2
+  - Ref: 2
+  - Will: 8
 Senses: "[[darkvision]] 60 ft."
-size: small
+size: Small
 Skills:
-  - Acrobatics: "+8 (`dice: 1d20+8`)"
-  - Athletics: "+13 (`dice: 1d20+13`)"
-  - Intimidate: "+8 (`dice: 1d20+8`)"
-  - Stealth: "+13 (`dice: 1d20+13`) (+18 in rocky terrain)"
-  - Survival: "+13 (`dice: 1d20+13`)"
+  - Acrobatics: 8
+  - Athletics: 13
+  - Intimidate: 8
+  - Stealth: 13
+  - Survival: 13
 source: Alien Archive 3 
 specialabil:
   - name: "Cluster (Ex)"

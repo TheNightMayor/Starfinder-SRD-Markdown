@@ -50,16 +50,16 @@ Ranged:
     desc: "laser bolt +26 to hit (6d4+12 F; burn 3d6)"
 reach: "10 ft. (15 ft. with bite)"
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+13 (`dice: 1d20+13`)"
+  - Fort: 16
+  - Ref: 16
+  - Will: 13
 Senses: "[[blindsight]] (vibration) 60 ft., [[darkvision]] 120 ft., [[low-light vision]]"
 size: Huge
 Skills:
-  - Acrobatics: "+27 (`dice: 1d20+27`) (+19 to fly)"
-  - Computers: "+22 (`dice: 1d20+22`)"
-  - Piloting: "+22 (`dice: 1d20+22`)"
-  - Sense Motive: "+22 (`dice: 1d20+22`)"
+  - Acrobatics: 27
+  - Computers: 22
+  - Piloting: 22
+  - Sense Motive: 22
 source: Alien Archive 4 
 space: "15 ft."
 specialabil:

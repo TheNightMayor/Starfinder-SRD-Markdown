@@ -5,7 +5,7 @@ abilitymods:
   - CON: 4
   - INT: -1
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 20 KAC: 22"
 alignment: CE
 combatType: combatant
@@ -40,14 +40,14 @@ Perception: 16
 planet: []
 reach: "15 ft."
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+7 (`dice: 1d20+7`)"
+  - Fort: 12
+  - Ref: 12
+  - Will: 7
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: huge
+size: Huge
 Skills:
-  - Acrobatics: "+21 (`dice: 1d20+21`)"
-  - Piloting: "+16 (`dice: 1d20+16`) (to navigate only)"
+  - Acrobatics: 21
+  - Piloting: 16
 source: Alien Archive 2 
 space: "15 ft."
 specialabil:

@@ -41,15 +41,15 @@ offabilities:
 Perception: 7
 reach: "0 ft."
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+1 (`dice: 1d20+1`)" 
+  - Fort: 4
+  - Ref: 4
+  - Will: 1 
 Senses: "[[low-light vision]]"
 size: Tiny
 Skills:
-  - Acrobatics: "+7 (`dice: 1d20+7`)"
-  - Athletics: "+7 (`dice: 1d20+7`)"
-  - Stealth: "+7 (`dice: 1d20+7`)"
+  - Acrobatics: 7
+  - Athletics: 7
+  - Stealth: 7
 source: Alien Archive 2 
 space: "10 ft."
 Speed: 30 ft. 

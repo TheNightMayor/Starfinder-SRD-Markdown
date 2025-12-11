@@ -41,35 +41,28 @@ planet: Verces
 Ranged:
   - name: Ranged
     desc: aphelion laser pistol +17 to hit (3d4+9 F; critical burn 1d4)
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 9th)
-  - name: 9/day
-    desc: mind probe (DC 20)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 9th)
-  - name: 3rd (3/day)
-    desc: "[[Mind Thrust]] (DC 20), [[Tongues]]"
-  - name: 2nd (6/day)
-    desc: "[[Augury]], [[Force Blast]] (DC 19), [[Hold Person]] (DC 19), [[Mystic Cure]]"
-  - name: 1st (at will)
-    desc: "[[Detect Thoughts]] (DC 18), [[identify]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Akashic]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 9th)"
+  - 9/day: mind probe (DC 20)
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 9th)"
+  - 3rd (3/day): "[[Mind Thrust]] (DC 20), [[Tongues]]"
+  - 2nd (6/day): "[[Augury]], [[Force Blast]] (DC 19), [[Hold Person]] (DC 19), [[Mystic Cure]]"
+  - 1st (at will): "[[Detect Thoughts]] (DC 18), [[identify]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Akashic]]"
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+12 (`dice: 1d20+12`)"
+  - Fort: 8
+  - Ref: 8
+  - Will: 12
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - culture: "+17 (`dice: 1d20+17`)"
-  - Diplomacy: "+17 (`dice: 1d20+17`)"
-  - Life Science: "+17 (`dice: 1d20+17`)"
-  - Medicine: "+22 (`dice: 1d20+22`)"
-  - Mysticism: "+22 (`dice: 1d20+22`)"
-  - Sense Motive: "+17 (`dice: 1d20+17`)"
+  - culture: 17
+  - Diplomacy: 17
+  - Life Science: 17
+  - Medicine: 22
+  - Mysticism: 22
+  - Sense Motive: 17
 source: Alien Archive
 specialabil:
   - name: Skin Mimic (Ex)

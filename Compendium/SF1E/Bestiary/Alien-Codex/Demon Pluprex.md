@@ -1,4 +1,6 @@
 ---
+aliases: []
+cssclasses:
 abilitymods:
   - STR: 6
   - DEX: 4
@@ -44,28 +46,25 @@ image: "[[demon, pluprex.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "invoke mutation"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 13th; ranged +21)"
-  - name: "1/day"
-    desc: "[[Synaptic Pulse, Greater]] (DC 24), [[Summon Allies Sp]] (1 pluprex or 2 [[Demon Prexian Mutantspawn|Prexian Mutantspawn]], 35%), [[Waves of Fatigue]]"
-  - name: "3/day"
-    desc: "[[Animate Dead]], [[Confusion]] (DC 23), [[Enervation]], [[Mind-Thrust]] (4th level, DC 23)"
-  - name: "At will"
-    desc: "[[Irradiate]] (DC 22), [[Ray of Exhaustion]] (DC 22), [[Teleport]] (self plus 5 bulk of gear only)"
+Spells:
+  - "**Spell-Like Abilities** (CL 13th; ranged +21)"
+  - 1/day: "[[Synaptic Pulse, Greater]] (DC 24), [[Summon Allies Sp]] (1 pluprex or 2 [[Demon Prexian Mutantspawn|Prexian Mutantspawn]], 35%), [[Waves of Fatigue]]"
+  - 3/day: "[[Animate Dead]], [[Confusion]] (DC 23), [[Enervation]], [[Mind-Thrust]] (4th level, DC 23)"
+  - At will: "[[Irradiate]] (DC 22), [[Ray of Exhaustion]] (DC 22), [[Teleport]] (self plus 5 bulk of gear only)"
 otherabil: "irradiate dead"
 Perception: 23
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+14 (`dice: 1d20+14`)" 
+  - Fort: 16
+  - Ref: 12
+  - Will: 14 
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+23 (`dice: 1d20+23`)"
-  - Bluff: "+28 (`dice: 1d20+28`)"
-  - Intimidate: "+28 (`dice: 1d20+28`)"
-  - Life Science: "+23 (`dice: 1d20+23`)"
-  - Mysticism: "+23 (`dice: 1d20+23`)" 
+  - Acrobatics: 23
+  - Bluff: 28
+  - Intimidate: 28
+  - Life Science: 23
+  - Mysticism: 23 
 source: Alien Archive 2 
 specialabil:
   - name: "Invoke Mutation (Su)"
@@ -77,7 +76,14 @@ specialabil:
 Speed: 50 ft., fly 60 ft. (Su, average) 
 statblock: true
 subtype: (chaotic, demon, evil, extraplanar)
-tags: [chaotic, ChaoticEvil, demon, evil, extraplanar, Medium, outsider]
+tags:
+  - chaotic
+  - ChaoticEvil
+  - demon
+  - evil
+  - extraplanar
+  - Medium
+  - outsider
 Type: "CE Medium outsider (chaotic, demon, evil, extraplanar)"
 type: outsider
 XP: 25,600 
@@ -100,6 +106,6 @@ A prexian mutantspawn’s shape may vaguely resemble that of its original host b
 
 ## Extra Content
 
-The following extra content was found for this creature: 
-\- Demon (Summoning) Graft Template 
+The following extra content was found for this creature:
+\- Demon (Summoning) Graft Template
 \- Demon (Creature Subtype) Graft Template

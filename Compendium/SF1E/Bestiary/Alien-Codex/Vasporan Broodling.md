@@ -5,7 +5,7 @@ abilitymods:
   - CON: 5
   - INT: -4
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 16 KAC: 18" 
 alignment: N
 cr: 4
@@ -40,15 +40,15 @@ Ranged:
   - name: "Ranged"
     desc: "spines +9 to hit (1d6+4 P)"
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 8
+  - Ref: 8
+  - Will: 3 
 Senses: "[[blindsense]] (scent) 90 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Athletics: "+10 (`dice: 1d20+10`) (+18 to climb)"
-  - Stealth: "+15 (`dice: 1d20+15`)" 
+  - Acrobatics: 10
+  - Athletics: 10
+  - Stealth: 15 
 source: Alien Archive 4 
 specialabil:
   - name: "Ambush Strike (Ex)"

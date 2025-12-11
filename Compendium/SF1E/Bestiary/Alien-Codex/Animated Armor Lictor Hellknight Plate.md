@@ -2,9 +2,9 @@
 abilitymods:
   - STR: 5
   - DEX: 3
-  - CON: "—"
-  - INT: "—"
-  - WIS: "+0"
+  - CON: —
+  - INT: —
+  - WIS: 0
   - CHA: -1 
 ac: "EAC: 17 KAC: 19" 
 alignment: N
@@ -33,7 +33,7 @@ Init: 3
 KAC: 19
 Melee:
   - name: "Melee"
-    desc: "slam +15 to hit (13 (1d6+10) B)"
+    desc: "slam +15 to hit (1d6+10 B)"
 modifier: 3
 name: "Animated Armor, Lictor Hellknight Plate"
 image: "[[animated armor, lictor hellknight plate.png]]"
@@ -42,16 +42,16 @@ otherabil: "comm, [[Mindless Ex]], [[Unliving Ex|unliving]]"
 Perception: 11
 Ranged:
   - name: "Ranged"
-    desc: "integrated corona laser pistol +13 to hit (9 (2d4+5) F; critical burn 2 (1d4))"
+    desc: "integrated corona laser pistol +13 to hit (2d4+5 F; critical burn 2 (1d4))"
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 5
+  - Ref: 5
+  - Will: 2 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+11 (`dice: 1d20+11`)"
-  - Athletics: "+16 (`dice: 1d20+16`)" 
+  - Acrobatics: 11
+  - Athletics: 16 
 specialabil:
   - name: "Comm (Ex)"
     desc: "Animated lictor Hellknight plate can receive wireless communications (and thus commands from its allies and creator) at planetary range."

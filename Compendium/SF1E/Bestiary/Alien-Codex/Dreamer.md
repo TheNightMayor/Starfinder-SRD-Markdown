@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 4
   - DEX: 1
-  - CON: "+0"
+  - CON: 0
   - INT: -2
   - WIS: 6
   - CHA: 2 
@@ -36,28 +36,25 @@ name: "Dreamer"
 image: "[[Dreamer.png]]"
 
 offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 8th)"
-  - name: "1/day"
-    desc: "[[Slow]](DC 20), [[Synaptic Pulse]] (DC 20)"
-  - name: "3/day"
-    desc: "[[Augury]], [[Daze Monster]] (DC 19), [[Mind Thrust]] (2nd level, DC 19)"
-  - name: "At will"
-    desc: "[[Detect Thoughts]] (DC 18), [[Mindlink]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 8th)"
+  - 1/day: "[[Slow]](DC 20), [[Synaptic Pulse]] (DC 20)"
+  - 3/day: "[[Augury]], [[Daze Monster]] (DC 19), [[Mind Thrust]] (2nd level, DC 19)"
+  - At will: "[[Detect Thoughts]] (DC 18), [[Mindlink]]"
 otherabil: "atavistic fury"
 Perception: 16
 planet: Liavara
 reach: "10 ft."
 RP: 4 
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+13 (`dice: 1d20+13`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 13 
 Senses: "[[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`)"
-  - Mysticism: "+21 (`dice: 1d20+21`)" 
+  - Acrobatics: 16
+  - Mysticism: 21 
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

@@ -3,8 +3,8 @@ abilitymods:
   - STR: 5
   - DEX: 2
   - CON: 4
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: 2
 ac: "EAC: 20 KAC: 21"
 alignment: N
@@ -47,20 +47,20 @@ Ranged:
   - name: Ranged
     desc: shobhad longrifle +14 to hit (2d10+8 P)
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 9
+  - Ref: 7
+  - Will: 8
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - intimidate: "+19 (`dice: 1d20+19`)"
-  - Stealth: "+14 (`dice: 1d20+14`)"
-  - Survival: "+14 (`dice: 1d20+14`)"
+  - intimidate: 19
+  - Stealth: 14
+  - Survival: 14
 source: Alien Archive
 species: "[[Shobhad 1]]"
 Speed: 50 ft.
 statblock: true
-subtype: 
+subtype:
 tags:
   - Large
   - monstrous humanoid

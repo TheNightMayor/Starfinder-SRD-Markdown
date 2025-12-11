@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
   - CON: 1
   - INT: 4
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 14 KAC: 15"
 alignment: N
 class: "[[Mechanic]]"
@@ -43,18 +43,18 @@ Ranged:
   - name: Ranged
     desc: static arc pistol +9 to hit (1d6+3 E; critical arc 2)
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 4
+  - Ref: 4
+  - Will: 4
 Senses: "[[blindsense]] (vibration) 30 ft."
 size: Medium
 Skills:
-  - computers: "+13 (`dice: 1d20+13`)"
-  - Engineering: "+13 (`dice: 1d20+13`)"
-  - Life Science: "+13 (`dice: 1d20+13`)"
-  - Medicine: "+8 (`dice: 1d20+8`)"
-  - Physical Science: "+13 (`dice: 1d20+13`)"
-  - Piloting: "+8 (`dice: 1d20+8`)"
+  - computers: 13
+  - Engineering: 13
+  - Life Science: 13
+  - Medicine: 8
+  - Physical Science: 13
+  - Piloting: 8
 source: Alien Archive 4
 specialabil:
   - name: Dual Nervous Systems

@@ -1,13 +1,13 @@
 ---
-aliases: 
+aliases: []
 cssclasses:
 abilitymods:
   - STR: 2
   - DEX: 1
   - CON: 4
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 11 KAC: 12" 
 alignment: N
 climate: any
@@ -52,14 +52,14 @@ Perception: 7
 planet: []
 reach: "5 ft. (10 ft. with pseudopod)"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "-1 (`dice: 1d20+1`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 3
+  - Ref: -1
+  - Will: 2 
 Senses: "[[blindsight]] (vibration) 60 ft., [[Sightless Ex]]"
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+10 (`dice: 1d20+10`)"
-  - Stealth: "+10 (`dice: 1d20+10`)" 
+  - Athletics: 10
+  - Stealth: 10 
 source: Alien Archive
 space: "5 ft."
 specialabil:
@@ -68,7 +68,11 @@ specialabil:
 Speed: 30 ft. 
 statblock: true
 subtype: (technological)
-tags: [medium, Neutral, ooze, technological]
+tags:
+  - medium
+  - Neutral
+  - ooze
+  - technological
 type: ooze
 XP: 400 
 ---

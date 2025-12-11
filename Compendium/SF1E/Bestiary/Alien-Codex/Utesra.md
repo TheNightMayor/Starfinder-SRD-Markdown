@@ -3,7 +3,7 @@ abilitymods:
   - STR: 3
   - DEX: 5
   - CON: 2
-  - INT: "—"
+  - INT: —
   - WIS: 1
   - CHA: -3 
 ac: "EAC: 17 KAC: 19" 
@@ -37,13 +37,13 @@ offabilities:
 Perception: 11
 reach: "5 ft. (30 ft. with shock tendril)"
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 7
+  - Ref: 9
+  - Will: 4 
 Senses: "[[blindsense]] (vibration) 30 ft. [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - stealth:  "+11 (`dice: 1d20+11`)"
+  - stealth:  11
 source: Alien Archive 4 
 space: "5 ft."
 specialabil:

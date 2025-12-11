@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 8
   - DEX: 5
-  - CON: "—"
-  - INT: "+0"
+  - CON: —
+  - INT: 0
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 23 KAC: 25"
 alignment: NE
 cr: 10
@@ -45,15 +45,15 @@ Ranged:
   - name: "Ranged"
     desc: "gravity blast +19 to hit (4d6+10 B; critical stunned)"
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 12
+  - Ref: 12
+  - Will: 11
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+24 (`dice: 1d20+24`) (+32 to fly)"
-  - Athletics: "+19 (`dice: 1d20+19`)"
-  - Stealth: "+19 (`dice: 1d20+19`)"
+  - Acrobatics: 24
+  - Athletics: 19
+  - Stealth: 19
 specialabil:
   - name: "Event Horizon (Su)"
     desc: "Vorthuuls bend light toward themselves, including that produced by laser weapons. Attacks made with laser weapons against a vorthuul gain a +4 circumstance bonus to the attack roll and ignore the miss chance from concealment."

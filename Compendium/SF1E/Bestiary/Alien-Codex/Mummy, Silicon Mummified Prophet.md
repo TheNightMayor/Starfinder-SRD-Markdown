@@ -42,20 +42,14 @@ image: "[[mummified prophet.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Backlash]] (12 damage), mental anguish (DC 21), mindbreaking link (DC 21), sow doubt (6 rounds, DC 21)"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 12th)
-  - name: At Will
-    desc: "[[Mindlink]], [[Telepathic Bond]]"
-  - name: Mystic Spells Known
-    desc: (CL 12th melee +19, ranged +21)
-  - name: 5th (3/day)
-    desc: crush skull (DC 24), dominate person (DC 24)
-  - name: 4th (6/day)
-    desc: "[[Cosmic Eddy]]  (DC 23), [[Divination]],  [[Enervationy]] (DC 23), [[Hold Monster]] (DC 23)"
-  - name: 3rd (at will)
-    desc: "[[Dispel Magic]] (DC 22), [[Mind Thrust]] (3rd level, DC 22)"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Mindbreaker]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 12th)"
+  - At will: "[[Mindlink]], [[Telepathic Bond]]"
+  - "**Mystic Spells Known** (CL 12th melee +19, ranged +21)"
+  - 5th (3/day)c: crush skull (DC 24), dominate person (DC 24)
+  - 4th (6/day)c: "[[Cosmic Eddy]]  (DC 23), [[Divination]],  [[Enervationy]] (DC 23), [[Hold Monster]] (DC 23)"
+  - 3rd (at will): "[[Dispel Magic]] (DC 22), [[Mind Thrust]] (3rd level, DC 22)"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Mindbreaker]]"
 otherabil: solar battery (4 points), [[Unliving Ex|unliving]]
 Perception: 22
 Ranged:
@@ -63,16 +57,16 @@ Ranged:
     desc: perihelion laser pistol +21 to hit (4d4+12 F; critical burn 2d4)
 RP: 5
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+18 (`dice: 1d20+18`)"
+  - Fort: 11
+  - Ref: 11
+  - Will: 18
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - culture: "+27 (`dice: 1d20+27`)"
-  - Intimidate: "+27 (`dice: 1d20+27`)"
-  - Mysticism: "+27 (`dice: 1d20+27`)"
-  - Physical Science: "+22 (`dice: 1d20+22`)"
+  - culture: 27
+  - Intimidate: 27
+  - Mysticism: 27
+  - Physical Science: 22
 source: Alien Archive 4
 specialabil:
   - name: Constructed Shell (Ex)

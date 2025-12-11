@@ -47,17 +47,17 @@ Perception: 14
 planet: []
 reach: "10 ft."
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+12 (`dice: 1d20+12`)"
+  - Fort: 6
+  - Ref: 6
+  - Will: 12
 Senses: "[[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Athletics: "+19 (`dice: 1d20+19`)"
-  - Intimidate: "+14 (`dice: 1d20+14`)"
-  - Stealth: "+19 (`dice: 1d20+19`) (+24 in rocky terrain)"
-  - Survival: "+19 (`dice: 1d20+19`)"
+  - Acrobatics: 14
+  - Athletics: 19
+  - Intimidate: 14
+  - Stealth: 19
+  - Survival: 19
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

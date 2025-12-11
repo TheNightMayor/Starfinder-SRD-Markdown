@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 1
   - WIS: 1
   - CHA: 4 
@@ -42,28 +42,26 @@ image: "[[lucandrian, albedo.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "cold radiance, reflected moonbeam"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 3rd)"
-  - name: "3/day"
-    desc: "[[Reflecting Armor]] (DC 14)"
-  - name: "At will"
-    desc: "[[Dancing Lights]], [[Fatigue]] (DC 13)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 3rd)"
+  - 3/day: "[[Reflecting Armor]] (DC 14)"
+  - At will: "[[Dancing Lights]], [[Fatigue]] (DC 13)"
 otherabil: "limited spaceflight, lunar aspect"
 Perception: "+8 (or +13)"
 Ranged:
   - name: "Ranged"
     desc: "bow +8 to hit (1d6+1 P; critical staggered)"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 4
+  - Ref: 4
+  - Will: 6 
 Senses: "[[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+8 (`dice: 1d20+8`) (+16 to fly)"
-  - Bluff: "+13 (`dice: 1d20+13`)"
-  - Physical Science: "+13 (`dice: 1d20+13`)"
-  - Stealth: "+8 (`dice: 1d20+8`) (or +13)"
+  - Acrobatics: 8
+  - Bluff: 13
+  - Physical Science: 13
+  - Stealth: 8
 source: Alien Archive 3 
 specialabil:
   - name: "Cold Radiance (Su)"

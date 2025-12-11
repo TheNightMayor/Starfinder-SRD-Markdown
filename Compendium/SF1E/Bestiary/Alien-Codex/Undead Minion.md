@@ -2,8 +2,8 @@
 abilitymods:
   - STR: 3
   - DEX: 2
-  - CON: "—"
-  - INT: "—"
+  - CON: —
+  - INT: —
   - WIS: 1
   - CHA: 1 
 ac: "EAC: 10 KAC: 12" 
@@ -42,13 +42,13 @@ Ranged:
   - name: "Ranged"
     desc: "hunting rifle +3 to hit (1d8 P)"
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 2
+  - Ref: 2
+  - Will: 2 
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Athletics: "+9 (`dice: 1d20+9`)" 
+  - Athletics: 9 
 source: Alien Archive 
 Speed: 30 ft. 
 statblock: true

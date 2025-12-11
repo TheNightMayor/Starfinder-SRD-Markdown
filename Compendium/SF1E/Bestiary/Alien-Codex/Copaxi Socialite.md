@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
   - CON: 1
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 4
 ac: "EAC: 11 KAC: 12"
 alignment: NG
@@ -38,19 +38,19 @@ Ranged:
   - name: Ranged
     desc: static arc pistol +6 to hit (1d6+1 E; critical arc 2)
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 3
+  - Ref: 3
+  - Will: 4
 Senses: "[[blindsense]] (scent) 30 ft."
 size: Medium
 Skills:
-  - Bluff: "+10 (`dice: 1d20+10`)"
-  - Computers: "+5 (`dice: 1d20+5`)"
-  - Culture: "+10 (`dice: 1d20+10`)"
-  - Diplomacy: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+10 (`dice: 1d20+10`)"
-  - Sense Motive: "+10 (`dice: 1d20+10`)"
-  - Stealth: "+5 (`dice: 1d20+5`)"
+  - Bluff: 10
+  - Computers: 5
+  - Culture: 10
+  - Diplomacy: 10
+  - Intimidate: 10
+  - Sense Motive: 10
+  - Stealth: 5
 source: Alien Archive 4
 specialabil:
   - name: Gravity Adjustment (Su)

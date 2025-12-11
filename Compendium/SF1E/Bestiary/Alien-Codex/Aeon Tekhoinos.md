@@ -1,4 +1,6 @@
 ---
+aliases: []
+cssclasses:
 abilitymods:
   - STR: 2
   - DEX: 5
@@ -30,9 +32,9 @@ KAC: 24
 Languages: envisaging
 Melee:
   - name: Melee
-    desc: slam +19 to hit (20 (2d8+12) B)
+    desc: slam +19 to hit (2d8+12 B)
   - name: Multiattack
-    desc: 3 slams +13 to hit (17 (1d10+12) B)
+    desc: 3 slams +13 to hit (1d10+12 B)
 modifier: 5
 name: Aeon, Tekhoinos
 image: "[[aeon, tekhoinos.png]]"
@@ -40,34 +42,31 @@ image: "[[aeon, tekhoinos.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: pattern bind
-  - name: Spell-Like Abilities (CL 10th)
-    desc: ""
-  - name: 1/day
-    desc: "[[Hold Monster]] (DC 20), [[Plane Shift]] (self only)"
-  - name: 3/day
-    desc: "[[Synaptic Pulse]] (DC 19)"
-  - name: At will
-    desc: "[[Invisibility]]"
+Spells:
+  - "**Spell-Like Abilities** (CL 10th)"
+  - 1/day: "[[Hold Monster]] (DC 20), [[Plane Shift]] (self only)"
+  - 3/day: "[[Synaptic Pulse]] (DC 19)"
+  - At will: "[[Invisibility]]"
 otherabil: "[[No Breath Ex]]"
 Perception: 19
 planet: Outer Planes
 Ranged:
   - name: Ranged
-    desc: telekinetic blast +21 to hit (22 (2d8+10) B; critical knockdown)
+    desc: telekinetic blast +21 to hit (2d8+10 B; critical knockdown)
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+13 (`dice: 1d20+13`)"
+  - Fort: 11
+  - Ref: 9
+  - Will: 13
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+19 (`dice: 1d20+19`) (+27 to fly)"
-  - Culture: "+19 (`dice: 1d20+19`) (+29 to recall knowledge)" 
-  - Engineering: "+19 (`dice: 1d20+19`)"
-  - Life Science: "+19 (`dice: 1d20+19`) (+29 to recall knowledge)" 
-  - Mysticism: "+24 (`dice: 1d20+24`) (+34 to recall knowledge)" 
-  - Sense Motive: "+19 (`dice: 1d20+19`)"
-  - Stealth: "+24 (`dice: 1d20+24`)"
+  - Acrobatics: 19
+  - Culture: 19 
+  - Engineering: 19
+  - Life Science: 19 
+  - Mysticism: 24 
+  - Sense Motive: 19
+  - Stealth: 24
 source: Alien Archive 2
 specialabil:
   - name: Adaptive Defense (Ex)
@@ -79,7 +78,12 @@ specialabil:
 Speed: 20 ft., fly 40 ft. (Su, perfect)
 statblock: true
 subtype: (aeon, extraplanar)
-tags: [aeon, extraplanar, medium, Neutral, outsider]
+tags:
+  - aeon
+  - extraplanar
+  - medium
+  - Neutral
+  - outsider
 Type: N medium outsider (aeon, extraplanar)
 type: outsider
 XP: 9,600

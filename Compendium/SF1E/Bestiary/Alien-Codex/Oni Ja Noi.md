@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 3
   - CON: 2
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 1 
 ac: "EAC: 17 KAC: 19" 
 alignment: LE
@@ -34,14 +34,10 @@ Melee:
 modifier: 5
 name: "Oni, Ja Noi"
 image: "[[oni, ja noi.png]]"
-
-offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 5th)"
-  - name: "1/day"
-    desc: "[[Flight]] (3rd level)"
-  - name: "3/day"
-    desc: "[[Command]] (DC 12), [[Fear]](1st level, DC 12), [[Supercharge Weapon]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 5th)"
+  - 1/day: "[[Flight]] (3rd level)"
+  - 3/day: "[[Command]] (DC 12), [[Fear]](1st level, DC 12), [[Supercharge Weapon]]"
 otherabil: "[[Change Shape Su]] (Small or Medium humanoid)"
 Perception: 11
 Ranged:
@@ -49,15 +45,15 @@ Ranged:
     desc: "thunderstrike sonic rifle +12 to hit (1d10+5 So; critical deafen [DC 13])"
 reach: "5 ft. (10 ft. with tactical swoop hammer)"
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 6 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`)"
-  - Intimidate: "+11 (`dice: 1d20+11`)"
-  - Stealth: "+11 (`dice: 1d20+11`)" 
+  - Acrobatics: 16
+  - Intimidate: 11
+  - Stealth: 11 
 source: Alien Archive 2 
 space: "5 ft."
 specialabil:

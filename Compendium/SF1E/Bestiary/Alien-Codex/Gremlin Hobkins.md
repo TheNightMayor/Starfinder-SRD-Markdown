@@ -2,7 +2,7 @@
 abilitymods:
   - STR: -1
   - DEX: 3
-  - CON: "+0"
+  - CON: 0
   - INT: 1
   - WIS: 1
   - CHA: 2 
@@ -30,12 +30,10 @@ Languages: "Aklo, Common"
 Melee:
   - name: "Melee"
     desc: "bite +1 to hit (1d4–1 P) or claw +1 to hit (1d4–1 S)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 1st)"
-  - name: "3/day"
-    desc: "[[Holographic Image]] (1st level, DC 14)"
-  - name: "At will"
-    desc: "[[Ghost Sound]] (DC 13), [[Psychokinetic Hand]] (DC 13)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 1st)"
+  - 3/day: "[[Holographic Image]] (1st level, DC 14)"
+  - At will: "[[Ghost Sound]] (DC 13), [[Psychokinetic Hand]] (DC 13)"
 modifier: 3
 name: "Gremlin, Hobkins"
 image: "[[gremlin, hobkins.png]]"
@@ -43,15 +41,15 @@ image: "[[gremlin, hobkins.png]]"
 otherabil: "collateral damage, minor levitation"
 Perception: 4
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 2
+  - Ref: 2
+  - Will: 3 
 Senses: "[[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+4 (`dice: 1d20+4`)"
-  - Intimidate: "+9 (`dice: 1d20+9`)"
-  - Stealth: "+9 (`dice: 1d20+9`)" 
+  - Acrobatics: 4
+  - Intimidate: 9
+  - Stealth: 9 
 source: Alien Archive 3 
 specialabil:
   - name: "Collateral Damage (Su)"

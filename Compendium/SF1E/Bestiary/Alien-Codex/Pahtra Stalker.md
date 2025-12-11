@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 5
-  - CON: "+0"
+  - CON: 0
   - INT: 3
   - WIS: 2
   - CHA: 1
@@ -49,19 +49,19 @@ Ranged:
     desc: advanced semi-auto pistol +14 to hit (2d6+6 P) or tactical shirren-eye rifle +14 to hit (1d10+6 P)
 RP: 4
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 5
+  - Ref: 8
+  - Will: 9
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Athletics: "+19 (`dice: 1d20+19`)"
-  - Bluff: "+14 (`dice: 1d20+14`)"
-  - Culture: "+19 (`dice: 1d20+19`)"
-  - Profession (mercenary): "+19 (`dice: 1d20+19`)"
-  - Sense Motive: "+19 (`dice: 1d20+19`)"
-  - Stealth: "+19 (`dice: 1d20+19`)"
+  - Acrobatics: 14
+  - Athletics: 19
+  - Bluff: 14
+  - Culture: 19
+  - Profession (mercenary): 19
+  - Sense Motive: 19
+  - Stealth: 19
 source: Alien Archive 2
 specialabil:
   - name: Nimble (Ex)

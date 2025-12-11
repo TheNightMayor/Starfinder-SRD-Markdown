@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
   - CON: 1
   - INT: 1
@@ -39,26 +39,23 @@ image: "[[Sapient Purple Orb.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "excandescent flash (DC 15)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 4th melee +8)"
-  - name: "1/day"
-    desc: "[[Force Blast]] (DC 17), [[Mind Thrust]] (2nd level DC 17)"
-  - name: "3/day"
-    desc: "[[Mystic Cure]] (1st level), [[Reflecting Armor]] (DC 16), [[Share Language]]"
-  - name: "At will"
-    desc: "[[Daze]] (DC 15), [[Ghost Sound]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 4th melee +8)"
+  - 1/day: "[[Force Blast]] (DC 17), [[Mind Thrust]] (2nd level DC 17)"
+  - 3/day: "[[Mystic Cure]] (1st level), [[Reflecting Armor]] (DC 16), [[Share Language]]"
+  - At will: "[[Daze]] (DC 15), [[Ghost Sound]]"
 otherabil: "astral mist (DC 15)"
 Perception: 10
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+9 (`dice: 1d20+9`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 9 
 Senses: "[[darkvision]] 60 ft."
 size: Small
 Skills:
-  - Acrobatics: "+15 (`dice: 1d20+15`) (+23 to fly)"
-  - Mysticism: "+15 (`dice: 1d20+15`)"
-  - Sense Motive: "+10 (`dice: 1d20+10`)" 
+  - Acrobatics: 15
+  - Mysticism: 15
+  - Sense Motive: 10 
 source: Alien Archive 4 
 specialabil:
   - name: "Astral Mist (Su)"

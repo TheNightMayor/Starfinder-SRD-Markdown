@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 7
   - DEX: 10
-  - CON: "—"
+  - CON: —
   - INT: 5
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 30 KAC: 32" 
 aliases: [Animated Lashunta Mind Mail III]
 alignment: N
@@ -35,7 +35,7 @@ KAC: 32
 Languages: "Castrovelian, Common"
 Melee:
   - name: "Melee"
-    desc: "slam +28 to hit (53 (6d10+23) B) or integrated returning tenor singing disk +31 to hit (44 (7d6+23) So; critical confuse (DC 22)"
+    desc: "slam +28 to hit (6d10+23 B) or integrated returning tenor singing disk +31 to hit (7d6+23 So; critical confuse (DC 22)"
 modifier: 10
 name: "Animated Lashunta Mind Mail III"
 image: "[[animated armor, lashunta mind mail iii.png]]"
@@ -44,17 +44,17 @@ otherabil: "comm, [[Unliving Ex|unliving]]"
 Perception: 28
 Ranged:
   - name: "Ranged"
-    desc: "integrated returning tenor singing disk +31 to hit (37 (7d6+16) So; critical confuse (DC 22))"
+    desc: "integrated returning tenor singing disk +31 to hit (7d6+16 So; critical confuse (DC 22))"
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 16
+  - Ref: 16
+  - Will: 12 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+33 (`dice: 1d20+33`)"
-  - Athletics: "+28 (`dice: 1d20+28`)"
-  - Mysticism: "+28 (`dice: 1d20+28`)" 
+  - Acrobatics: 33
+  - Athletics: 28
+  - Mysticism: 28 
 source: Alien Archive 3 
 specialabil:
   - name: "Comm (Ex)"

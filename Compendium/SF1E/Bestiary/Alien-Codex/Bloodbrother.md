@@ -3,9 +3,9 @@ abilitymods:
   - STR: 5
   - DEX: 2
   - CON: 4
-  - INT: "+0"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: 0
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 19 KAC: 21" 
 alignment: NE
 climate: cold
@@ -46,15 +46,15 @@ Perception: 14
 planet: Verces
 reach: "10 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 11
+  - Ref: 11
+  - Will: 6 
 Senses: "[[blindsight]] (thermal) 60 ft."
-size: huge
+size: Huge
 Skills:
-  - Athletics: "+19 (`dice: 1d20+19`) (+27 to climb)"
-  - Intimidate: "+14 (`dice: 1d20+14`)"
-  - Survival: "+14 (`dice: 1d20+14`)" 
+  - Athletics: 19
+  - Intimidate: 14
+  - Survival: 14 
 source: Alien Archive
 space: "15 ft."
 specialabil:

@@ -3,9 +3,9 @@ abilitymods:
   - STR: 4
   - DEX: 2
   - CON: 1
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 13 KAC: 15"
 alignment: N
 Aura: "magnetic field (30 ft. Strength DC 11)"
@@ -44,13 +44,13 @@ offabilities:
 otherabil: "[[Mindless Ex]]"
 Perception: "+7 "
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "-1 (`dice: 1d20+1`)"
+  - Fort: 6
+  - Ref: 2
+  - Will: -1
 Senses: "[[blindsight]] (magnetism) 60 ft., [[Sightless Ex]]"
 size: Medium
 Skills:
-  - stealth:  "+12 (`dice: 1d20+12`)"
+  - stealth:  12
 source: Alien Archive 3 
 specialabil:
   - name: "Demagnetization (Ex)"

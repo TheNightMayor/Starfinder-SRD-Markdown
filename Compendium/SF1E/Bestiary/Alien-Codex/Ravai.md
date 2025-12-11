@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 5
-  - CON: "+0"
+  - CON: 0
   - INT: 2
   - WIS: 1
   - CHA: 3 
@@ -47,15 +47,15 @@ Ranged:
     desc: "ejection +15 to hit (2d6+5 E & F; critical burn 1d4)"
 RP: 4 
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
-size: medium
+  - Fort: 7
+  - Ref: 10
+  - Will: 8 
+size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`) (+21 to fly)"
-  - Culture: "+13 (`dice: 1d20+13`)"
-  - Diplomacy: "+18 (`dice: 1d20+18`)"
-  - Mysticism: "+13 (`dice: 1d20+13`)" 
+  - Acrobatics: 13
+  - Culture: 13
+  - Diplomacy: 18
+  - Mysticism: 13 
 source: Alien Archive 2 
 specialabil:
   - name: "Ejection (Su)"

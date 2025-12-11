@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 8
-  - DEX: "+0"
+  - DEX: 0
   - CON: 5
   - INT: -4
   - WIS: 1
@@ -31,13 +31,13 @@ image: "[[predator, colossal gargantuan.jpg]]"
 Perception: 23
 reach: "30 ft."
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+13 (`dice: 1d20+13`)"
+  - Fort: 17
+  - Ref: 12
+  - Will: 13
 Senses: "[[low-light vision]]"
 size: Colossal
 Skills:
-  - Athletics: "+23 (`dice: 1d20+23`)"
+  - Athletics: 23
 source: Alien Archive 2 
 space: "30 ft."
 Speed: 30 ft. 

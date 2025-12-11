@@ -3,8 +3,8 @@ abilitymods:
   - STR: -5
   - DEX: 5
   - CON: 3
-  - INT: "—"
-  - WIS: "+0"
+  - INT: —
+  - WIS: 0
   - CHA: -3
 ac: "EAC: 18 KAC: 20"
 alignment: N
@@ -44,13 +44,13 @@ otherabil: "[[Mindless Ex]]"
 Perception: 13
 reach: "0 ft."
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 8
+  - Ref: 10
+  - Will: 5
 Senses: "[[blindsense]] (vibration) 30 ft., [[darkvision]] 60 ft."
-size: fine
+size: Fine
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`) (+21 to fly) "
+  - Acrobatics: "+13 "
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

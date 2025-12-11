@@ -1,12 +1,12 @@
 ---
-aliases: 
-cssclasses: 
+aliases:
+cssclasses:
 abilitymods:
   - STR: 5
   - DEX: 3
   - CON: 2
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 1
 ac: "EAC: 17 KAC: 19"
 alignment: LN
@@ -40,24 +40,22 @@ offabilities:
     desc: "[[Star Knight#Challenge - 4TH Level|challenge]], [[Fighting Styles]] ([[Bombard]]), [[Bombard#Grenade Expert (EX)|grenade expert]] (25 ft.),[[Bombard#Heavy Fire (EX)| heavy fire]] (+5 damage)"
   - name: Lashunta Spell-Like Abilities
     desc: (CL 5th)
-  - name: 1/day
-    desc: "[[Detect Thoughts]] (DC 12)"
-  - name: At will
-    desc: "[[Daze]] (DC 11), [[Psychokinetic Hand]]"
+  - 1/day: "[[Detect Thoughts]] (DC 12)"
+  - At will: "[[Daze]] (DC 11), [[Psychokinetic Hand]]"
 Perception: 11
 Ranged:
   - name: Ranged
     desc: anchoring thunderstrike sonic rifle +11 to hit (1d10+5 So; critical deafen [DC 15]) or shock grenade II +11 to hit (explode [15 ft., 1d12 E, DC 15]) or stickybomb grenade II +11 to hit (explode [15 ft., entangled 2d4 rounds, DC 15])
 reach: 5 ft. (10 ft. with cryopike)
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+6 (`dice: 1d20+6`)"
-size: medium
+  - Fort: 7
+  - Ref: 5
+  - Will: 6
+size: Medium
 Skills:
-  - Athletics: "+11 (`dice: 1d20+11`)"
-  - Culture: "+11 (`dice: 1d20+11`)"
-  - Intimidate: "+16 (`dice: 1d20+16`)"
+  - Athletics: 11
+  - Culture: 11
+  - Intimidate: 16
 source: Pact Worlds
 space: 5 ft.
 species: "[[Damaya lashunta]]"

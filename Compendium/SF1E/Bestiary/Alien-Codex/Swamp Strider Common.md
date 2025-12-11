@@ -35,15 +35,15 @@ otherabil: marshborn
 Perception: "+7 "
 reach: 5 ft. (10 ft. with tail)
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+1 (`dice: 1d20+1`)"
+  - Fort: 6
+  - Ref: 6
+  - Will: 1
   - name: Weaknesses
     desc: flammable
 Senses: "[[blindsense]] (scent) 60 ft."
 size: Large
 Skills:
-  - Athletics: "+7 (`dice: 1d20+7`)"
+  - Athletics: 7
 source: Alien Archive 4
 space: 10 ft.
 specialabil:

@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 4
   - WIS: 1
   - CHA: 1
@@ -44,24 +44,22 @@ planet: []
 Ranged:
   - name: Ranged
     desc: static arc pistol +6 to hit (1d6+2 E; critical arc 2)
-  - name: Technomancer Spells Known
-    desc: (CL 2nd; melee + 4, ranged + 6)
-  - name: 1st (3/day)
-    desc: "[[Detect Tech]], [[Jolting Surge]]"
-  - name: (at will)
-    desc: "[[Detect Magic]], [[Energy Ray]]"
+Spells:
+  - "**Technomancer Spells Known** (CL 2nd; melee + 4, ranged + 6)"
+  - 1st (3/day): "[[Detect Tech]], [[Jolting Surge]]"
+  - at will: "[[Detect Magic]], [[Energy Ray]]"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 1
+  - Ref: 3
+  - Will: 5
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+12 (`dice: 1d20+12`)"
-  - Computers: "+12 (`dice: 1d20+12`)"
-  - Mysticism: "+7 (`dice: 1d20+7`)"
-  - Profession (dancer): "+7 (`dice: 1d20+7`)"
-  - Stealth: "+12 (`dice: 1d20+12`)"
+  - Acrobatics: 12
+  - Computers: 12
+  - Mysticism: 7
+  - Profession (dancer): 7
+  - Stealth: 12
 source: Alien Archive 2
 specialabil:
   - name: Nimble (Ex)

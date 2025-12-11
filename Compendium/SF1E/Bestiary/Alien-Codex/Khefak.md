@@ -2,11 +2,11 @@
 aliases: []
 cssclasses:
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
   - CON: 3
-  - INT: "—"
-  - WIS: "+0"
+  - INT: —
+  - WIS: 0
   - CHA: -3 
 ac: "EAC: 10 KAC: 12" 
 alignment: N
@@ -42,11 +42,11 @@ otherabil: "consume objects, [[Mindless Ex]]"
 Perception: 3
 planet: Akiton
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+0"
+  - Fort: 3
+  - Ref: 1
+  - Will: 0
 Senses: "[[blindsense]] (vibration) 30 ft., [[darkvision]] 60 ft."
-size: small
+size: Small
 source: Alien Archive 2 
 specialabil:
   - name: "Break Objects (Ex)"

@@ -3,9 +3,9 @@ abilitymods:
   - STR: 2
   - DEX: 1
   - CON: 3
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 10 KAC: 11" 
 alignment: N
 cr: 1/2
@@ -36,13 +36,13 @@ offabilities:
     desc: "amplify frequency, resonant vibrations"
 Perception: 4
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+0 (`dice: 1d20+0`)"
-  - Will: "-2 (`dice: 1d20+2`)" 
+  - Fort: 4
+  - Ref: 0
+  - Will: -2 
 Senses: "[[blindsight]] (sound) 120 ft."
 size: Small
 Skills:
-  - Athletics: "+9 (`dice: 1d20+9`)"
+  - Athletics: 9
 source: Alien Archive 4 
 specialabil:
   - name: "Amplify Frequency (Ex)"

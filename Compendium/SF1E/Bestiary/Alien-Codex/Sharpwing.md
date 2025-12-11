@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 4
   - CON: 2
   - INT: -4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 20 KAC: 22" 
 alignment: N
 climate: cold
@@ -43,15 +43,15 @@ otherabil: "ovitonomy"
 Perception: 21
 planet: Aballon
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 12
+  - Ref: 12
+  - Will: 7 
 Senses: "[[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+21 (`dice: 1d20+21`) (+29 when flying)"
-  - Athletics: "+16 (`dice: 1d20+16`)"
-  - Stealth: "+16 (`dice: 1d20+16`)" 
+  - Acrobatics: 21
+  - Athletics: 16
+  - Stealth: 16 
 source: Alien Archive
 specialabil:
   - name: "Ovitonomy (Ex)"

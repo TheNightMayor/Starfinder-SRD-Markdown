@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 1
-  - DEX: "+0"
+  - DEX: 0
   - CON: 2
   - INT: 1
   - WIS: 4
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 13 KAC: 14" 
 alignment: 
 cr: 2
@@ -35,16 +35,16 @@ image: "[[barathu, early stage.png]]"
 otherabil: "along for the ride, early stage adaptation"
 Perception: 13
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 3
+  - Ref: 1
+  - Will: 7 
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Diplomacy: "+8 (`dice: 1d20+8`)"
-  - Life Science: "+8 (`dice: 1d20+8`)"
-  - Sense Motive: "+13 (`dice: 1d20+13`)" 
+  - Acrobatics: 13
+  - Diplomacy: 8
+  - Life Science: 8
+  - Sense Motive: 13 
 source: Alien Archive 
 specialabil:
   - name: "Along for the Ride (Ex)"

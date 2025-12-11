@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 5
-  - CON: "—"
+  - CON: —
   - INT: 11
   - WIS: 8
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 30 KAC: 31"
 alignment: LE
 cr: 17
@@ -36,26 +36,23 @@ name: "Planashar"
 image: "[[Planashar.png]]"
 
 offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 17th ranged +28)"
-  - name: "1/day"
-    desc: "[[Discharge, Greater]](DC 26), [[Rewire Flesh, Mass]] (DC 26)"
-  - name: "3/day"
-    desc: "[[Control Machines]] (DC 25), [[Holographic Image]] (5th level, DC 25), [[Rapid Repair]] (DC 25), [[Telekinesis]] (DC 25)"
-  - name: "At will"
-    desc: "[[Destruction Protocol]], [[Rewire Flesh]] (DC 24)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 17th ranged +28)"
+  - 1/day: "[[Discharge, Greater]](DC 26), [[Rewire Flesh, Mass]] (DC 26)"
+  - 3/day: "[[Control Machines]] (DC 25), [[Holographic Image]] (5th level, DC 25), [[Rapid Repair]] (DC 25), [[Telekinesis]] (DC 25)"
+  - At will: "[[Destruction Protocol]], [[Rewire Flesh]] (DC 24)"
 otherabil: "convergence protocol, simulacrum, [[Spider Climb]], [[Unliving Ex|unliving]]"
 Perception: 29
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+18 (`dice: 1d20+18`)" 
+  - Fort: 13
+  - Ref: 13
+  - Will: 18 
 Senses: "[[blindsight]] (vibration) 60 ft."
 size: Small
 Skills:
-  - engineering:  "+29 (`dice: 1d20+29`)"
-  - Mysticism: "+29 (`dice: 1d20+29`)"
-  - Stealth: "+34 (`dice: 1d20+34`)" 
+  - engineering:  29
+  - Mysticism: 29
+  - Stealth: 34 
 source: Alien Archive 4 
 specialabil:
   - name: "Convergence Protocol (Su)"

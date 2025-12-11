@@ -42,14 +42,11 @@ name: "Yithian, Elder"
 image: "[[yithian elder.png]]"
 
 offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 13th)"
-  - name: "1/day"
-    desc: "[[Telepathic Jaunt]]"
-  - name: "3/day"
-    desc: "[[Arcane Eye]], [[Mind Probe]] (DC 21)"
-  - name: "At will"
-    desc: "[[Detect Thoughts]] (range 150 ft. DC 18), [[Mindlink]] (range 150 ft.), [[Mind Swap]] (DC 23), [[Modify Memory]] (DC 22), [[Telepathic Bond]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 13th)"
+  - 1/day: "[[Telepathic Jaunt]]"
+  - 3/day: "[[Arcane Eye]], [[Mind Probe]] (DC 21)"
+  - At will: "[[Detect Thoughts]] (range 150 ft. DC 18), [[Mindlink]] (range 150 ft.), [[Mind Swap]] (DC 23), [[Modify Memory]] (DC 22), [[Telepathic Bond]]"
 otherabil: "mental projection, mind swap mastery, [[Telepathic Bond]]"
 Perception: 23
 Ranged:
@@ -57,17 +54,17 @@ Ranged:
     desc: "impulse storm coil +22 to hit (4d6+13 E)"
 reach: "10 ft."
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+18 (`dice: 1d20+18`)" 
+  - Fort: 12
+  - Ref: 12
+  - Will: 18 
 Senses: "[[blindsense]] (thought) 150 ft., [[darkvision]] 60 ft."
 size: Large
 Skills:
-  - culture:  "+28 (`dice: 1d20+28`)"
-  - Engineering: "+23 (`dice: 1d20+23`)"
-  - Life Science: "+28 (`dice: 1d20+28`)"
-  - Mysticism: "+28 (`dice: 1d20+28`)"
-  - Physical Science: "+23 (`dice: 1d20+23`)" 
+  - culture:  28
+  - Engineering: 23
+  - Life Science: 28
+  - Mysticism: 28
+  - Physical Science: 23 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

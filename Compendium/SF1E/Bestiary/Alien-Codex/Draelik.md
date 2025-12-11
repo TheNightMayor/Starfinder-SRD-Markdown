@@ -1,12 +1,12 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
   - CON: 2
-  - INT: "+0"
+  - INT: 0
   - WIS: 4
-  - CHA: -1 
-ac: "EAC: 13 KAC: 14" 
+  - CHA: -1
+ac: "EAC: 13 KAC: 14"
 alignment: NE
 climate: any
 combatType: spellcaster
@@ -15,68 +15,69 @@ date created: Monday, January 1st 2024, 3:13:12 pm
 date modified: Tuesday, July 30th 2024, 10:08:06 pm
 defabilities:
   - name: ""
-    desc: "+2 vs. necromancy effects"
-  - name: "Defensive Abilities"
+    desc: +2 vs. necromancy effects
+  - name: Defensive Abilities
     desc: "[[Stellar Revelations#Dark Matter (SU))|dark matter]]"
 EAC: 13
 Ecology:
-  - name: "Environment"
-    desc: "any (Great Shadar)"
-  - name: "Organization"
-    desc: "solitary, pair, or penumbra (3-8)"
+  - name: Environment
+    desc: any (Great Shadar)
+  - name: Organization
+    desc: solitary, pair, or penumbra (3-8)
 Environment: any (Great Shadar)
 environment: any
 Gear:
-  - name: "Gear"
+  - name: Gear
     desc: "[[Freebooter Armor#Freebooter Armor, I|freebooter armor I]], [[Shadowstaff#Shadowstaff, Lesser|lesser shadowstaff]] with 1 clip (40 charges)"
 hp: 21
 Init: 1
 KAC: 14
-Languages: "Aklo, Common"
+Languages: Aklo, Common
 Melee:
-  - name: "Melee"
-    desc: "lesser shadowstaff +4 to hit (1d4+2; see weapon entry)"
+  - name: Melee
+    desc: lesser shadowstaff +4 to hit (1d4+2; see weapon entry)
 modifier: 1
-name: "Draelik"
-image: "[[Draelik.png]]"
-
+name: Draelik
+image: "[[Starfinder-SRD/Compendium/Species/Draelik/Draelik.png]]"
 offabilities:
-  - name: "Offensive Abilities"
-    desc: "dark nova"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 2nd; melee +6)"
-  - name: "1/day"
-    desc: "[[Reflecting Armor]], [[Wisp Ally]]"
-  - name: "At will"
-    desc: "[[Fatigue]] (DC 14), [[Ghost Sound]] (DC 14)"
+  - name: Offensive Abilities
+    desc: dark nova
+Spells: 
+  - "**Spell-Like Abilities** (CL 2nd; melee +6)"
+  - 1/day: "[[Reflecting Armor]], [[Wisp Ally]]"
+  - At will: "[[Fatigue]] (DC 14), [[Ghost Sound]] (DC 14)"
 otherabil: "[[Stellar Alignment Su]] ([[Solarian#Graviton Mode|graviton]])"
 Perception: 12
 planet: Great Shadar
 Ranged:
-  - name: "Ranged"
-    desc: "lesser shadowstaff +6 to hit (1d4+2 C)"
+  - name: Ranged
+    desc: lesser shadowstaff +6 to hit (1d4+2 C)
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 3
+  - Ref: 1
+  - Will: 5
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - culture:  "+7 (`dice: 1d20+7`)"
-  - Mysticism: "+12 (`dice: 1d20+12`)"
-  - Stealth: "+7 (`dice: 1d20+7`) (+11 in dim light or darker)"
+  - culture: 7
+  - Mysticism: 12
+  - Stealth: 7
 source: Alien Archive
 specialabil:
-  - name: "Dark Matter (Su)"
-    desc: "This functions as the solarian stellar revelation of the same name. As a move action, the draelik can gain DR 2/— until he leaves graviton mode."
-  - name: "Dark Nova (Su)"
-    desc: "As a standard action, a draelik who is fully graviton-attuned can deal 2d6 negative energy damage to all creatures within 10 feet. A creature that succeeds at a DC 13 Reflex saving throw takes half damage. In addition, the light level of the affected area is reduced by one step for 1 round. After a draelik uses this ability, he immediately becomes unattuned."
-Speed: 30 ft. 
+  - name: Dark Matter (Su)
+    desc: This functions as the solarian stellar revelation of the same name. As a move action, the draelik can gain DR 2/— until he leaves graviton mode.
+  - name: Dark Nova (Su)
+    desc: As a standard action, a draelik who is fully graviton-attuned can deal 2d6 negative energy damage to all creatures within 10 feet. A creature that succeeds at a DC 13 Reflex saving throw takes half damage. In addition, the light level of the affected area is reduced by one step for 1 round. After a draelik uses this ability, he immediately becomes unattuned.
+Speed: 30 ft.
 statblock: true
 subtype: (draelik)
-tags: [draelik, humanoid, medium, NeutralEvil]
+tags:
+  - draelik
+  - humanoid
+  - medium
+  - NeutralEvil
 type: humanoid
-XP: 600 
+XP: 600
 ---
 
 ```statblock

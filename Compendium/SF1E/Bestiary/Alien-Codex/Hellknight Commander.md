@@ -46,14 +46,14 @@ Ranged:
     desc: apprehending hailstorm-class zero pistol +19 to hit (2d6+10 C; critical staggered [DC 19])
 RP: 5
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+11 (`dice: 1d20+11`)"
-size: medium
+  - Fort: 12
+  - Ref: 10
+  - Will: 11
+size: Medium
 Skills:
-  - Athletics: "+24 (`dice: 1d20+24`)"
-  - Culture: "+19 (`dice: 1d20+19`)"
-  - Mysticism: "+19 (`dice: 1d20+19`)"
+  - Athletics: 24
+  - Culture: 19
+  - Mysticism: 19
   - Sense Motive: +19
 source: Pact Worlds
 species: "[[Human]]"

@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 2
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: 1
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 14 KAC: 15"
 alignment: LE
 climate: any
@@ -15,57 +15,59 @@ date created: Monday, January 1st 2024, 3:13:12 pm
 date modified: Tuesday, July 30th 2024, 10:08:08 pm
 defabilities:
   - name: ""
-    desc: "+2 vs. enchantment"
+    desc: +2 vs. enchantment
   - name: "[[Immunity (Ex or Su)|Immunities]]"
     desc: "charm "
-  - name: "Weaknesses"
-    desc: "masked emotions"
+  - name: Weaknesses
+    desc: masked emotions
 EAC: 14
 Ecology:
-  - name: "Environment"
-    desc: "any (Embroi)"
-  - name: "Organization"
-    desc: "solitary, unit (2–10), or coterie (4–15 plus 1 embri Speaker)"
+  - name: Environment
+    desc: any (Embroi)
+  - name: Organization
+    desc: solitary, unit (2–10), or coterie (4–15 plus 1 embri Speaker)
 Environment: any (Embroi)
 environment: any
 Gear:
-  - name: "Gear"
+  - name: Gear
     desc: "[[Crossbolter#Crossbolter, Tactical|tactical crossbolter]] with 10 [[Arrows]], [[Hivemask]]"
 hp: 35
 Init: 4
 KAC: 15
-Languages: "Common, Embri"
+Languages: Common, Embri
 Melee:
-  - name: "Melee"
-    desc: "claw +7 to hit 7 (1d4+5)S"
+  - name: Melee
+    desc: claw +7 to hit 7 (1d4+5)S
 modifier: 4
-name: "Embri"
-image: "[[Embri.png]]"
-
+name: Embri
+image: "[[Starfinder-SRD/Compendium/Species/Embri/Embri.png]]"
 Perception: 8
 planet: Embroi
 Ranged:
-  - name: "Ranged"
-    desc: "tactical crossbolter +9 to hit 5 (1d10)P"
+  - name: Ranged
+    desc: tactical crossbolter +9 to hit 5 (1d10)P
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 2
+  - Ref: 2
+  - Will: 8
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+13 (`dice: 1d20+13`)"
-  - Computers: "+13 (`dice: 1d20+13`)"
-  - Engineering: "+8 (`dice: 1d20+8`)"
-  - Sense Motive: "+13 (`dice: 1d20+13`)"
-  - Stealth: "+8 (`dice: 1d20+8`)"
-source: Alien Archive 2 
+  - Athletics: 13
+  - Computers: 13
+  - Engineering: 8
+  - Sense Motive: 13
+  - Stealth: 8
+source: Alien Archive 2
 specialabil:
-  - name: "Masked Emotions (Ex)"
-    desc: "An embri loses its immunity to charm effects and its +2 racial bonus to saving throws against enchantment spells and effects when it isn’t wearing a mask over its face. In addition, while unmasked, it must roll twice for any Sense Motive check it attempts and take the lower result."
+  - name: Masked Emotions (Ex)
+    desc: An embri loses its immunity to charm effects and its +2 racial bonus to saving throws against enchantment spells and effects when it isn’t wearing a mask over its face. In addition, while unmasked, it must roll twice for any Sense Motive check it attempts and take the lower result.
 Speed: 30 ft.
 statblock: true
-tags: [aberration, LawfulEvil, medium]
+tags:
+  - aberration
+  - LawfulEvil
+  - medium
 type: aberration
 XP: 800
 ---

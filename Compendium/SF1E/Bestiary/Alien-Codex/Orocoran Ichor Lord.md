@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 3
   - INT: 2
@@ -40,31 +40,25 @@ planet: Aucturn
 Ranged:
   - name: "Ranged"
     desc: "projectile vomit +17 to hit (2d6+9 A plus hallucinate)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 6th)"
-  - name: "1/day"
-    desc: "[[Augury]]"
-  - name: "Constant"
-    desc: "[[See Invisibility]]" 
-  - name: "Spells Known"
-    desc: "(CL 9th)"
-  - name: "3rd (2/day)"
-    desc: "[[Charm Monster]] (DC 20), [[Mind Thrust]] (DC 20)"
-  - name: "2nd (6/day)"
-    desc: "[[Fear]](DC 19), [[Hold Person]] (DC 19), [[Mystic Cure]], [[Spider Climb]]"
-  - name: "At will"
-    desc: "[[Command]] (DC 18), [[Remove Condition, Lesser]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 6th)"
+  - 1/day: "[[Augury]]"
+  - Constant: "[[See Invisibility]]" 
+  - "**Spells Known** (CL 9th)"
+  - 3rd (2/day): "[[Charm Monster]] (DC 20), [[Mind Thrust]] (DC 20)"
+  - 2nd (6/day): "[[Fear]](DC 19), [[Hold Person]] (DC 19), [[Mystic Cure]], [[Spider Climb]]"
+  - At will: "[[Command]] (DC 18), [[Remove Condition, Lesser]]"
 RP: 1 
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+14 (`dice: 1d20+14`) (+16 vs. mind-affecting effects)"
+  - Fort: 8
+  - Ref: 8
+  - Will: 14
 Senses: "[[darkvision]] 60 ft., [[See Invisibility]]"
-size: medium
+size: Medium
 Skills:
-  - Intimidate: "+22 (`dice: 1d20+22`)"
-  - Mysticism: "+22 (`dice: 1d20+22`)"
-  - Sense Motive: "+17 (`dice: 1d20+17`)" 
+  - Intimidate: 22
+  - Mysticism: 22
+  - Sense Motive: 17 
 source: Alien Archive 
 specialabil:
   - name: "Hallucinate (Ex)"

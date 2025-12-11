@@ -46,16 +46,16 @@ Ranged:
   - name: Ranged
     desc: persuader +19 to hit (2d4+9 E & F; critical wound)
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+10 (`dice: 1d20+10`) –1 vs. mind-affecting"
+  - Fort: 10
+  - Ref: 10
+  - Will: +10 –1 vs. mind-affecting
 size: Small
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`)"
-  - Athletics: "+22 (`dice: 1d20+22`) (+30 to climb)"
-  - Computers: "+22 (`dice: 1d20+22`)"
-  - Diplomacy: "+17 (`dice: 1d20+17`)"
-  - Engineering: "+22 (`dice: 1d20+22`)"
+  - Acrobatics: 17
+  - Athletics: 22
+  - Computers: 22
+  - Diplomacy: 17
+  - Engineering: 22
 specialabil:
   - name: Psychic Reverb (Ex)
     desc: A worlanisi takes a –1 penalty to saving throws against mind-affecting effects and takes +1 damage per damage die from mind-affecting spells, weapons, and other effects.

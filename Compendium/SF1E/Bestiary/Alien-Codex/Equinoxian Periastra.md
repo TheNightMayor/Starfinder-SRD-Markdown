@@ -38,15 +38,15 @@ Ranged:
   - name: "Ranged"
     desc: "graviton crush +19 to hit (5d4+9 B; critical staggered) or sun hurl +19 to hit (3d6+15 E & F; critical burn 1d6)"
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 11
+  - Ref: 11
+  - Will: 10
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`)"
-  - Athletics: "+17 (`dice: 1d20+17`)"
-  - Mysticism: "+22 (`dice: 1d20+22`)" 
+  - Acrobatics: 17
+  - Athletics: 17
+  - Mysticism: 22 
 source: Alien Archive 3 
 specialabil:
   - name: "Balanced Alignment (Su)"

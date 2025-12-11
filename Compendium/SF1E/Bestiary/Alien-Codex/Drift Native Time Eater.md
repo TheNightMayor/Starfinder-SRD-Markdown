@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 1
-  - DEX: "+0"
+  - DEX: 0
   - CON: 2
-  - INT: "+0"
+  - INT: 0
   - WIS: 4
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 13 KAC: 15"
 alignment: N
 cr: 2
@@ -34,14 +34,14 @@ image: "[[drift native, time eater.png]]"
 Perception: 7
 reach: "5 ft. (15 ft. with tentacle)"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 4
+  - Ref: 4
+  - Will: 3
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+7 (`dice: 1d20+7`) (–1 to fly)"
-  - Stealth: "+12 (`dice: 1d20+12`)"
+  - Acrobatics: 7
+  - Stealth: 12
 source: Alien Archive 3 
 space: "5 ft."
 specialabil:

@@ -33,13 +33,13 @@ image: "[[predator, colossal gargantuan.jpg]]"
 Perception: 19
 reach: "20 ft."
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 14
+  - Ref: 9
+  - Will: 10
 Senses: "[[low-light vision]]"
 size: Colossal
 Skills:
-  - Athletics: "+19 (`dice: 1d20+19`)"
+  - Athletics: 19
 source: Alien Archive 2 
 space: "20 ft."
 Speed: 40 ft. 

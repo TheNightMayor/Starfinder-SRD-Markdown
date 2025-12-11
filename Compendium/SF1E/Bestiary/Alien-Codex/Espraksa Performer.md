@@ -2,8 +2,8 @@
 abilitymods:
   - STR: 1
   - DEX: 3
-  - CON: "+0"
-  - INT: "+0"
+  - CON: 0
+  - INT: 0
   - WIS: 2
   - CHA: 5
 ac: "EAC: 16 KAC: 17"
@@ -40,16 +40,16 @@ Ranged:
   - name: Ranged
     desc: diffraction perforator pistol +10 to hit (1d4+4 So; critical bleed 1d4)
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 3
+  - Ref: 7
+  - Will: 5
 size: Medium
 Skills:
-  - Acrobatics: "+15 (`dice: 1d20+15`)"
-  - Bluff: "+15 (`dice: 1d20+15`)"
-  - Culture: "+10 (`dice: 1d20+10`)"
-  - Diplomacy: "+10 (`dice: 1d20+10`)"
-  - Sense Motive: "+15 (`dice: 1d20+15`)"
+  - Acrobatics: 15
+  - Bluff: 15
+  - Culture: 10
+  - Diplomacy: 10
+  - Sense Motive: 15
 source: Alien Archive 3
 specialabil:
   - name: Cold Inured (Ex)

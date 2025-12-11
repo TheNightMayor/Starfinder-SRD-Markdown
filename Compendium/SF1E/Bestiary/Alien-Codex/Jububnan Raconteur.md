@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 2
   - INT: 2
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 6
 ac: "EAC: 19 KAC: 20"
 alignment: CN
@@ -37,26 +37,23 @@ Perception: 16
 Ranged:
   - name: Ranged
     desc: "[[Plasma Pistol#Plasma Pistol, Red Star|red star plasma pistol]] +15 to hit (1d8+8 E & F; critical burn 1d8) or incendiary grenade II +15 to hit (explode [10 ft., 1d6 burn, DC 18])"
-  - name: Witchwarper Spells Known
-    desc: (CL 8th ranged +15)"
-  - name: 3rd (3/day)
-    desc: "[[Explosive Blast]](DC 20), [[Probability Prediction]]"
-  - name: 2nd (6/day)
-    desc: "[[Caustic Conversion]], [[Hold Person]] (DC 19), [[Slice Reality]] (DC 19)"
-  - name: 1st (at will)
-    desc: "[[Puncture Veil]], [[Shifting Surge]]"
+Spells:
+  - "**Witchwarper Spells Known** (CL 8th ranged +15)"
+  - 3rd (3/day): "[[Explosive Blast]](DC 20), [[Probability Prediction]]"
+  - 2nd (6/day): "[[Caustic Conversion]], [[Hold Person]] (DC 19), [[Slice Reality]] (DC 19)"
+  - 1st (at will): "[[Puncture Veil]], [[Shifting Surge]]"
 RP: 4
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 7
+  - Ref: 9
+  - Will: 9
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`)"
-  - Culture: "+21 (`dice: 1d20+21`)"
-  - Mysticism: "+21 (`dice: 1d20+21`)"
-  - Stealth: "+16 (`dice: 1d20+16`)"
+  - Acrobatics: 16
+  - Culture: 21
+  - Mysticism: 21
+  - Stealth: 16
 source: Alien Archive 4
 specialabil:
   - name: Astonishing Balance (Ex)

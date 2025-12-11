@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 2
-  - DEX: "+0"
+  - DEX: 0
   - CON: 2
   - INT: 6
   - WIS: 4
@@ -20,7 +20,7 @@ environment: any
 Gear:
   - name: Gear
     desc: "[[Lashunta Tempweave#Lashunta Tempweave, Advanced|advanced lashunta tempweave]] ([[Force Field#Force Field, Black|black force field]] [10 hp]"
-  - Ecology: 
+  - Ecology:
   - name: Environment
     desc: any (Absalom Station)
   - name: Organization
@@ -45,17 +45,17 @@ Ranged:
   - name: Ranged
     desc: aphelion laser pistol +15 to hit (3d4+8 F; critical burn 1d4) or frag grenade III +15 to hit (explode [15 ft., 4d6 P, DC 18])
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 9
+  - Ref: 9
+  - Will: 9
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+16 (`dice: 1d20+16`)"
-  - Bluff: "+16 (`dice: 1d20+16`)"
-  - Computers: "+21 (`dice: 1d20+21`)"
-  - Engineering: "+21 (`dice: 1d20+21`)"
-  - Physical Science: "+21 (`dice: 1d20+21`)"
+  - Athletics: 16
+  - Bluff: 16
+  - Computers: 21
+  - Engineering: 21
+  - Physical Science: 21
 source: Alien Archive
 specialabil:
   - name: Gore (Ex)

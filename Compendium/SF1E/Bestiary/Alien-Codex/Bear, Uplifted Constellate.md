@@ -1,12 +1,12 @@
 ---
-aliases: 
-cssclasses: 
+aliases:
+cssclasses:
 abilitymods:
   - STR: 5
   - DEX: 4
   - CON: 1
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 2
 ac: "EAC: 20 KAC: 22"
 alignment: N
@@ -48,15 +48,15 @@ Ranged:
 reach: 5 ft.
 RP: 4
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 11
+  - Ref: 11
+  - Will: 6
 Senses: "[[low-light vision]]"
 size: Large
 Skills:
-  - Athletics: "+19 (`dice: 1d20+19`) (+27 to climb)"
-  - Intimidate: "+14 (`dice: 1d20+14`)"
-  - Mysticism: "+14 (`dice: 1d20+14`)"
+  - Athletics: 19
+  - Intimidate: 14
+  - Mysticism: 14
 source: Alien Archive 2
 space: 10 ft.
 species: "[[Bear, Uplifted]]"

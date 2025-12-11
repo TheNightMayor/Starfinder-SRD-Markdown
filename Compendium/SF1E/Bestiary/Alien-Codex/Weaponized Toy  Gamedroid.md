@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 5
-  - CON: "—"
+  - CON: —
   - INT: 2
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 2 
 ac: "EAC: 17 KAC: 18" 
 alignment: N
@@ -37,25 +37,22 @@ image: "[[weaponized gamedroid.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "casting unit"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 6th melee +13)"
-  - name: "1/day"
-    desc: "[[fabricate scrap]], [[Jolting Surge]], [[Junksword]] (2nd level)"
-  - name: "2/day"
-    desc: "[[Magic Missile]], [[Wisp Ally]]"
-  - name: "At will"
-    desc: "[[Disguise Self]] (DC 17), [[Holographic Image]] (3rd level, DC 19), [[Psychokinetic Hand]], [[Token Spell]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 6th melee +13)"
+  - 1/day: "[[fabricate scrap]], [[Jolting Surge]], [[Junksword]] (2nd level)"
+  - 2/day: "[[Magic Missile]], [[Wisp Ally]]"
+  - At will: "[[Disguise Self]] (DC 17), [[Holographic Image]] (3rd level, DC 19), [[Psychokinetic Hand]], [[Token Spell]]"
 otherabil: "sound modulation"
 Perception: 13
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 7 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Disguise: "+18 (`dice: 1d20+18`)" 
+  - Acrobatics: 13
+  - Disguise: 18 
 source: Alien Archive 3 
 specialabil:
   - name: "Casting Unit (Ex)"

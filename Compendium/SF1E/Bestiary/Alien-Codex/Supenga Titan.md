@@ -43,14 +43,14 @@ image: "[[Supenga Titan.png]]"
 Perception: 26
 reach: "10 ft. (15 ft. with tail)"
 saves:
-  - Fort: "+19 (`dice: 1d20+19`)"
-  - Ref: "+17 (`dice: 1d20+17`)"
-  - Will: "+13 (`dice: 1d20+13`)" 
+  - Fort: 19
+  - Ref: 17
+  - Will: 13 
 Senses: "[[blindsense]] (vibration) 60 ft., [[low-light vision]]"
 size: Huge
 Skills:
-  - Acrobatics: "+26 (`dice: 1d20+26`)"
-  - Athletics: "+31 (`dice: 1d20+31`)"
+  - Acrobatics: 26
+  - Athletics: 31
 source: Alien Archive 4 
 space: "15 ft."
 specialabil:

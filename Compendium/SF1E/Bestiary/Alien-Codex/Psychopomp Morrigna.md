@@ -45,14 +45,11 @@ image: "[[psychopomp, morrigna.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "spirit touch"
-  - name: Spells Known 
-    desc: (CL 11th melee +18) 
-  - name: 4th (3/day)
-    desc: "[[Death Ward]], [[Soul Reap]] (DC 22)"
-  - name: 3rd (6/day)
-    desc: "[[Dispel Magic]], [[Mind Thrust]] (DC 21), [[Mystic Cure]], [[Speak with Dead]] (DC 21)"
-  - name: 2nd (at will)
-    desc: "[[Force Blast]] (DC 20), [[Invisibility]]"
+Spells:
+  - "**Spells Known** (CL 11th melee +18)"
+  - 4th (3/day): "[[Death Ward]], [[Soul Reap]] (DC 22)"
+  - 3rd (6/day): "[[Dispel Magic]], [[Mind Thrust]] (DC 21), [[Mystic Cure]], [[Speak with Dead]] (DC 21)"
+  - 2nd (at will): "[[Force Blast]] (DC 20), [[Invisibility]]"
 otherabil: "arachnid spy, [[Change Shape Su]] (Small or Medium animal or humanoid)"
 Perception: 20
 Ranged:
@@ -60,16 +57,16 @@ Ranged:
     desc: "series-42 plasma guide +20 to hit (3d8+11 E & F; critical severe wound)"
 reach: "5 ft. (10 ft. with web lash)"
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+16 (`dice: 1d20+16`)" 
+  - Fort: 10
+  - Ref: 10
+  - Will: 16 
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Athletics: "+20 (`dice: 1d20+20`) (+28 to climb)"
-  - Mysticism: "+25 (`dice: 1d20+25`)"
-  - Sense Motive: "+25 (`dice: 1d20+25`)"
-  - Stealth: "+20 (`dice: 1d20+20`)" 
+  - Athletics: 20
+  - Mysticism: 25
+  - Sense Motive: 25
+  - Stealth: 20 
 source: Alien Archive 4 
 space: "5 ft."
 specialabil:

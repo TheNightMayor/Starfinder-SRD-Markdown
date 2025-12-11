@@ -3,9 +3,9 @@ abilitymods:
   - STR: 2
   - DEX: 4
   - CON: 1
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 13 KAC: 15" 
 alignment: N
 cr: 2
@@ -26,7 +26,7 @@ Init: 4
 KAC: 15
 Melee:
   - name: "Melee"
-    desc: "claw +10 to hit (6 (1d6+4) S)"
+    desc: "claw +10 to hit (1d6+4 S)"
 modifier: 4
 name: "Apari, Constituent"
 image: "[[Apari Constituent.png]]"
@@ -37,15 +37,15 @@ offabilities:
 otherabil: "[[Mindless Ex]], reincorporate"
 Perception: 7
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+1 (`dice: 1d20+1`)" 
+  - Fort: 6
+  - Ref: 4
+  - Will: 1 
 Senses: "[[darkvision]] 60 ft."
-size: tiny
+size: Tiny
 Skills:
-  - Acrobatics: "+12 (`dice: 1d20+12`) (+20 when flying)"
-  - Intimidate: "+7 (`dice: 1d20+7`)"
-  - Survival: "+7 (`dice: 1d20+7`)" 
+  - Acrobatics: 12
+  - Intimidate: 7
+  - Survival: 7 
 source: Alien Archive 
 specialabil:
   - name: "Fungible (Ex)"

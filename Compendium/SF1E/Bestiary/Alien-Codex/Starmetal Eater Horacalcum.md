@@ -5,9 +5,9 @@ abilitymods:
   - STR: 8
   - DEX: 4
   - CON: 6
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 27 KAC: 29" 
 alignment: N
 cr: 13
@@ -41,13 +41,13 @@ offabilities:
 otherabil: "[[Mindless Ex]]"
 Perception: 23
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+10 (`dice: 1d20+10`)" 
+  - Fort: 17
+  - Ref: 13
+  - Will: 10 
 Senses: "[[blindsense]] (scent [horacalcum only]) 1 mile, [[blindsight]] (vibration) 60 ft., [[Sightless Ex]]"
 size: Medium
 Skills:
-  - Athletics: "+28 (`dice: 1d20+28`)" 
+  - Athletics: 28 
 source: Alien Archive 4 
 specialabil:
   - name: "Temporal Dilation (Ex)"

@@ -3,9 +3,9 @@ abilitymods:
   - STR: 2
   - DEX: 4
   - CON: 1
-  - INT: "+0"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: 0
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 11 KAC: 13"
 alignment: LN
 class: "[[Soldier]]"
@@ -42,15 +42,15 @@ Ranged:
     desc: static arc caster +8 to hit (1d8+1 E plus first arc 1d6; critical second arc 1d6) or stickybomb grenade I +8 to hit (explode [10 ft., entangled 2d4 rounds, DC 10])
 reach: 5 ft. (10 ft. with standard taclash)
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 3
+  - Ref: 1
+  - Will: 3
 Senses: "[[blindsense]] (scent) 30 ft., [[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+5 (`dice: 1d20+5`)"
-  - Engineering: "+10 (`dice: 1d20+10`)"
-  - Mysticism: "+5 (`dice: 1d20+5`)"
+  - Acrobatics: 5
+  - Engineering: 10
+  - Mysticism: 5
 source: Alien Archive 4
 space: 5 ft.
 specialabil:

@@ -35,19 +35,13 @@ Melee:
 modifier: 5
 name: Sazaron, Sage
 image: "[[Sazaron Sage.png]]"
-offabilities:
-  - name: Spell-Like Abilities
-    desc: (CL 12th)
-  - name: 1/day
-    desc: "[[Zone of Truth]] (DC 21)"
-  - name: Technomancer Spells Known
-    desc: (CL 12th)
-  - name: 4th (3/day)
-    desc: "[[Arcane Eye]], [[Resilient Sphere]] (DC 23)"
-  - name: 3rd (6/day)
-    desc: "[[Arcing Surge]] (DC 22), [[ClairaudienceClairvoyance]], [[Dispel Magic]], [[Slow]]"
-  - name: 2nd (at will)
-    desc: "[[Make Whole]], [[See Invisibility]]"
+Spells:
+  - "**Spell-Like Abilities** {CL 12th)"
+  - 1/day: "[[Zone of Truth]] (DC 21)"
+  - "**Technomancer Spells Known** (CL 12th)"
+  - 4th (3/day): "[[Arcane Eye]], [[Resilient Sphere]] (DC 23)"
+  - 3rd (6/day): "[[Arcing Surge]] (DC 22), [[ClairaudienceClairvoyance]], [[Dispel Magic]], [[Slow]]"
+  - 2nd (at will): "[[Make Whole]], [[See Invisibility]]"
 otherabil: "[[Technomancer#Cache Capacitor (SU) - 6TH Level|cache capacitor 2]] ([[Keen Senses]], [[Life Bubble]] ), [[technomancer#Magic Hack - 2ND Level|magic hacks]] ([[Magic Hacks#Eternal Spell (EX)|eternal spell]]: [[Identify]], [[Magic Hacks#Tech Countermeasures (SU)|tech countermeasures]]), [[Technomancer#Spell Cache (SU) - 1ST Level|spell cache]] ([[Dueling Sword]])"
 Perception: 22
 Ranged:
@@ -56,17 +50,17 @@ Ranged:
 reach: 5 ft. (10 ft. with tail slap)
 RP: 5
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+17 (`dice: 1d20+17`)"
+  - Fort: 11
+  - Ref: 13
+  - Will: 17
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - computers: "+27 (`dice: 1d20+27`)"
-  - Culture: "+27 (`dice: 1d20+27`)"
-  - Life Science: "+27 (`dice: 1d20+27`)"
-  - Mysticism: "+22 (`dice: 1d20+22`)"
-  - Physical Science: "+27 (`dice: 1d20+27`)"
+  - computers: 27
+  - Culture: 27
+  - Life Science: 27
+  - Mysticism: 22
+  - Physical Science: 27
 source: Alien Archive 3
 space: 10 ft.
 species: "[[Sazaron]]"

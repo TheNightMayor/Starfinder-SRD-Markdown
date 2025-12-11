@@ -5,7 +5,7 @@ abilitymods:
   - CON: 1
   - INT: 1
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 10 KAC: 11" 
 alignment: LN
 cr: 1/2
@@ -38,17 +38,17 @@ Ranged:
   - name: "Ranged"
     desc: "hunting rifle +5 to hit (1d8 P)"
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 2
+  - Ref: 2
+  - Will: 3 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+9 (`dice: 1d20+9`)"
-  - Athletics: "+4 (`dice: 1d20+4`)"
-  - Engineering: "+4 (`dice: 1d20+4`)"
-  - Sense Motive: "+9 (`dice: 1d20+9`)"
-  - Survival: "+9 (`dice: 1d20+9`)" 
+  - Acrobatics: 9
+  - Athletics: 4
+  - Engineering: 4
+  - Sense Motive: 9
+  - Survival: 9 
 source: Alien Archive 3 
 specialabil:
   - name: "Alert the Herd (Ex)"

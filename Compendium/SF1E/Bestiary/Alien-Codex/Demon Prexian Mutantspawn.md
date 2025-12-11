@@ -1,4 +1,6 @@
 ---
+aliases: 
+cssclasses:
 abilitymods:
   - STR: 5
   - DEX: 3
@@ -42,30 +44,25 @@ Melee:
 modifier: 3
 name: "Demon, Prexian Mutantspawn"
 image: "[[prexian mutantspawn.png]]"
-
-offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 11th; ranged +18)"
-  - name: "1/day"
-    desc: "[[Confusion]] (DC 22)"
-  - name: "3/day"
-    desc: "[[Irradiate]] (DC 21), [[Ray of Exhaustion]] (DC 21)"
-  - name: "At will"
-    desc: "[[Inflict Pain]](DC 20), [[Mind-Thrust]] (2nd level, DC 20), [[Teleport]] (self plus 5 bulk of objects only)"
+Spells:
+  - "**Spell-Like Abilities** (CL 11th; ranged +18)"
+  - 1/day: "[[Confusion]] (DC 22)"
+  - 3/day: "[[Irradiate]] (DC 21), [[Ray of Exhaustion]] (DC 21)"
+  - At will: "[[Inflict Pain]](DC 20), [[Mind-Thrust]] (2nd level, DC 20), [[Teleport]] (self plus 5 bulk of objects only)"
 Perception: 20
 reach: "5 ft. (10 ft. with numbing taclash)"
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 14
+  - Ref: 10
+  - Will: 12 
 Senses: "[[darkvision]] 60 ft., [[blindsense]] (scent) 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+20 (`dice: 1d20+20`)"
-  - Bluff: "+20 (`dice: 1d20+20`)"
-  - Intimidate: "+20 (`dice: 1d20+20`)"
-  - Mysticism: "+20 (`dice: 1d20+20`)"
-  - Sense Motive: "+20 (`dice: 1d20+20`)" 
+  - Acrobatics: 20
+  - Bluff: 20
+  - Intimidate: 20
+  - Mysticism: 20
+  - Sense Motive: 20 
 source: Alien Archive 2 
 space: "5 ft."
 specialabil:
@@ -74,7 +71,13 @@ specialabil:
 Speed: 10 ft., fly 40 ft. (Ex, average) 
 statblock: true
 subtype: (chaotic, evil, extraplanar)
-tags: [chaotic, ChaoticEvil, evil, extraplanar, Medium, outsider]
+tags:
+  - chaotic
+  - ChaoticEvil
+  - evil
+  - extraplanar
+  - Medium
+  - outsider
 Type: "CE Medium outsider (chaotic, evil, extraplanar)"
 type: outsider
 XP: 12800 
@@ -97,6 +100,6 @@ A prexian mutantspawn’s shape may vaguely resemble that of its original host b
 
 ## Extra Content
 
-The following extra content was found for this creature: 
-\- Demon (Summoning) Graft Template 
+The following extra content was found for this creature:
+\- Demon (Summoning) Graft Template
 \- Demon (Creature Subtype) Graft Template

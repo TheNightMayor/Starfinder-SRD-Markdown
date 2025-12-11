@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
-  - DEX: "+0"
-  - CON: "+0"
+  - STR: 0
+  - DEX: 0
+  - CON: 0
   - INT: 3
   - WIS: 8
   - CHA: 5
@@ -37,37 +37,28 @@ Perception: 19
 Ranged:
   - name: Ranged
     desc: "[[Semi-Auto Pistol#Semi-auto Pistol, Elite|elite semi-auto pistol]] +18 to hit (3d6+8 P)"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 10th)
-  - name: 1/day
-    desc: "[[Mind Probe]] (DC 22)"
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Spell-Like Abilities
-    desc: (CL 10th)
-  - name: At will
-    desc: "[[Detect Magic]], [[Grave Words]], [[Stabilize]]"
-  - name: Mystic Spells Known
-    desc: (CL 10th; ranged +18)
-  - name: 4th (3/day)
-    desc: "[[Confusion]](DC 22), [[divination]]"
-  - name: 3rd (6/day)
-    desc: "[[Dispel Magic]], [[Mind Thrust]] (DC 21), [[Speak with Dead]] (DC 21), [[Tongues]]"
-  - name: 2nd (at will)
-    desc: "[[Augury]], [[See Invisibility]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Akashic]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 10th)"
+  - 1/day: "[[Mind Probe]] (DC 22)"
+  - At will: "[[Mindlink]]"
+  - "**Spell-Like Abilities** {CL 10th)"
+  - At will: "[[Detect Magic]], [[Grave Words]], [[Stabilize]]"
+  - "**Mystic Spells Known** (CL 10th; ranged +18)"
+  - 4th (3/day): "[[Confusion]](DC 22), [[divination]]"
+  - 3rd (6/day): "[[Dispel Magic]], [[Mind Thrust]] (DC 21), [[Speak with Dead]] (DC 21), [[Tongues]]"
+  - 2nd (at will): "[[Augury]], [[See Invisibility]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Akashic]]"
 RP: 5
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+13 (`dice: 1d20+13`) +2 vs. death effects, disease, fear effects, poison"
+  - Fort: 9
+  - Ref: 9
+  - Will: +13 +2 vs. death effects, disease, fear effects, poison
 size: Medium
 Skills:
-  - culture: "+19 (`dice: 1d20+19`)"
-  - Diplomacy: "+24 (`dice: 1d20+24`)"
-  - Mysticism: "+24 (`dice: 1d20+24`)"
-  - Sense Motive: "+19 (`dice: 1d20+19`)"
+  - culture: 19
+  - Diplomacy: 24
+  - Mysticism: 24
+  - Sense Motive: 19
 source: Alien Archive 3
 specialabil:
   - name: Psychometry (Su)

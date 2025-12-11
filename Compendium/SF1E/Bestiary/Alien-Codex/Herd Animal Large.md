@@ -31,13 +31,13 @@ image: "[[herd animal, large.jpg]]"
 Perception: 7
 reach: "10 ft."
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+1 (`dice: 1d20+1`)"
+  - Fort: 6
+  - Ref: 6
+  - Will: 1
 Senses: "[[low-light vision]]"
 size: Large
 Skills:
-  - Athletics: "+7 (`dice: 1d20+7`)"
+  - Athletics: 7
 source: Alien Archive 2 
 space: "10 ft."
 Speed: 40 ft. 

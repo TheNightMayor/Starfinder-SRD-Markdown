@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 5
   - CON: 4
   - INT: -4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 26 KAC: 28"
 alignment: N
 Aura: "anharmonic hum (30 ft., Fort: DC 19)"
@@ -45,13 +45,13 @@ Ranged:
     desc: "sonic burst +22 to hit (6d4+12 So; critical deafen [DC 19])"
 reach: "15 ft."
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 16
+  - Ref: 16
+  - Will: 11
 Senses: "[[blindsight]] (sound) 120 ft., [[Sightless Ex]]"
 size: Gargantuan
 Skills:
-  - Acrobatics: "+27 (`dice: 1d20+27`) (+19 to fly) "
+  - Acrobatics: "+27 "
 source: Alien Archive 3 
 space: "20 ft."
 specialabil:

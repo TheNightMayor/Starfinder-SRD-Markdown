@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
   - CON: —
   - INT: 8
@@ -42,14 +42,11 @@ image: "[[Necrovite.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: undead mastery
-  - name: Spells Known
-    desc: (CL 13th; ranged +22)
-  - name: 5th (3/day)
-    desc: "[[Heat Leech]] (DC 24), [[Mind Thrust]] (DC 24)"
-  - name: 4th (4/day)
-    desc: "[[Corrosive Haze]] (DC 23), [[Dimension Door]], [[Enervationy]], [[Hold Monster]] (DC 23)"
-  - name: 3rd (at will)
-    desc: "[[Dispel Magic]], [[Explosive Blast]] (DC 22)"
+Spells:
+  - "**Spells Known** (CL 13th; ranged +22)"
+  - 5th (3/day): "[[Heat Leech]] (DC 24), [[Mind Thrust]] (DC 24)"
+  - 4th (4/day): "[[Corrosive Haze]] (DC 23), [[Dimension Door]], [[Enervationy]], [[Hold Monster]] (DC 23)"
+  - 3rd (at will): "[[Dispel Magic]], [[Explosive Blast]] (DC 22)"
 otherabil: "[[Technomancer#Magic Hack - 2ND Level|magic hacks]] ([[Magic Hacks#Flash Teleport (SP)|flash teleport]], [[Magic Hacks#Tech Countermeasures (SU)|tech countermeasures]]), [[Unliving Ex|unliving]]"
 Perception: 23
 planet: Eox
@@ -58,17 +55,17 @@ Ranged:
     desc: perihelion laser pistol +22 to hit (4d4+13 F; critical burn 2d4)
 RP: 5
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+18 (`dice: 1d20+18`)"
+  - Fort: 12
+  - Ref: 12
+  - Will: 18
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Bluff: "+28 (`dice: 1d20+28`)"
-  - Computers: "+28 (`dice: 1d20+28`)"
-  - Engineering: "+28 (`dice: 1d20+28`)"
-  - Mysticism: "+28 (`dice: 1d20+28`)"
-  - Sense Motive: "+28 (`dice: 1d20+28`)"
+  - Bluff: 28
+  - Computers: 28
+  - Engineering: 28
+  - Mysticism: 28
+  - Sense Motive: 28
 source: Alien Archive
 specialabil:
   - name: Fatigue Aura(Su)

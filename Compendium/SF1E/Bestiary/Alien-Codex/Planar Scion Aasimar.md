@@ -1,11 +1,11 @@
 ---
-aliases: 
-cssclasses: 
+aliases:
+cssclasses:
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
-  - CON: "+0"
-  - INT: "+0"
+  - CON: 0
+  - INT: 0
   - WIS: 1
   - CHA: 4
 ac: "EAC: 11 KAC: 12"
@@ -46,16 +46,16 @@ Ranged:
   - name: Ranged
     desc: azimuth laser pistol +6 to hit (1d4+1 F; critical burn 1d4) or frag grenade I +6 to hit (explode [15 ft., 1d6 P, DC 12]) or smoke grenade I +6 to hit (explode [20 ft., smoke cloud 1 minute, DC 12])
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 1
+  - Ref: 3
+  - Will: 4
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - culture: "+5 (`dice: 1d20+5`)"
-  - Diplomacy: "+10 (`dice: 1d20+10`)"
-  - Medicine: "+5 (`dice: 1d20+5`)"
-  - Sense Motive: "+10 (`dice: 1d20+10`)"
+  - culture: 5
+  - Diplomacy: 10
+  - Medicine: 5
+  - Sense Motive: 10
 source: Alien Archive 2
 specialabil:
   - name: Celestial Radiance (Su)

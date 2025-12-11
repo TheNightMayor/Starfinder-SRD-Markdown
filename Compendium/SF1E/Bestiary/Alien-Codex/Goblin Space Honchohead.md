@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 1
   - INT: 2
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 14 KAC: 15" 
 alignment: NE
 climate: any
@@ -45,16 +45,16 @@ Ranged:
   - name: "Ranged"
     desc: "unstable junklaser +9 to hit (1d4+2 F; critical burn 1d4)"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 1
+  - Ref: 3
+  - Will: 5
 Senses: "[[darkvision]] 60 ft."
-size: small
+size: Small
 Skills:
-  - computers:  "+12 (`dice: 1d20+12`)"
-  - Intimidate: "+12 (`dice: 1d20+12`)"
-  - Piloting: "+7 (`dice: 1d20+7`)"
-  - Stealth: "+12 (`dice: 1d20+12`)" 
+  - computers:  12
+  - Intimidate: 12
+  - Piloting: 7
+  - Stealth: 12 
 source: Alien Archive 
 specialabil:
   - name: "Disturbing Screech (Ex)"

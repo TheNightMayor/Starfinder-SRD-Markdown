@@ -3,8 +3,8 @@ abilitymods:
   - STR: 1
   - DEX: 2
   - CON: 3
-  - INT: "—"
-  - WIS: "+0"
+  - INT: —
+  - WIS: 0
   - CHA: -3 
 ac: "EAC: 10 KAC: 12" 
 alignment: N
@@ -37,13 +37,13 @@ offabilities:
 otherabil: "[[Compression (Ex)]], [[Mindless Ex]]"
 Perception: 4
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+0" 
+  - Fort: 4
+  - Ref: 2
+  - Will: 0 
 Senses: "[[darkvision]] 60 ft."
 size: Small
 Skills:
-  - Athletics: "+9 (`dice: 1d20+9`)" 
+  - Athletics: 9 
 source: Alien Archive 3 
 specialabil:
   - name: "Detonate (Ex)"

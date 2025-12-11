@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 2
   - CON: —
   - INT: —
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 11 KAC: 15"
 alignment: NE
 cr: 1
@@ -23,21 +23,20 @@ Init: "2"
 KAC: 15
 Melee:
   - name: Melee
-    desc: slam +8 to hit (8 (1d6+5) B) or feeding tendril +8 to hit (8 (1d6+5) P plus blood drain)
+    desc: slam +8 to hit (1d6+5 B) or feeding tendril +8 to hit (1d6+5 P plus blood drain)
 modifier: 2
 name: Akata, Void Zombie
 image: "[[void zombie.png]]"
-
 otherabil: "[[Mindless Ex]] , [[Unliving Ex]]"
 Perception: "5"
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 3
+  - Ref: 3
+  - Will: 3
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+10 (`dice: 1d20+10`)"
+  - Athletics: 10
 source: Alien Archive 2
 specialabil:
   - name: Blood Drain (Ex)

@@ -3,9 +3,9 @@ abilitymods:
   - STR: 4
   - DEX: 2
   - CON: 5
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 19 KAC: 21"
 alignment: N
 combatType: combatant
@@ -29,7 +29,7 @@ Init: 2
 KAC: 21
 Melee:
   - name: "Melee"
-    desc: "claw +17 to hit (17 (2d6+11) S)"
+    desc: "claw +17 to hit (2d6+11 S)"
 modifier: 2
 name: "Apari"
 image: "[[Apari.png]]"
@@ -41,19 +41,19 @@ otherabil: "[[Mindless Ex]]"
 Perception: 14
 Ranged:
   - name: "Ranged"
-    desc: "spike +14 to hit (15 (2d8+7) P)"
+    desc: "spike +14 to hit (2d8+7 P)"
 reach: "10 ft."
 RP: 4 
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+9 (`dice: 1d20+9`)" 
+  - Fort: 11
+  - Ref: 6
+  - Will: 9 
 Senses: "[[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - Athletics: "+19 (`dice: 1d20+19`)"
-  - Intimidate: "+14 (`dice: 1d20+14`)"
-  - Survival: "+14 (`dice: 1d20+14`)" 
+  - Athletics: 19
+  - Intimidate: 14
+  - Survival: 14 
 source: Alien Archive 
 space: "10 ft."
 specialabil:

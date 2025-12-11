@@ -2,7 +2,7 @@
 aliases: 
 cssclasses:
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
   - CON: 2
   - INT: 3
@@ -41,14 +41,11 @@ image: "[[sapient purple orb, luminant.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "excandescent flash"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 11th)"
-  - name: "1/day"
-    desc: "[[Confusion]](DC 22), [[Mind Thrust]] (4th level, DC 22)"
-  - name: "3/day"
-    desc: "[[Dispel Magic]], [[Haste]], [[Mental Block]] (DC 21), [[Slow]](DC 21)"
-  - name: "At will"
-    desc: "[[Detect Thoughts]] (DC 19), [[Mystic Cure]] (2nd level)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 11th)"
+  - 1/day: "[[Confusion]](DC 22), [[Mind Thrust]] (4th level, DC 22)"
+  - 3/day: "[[Dispel Magic]], [[Haste]], [[Mental Block]] (DC 21), [[Slow]](DC 21)"
+  - At will: "[[Detect Thoughts]] (DC 19), [[Mystic Cure]] (2nd level)"
 otherabil: "astral mist"
 Perception: 20
 Ranged:
@@ -56,15 +53,15 @@ Ranged:
     desc: "fused memory blast +19 to hit (2d8+11"
   - Will: DC 20)"
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+16 (`dice: 1d20+16`)"
+  - Fort: 10
+  - Ref: 10
+  - Will: 16
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Acrobatics: "+20 (`dice: 1d20+20`) (+28 to fly)"
-  - Mysticism: "+25 (`dice: 1d20+25`)"
-  - Sense Motive: "+20 (`dice: 1d20+20`)"
+  - Acrobatics: 20
+  - Mysticism: 25
+  - Sense Motive: 20
 source: Alien Archive 4 
 specialabil:
   - name: "Astral Mist (Su)"

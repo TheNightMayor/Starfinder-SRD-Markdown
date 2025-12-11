@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: -1
   - CON: 1
   - INT: 4
@@ -44,17 +44,17 @@ Ranged:
   - name: Ranged
     desc: tactical semi-auto pistol +8 to hit (1d6+3 P)
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 2
+  - Ref: 4
+  - Will: 6
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Athletics: "+8 (`dice: 1d20+8`) (+16 when swimming)"
-  - Diplomacy: "+13 (`dice: 1d20+13`)"
-  - Engineering: "+13 (`dice: 1d20+13`)"
-  - Medicine: "+8 (`dice: 1d20+8`)"
-  - Sense Motive: "+13 (`dice: 1d20+13`)"
+  - Athletics: 8
+  - Diplomacy: 13
+  - Engineering: 13
+  - Medicine: 8
+  - Sense Motive: 13
 specialabil:
   - name: Cooperative (Ex)
     desc: Wrikreechees spend much of their lives in close contact with one another, learning to predict their neighbors’ reactions and coordinate their actions. A wrikreechee gains a +2 bonus to skill checks for the aid another action and to attack rolls to provide harrying fire. A creature using the aid another action to assist a wrikreechee’s skill check gains a +2 bonus to her check.

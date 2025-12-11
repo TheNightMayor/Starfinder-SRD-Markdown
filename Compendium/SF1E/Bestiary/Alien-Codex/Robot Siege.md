@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 9
   - DEX: 7
-  - CON: "—"
+  - CON: —
   - INT: 1
   - WIS: 5
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 29 KAC: 31" 
 alignment: N
 climate: any
@@ -49,15 +49,15 @@ Ranged:
     desc: "elite x-gen gun +29 to hit (4d12+15 B & P) or heavy stellar cannon +29 to hit (4d12+15 P; critical wound [DC 21]) or IMDS missile launcher +29 to hit (13d8+15 B & F)"
 reach: "15 ft."
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+11 (`dice: 1d20+11`)" 
+  - Fort: 15
+  - Ref: 15
+  - Will: 11 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], [[Sense Through]] (vision [foliage, gas, and smoke only]) 60 ft."
-size: huge
+size: Huge
 Skills:
-  - Acrobatics: "+26 (`dice: 1d20+26`) (+18 to fly)"
-  - Engineering: "+26 (`dice: 1d20+26`)"
-  - Piloting: "+31 (`dice: 1d20+31`)" 
+  - Acrobatics: 26
+  - Engineering: 26
+  - Piloting: 31 
 source: Alien Archive 2 
 space: "15 ft."
 specialabil:

@@ -3,8 +3,8 @@ abilitymods:
   - STR: 8
   - DEX: 6
   - CON: 4
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: -4 
 ac: "EAC: 27 KAC: 29" 
 alignment: N
@@ -44,15 +44,15 @@ Ranged:
     desc: "tether +24 to hit (3d12+13 B plus entangle)"
 reach: "15 ft."
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+17 (`dice: 1d20+17`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 17
+  - Ref: 17
+  - Will: 12 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], [[blindsense]] (vibration) 30 ft."
 size: Huge
 Skills:
-  - Acrobatics: "+28 (`dice: 1d20+28`)"
-  - Athletics: "+23 (`dice: 1d20+23`)"
-  - Sense Motive: "+23 (`dice: 1d20+23`)"
+  - Acrobatics: 28
+  - Athletics: 23
+  - Sense Motive: 23
 source: Alien Archive 4 
 space: "15 ft."
 specialabil:

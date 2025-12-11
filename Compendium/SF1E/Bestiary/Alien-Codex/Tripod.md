@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 6
   - CON: —
   - INT: 1
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 27 KAC: 29"
 alignment: NE
 cr: 13
@@ -47,15 +47,15 @@ Ranged:
     desc: integrated decimator disintegrator cannon +24 to hit (3d10+13 A; critical corrode 2d6) or integrated platoon minelayer with decoupler grenades IV +24 to hit (explode [15 ft., nanite cloud 1 minute, corrode 4d4, DC 17])
 reach: 20 ft. (40 ft. with tentacle)
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 13
+  - Ref: 13
+  - Will: 10
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Gargantuan
 Skills:
-  - Athletics: "+28 (`dice: 1d20+28`)"
-  - Intimidate: "+23 (`dice: 1d20+23`)"
-  - Piloting: "+23 (`dice: 1d20+23`)"
+  - Athletics: 28
+  - Intimidate: 23
+  - Piloting: 23
 space: 20 ft.
 specialabil:
   - name: Deconstruction Cage (Ex)

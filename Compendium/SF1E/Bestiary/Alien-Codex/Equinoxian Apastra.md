@@ -38,15 +38,15 @@ Ranged:
   - name: "Ranged"
     desc: "thrown solar weapon +26 to hit (8d6+24 S)"
 saves:
-  - Fort: "+19 (`dice: 1d20+19`)"
-  - Ref: "+17 (`dice: 1d20+17`)"
-  - Will: "+13 (`dice: 1d20+13`)"
+  - Fort: 19
+  - Ref: 17
+  - Will: 13
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+26 (`dice: 1d20+26`) (+34 to fly)"
-  - Athletics: "+26 (`dice: 1d20+26`)"
-  - Mysticism: "+31 (`dice: 1d20+31`)" 
+  - Acrobatics: 26
+  - Athletics: 26
+  - Mysticism: 31 
 source: Alien Archive 3 
 specialabil:
   - name: "Flashing Strikes (Ex)"

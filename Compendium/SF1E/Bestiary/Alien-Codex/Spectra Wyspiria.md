@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 5
   - CON: 3
   - INT: 8
@@ -39,16 +39,11 @@ Melee:
 modifier: 5
 name: "Spectra, Wyspiria"
 image: "[[spectra, wyspiria.png]]"
-
-offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 11th ranged +20)"
-  - name: "1/day"
-    desc: "[[Holographic Image]] (4th level, DC 23), [[Resilient Sphere]] (DC 22), [[Teleport]] (self only)"
-  - name: "3/day"
-    desc: "[[Haste]], [[Explosive Blast]] (DC 21), [[Slow]](DC 21)"
-  - name: "At will"
-    desc: "[[Detect Tech]],[[Implant Data]], [[Recharge]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 11th ranged +20)"
+  - 1/day: "[[Holographic Image]] (4th level, DC 23), [[Resilient Sphere]] (DC 22), [[Teleport]] (self only)"
+  - 3/day: "[[Haste]], [[Explosive Blast]] (DC 21), [[Slow]](DC 21)"
+  - At will: "[[Detect Tech]],[[Implant Data]], [[Recharge]]"
 otherabil: "borrow time, slip drive, [[Spaceflight (Su)]] (Mysticism)"
 Perception: 20
 Ranged:
@@ -56,17 +51,17 @@ Ranged:
     desc: "shockray +20 to hit (2d8+11 E)"
 reach: "15 ft."
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+16 (`dice: 1d20+16`)" 
+  - Fort: 10
+  - Ref: 10
+  - Will: 16 
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+20 (`dice: 1d20+20`) (+28 to fly)"
-  - Computers: "+25 (`dice: 1d20+25`)"
-  - Engineering: "+25 (`dice: 1d20+25`)"
-  - Mysticism: "+25 (`dice: 1d20+25`)"
-  - Sense Motive: "+20 (`dice: 1d20+20`)" 
+  - Acrobatics: 20
+  - Computers: 25
+  - Engineering: 25
+  - Mysticism: 25
+  - Sense Motive: 20 
 source: Alien Archive 4 
 space: "5 ft."
 specialabil:

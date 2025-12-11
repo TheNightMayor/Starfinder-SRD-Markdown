@@ -36,14 +36,11 @@ image: "[[Formian Queen.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "possess formian, telepathic feedback"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 17th; ranged +26)"
-  - name: "1/day"
-    desc: "[[Enshrining Refuge]] (DC 26), [[Snuff life]] (DC 26)"
-  - name: "3/day"
-    desc: "[[commune with nature]], [[Feeblemind]] (DC 25), [[Heat Leech]] (DC 25), [[Teleport]]"
-  - name: "At will"
-    desc: "[[Invisibility, Greater]], [[Mind Thrust]] (4th level, DC 24)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 17th; ranged +26)"
+  - 1/day: "[[Enshrining Refuge]] (DC 26), [[Snuff life]] (DC 26)"
+  - 3/day: "[[commune with nature]], [[Feeblemind]] (DC 25), [[Heat Leech]] (DC 25), [[Teleport]]"
+  - At will: "[[Invisibility, Greater]], [[Mind Thrust]] (4th level, DC 24)"
 otherabil: "hive frenzy, hive mind"
 Perception: "+34 (+38 with hive mind)"
 Ranged:
@@ -51,17 +48,17 @@ Ranged:
     desc: "banshee sonic pistol +26 to hit (4d8+17 So; critical deafen [DC 24])"
 reach: "10 ft."
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+22 (`dice: 1d20+22`)" 
+  - Fort: 17
+  - Ref: 15
+  - Will: 22 
 Senses: "[[blindsense]] (scent, vibration) 60 ft., [[darkvision]] 60 ft."
 size: Large
 Skills:
-  - diplomacy:  "+34 (`dice: 1d20+34`)"
-  - Intimidate: "+34 (`dice: 1d20+34`)"
-  - Life Science: "+29 (`dice: 1d20+29`)"
-  - Mysticism: "+29 (`dice: 1d20+29`)"
-  - Physical Science: "+29 (`dice: 1d20+29`)" 
+  - diplomacy:  34
+  - Intimidate: 34
+  - Life Science: 29
+  - Mysticism: 29
+  - Physical Science: 29 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

@@ -44,14 +44,14 @@ Ranged:
     desc: "venom spit +10 to hit (1 Con)"
 reach: "10 ft."
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 8
+  - Ref: 8
+  - Will: 3
 Senses: "bone tracker, [[darkvision]] 60 ft., [[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - stealth:  "+15 (`dice: 1d20+15`)"
-  - Survival: "+10 (`dice: 1d20+10`)"
+  - stealth:  15
+  - Survival: 10
 source: Alien Archive
 space: "10 ft."
 specialabil:

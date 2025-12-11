@@ -3,9 +3,9 @@ abilitymods:
   - STR: 5
   - DEX: 2
   - CON: 8
-  - INT: "—"
+  - INT: —
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 23 KAC: 27" 
 alignment: N
 cr: 10
@@ -38,14 +38,14 @@ otherabil: "[[Solar Adaptation Ex or Su]], solar slingshot, [[Void Adaptation Ex
 Perception: 19
 reach: "5 ft."
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 14
+  - Ref: 9
+  - Will: 12 
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Athletics: "+19 (`dice: 1d20+19`)"
-  - Survival: "+19 (`dice: 1d20+19`)" 
+  - Athletics: 19
+  - Survival: 19 
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

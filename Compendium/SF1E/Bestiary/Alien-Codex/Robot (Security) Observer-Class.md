@@ -4,10 +4,10 @@ cssclasses:
 abilitymods:
   - STR: 2
   - DEX: 4
-  - CON: "—"
+  - CON: —
   - INT: 1
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 14 KAC: 15" 
 alignment: N
 cr: 1
@@ -47,15 +47,15 @@ Ranged:
   - name: "Ranged"
     desc: "integrated pulsecaster pistol +9 to hit (1d4+1 E nonlethal), or stickybomb grenade I +9 to hit (explode [10 ft., entangled 2d4 rounds, DC 10])"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "-1 (`dice: 1d20+1`)" 
+  - Fort: 1
+  - Ref: 1
+  - Will: -1 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Athletics: "+5 (`dice: 1d20+5`)"
-  - Computers: "+5 (`dice: 1d20+5`)" 
+  - Acrobatics: 10
+  - Athletics: 5
+  - Computers: 5 
 source: Alien Archive
 specialabil:
   - name: "Exigency (Ex)"

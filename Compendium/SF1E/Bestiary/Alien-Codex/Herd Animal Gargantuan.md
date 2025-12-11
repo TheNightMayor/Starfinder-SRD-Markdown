@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 6
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: -4
   - WIS: 1
@@ -31,13 +31,13 @@ image: "[[herd animal, colossal gargargantuan.jpg]]"
 Perception: 13
 reach: "20 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 11
+  - Ref: 8
+  - Will: 6
 Senses: "[[low-light vision]]"
 size: Gargantuan
 Skills:
-  - Athletics: "+18 (`dice: 1d20+18`)"
+  - Athletics: 18
 source: Alien Archive 2 
 space: "20 ft."
 Speed: 30 ft. 

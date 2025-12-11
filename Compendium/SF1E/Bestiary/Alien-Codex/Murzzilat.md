@@ -5,7 +5,7 @@ abilitymods:
   - CON: 1
   - INT: -4
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 16 KAC: 18" 
 alignment: N
 cr: 4
@@ -34,15 +34,15 @@ Ranged:
   - name: "Ranged"
     desc: "melodic assault +9 to hit (1d4+4 So; critical off-target [DC 13])"
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 8
+  - Ref: 8
+  - Will: 3
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`) (+18 to fly)"
-  - Athletics: "+15 (`dice: 1d20+15`) (+23 to swim)"
-  - Intimidate: "+10 (`dice: 1d20+10`)" 
+  - Acrobatics: 10
+  - Athletics: 15
+  - Intimidate: 10 
 source: Alien Archive 4 
 specialabil:
   - name: "Melodic Assault (Ex)"

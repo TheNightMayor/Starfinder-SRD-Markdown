@@ -44,14 +44,11 @@ name: "Haeshi-Shaa, (Haeshi Form)"
 image: "[[Haeshi-Shaa (Haeshi Form).png]]"
 
 offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 12th)"
-  - name: "1/day"
-    desc: "[[Mind Thrust]] (4th level, DC 19)"
-  - name: "3/day"
-    desc: "[[Fear]](3rd level, DC 18)"
-  - name: "At will"
-    desc: "[[Force Blast]] (DC 17)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 12th)"
+  - 1/day: "[[Mind Thrust]] (4th level, DC 19)"
+  - 3/day: "[[Fear]](3rd level, DC 18)"
+  - At will: "[[Force Blast]] (DC 17)"
 otherabil: "[[Compression (Ex)]], death throes, [[No Breath Ex]]"
 Perception: 22
 Ranged:
@@ -59,16 +56,16 @@ Ranged:
     desc: "sonic bolt +22 to hit (6d4+12 So)"
 reach: "10 ft."
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+16 (`dice: 1d20+16`)" 
+  - Fort: 14
+  - Ref: 11
+  - Will: 16 
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Acrobatics: "+22 (`dice: 1d20+22`) (+30 to fly)"
-  - Life Science: "+22 (`dice: 1d20+22`)"
-  - Mysticism: "+27 (`dice: 1d20+27`)"
-  - Physical Science: "+22 (`dice: 1d20+22`)" 
+  - Acrobatics: 22
+  - Life Science: 22
+  - Mysticism: 27
+  - Physical Science: 22 
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

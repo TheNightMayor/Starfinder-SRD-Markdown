@@ -1,6 +1,6 @@
 ---
-aliases: 
-cssclasses: 
+aliases:
+cssclasses:
 abilitymods:
   - STR: 4
   - DEX: 1
@@ -40,34 +40,28 @@ image: "[[kothama ascendant.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Trample Ex]] (6d6+18 B)"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 14th)
-  - name: At will
-    desc: "[[Mindlink]], [[Telepathic Bond]]"
-  - name: Mystic Spells Known
-    desc: (CL 14th)
-  - name: 5th (3/day)
-    desc: "[[Call Cosmos]], [[Telekinesis]]"
-  - name: 4th (6/day)
-    desc: "[[Cosmic Eddy]]  (DC 23), [[Divination]],  [[Mystic Cure]], [[Remove Radioactivity]]"
-  - name: 3rd (at will)
-    desc: "[[Charm Monster]] (DC 22), [[Dispel Magic]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Star Shaman]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 14th)"
+  - At will: "[[Mindlink]], [[Telepathic Bond]]"
+  - "**Mystic Spells Known** (CL 14th)"
+  - 5th (3/day): "[[Call Cosmos]], [[Telekinesis]]"
+  - 4th (6/day): "[[Cosmic Eddy]]  (DC 23), [[Divination]],  [[Mystic Cure]], [[Remove Radioactivity]]"
+  - 3rd (at will): "[[Charm Monster]] (DC 22), [[Dispel Magic]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Star Shaman]]"
 otherabil: "[[Star Shaman#Stargazer (SU) - 6TH Level|stargazer]], [[Star Shaman#Starlight Form (SU) - 3RD Level|starlight form]] (14 minutes, DC 22), [[Star Shaman#Starry Bond (SU) - 12TH Level|starry bond]], [[Star Shaman#Walk the Void (SU) - 1ST Level|walk the void]]"
 Perception: 30
 reach: 10 ft.
 RP: 7
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+21 (`dice: 1d20+21`)"
+  - Fort: 10
+  - Ref: 14
+  - Will: 21
 Senses: "[[darkvision]] 120 ft., [[low-light vision]]"
 size: Huge
 Skills:
-  - diplomacy: "+25 (`dice: 1d20+25`)"
-  - Mysticism: "+30 (`dice: 1d20+30`)"
-  - Sense Motive: "+30 (`dice: 1d20+30`)"
+  - diplomacy: 25
+  - Mysticism: 30
+  - Sense Motive: 30
 source: Alien Archive 3
 space: 15 ft.
 specialabil:

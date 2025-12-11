@@ -5,7 +5,7 @@ abilitymods:
   - CON: 4
   - INT: 6
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 21 KAC: 22"
 alignment: CN
 class: "[[Mechanic]]"
@@ -52,17 +52,17 @@ Ranged:
   - name: Ranged
     desc: advanced semi-auto pistol +15 to hit (2d6+8 P)
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 9
+  - Ref: 9
+  - Will: 9
 Senses: "[[blindsense]] (vibration) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+16 (`dice: 1d20+16`)"
-  - Engineering: "+21 (`dice: 1d20+21`)"
-  - Computers: "+21 (`dice: 1d20+21`)"
-  - Physical Science: "+16 (`dice: 1d20+16`)"
-  - Survival: "+21 (`dice: 1d20+21`)"
+  - Athletics: 16
+  - Engineering: 21
+  - Computers: 21
+  - Physical Science: 16
+  - Survival: 21
 source: Alien Archive 2
 specialabil:
   - name: Defensive Ball (Ex)

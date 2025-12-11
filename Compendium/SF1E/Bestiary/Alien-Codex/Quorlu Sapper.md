@@ -1,12 +1,12 @@
 ---
-aliases: 
-cssclasses: 
+aliases:
+cssclasses:
 abilitymods:
   - STR: 3
   - DEX: 4
   - CON: 6
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 1
 ac: "EAC: 22 KAC: 24"
 alignment: N
@@ -55,15 +55,15 @@ Ranged:
     desc: red star plasma cannon +21 to hit (explode [5 ft., 2d10+9 E & F, DC 16]; critical burn 1d8) or frag grenade III +21 to hit (explode [15 ft., 4d6 P, DC 16])
 RP: 4
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+10 (`dice: 1d20+10`) +2 vs. bleed"
+  - Fort: 11
+  - Ref: 9
+  - Will: +10 +2 vs. bleed
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+22 (`dice: 1d20+22`)"
-  - Engineering: "+17 (`dice: 1d20+17`)"
-  - Intimidate: "+17 (`dice: 1d20+17`)"
+  - Athletics: 22
+  - Engineering: 17
+  - Intimidate: 17
 source: Alien Archive 2
 specialabil:
   - name: Endothermic (Ex)

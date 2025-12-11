@@ -3,7 +3,7 @@ abilitymods:
   - STR: 6
   - DEX: 2
   - CON: 5
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
   - CHA: 3
 ac: "EAC: 25 KAC: 27"
@@ -49,14 +49,14 @@ Ranged:
 reach: 10 ft. (15 ft. with dragonglaive)
 RP: 4
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 14
+  - Ref: 12
+  - Will: 10
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`)"
-  - Intimidate: "+17 (`dice: 1d20+17`)"
+  - Acrobatics: 17
+  - Intimidate: 17
   - Piloting +22
 source: Alien Archive
 space: 10 ft.

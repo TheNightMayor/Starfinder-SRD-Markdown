@@ -3,9 +3,9 @@ abilitymods:
   - STR: 3
   - DEX: 4
   - CON: 6
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 22 KAC: 24" 
 alignment: N
 cr: 9
@@ -45,14 +45,14 @@ Ranged:
     desc: "sonic snap +21 to hit (3d6+9 So; critical stunned [DC 16])"
 reach: "10 ft."
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
+  - Fort: 13
+  - Ref: 11
+  - Will: 8 
 Senses: "[[darkvision]] 180 ft., [[Sense Through]] (vision [fog only]) 90 ft."
 size: Large
 Skills:
-  - Acrobatics: "+22 (`dice: 1d20+22`) (+14 to fly in normal atmosphere)"
-  - Athletics: "+17 (`dice: 1d20+17`) (+25 to swim)"
+  - Acrobatics: 22
+  - Athletics: 17
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

@@ -2,7 +2,7 @@
 abilitymods:
   - STR: -2
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 3
   - WIS: 1
   - CHA: 1 
@@ -42,17 +42,17 @@ Ranged:
     desc: "pulsecaster pistol +4 to hit (1d4 E nonlethal)"
 reach: "0 ft. (5 ft. with one-handed items)"
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 0
+  - Ref: 2
+  - Will: 3 
 Senses: "[[low-light vision]]"
 size: Tiny
 Skills:
-  - Acrobatics: "+4 (`dice: 1d20+4`)"
-  - Computers: "+9 (`dice: 1d20+9`)"
-  - Engineering: "+9 (`dice: 1d20+9`)"
-  - Life Science: "+9 (`dice: 1d20+9`)"
-  - Stealth: "+4 (`dice: 1d20+4`)" 
+  - Acrobatics: 4
+  - Computers: 9
+  - Engineering: 9
+  - Life Science: 9
+  - Stealth: 4 
 source: Alien Archive 3 
 space: "2-1/2 ft."
 specialabil:

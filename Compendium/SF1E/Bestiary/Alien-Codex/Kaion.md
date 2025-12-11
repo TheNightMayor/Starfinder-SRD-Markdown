@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 4
   - CON: 2
   - INT: -4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: -2 
 ac: "EAC: 12 KAC: 16" 
 alignment: N
@@ -41,14 +41,14 @@ Ranged:
     desc: "sclerite +10 to hit (1d6+2 P plus entangled)"
 reach: "5 ft. (10 ft. with slam)"
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+1 (`dice: 1d20+1`)" 
+  - Fort: 5
+  - Ref: 7
+  - Will: 1 
 Senses: "[[blindsense]] (electromagnetism) 60 ft., [[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+7 (`dice: 1d20+7`) (+15 to fly)"
-  - Athletics: "+7 (`dice: 1d20+7`)" 
+  - Acrobatics: 7
+  - Athletics: 7 
 source: Alien Archive 4 
 space: "5 ft."
 specialabil:

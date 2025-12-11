@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 1
   - DEX: 4
-  - CON: "+0"
+  - CON: 0
   - INT: 2
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 13 KAC: 14"
 alignment: LE
 class: "[[Operative]]"
@@ -50,17 +50,17 @@ Ranged:
   - name: Ranged
     desc: tactical semi-auto pistol +8 to hit (1d6 P) or tactical shirren-eye rifle +8 to hit (1d10 P)
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 0
+  - Ref: 5
+  - Will: 3
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Athletics: "+10 (`dice: 1d20+10`)"
-  - Bluff: "+13 (`dice: 1d20+13`)"
-  - Sleight of Hand: "+8 (`dice: 1d20+8`)"
-  - Stealth: "+8 (`dice: 1d20+8`) (+12 with trick attack)"
+  - Acrobatics: 13
+  - Athletics: 10
+  - Bluff: 13
+  - Sleight of Hand: 8
+  - Stealth: 8
 source: Alien Archive 2
 specialabil:
   - name: Fiendish Gloom (Su)

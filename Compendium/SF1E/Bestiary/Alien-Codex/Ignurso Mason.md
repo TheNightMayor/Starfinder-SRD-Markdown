@@ -44,15 +44,15 @@ offabilities:
 Perception: 20
 reach: "5 ft."
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+10 (`dice: 1d20+10`)" 
+  - Fort: 15
+  - Ref: 15
+  - Will: 10 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], [[Sense Through]] (vision [smoke only])"
 size: Large
 Skills:
-  - Athletics: "+25 (`dice: 1d20+25`)"
-  - Stealth: "+20 (`dice: 1d20+20`)"
-  - Survival: "+20 (`dice: 1d20+20`)" 
+  - Athletics: 25
+  - Stealth: 20
+  - Survival: 20 
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

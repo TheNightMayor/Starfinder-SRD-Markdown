@@ -45,16 +45,16 @@ Perception: 11
 planet: the Drift
 RP: 4 
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 6 
 Senses: "[[blindsight]] (emotion) 60 ft., [[darkvision]] 60 ft., [[Sense Through]] (emotion) 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`) (+24 to fly)"
-  - Athletics: "+11 (`dice: 1d20+11`)"
-  - Stealth: "+16 (`dice: 1d20+16`)"
-  - Survival: "+11 (`dice: 1d20+11`)" 
+  - Acrobatics: 16
+  - Athletics: 11
+  - Stealth: 16
+  - Survival: 11 
 source: Alien Archive 2
 specialabil:
   - name: "Leech Life (Su)"

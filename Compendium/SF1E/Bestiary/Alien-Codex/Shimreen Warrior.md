@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 3
   - CON: 2
   - INT: 2
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 1
 ac: "EAC: 17 KAC: 20"
 alignment: LN
@@ -48,14 +48,14 @@ Ranged:
   - name: Ranged
     desc: thunderstrike sonic rifle +11 to hit (1d10+5 So; critical deafen [DC 13]) or frag grenade II +11 to hit (explode [15 ft., 2d6 P, DC 13])
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 7
+  - Ref: 5
+  - Will: 5
 size: Medium
 Skills:
-  - Acrobatics: "+11 (`dice: 1d20+11`)"
-  - Athletics: "+16 (`dice: 1d20+16`)"
-  - Engineering: "+11 (`dice: 1d20+11`)"
+  - Acrobatics: 11
+  - Athletics: 16
+  - Engineering: 11
 source: Alien Archive 3
 specialabil:
   - name: Amplify (Ex)

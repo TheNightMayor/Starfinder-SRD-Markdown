@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 1
   - CON: 2
   - INT: -5
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 10 KAC: 12" 
 alignment: N
 cr: 1/2
@@ -37,15 +37,15 @@ Ranged:
     desc: "ebullient jet +6 to hit (1d6+1 A)"
 reach: "0 ft."
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+0 (`dice: 1d20+0`)" 
+  - Fort: 4
+  - Ref: 4
+  - Will: 0 
 Senses: "[[blindsense]] 30 ft. (sound), [[blindsight]] 5 ft. (sound), [[Sightless Ex]]"
 size: Tiny
 Skills:
-  - Athletics: "+9 (`dice: 1d20+9`)"
-  - Stealth: "+4 (`dice: 1d20+4`)"
-  - Survival: "+4 (`dice: 1d20+4`)"
+  - Athletics: 9
+  - Stealth: 4
+  - Survival: 4
 source: Alien Archive 4 
 space: "2-1/2 ft."
 specialabil:

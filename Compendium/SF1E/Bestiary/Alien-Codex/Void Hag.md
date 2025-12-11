@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 1
   - DEX: 3
-  - CON: "+0"
+  - CON: 0
   - INT: 8
   - WIS: 2
   - CHA: 3 
@@ -45,30 +45,27 @@ image: "[[Void Hag.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "stardust robes"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 10th, ranged +19)"
-  - name: "1/day"
-    desc: "[[Cosmic Eddy]]  (DC 22), [[Enervationy]]"
-  - name: "3/day"
-    desc: "[[Irradiate]] (DC 21), [[Psychokinetic Strangulation]] (DC 21)"
-  - name: "At will"
-    desc: "[[Inflict Pain]] (DC 20)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 10th, ranged +19)"
+  - 1/day: "[[Cosmic Eddy]]  (DC 22), [[Enervationy]]"
+  - 3/day: "[[Irradiate]] (DC 21), [[Psychokinetic Strangulation]] (DC 21)"
+  - At will: "[[Inflict Pain]] (DC 20)"
 otherabil: "[[No Breath Ex]]"
 Perception: 19
 Ranged:
   - name: "Ranged"
     desc: "hailstorm-class zero pistol +19 to hit (2d6+10 C; critical staggered [DC 19])"
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+15 (`dice: 1d20+15`)" 
+  - Fort: 9
+  - Ref: 11
+  - Will: 15 
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+19 (`dice: 1d20+19`) (+27 when flying)"
-  - Intimidate: "+24 (`dice: 1d20+24`)"
-  - Mysticism: "+24 (`dice: 1d20+24`)"
-  - Stealth: "+19 (`dice: 1d20+19`)" 
+  - Acrobatics: 19
+  - Intimidate: 24
+  - Mysticism: 24
+  - Stealth: 19 
 source: Alien Archive 
 specialabil:
   - name: "Stardust Robes (Su)"

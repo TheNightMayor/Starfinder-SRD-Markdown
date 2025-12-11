@@ -3,8 +3,8 @@ abilitymods:
   - STR: 5
   - DEX: 3
   - CON: 1
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: 1
 ac: "EAC: 16 KAC: 18"
 alignment: LN
@@ -41,16 +41,16 @@ Ranged:
   - name: Ranged
     desc: thunderstrike sonic pistol +9 to hit (1d8+4 So; critical deafen)
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 6
+  - Ref: 6
+  - Will: 5
 Senses: "[[blindsense]] (scent) 30 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Athletics: "+15 (`dice: 1d20+15`)"
-  - Mysticism: "+10 (`dice: 1d20+10`)"
-  - Stealth: "+10 (`dice: 1d20+10`)"
+  - Acrobatics: 10
+  - Athletics: 15
+  - Mysticism: 10
+  - Stealth: 10
 source: Alien Archive 4
 specialabil:
   - name: Gravity Adjustment (Su)

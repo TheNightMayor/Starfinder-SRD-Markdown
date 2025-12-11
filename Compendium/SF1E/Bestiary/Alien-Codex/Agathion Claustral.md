@@ -1,9 +1,11 @@
 ---
+aliases: 
+cssclasses:
 abilitymods:
   - STR: 4
   - DEX: 3
   - CON: 3
-  - INT: "+0"
+  - INT: 0
   - WIS: 2
   - CHA: 1 
 ac: "EAC: 18 KAC: 20" 
@@ -28,7 +30,7 @@ KAC: 20
 Languages: "Celestial, Common speak with animals, [[Truespeech (Su)]]"
 Melee:
   - name: "Melee"
-    desc: "holy enforcement-class capture pole +17 to hit (14 (1d8+10) P; critical injection DC+2) or bite +17 to hit (14 (1d8+10) P)"
+    desc: "holy enforcement-class capture pole +17 to hit (1d8+10 P; critical injection DC+2) or bite +17 to hit (1d8+10 P)"
 modifier: 3
 name: "Agathion, Claustral"
 image: "[[agathion, claustral.png]]"
@@ -41,16 +43,16 @@ Perception: 13
 reach: "5 ft. (10 ft. with capture pole)"
 RP: 4 
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 8
+  - Ref: 8
+  - Will: 5
   - "+4": vs poison 
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+18 (`dice: 1d20+18`)"
-  - Culture: "+13 (`dice: 1d20+13`)"
-  - Survival: "+18 (`dice: 1d20+18`)" 
+  - Athletics: 18
+  - Culture: 13
+  - Survival: 18 
 space: "5 ft."
 specialabil:
   - name: "Conservation Aura (Su)"
@@ -62,7 +64,13 @@ specialabil:
 Speed: 30 ft., climb 20 ft. 
 statblock: true
 subtype: (agathion, extraplanar, good)
-tags: [agathion, extraplanar, good, LawfulNeutral, medium, outsider]
+tags:
+  - agathion
+  - extraplanar
+  - good
+  - LawfulNeutral
+  - medium
+  - outsider
 Type: "LN medium outsider (agathion, extraplanar, good)"
 type: outsider 
 XP: 2,400 
@@ -77,10 +85,10 @@ creature: Agathion, Claustral
 Agathions, who have humanoid forms with animal aspects, form from the souls of mortals who reached an enlightened state and became infused with holy power. Most remain content to meditate and explore their home plane of Nirvana, but many others visit the Material Plane to combat evil, especially evil that threatens the natural world.
 Four-armed and four-eyed vicunals resemble ruthigs and share ruthigs’ preference for traveling in groups. This variation of herd mentality makes vicunals intuitive therapists who tirelessly attend to their companions’ physical and emotional injuries. Despite their tenacity and indefatigable skirmishing tactics, these agathions struggle to overcome powerful foes. In these cases, vicunals typically recruit mortal agents willing to and capable of neutralizing the evil.
 Maned claustrals resemble the predatory eohis of the Nejeor system, expressing much of eohis’ love of pursuing and hounding their targets. However, claustrals almost never hunt to kill, instead patrolling cityscapes to protect their adopted fauna or neutralize deadly beasts. Although they take pains to warn negligent urbanites who inadvertently harm animals, claustrals often respond with violence to subdue or even kill serial abusers, such as those who run beast-fighting circuits. To claustrals’ chagrin, these brief rampages can spur rumors of an escaped beast, attracting bounty hunters who hope to slay the mysterious creature.
-source: Alien Archive 4 
+source: Alien Archive 4
 
 ## Extra Content
 
-The following extra content was found for this creature: 
-\- Agathion (Summoning) Graft Template 
+The following extra content was found for this creature:
+\- Agathion (Summoning) Graft Template
 \- Agathion (Creature Subtype) Graft Template

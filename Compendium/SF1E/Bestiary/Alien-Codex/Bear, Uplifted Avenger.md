@@ -1,13 +1,13 @@
 ---
 aliases: []
-cssclasses: 
+cssclasses:
 abilitymods:
   - STR: 5
   - DEX: 3
   - CON: 1
   - INT: 1
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 16 KAC: 18"
 alignment: CN
 class: "[[Soldier]]"
@@ -44,15 +44,15 @@ Ranged:
     desc: frostbite-class zero rifle +10 to hit (1d8+4 C; critical staggered [DC 13]) or frag grenade II +10 to hit (explode [15 ft., 2d6 P, DC 13])
 reach: 5 ft. (10 ft. with tactical swoop hammer)
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 8
+  - Ref: 8
+  - Will: 3
 Senses: "[[low-light vision]]"
 size: Large
 Skills:
-  - Athletics: "+15 (`dice: 1d20+15`) (+23 to climb)"
-  - Intimidate: "+10 (`dice: 1d20+10`)"
-  - Survival: "+10 (`dice: 1d20+10`)"
+  - Athletics: 15
+  - Intimidate: 10
+  - Survival: 10
 source: Alien Archive 2
 space: 10 ft.
 species: "[[Bear, Uplifted]]"

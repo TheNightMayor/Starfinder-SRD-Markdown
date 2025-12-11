@@ -3,9 +3,9 @@ abilitymods:
   - STR: 4
   - DEX: 2
   - CON: 1
-  - INT: "+0"
+  - INT: 0
   - WIS: -1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 17 KAC: 20"
 alignment: LN
 class: "[[Soldier]]"
@@ -50,15 +50,15 @@ Ranged:
   - name: Ranged
     desc: azimuth laser rifle +8 to hit (1d8+3 F; critical burn 1d6)
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 5
+  - Ref: 3
+  - Will: 4
 Senses: "[[blindsense]] (scent) 30 ft., [[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Intimidate: "+8 (`dice: 1d20+8`)"
-  - Stealth: "+8 (`dice: 1d20+8`)"
+  - Acrobatics: 13
+  - Intimidate: 8
+  - Stealth: 8
 source: Alien Archive
 specialabil:
   - name: Deadly Grasp (Ex)

@@ -5,7 +5,7 @@ abilitymods:
   - STR: 7
   - DEX: 10
   - CON: 4
-  - INT: "+0"
+  - INT: 0
   - WIS: 3
   - CHA: 1 
 ac: "EAC: 31 KAC: 33" 
@@ -43,16 +43,16 @@ image: "[[diaspora wyrm sage.png]]"
 Perception: 29
 reach: "15 ft. (50 ft. with tongue)"
 saves:
-  - Fort: "+21 (`dice: 1d20+21`)"
-  - Ref: "+21 (`dice: 1d20+21`)"
-  - Will: "+15 (`dice: 1d20+15`)" 
+  - Fort: 21
+  - Ref: 21
+  - Will: 15 
 Senses: "[[blindsight]] 300 ft. (electromagnetism), [[Sightless Ex]]"
 size: Huge
 Skills:
-  - Acrobatics: "+29 (`dice: 1d20+29`)"
-  - Mysticism: "+34 (`dice: 1d20+34`)"
-  - Stealth: "+29 (`dice: 1d20+29`)"
-  - Survival: "+29 (`dice: 1d20+29`)" 
+  - Acrobatics: 29
+  - Mysticism: 34
+  - Stealth: 29
+  - Survival: 29 
 source: Alien Archive 3 
 space: "15 ft."
 specialabil:

@@ -1,9 +1,9 @@
 ---
 abilitymods:
   - STR: 2
-  - DEX: "+0"
+  - DEX: 0
   - CON: 1
-  - INT: "+0"
+  - INT: 0
   - WIS: 4
   - CHA: 1 
 ac: "EAC: 13 KAC: 14" 
@@ -34,27 +34,23 @@ Melee:
 modifier: 0
 name: "Morlamaw"
 image: "[[Images/Aliens/Enemies/monstrous humanoid/morlamaw/morlamaw.png]]"
-
-offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 3rd; ranged +6)"
-  - name: "1/day"
-    desc: "[[Mind Thrust]] (1st level, DC 16), [[Mystic Cure]] (1st level)"
-  - name: "At will"
-    desc: "[[Telekinetic Projectile]], [[Telepathic Message]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 3rd; ranged +6)"
+  - 1/day: "[[Mind Thrust]] (1st level, DC 16), [[Mystic Cure]] (1st level)"
+  - At will: "[[Telekinetic Projectile]], [[Telepathic Message]]"
 otherabil: "[[Amphibious (Ex)]], [[Water Breathing Ex]]"
 Perception: 8
 reach: "10 ft."
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
+  - Fort: 2
+  - Ref: 4
+  - Will: 8 
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Athletics: "+13 (`dice: 1d20+13`) (+21 to swim)"
-  - Mysticism: "+13 (`dice: 1d20+13`)"
-  - Survival: "+8 (`dice: 1d20+8`)" 
+  - Athletics: 13
+  - Mysticism: 13
+  - Survival: 8 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

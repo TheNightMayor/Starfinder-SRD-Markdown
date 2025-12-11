@@ -4,10 +4,10 @@ cssclasses:
 abilitymods:
   - STR: 3
   - DEX: 5
-  - CON: "—"
-  - INT: "+0"
+  - CON: —
+  - INT: 0
   - WIS: 8
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 22 KAC: 23"
 alignment: LE
 cr: 10
@@ -41,32 +41,27 @@ image: "[[itmi vruh reminiscent.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "memory deluge (DC 19), possess body (DC 19) "
-  - name: Mystic Spell-Like Abilities 
-    desc: "(CL 10th)"
-  - name: "At will"
-    desc: "[[Mindlink]] "
-  - name: Mystic Spells Known 
-    desc: (CL 10th)
-  - name: "4th (3/day)"
-    desc: "[[Confusion]](DC 22), [[Mind Thrust]] (DC 22) "
-  - name: "3rd (6/day)"
-    desc: "[[Slow]](DC 21), [[Suggestion]] (DC 21), [[Synaptic Pulse]] (DC 21), [[Tongues]] "
-  - name: "2nd (at will)"
-    desc: "[[Hold Person]] (DC 20), [[Inflict Pain]] (DC 20)"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 10th)"
+  - At will: "[[Mindlink]] "
+  - "**Mystic Spells Known** (CL 10th)"
+  - 4th (3/day): "[[Confusion]](DC 22), [[Mind Thrust]] (DC 22) "
+  - 3rd (6/day): "[[Slow]](DC 21), [[Suggestion]] (DC 21), [[Synaptic Pulse]] (DC 21), [[Tongues]] "
+  - 2nd (at will): "[[Hold Person]] (DC 20), [[Inflict Pain]] (DC 20)"
 otherabil: "drift attraction"
 Perception: 19
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+15 (`dice: 1d20+15`)"
+  - Fort: 9
+  - Ref: 9
+  - Will: 15
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+19 (`dice: 1d20+19`)"
-  - Disguise: "+19 (`dice: 1d20+19`)"
-  - Mysticism: "+24 (`dice: 1d20+24`)"
-  - Sense Motive: "+24 (`dice: 1d20+24`)"
-  - Stealth: "+19 (`dice: 1d20+19`)"
+  - Acrobatics: 19
+  - Disguise: 19
+  - Mysticism: 24
+  - Sense Motive: 24
+  - Stealth: 19
 source: Alien Archive 4 
 specialabil:
   - name: "Captivating Memento(Su)"

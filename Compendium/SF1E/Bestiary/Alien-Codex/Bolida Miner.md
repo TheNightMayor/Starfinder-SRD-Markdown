@@ -3,9 +3,9 @@ abilitymods:
   - STR: 4
   - DEX: 1
   - CON: 2
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 14 KAC: 17"
 alignment: CN
 class: "[[Soldier]]"
@@ -51,15 +51,15 @@ Ranged:
     desc: tactical crossbolter +7 to hit (1d10+2 P) or frag grenade I +7 to hit (explode [15 ft., 1d6 P, DC 11])
 reach: 5 ft. (10 ft. with tactical pike)
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 4
+  - Ref: 2
+  - Will: 3
 Senses: "[[blindsense]] (vibration) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+7 (`dice: 1d20+7`)"
-  - Physical Science: "+7 (`dice: 1d20+7`)"
-  - Survival: "+12 (`dice: 1d20+12`)"
+  - Athletics: 7
+  - Physical Science: 7
+  - Survival: 12
 source: Alien Archive 2
 space: 5 ft.
 specialabil:

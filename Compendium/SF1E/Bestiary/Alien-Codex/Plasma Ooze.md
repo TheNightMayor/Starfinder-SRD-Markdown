@@ -3,9 +3,9 @@ abilitymods:
   - STR: 7
   - DEX: 5
   - CON: 10
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 30 KAC: 32" 
 alignment: N
 Aura: "electromagnetic field (100 ft., DC 22)"
@@ -50,14 +50,14 @@ Ranged:
     desc: "plasma pulse +30 to hit (10d6+16 E & F; critical severe wound [DC 22])"
 reach: "20 ft."
 saves:
-  - Fort: "+20 (`dice: 1d20+20`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 20
+  - Ref: 16
+  - Will: 12 
 Senses: "[[blindsight]] (thought) 60 ft., [[Sightless Ex]]"
-size: gargantuan
+size: Gargantuan
 Skills:
-  - Acrobatics: "+28 (`dice: 1d20+28`) (+36 to fly)"
-  - Piloting: "+28 (`dice: 1d20+28`) (to navigate only)"
+  - Acrobatics: 28
+  - Piloting: 28
 source: Alien Archive 2 
 space: "20 ft."
 specialabil:

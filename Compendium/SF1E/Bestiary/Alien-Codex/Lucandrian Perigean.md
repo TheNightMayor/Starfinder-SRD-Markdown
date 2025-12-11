@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 1
   - INT: 1
@@ -41,30 +41,27 @@ image: "[[lucandrian, perigean.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "cold radiance, psychokinetic grip"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 9th)"
-  - name: "3/day"
-    desc: "[[Psychokinetic Strangulation]] (DC 20), [[Slow]](DC 20)"
-  - name: 6/day
-    desc: "[[Directed Denial of Strength Attack]] (DC 19),[[Flight]](2nd level), [[Force Blast]] (DC 19), [[Hold Person]] (DC 19)"
-  - name: "At will"
-    desc: "[[Psychokinetic Hand]], [[Reflecting Armor]] (DC 18)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 9th)"
+  - 3/day: "[[Psychokinetic Strangulation]] (DC 20), [[Slow]](DC 20)"
+  - 6/day: "[[Directed Denial of Strength Attack]] (DC 19),[[Flight]](2nd level), [[Force Blast]] (DC 19), [[Hold Person]] (DC 19)"
+  - At will: "[[Psychokinetic Hand]], [[Reflecting Armor]] (DC 18)"
 otherabil: "limited spaceflight"
 Perception: 17
 Ranged:
   - name: "Ranged"
     desc: "gravity shot +16 to hit (2d8+9 P; critical staggered)"
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 10
+  - Ref: 10
+  - Will: 12 
 Senses: "[[blindsense]] (vibration) 30 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`) (+25 to fly)"
-  - Bluff: "+22 (`dice: 1d20+22`)"
-  - Mysticism: "+22 (`dice: 1d20+22`)"
-  - Physical Science: "+17 (`dice: 1d20+17`)" 
+  - Acrobatics: 17
+  - Bluff: 22
+  - Mysticism: 22
+  - Physical Science: 17 
 source: Alien Archive 3 
 specialabil:
   - name: "Cold Radiance (Su)"

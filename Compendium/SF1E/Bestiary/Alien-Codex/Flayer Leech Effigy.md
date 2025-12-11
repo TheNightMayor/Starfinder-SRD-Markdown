@@ -5,9 +5,9 @@ abilitymods:
   - STR: 9
   - DEX: 7
   - CON: 5
-  - INT: "+0"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: 0
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 29 KAC: 31" 
 alignment: N
 cr: 15
@@ -51,15 +51,15 @@ Ranged:
   - name: "Ranged"
     desc: "white star plasma pistol (3d8 E & F; critical burn 2d8)"
 saves:
-  - Fort: "+19 (`dice: 1d20+19`)"
-  - Ref: "+19 (`dice: 1d20+19`)"
-  - Will: "+15 (`dice: 1d20+15`)"
+  - Fort: 19
+  - Ref: 19
+  - Will: 15
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Bluff:  "+26 (`dice: 1d20+26`)"
-  - Disguise: "+31 (`dice: 1d20+31`)"
-  - Stealth: "+26 (`dice: 1d20+26`)" 
+  - Bluff:  26
+  - Disguise: 31
+  - Stealth: 26 
 source: Alien Archive 3 
 specialabil:
   - name: "Drink Marrow (Ex)"

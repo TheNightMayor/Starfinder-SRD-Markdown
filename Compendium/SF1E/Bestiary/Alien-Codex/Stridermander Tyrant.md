@@ -5,7 +5,7 @@ abilitymods:
   - CON: 3
   - INT: -3
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 23 KAC: 25" 
 alignment: CE
 cr: 10
@@ -38,26 +38,23 @@ image: "[[Stridermander Tyrant.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "gorge (+8)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 10th)"
-  - name: "1/day"
-    desc: "[[Hold Monster]] (DC 18)"
-  - name: "3/day"
-    desc: "[[Knock]], [[Suggestion]] (DC 17)"
-  - name: "At will"
-    desc: "[[Dancing Lights]], [[Ghost Sound]] (DC 14)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 10th)"
+  - 1/day: "[[Hold Monster]] (DC 18)"
+  - 3/day: "[[Knock]], [[Suggestion]] (DC 17)"
+  - At will: "[[Dancing Lights]], [[Ghost Sound]] (DC 14)"
 Perception: 19
 reach: "10 ft. (20 ft. with feeding tendril)"
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+11 (`dice: 1d20+11`) +2 vs. disease and poison effects"
+  - Fort: 12
+  - Ref: 14
+  - Will: "+11 +2 vs. disease and poison effects"
 Senses: "[[blindsense]] (scent) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
 size: Large
 Skills:
-  - Athletics: "+19 (`dice: 1d20+19`) (+27 to climb)"
-  - Stealth: "+24 (`dice: 1d20+24`)"
-  - Survival: "+19 (`dice: 1d20+19`)"
+  - Athletics: 19
+  - Stealth: 24
+  - Survival: 19
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

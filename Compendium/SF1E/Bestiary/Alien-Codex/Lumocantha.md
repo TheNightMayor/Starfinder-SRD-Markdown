@@ -5,7 +5,7 @@ abilitymods:
   - CON: 3
   - INT: -4
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 17 KAC: 19" 
 alignment: N
 cr: 5
@@ -36,15 +36,15 @@ Ranged:
   - name: "Ranged"
     desc: "laser spines +14 to hit (1d4+5 F; critical burn 1d4 F)"
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 9
+  - Ref: 7
+  - Will: 4 
 Senses: "[[low-light vision]]"
 size: Large
 Skills:
-  - Acrobatics: "+11 (`dice: 1d20+11`)"
-  - Athletics: "+11 (`dice: 1d20+11`) (+19 to climb)"
-  - Survival: "+16 (`dice: 1d20+16`)" 
+  - Acrobatics: 11
+  - Athletics: 11
+  - Survival: 16 
 source: Alien Archive 4 
 specialabil:
   - name: "Dye capsules (Ex)"

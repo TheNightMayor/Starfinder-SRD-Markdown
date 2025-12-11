@@ -3,7 +3,7 @@ aliases:
 cssclasses:
 abilitymods:
   - STR: 5
-  - DEX: "+0"
+  - DEX: 0
   - CON: 3
   - INT: -4
   - WIS: 1
@@ -47,13 +47,13 @@ Perception: 10
 planet: Castrovel
 reach: "10 ft."
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 8
+  - Ref: 3
+  - Will: 6
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], telepathy sense 60 ft."
-size: large
+size: Large
 Skills:
-  - Athletics: "+15 (`dice: 1d20+15`)"
+  - Athletics: 15
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 3
   - DEX: 5
-  - CON: "—"
+  - CON: —
   - INT: 1
   - WIS: 2
   - CHA: 1 
@@ -46,15 +46,15 @@ Ranged:
   - name: "Ranged"
     desc: "nyfiber net +15 to hit (entangle) or sentry shield projector +15 to hit (shield 1d4) or voltaic anchor pistol +15 to hit (1d6+5 E nonlethal; critical bind) or flash grenade I +15 to hit (explode [5 ft., blinded 1d4 rounds, DC 15]) or smoke grenade +15 to hit (explode [20 ft., smoke cloud 1 minute, DC 15])"
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 5
+  - Ref: 5
+  - Will: 2 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], [[Sense Through]] (vision) 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+11 (`dice: 1d20+11`)"
-  - Intimidate: "+11 (`dice: 1d20+11`)"
-  - Medicine: "+11 (`dice: 1d20+11`)" 
+  - Acrobatics: 11
+  - Intimidate: 11
+  - Medicine: 11 
 source: Alien Archive 3 
 specialabil:
   - name: "Nanite Repair (Ex)"

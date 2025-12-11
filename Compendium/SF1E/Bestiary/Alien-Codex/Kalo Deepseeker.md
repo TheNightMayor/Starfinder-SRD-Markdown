@@ -1,9 +1,9 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
   - CON: 1
-  - INT: "+0"
+  - INT: 0
   - WIS: 5
   - CHA: 2
 ac: "EAC: 17 KAC: 17"
@@ -42,38 +42,31 @@ image: "[[kalo deepspeaker.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Xenodruid#Grasping Vines (SU) - 3RD Level]]grasping vines (DC 15)"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 5th)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 5th)
-  - name: 2nd (3/day)
-    desc: "[[Fog Cloud]] , [[Summon Creature]] "
-  - name: 1st (6/day)
-    desc: "[[Command]] (DC 16), [[Life Bubble]] , [[Mind Thrust]] (DC 16)"
-  - name: (at will)
-    desc: "[[Daze]] (DC 15), [[Telepathic Message]]"
-  - name:
-      - - Mystic#Connection - 1ST Level|Connection
-    desc: "[[Xenodruid]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 5th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 5th)"
+  - 2nd (3/day): "[[Fog Cloud]] , [[Summon Creature]] "
+  - 1st (6/day): "[[Command]] (DC 16), [[Life Bubble]] , [[Mind Thrust]] (DC 16)"
+  - at will: "[[Daze]] (DC 15), [[Telepathic Message]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Xenodruid]]"
 Perception: 11
 planet: Kalo-Mahoi
 Ranged:
   - name: Ranged
     desc: underwater frostbite-class zero pistol +10 to hit (1d6+5 C; critical staggered [DC 15])
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 3
+  - Ref: 4
+  - Will: 9
 Senses: "[[blindsight]] (sound) 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - mysticism: "+16 (`dice: 1d20+16`)"
-  - Diplomacy: "+16 (`dice: 1d20+16`)"
-  - Profession (judge): "+11 (`dice: 1d20+11`)"
-  - Stealth: "+11 (`dice: 1d20+11`) (+15 in water)"
-  - Survival: "+11 (`dice: 1d20+11`)"
+  - mysticism: 16
+  - Diplomacy: 16
+  - Profession (judge): 11
+  - Stealth: 11
+  - Survival: 11
 source: Alien Archive
 species: "[[Kalo]]"
 Speed: 20 ft., swim 50 ft.

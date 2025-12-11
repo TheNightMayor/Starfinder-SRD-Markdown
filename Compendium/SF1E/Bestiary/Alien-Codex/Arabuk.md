@@ -5,7 +5,7 @@ abilitymods:
   - CON: 2
   - INT: -4
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 20 KAC: 22"
 alignment: N
 cr: 8
@@ -30,9 +30,9 @@ Init: 4
 KAC: 22 (+4 against combat maneuvers in home territory)
 Melee:
   - name: "Melee"
-    desc: "bite +19 to hit (20 (3d4+14) P) or antlers +19 to hit (20(3d4+14) B plus 3 (1d6) So)"
+    desc: "bite +19 to hit (3d4+14 P) or antlers +19 to hit (20(3d4+14) B plus 3 (1d6) So)"
   - name: "Multiattack"
-    desc: "antlers +13 to hit (17 (1d6+14) P plus 3(1d6) So), bite +13 to hit (17 (1d6+14) P), 2 claws +13 to hit (17 (1d6+14))"
+    desc: "antlers +13 to hit (1d6+14 P plus 3(1d6) So), bite +13 to hit (1d6+14 P), 2 claws +13 to hit (1d6+14)"
 modifier: 4
 name: "Arabuk"
 image: "[[Arabuk.png]]"
@@ -44,17 +44,17 @@ otherabil: "arctic guardian"
 Perception: 16
 Ranged:
   - name: "Ranged"
-    desc: "antler reverberation +16 to hit (16 (2d8+8) So plus staggered [DC 16]; critical deafen [DC 16])"
+    desc: "antler reverberation +16 to hit (2d8+8 So plus staggered [DC 16]; critical deafen [DC 16])"
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 12
+  - Ref: 12
+  - Will: 7 
 Senses: "[[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - Athletics: "+21 (`dice: 1d20+21`)"
-  - Stealth: "+16 (`dice: 1d20+16`) (+8 in home territory)"
-  - Survival: "+16 (`dice: 1d20+16`)" 
+  - Athletics: 21
+  - Stealth: 16
+  - Survival: 16 
 source: Alien Archive 4 
 specialabil:
   - name: "Antler Reverberation (Ex)"

@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 4
   - DEX: 2
-  - CON: "—"
-  - INT: "—"
+  - CON: —
+  - INT: —
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 11 KAC: 13" 
 alignment: NE
 climate: any
@@ -41,13 +41,13 @@ image: "[[undead minion, occult zombie.jpg]]"
 otherabil: "[[Mindless Ex]], [[Unliving Ex|unliving]]"
 Perception: 5
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 3 
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+10 (`dice: 1d20+10`)" 
+  - Athletics: 10 
 source: Alien Archive 
 specialabil:
   - name: "Staggered (Ex)"

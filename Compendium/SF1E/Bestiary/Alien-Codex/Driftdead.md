@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 2
   - DEX: 4
-  - CON: "—"
+  - CON: —
   - INT: -4
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 13 KAC: 15" 
 alignment: NE
 Aura: "[[Confusion]](30 ft., Will DC 11)"
@@ -45,14 +45,14 @@ Ranged:
   - name: "Ranged"
     desc: "Drift rip +7 to hit (1d4+2)"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 4
+  - Ref: 4
+  - Will: 3 
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+7 (`dice: 1d20+7`)"
-  - Stealth: "+12 (`dice: 1d20+12`)" 
+  - Acrobatics: 7
+  - Stealth: 12 
 source: Alien Archive 3 
 specialabil:
   - name: "[[Confusion]](Su)"

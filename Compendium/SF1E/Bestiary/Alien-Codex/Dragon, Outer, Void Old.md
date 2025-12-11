@@ -47,32 +47,29 @@ image: "[[dragon, old void.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "[[Breath Weapon (Su)]] (60-ft. cone, 19d10 E, DC 25, usable every 1d4 rounds), [[Crush (Ex)]] (8d8+29 B), suffocating breath (DC 25)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 18th; ranged +29)"
-  - name: "1/day"
-    desc: "[[Disintegrate]] (DC 25), [[Shadow Walk]] (DC 25)"
-  - name: "3/day"
-    desc: "[[Dismissal]] (5th level, DC 24), [[Dominate Person]](DC 24), [[Feeblemind]] (DC 24), [[Mind-Thrust]] (5th level, DC 24)"
-  - name: "At will"
-    desc: "[[Confusion]] (DC 23), [[Enervation]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 18th; ranged +29)"
+  - 1/day: "[[Disintegrate]] (DC 25), [[Shadow Walk]] (DC 25)"
+  - 3/day: "[[Dismissal]] (5th level, DC 24), [[Dominate Person]](DC 24), [[Feeblemind]] (DC 24), [[Mind-Thrust]] (5th level, DC 24)"
+  - At will: "[[Confusion]] (DC 23), [[Enervation]]"
 otherabil: "[[Spaceflight Su]]"
 Perception: "+31 "
 reach: "15 ft. (20 ft. with bite)"
 saves:
-  - Fort: "+18 (`dice: 1d20+18`)"
-  - Ref: "+18 (`dice: 1d20+18`)"
-  - Will: "+22 (`dice: 1d20+22`)"
+  - Fort: 18
+  - Ref: 18
+  - Will: 22
 Senses: "[[blindsense]] (vibration) 60 ft., [[darkvision]] 120 ft., [[low-light vision]], [[See In Darkness (Su)]]"
-size: gargantuan
+size: Gargantuan
 Skills:
-  - Acrobatics: "+31 (`dice: 1d20+31`) (+23 to fly)"
-  - Bluff: "+31 (`dice: 1d20+31`)"
-  - Computers: "+31 (`dice: 1d20+31`)"
-  - Culture: "+36 (`dice: 1d20+36`)"
-  - Diplomacy: "+36 (`dice: 1d20+36`)"
-  - Mysticism: "+36 (`dice: 1d20+36`)"
-  - Piloting: "+31 (`dice: 1d20+31`)"
-  - Sense Motive: "+31 (`dice: 1d20+31`)"
+  - Acrobatics: 31
+  - Bluff: 31
+  - Computers: 31
+  - Culture: 36
+  - Diplomacy: 36
+  - Mysticism: 36
+  - Piloting: 31
+  - Sense Motive: 31
 source: Alien Archive 2 
 space: "20 ft."
 specialabil:

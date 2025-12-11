@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 5
   - CON: 1
   - INT: 1
@@ -33,14 +33,11 @@ Languages: "Aklo, Common, Gnome"
 Melee:
   - name: "Melee"
     desc: "claw +13 to hit (1d6+6 S) or basic spined blade +13 to hit (1d6 P plus lesser shadow essence; critical injection DC +2)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 5th)"
-  - name: "1/day"
-    desc: "[[Plane Shift]] (Elemental Planes, First World, or Material Plane; self only)"
-  - name: "3/day"
-    desc: "[[Wisp Ally]]"
-  - name: "At will"
-    desc: "[[Dancing Lights]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 5th)"
+  - 1/day: "[[Plane Shift]] (Elemental Planes, First World, or Material Plane; self only)"
+  - 3/day: "[[Wisp Ally]]"
+  - At will: "[[Dancing Lights]]"
 modifier: 5
 name: "Lurker in Light"
 image: "[[Lurker in Light.png]]"
@@ -48,15 +45,15 @@ image: "[[Lurker in Light.png]]"
 otherabil: "blend with light, daylight door"
 Perception: 11
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 9
+  - Ref: 9
+  - Will: 4 
 Senses: "[[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+11 (`dice: 1d20+11`)"
-  - Mysticism: "+11 (`dice: 1d20+11`)"
-  - Stealth: "+16 (`dice: 1d20+16`)" 
+  - Acrobatics: 11
+  - Mysticism: 11
+  - Stealth: 16 
 source: Alien Archive 3 
 specialabil:
   - name: "Blend with Light (Su)"

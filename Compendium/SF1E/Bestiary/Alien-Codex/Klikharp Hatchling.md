@@ -32,14 +32,14 @@ image: "[[Klikharp Hatchling.png]]"
 otherabil: "mutations (maestro, springy)"
 Perception: 4
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+0 (`dice: 1d20+0`) +2 vs. emotion and pain"
+  - Fort: 4
+  - Ref: 2
+  - Will: "+0 +2 vs. emotion and pain"
 Senses: "[[blindsense]] (vibration) 60 ft., [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+4 (`dice: 1d20+4`)"
-  - Athletics: "+9 (`dice: 1d20+9`)" 
+  - Acrobatics: 4
+  - Athletics: 9 
 source: Alien Archive 4 
 specialabil:
   - name: "Gentle Thrum (Su)"

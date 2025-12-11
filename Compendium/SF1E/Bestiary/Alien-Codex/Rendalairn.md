@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 15
   - DEX: 12
-  - CON: "—"
+  - CON: —
   - INT: 5
   - WIS: 8
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 42 KAC: 44" 
 alignment: N
 cr: 25
@@ -40,10 +40,9 @@ image: "[[Rendalairn.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "demolisher, override, quake pulse, [[Trample Ex]] (18d10+40 B & S, DC 28)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 25th)"
-  - name: "Constant"
-    desc: "[[True Seeing]] (self)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 25th)"
+  - Constant: "[[True Seeing]] (self)"
 otherabil: "comm, life siphon, [[Spaceflight (Su)]], [[Unliving Ex|unliving]]"
 Perception: 46
 Ranged:
@@ -52,15 +51,15 @@ Ranged:
 reach: "60 ft."
 RP: 8 
 saves:
-  - Fort: "+23 (`dice: 1d20+23`)"
-  - Ref: "+23 (`dice: 1d20+23`)"
-  - Will: "+19 (`dice: 1d20+19`)" 
+  - Fort: 23
+  - Ref: 23
+  - Will: 19 
 Senses: "true seeing"
 size: Colossal
 Skills:
-  - Acrobatics: "+41 (`dice: 1d20+41`) (+49 to fly)"
-  - Mysticism: "+41 (`dice: 1d20+41`)"
-  - Piloting: "+41 (`dice: 1d20+41`)" 
+  - Acrobatics: 41
+  - Mysticism: 41
+  - Piloting: 41 
 space: "30 ft."
 specialabil:
   - name: "Comm (Ex)"

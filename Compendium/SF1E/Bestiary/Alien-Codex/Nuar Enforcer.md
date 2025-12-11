@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 5
-  - DEX: "+0"
+  - DEX: 0
   - CON: 3
   - INT: 1
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 18 KAC: 20"
 alignment: N
 class: "[[Soldier]]"
@@ -46,15 +46,15 @@ Ranged:
   - name: Ranged
     desc: frostbite-class zero rifle +9 to hit (1d8+4 C; critical staggered [DC 13]) or frag grenade II +9 to hit (explode [15ft., 2d6 P, DC 13])
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 6
+  - Ref: 4
+  - Will: 5
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+15 (`dice: 1d20+15`)"
-  - Intimidate: "+10 (`dice: 1d20+10`)"
-  - Survival: "+10 (`dice: 1d20+10`)"
+  - Athletics: 15
+  - Intimidate: 10
+  - Survival: 10
 source: Alien Archive
 specialabil:
   - name: Gore (Ex)

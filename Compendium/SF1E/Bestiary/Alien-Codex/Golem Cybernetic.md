@@ -2,9 +2,9 @@
 abilitymods:
   - STR: 6
   - DEX: 2
-  - CON: "—"
-  - INT: "—"
-  - WIS: "+0"
+  - CON: —
+  - INT: —
+  - WIS: 0
   - CHA: -2 
 ac: "EAC: 19 KAC: 23" 
 alignment: N
@@ -51,11 +51,11 @@ Ranged:
     desc: "corona artillery laser +15 to hit (2d8+8 F; critical burn 1d6)"
 reach: "10 ft."
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+5 (`dice: 1d20+5`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 5 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], X-ray vision"
-size: large
+size: Large
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

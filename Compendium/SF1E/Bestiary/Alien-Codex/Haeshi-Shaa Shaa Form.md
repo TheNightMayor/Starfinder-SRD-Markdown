@@ -46,14 +46,11 @@ image: "[[Haeshi-Shaa (Shaa Form).png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "expand, thicken"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 16th; melee +25, ranged +27)"
-  - name: "1/day"
-    desc: "[[Shadowy Fleet]] (DC 26), [[True Seeing]]"
-  - name: "3/day"
-    desc: "[[Crush Skull]] (DC 25), [[Mystic-Cure|Mystic Cure]] (5th level), [[Remove Affliction]], [[Synapse Overload]] (DC 25)"
-  - name: "At will"
-    desc: "[[Fear]](4th level, DC 24), [[Mind Probe]] (DC 24)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 16th; melee +25, ranged +27)"
+  - 1/day: "[[Shadowy Fleet]] (DC 26), [[True Seeing]]"
+  - 3/day: "[[Crush Skull]] (DC 25), [[Mystic-Cure|Mystic Cure]] (5th level), [[Remove Affliction]], [[Synapse Overload]] (DC 25)"
+  - At will: "[[Fear]](4th level, DC 24), [[Mind Probe]] (DC 24)"
 otherabil: "[[No Breath Ex]]"
 Perception: 28
 Ranged:
@@ -61,16 +58,16 @@ Ranged:
     desc: "sonic bolt +27 to hit (6d4+16 So)"
 reach: "10 ft."
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+20 (`dice: 1d20+20`)" 
+  - Fort: 14
+  - Ref: 14
+  - Will: 20 
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+28 (`dice: 1d20+28`) (+36 to fly)"
-  - Life Science: "+28 (`dice: 1d20+28`)"
-  - Mysticism: "+33 (`dice: 1d20+33`)"
-  - Physical Science: "+28 (`dice: 1d20+28`)" 
+  - Acrobatics: 28
+  - Life Science: 28
+  - Mysticism: 33
+  - Physical Science: 28 
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

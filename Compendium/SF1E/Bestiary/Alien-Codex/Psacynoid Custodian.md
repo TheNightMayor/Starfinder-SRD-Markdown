@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 1
   - WIS: 4
   - CHA: 1
@@ -40,29 +40,24 @@ Perception: 8
 Ranged:
   - name: Ranged
     desc: tactical semi-auto pistol +8 to hit (1d6+3 P)
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 3rd)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 3rd)
-  - name: 1st (3/day)
-    desc: "[[Charm Person]] (DC 16), [[Reflecting Armor]] (DC 16)"
-  - name: (at will)
-    desc: "[[Daze]] (DC 15), [[Ghost Sound]] (DC 15)"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Melophile]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 3rd)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 3rd)"
+  - 1st (3/day): "[[Charm Person]] (DC 16), [[Reflecting Armor]] (DC 16)"
+  - at will: "[[Daze]] (DC 15), [[Ghost Sound]] (DC 15)"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Melophile]]"
 RP: 3
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 2
+  - Ref: 4
+  - Will: 8
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - culture: "+8 (`dice: 1d20+8`)"
-  - Mysticism: "+13 (`dice: 1d20+13`)"
-  - Physical Science: "+13 (`dice: 1d20+13`)"
+  - culture: 8
+  - Mysticism: 13
+  - Physical Science: 13
 source: Alien Archive 4
 species: "[[Psacynoid]]"
 Speed: 30 ft.

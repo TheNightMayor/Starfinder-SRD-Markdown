@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 2
   - CON: 1
   - INT: -3
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 12 KAC: 13" 
 alignment: N
 climate: any
@@ -37,14 +37,14 @@ image: "[[elemental, small water.jpg]]"
 Perception: 5
 planet: []
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+1 (`dice: 1d20+1`)" 
+  - Fort: 5
+  - Ref: 3
+  - Will: 1 
 Senses: "[[darkvision]] 60 ft."
-size: small
+size: Small
 Skills:
-  - Acrobatics: "+5 (`dice: 1d20+5`)"
-  - Athletics: "+5 (`dice: 1d20+5`)"
+  - Acrobatics: 5
+  - Athletics: 5
 source: Alien Archive
 Speed: 20 ft. 
 statblock: true

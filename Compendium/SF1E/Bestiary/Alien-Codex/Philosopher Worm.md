@@ -1,7 +1,7 @@
 ---
 abilitymods:
-  - STR: "+0"
-  - DEX: "+0"
+  - STR: 0
+  - DEX: 0
   - CON: 1
   - INT: 4
   - WIS: 4
@@ -33,29 +33,26 @@ image: "[[Philosopher Worm.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "reality eddy"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 7th; ranged +16)"
-  - name: "1/day"
-    desc: "[[Dispel Magic]], [[Divination]],  [[Synaptic Pulse]] (DC 18)"
-  - name: "3/day"
-    desc: "[[Augury]], [[Status]], [[Mind Thrust]] (2nd level DC 17), [[Telepathic Bond]]"
-  - name: "At will"
-    desc: "[[Command]] (DC 16), [[Detect Thoughts]] (DC 16), [[Mindlink]], [[Psychokinetic Hand]], [[Telekinetic Projectile]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 7th; ranged +16)"
+  - 1/day: "[[Dispel Magic]], [[Divination]],  [[Synaptic Pulse]] (DC 18)"
+  - 3/day: "[[Augury]], [[Status]], [[Mind Thrust]] (2nd level DC 17), [[Telepathic Bond]]"
+  - At will: "[[Command]] (DC 16), [[Detect Thoughts]] (DC 16), [[Mindlink]], [[Psychokinetic Hand]], [[Telekinetic Projectile]]"
 otherabil: "evaluate"
 Perception: 14
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+12 (`dice: 1d20+12`)"
+  - Fort: 8
+  - Ref: 6
+  - Will: 12
 Senses: "[[blindsense]] (thought) 60 ft., [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - culture:  "+14 (`dice: 1d20+14`)"
-  - Diplomacy: "+19 (`dice: 1d20+19`)"
-  - Life Science: "+14 (`dice: 1d20+14`)"
-  - Medicine: "+14 (`dice: 1d20+14`)"
-  - Mysticism: "+19 (`dice: 1d20+19`)"
-  - Sense Motive: "+19 (`dice: 1d20+19`)" 
+  - culture:  14
+  - Diplomacy: 19
+  - Life Science: 14
+  - Medicine: 14
+  - Mysticism: 19
+  - Sense Motive: 19 
 source: Alien Archive 3 
 specialabil:
   - name: "Evaluate (Su)"

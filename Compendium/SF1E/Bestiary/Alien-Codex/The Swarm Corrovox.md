@@ -46,15 +46,15 @@ Ranged:
   - name: "Ranged"
     desc: "acid cannon +12 to hit (1d4+3 A; critical corrode 1d4)"
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 5
+  - Ref: 7
+  - Will: 4 
 Senses: "[[darkvision]] 60 ft., [[blindsense]] (vibration) 30 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+8 (`dice: 1d20+8`)"
-  - Athletics: "+8 (`dice: 1d20+8`) (+16 when climbing)"
-  - Stealth: "+8 (`dice: 1d20+8`)" 
+  - Acrobatics: 8
+  - Athletics: 8
+  - Stealth: 8 
 source: Alien Archive 
 specialabil:
   - name: "Acid Cannon (Ex)"

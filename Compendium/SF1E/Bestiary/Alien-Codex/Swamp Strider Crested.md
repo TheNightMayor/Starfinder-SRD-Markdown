@@ -37,13 +37,13 @@ otherabil: marshborn
 Perception: 19
 reach: 5 ft. (10 ft. with gore)
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 13
+  - Ref: 15
+  - Will: 9
 Senses: "[[blindsense]] (scent) 60 ft."
 size: Large
 Skills:
-  - Athletics: "+24 (`dice: 1d20+24`)"
+  - Athletics: 24
 source: Alien Archive 4
 space: 10 ft.
 specialabil:

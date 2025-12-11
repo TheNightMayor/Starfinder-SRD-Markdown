@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 3
-  - DEX: "+0"
+  - DEX: 0
   - CON: 2
   - INT: -3
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 10 KAC: 12" 
 alignment: N
 cr: 1/2
@@ -40,15 +40,15 @@ offabilities:
 Perception: 4
 reach: "5 ft. (10 ft. with suctioning vortex)"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 4
+  - Ref: 4
+  - Will: 2 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+9 (`dice: 1d20+9`)"
-  - Athletics: "+4 (`dice: 1d20+4`)"
-  - Stealth: "+4 (`dice: 1d20+4`)" 
+  - Acrobatics: 9
+  - Athletics: 4
+  - Stealth: 4 
 source: Alien Archive 4 
 space: "5 ft."
 specialabil:

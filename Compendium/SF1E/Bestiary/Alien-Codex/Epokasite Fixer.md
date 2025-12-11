@@ -2,10 +2,10 @@
 abilitymods:
   - STR: -1
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: 4
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 14 KAC: 15" 
 alignment: NG
 Aura: "draining (20 ft.)"
@@ -41,29 +41,27 @@ image: "[[Epokasite Fixer.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "anachronistic strike"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 3rd)"
-  - name: "1/day"
-    desc: "[[Detect Tech]],  [[Detect Radiation]], [[Hold Portal]]"
-  - name: "At will"
-    desc: "[[Mending]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 3rd)"
+  - 1/day: "[[Detect Tech]],  [[Detect Radiation]], [[Hold Portal]]"
+  - At will: "[[Mending]]"
 Perception: 8
 Ranged:
   - name: "Ranged"
     desc: "bow +6 to hit (1d6+3 P)"
 reach: "0 ft."
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 4
+  - Ref: 4
+  - Will: 6 
 Senses: "[[low-light vision]]"
 size: Tiny
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`) (+21 to fly)"
-  - Engineering: "+13 (`dice: 1d20+13`)"
-  - Intimidate: "+8 (`dice: 1d20+8`)"
-  - Sleight of Hand: "+8 (`dice: 1d20+8`)"
-  - Stealth: "+8 (`dice: 1d20+8`)" 
+  - Acrobatics: 13
+  - Engineering: 13
+  - Intimidate: 8
+  - Sleight of Hand: 8
+  - Stealth: 8 
 source: Alien Archive 4 
 space: "2-1/2 ft."
 specialabil:

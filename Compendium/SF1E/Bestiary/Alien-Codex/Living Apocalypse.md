@@ -37,14 +37,11 @@ image: "[[living apocalypse.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Radioactive (Ex, Su)]], radioactive exposure"
-  - name: Spell-Like Abilities
-    desc: (CL 20th; ranged +30)
-  - name: 1/day
-    desc: "[[Chain Surge]],  (DC 29), [[Disintegrate]] (DC 29), [[Gravitational Singularity]], [[Sympathetic Vibration]]"
-  - name: 3/day
-    desc: greater [[Dispel Magic]], [[Telekinesis]] (DC 28), [[Teleport]] (DC 28)
-  - name: At will
-    desc: "[[Irradiate]] (DC 26), [[Wall of Fire]]"
+Spells: 
+  - "**Spell-Like Abilities** {CL 20th; ranged +30)"
+  - 1/day: "[[Chain Surge]],  (DC 29), [[Disintegrate]] (DC 29), [[Gravitational Singularity]], [[Sympathetic Vibration]]"
+  - 3/day: greater [[Dispel Magic]], [[Telekinesis]] (DC 28), [[Teleport]] (DC 28)
+  - At will: "[[Irradiate]] (DC 26), [[Wall of Fire]]"
 otherabil: broadcast, destructive intuition, [[Mindless Ex]], pure energy
 Perception: 34
 Ranged:
@@ -52,15 +49,15 @@ Ranged:
     desc: apocalypse beam +30 to hit (12d6+20 B plus radioactive exposure)
 reach: 10 ft.
 saves:
-  - Fort: "+19 (`dice: 1d20+19`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+20 (`dice: 1d20+20`)"
+  - Fort: 19
+  - Ref: 15
+  - Will: 20
 Senses: "[[blindsight]] (wireless signal) 60 ft., [[Sense Through]] ([[blindsight]]) 60 ft., [[Sightless Ex]]"
 size: Colossal
 Skills:
-  - Acrobatics: "+34 (`dice: 1d20+34`) (+42 to fly)"
-  - Intimidate: "+39 (`dice: 1d20+39`)"
-  - Mysticism: "+39 (`dice: 1d20+39`) (to identify spells and other magic effects only)"
+  - Acrobatics: 34
+  - Intimidate: 39
+  - Mysticism: 39
 source: Alien Archive 2
 space: 30 ft.
 specialabil:

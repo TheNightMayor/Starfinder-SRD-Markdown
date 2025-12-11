@@ -5,7 +5,7 @@ abilitymods:
   - CON: 3
   - INT: 1
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 23 KAC: 26"
 alignment: N
 class: "[[Soldier]]"
@@ -35,22 +35,22 @@ image: "[[Hadrogaan Smart-merc.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Fighting Styles]] ([[Guard]], [[Sharpshoot]]), [[Sharpshoot#Focus Fire (EX)|focus fire]], [[Sharpshoot#Intense Focus (EX)|intense focus]], [[Sharpshoot#SNIPER’S Aim (EX)|sniper’s aim]]"
-otherabil: "[[Starfinder-SRD/Compendium/Classes/Soldier/Fighting Styles/Guard#Armor Training (EX)|armor training]]"
+otherabil: "[[Starfinder-SRD/Compendium/Character/Classes/Soldier/Fighting Styles/Guard#Armor Training (EX)|armor training]]"
 Perception: 19
 Ranged:
   - name: Ranged
     desc: tactical autobeam rifle +23 to hit (5d4+10 F; critical burn 2d4) or frag grenade IV +22 to hit (explode [15 ft., 6d6 P, DC 17])
 RP: 5
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 12
+  - Ref: 10
+  - Will: 11
 Senses: "[[blindsense]] (vibration) 30 ft."
 size: Medium
 Skills:
-  - Athletics: "+24 (`dice: 1d20+24`)"
-  - Computers: "+19 (`dice: 1d20+19`)"
-  - Physical Science: "+19 (`dice: 1d20+19`)"
+  - Athletics: 24
+  - Computers: 19
+  - Physical Science: 19
 source: Alien Archive 4
 specialabil:
   - name: Dual Nervous Systems

@@ -43,14 +43,11 @@ image: "[[Bryrvath.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "spectrend"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 15th)"
-  - name: "1/day"
-    desc: "[[dominate person]] (DC 25), [[mislead]] (DC 25)"
-  - name: "3/day"
-    desc: "[[confusion]] (DC 24), [[Invisibility, Greater]], [[mind probe]] (DC 24), [[Mind Thrust]] (4th-level, DC 24)"
-  - name: "At will"
-    desc: "[[arcane sight]], [[clairaudience/clairvoyance]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 15th)"
+  - 1/day: "[[dominate person]] (DC 25), [[mislead]] (DC 25)"
+  - 3/day: "[[confusion]] (DC 24), [[Invisibility, Greater]], [[mind probe]] (DC 24), [[Mind Thrust]] (4th-level, DC 24)"
+  - At will: "[[arcane sight]], [[clairaudience/clairvoyance]]"
 otherabil: "light absorption"
 Perception: 26
 planet: Aucturn
@@ -58,15 +55,15 @@ Ranged:
   - name: "Ranged"
     desc: "ray of light +24 to hit (4d6+15 F)"
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+20 (`dice: 1d20+20`)" 
+  - Fort: 13
+  - Ref: 13
+  - Will: 20 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - intimidate:  "+26 (`dice: 1d20+26`)"
-  - Mysticism: "+31 (`dice: 1d20+31`)"
-  - Stealth: "+31 (`dice: 1d20+31`)" 
+  - intimidate:  26
+  - Mysticism: 31
+  - Stealth: 31 
 source: Alien Archive
 specialabil:
   - name: "Impossible Aura(Su)"

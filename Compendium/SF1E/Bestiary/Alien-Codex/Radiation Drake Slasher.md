@@ -5,7 +5,7 @@ abilitymods:
   - CON: 1
   - INT: -2
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 16 KAC: 18" 
 alignment: CE
 cr: 4
@@ -39,15 +39,15 @@ Ranged:
   - name: "Ranged"
     desc: "atomic bezoar +10 to hit (1d8 F plus radiation exposure)"
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+5 (`dice: 1d20+5`)" 
+  - Fort: 8
+  - Ref: 8
+  - Will: 5 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+15 (`dice: 1d20+15`)"
-  - Survival: "+10 (`dice: 1d20+10`)" 
+  - Acrobatics: 10
+  - Intimidate: 15
+  - Survival: 10 
 source: Alien Archive 4 
 specialabil:
   - name: "Atomic Bezoar (Ex)"

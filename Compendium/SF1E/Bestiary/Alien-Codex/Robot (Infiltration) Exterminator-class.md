@@ -2,9 +2,9 @@
 abilitymods:
   - STR: 1
   - DEX: 5
-  - CON: "—"
+  - CON: —
   - INT: 2
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 4
 ac: "EAC: 19 KAC: 21"
 alignment: LN
@@ -46,17 +46,17 @@ Ranged:
   - name: "Ranged"
     desc: "advanced semi-auto pistol +15 to hit (2d6+7 P)"
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 7
+  - Ref: 7
+  - Will: 4
 Senses: "[[darkvision]] 60 ft.; [[Low-Light Vision Ex]]"
 size: Medium
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Bluff: "+19 (`dice: 1d20+19`)"
-  - Disguise: "+19 (`dice: 1d20+19`)"
-  - Sense Motive: "+14 (`dice: 1d20+14`)"
-  - Stealth: "+19 (`dice: 1d20+19`)"
+  - Acrobatics: 14
+  - Bluff: 19
+  - Disguise: 19
+  - Sense Motive: 14
+  - Stealth: 19
 source: Alien Archive 4 
 specialabil:
   - name: "Advanced Synthskin (Ex)"

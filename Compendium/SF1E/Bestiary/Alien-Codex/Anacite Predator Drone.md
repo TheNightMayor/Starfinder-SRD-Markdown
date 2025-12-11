@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 8
   - DEX: 5
-  - CON: "—"
-  - INT: "+0"
+  - CON: —
+  - INT: 0
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 23 KAC: 25" 
 alignment: LN
 climate: any
@@ -33,7 +33,7 @@ KAC: 25
 Languages: "Common, shortwave 100 ft."
 Melee:
   - name: "Melee"
-    desc: "horn +23 to hit (28 (2d10+18) P)"
+    desc: "horn +23 to hit (2d10+18 P)"
 modifier: 5
 name: "Anacite, Predator Drone"
 image: "[[Anacite Predator Drone.png]]"
@@ -46,18 +46,18 @@ Perception: 19
 planet: Aballon
 Ranged:
   - name: "Ranged"
-    desc: "integrated automatic laser +20 to hit (13 (4d4+10) F; critical 4 (2d4) burn) or integrated electric ray +20 to hit (19 (3d6+10) E; critical 6 (2d6) arc)"
+    desc: "integrated automatic laser +20 to hit (4d4+10 F; critical 4 (2d4) burn) or integrated electric ray +20 to hit (3d6+10 E; critical 6 (2d6) arc)"
 reach: "5 ft."
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 10
+  - Ref: 10
+  - Will: 7 
 Senses: "[[blindsight]] (heat) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+19 (`dice: 1d20+19`) (+27 to fly)"
-  - Athletics: "+24 (`dice: 1d20+24`)"
-  - Stealth: "+19 (`dice: 1d20+19`)" 
+  - Acrobatics: 19
+  - Athletics: 24
+  - Stealth: 19 
 source: Alien Archive 2
 space: "10 ft."
 specialabil:

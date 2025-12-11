@@ -47,14 +47,11 @@ image: "[[Drow Noble Arms Dealer.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Create Darkness (Su)]], limning light"
-  - name: Spell-Like Abilities
-    desc: (CL 11th)
-  - name: 1/day
-    desc: "[[Dispel Magic]], [[Suggestion]] (DC 19)"
-  - name: At will
-    desc: "[[Dancing Lights]],[[Flight]](2nd-level)"
-  - name: Constant
-    desc: "[[Detect Magic]]"
+Spells:
+  - "**Spell-Like Abilities** (CL 11th)"
+  - 1/day: "[[Dispel Magic]], [[Suggestion]] (DC 19)"
+  - At will: "[[Dancing Lights]],[[Flight]](2nd-level)"
+  - Constant: "[[Detect Magic]]"
 otherabil: "[[Envoy Improvisations]] ([[Envoy Improvisations#Hidden Agenda (EX)|hidden agenda]], [[Envoy Improvisations#Improved Get 'em (EX)|improved get ’em]], [[Envoy Improvisations#Improved Hurry (Ex)|improved hurry]], [[Envoy Improvisations#Quick Dispiriting Taunt (EX)|quick dispiriting taunt]])"
 Perception: 26
 planet: Apostae
@@ -63,17 +60,17 @@ Ranged:
     desc: "[[Sonic Pistol#Sonic Pistol, LFD|LFD sonic pistol]] +21 to hit (2d8+11 So; critical defense [DC 20])"
 RP: 6
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+14 (`dice: 1d20+14`)"
+  - Fort: 10
+  - Ref: 12
+  - Will: 14
 Senses: "[[darkvision]] 60 ft., [[Detect Magic]]"
-size: medium
+size: Medium
 Skills:
-  - Bluff: "+21 (`dice: 1d20+21`)"
-  - Diplomacy: "+26 (`dice: 1d20+26`)"
-  - Intimidate: "+26 (`dice: 1d20+26`)"
-  - Sense Motive: "+26 (`dice: 1d20+26`)"
-  - Stealth: "+21 (`dice: 1d20+21`)"
+  - Bluff: 21
+  - Diplomacy: 26
+  - Intimidate: 26
+  - Sense Motive: 26
+  - Stealth: 21
 source: Alien Archive
 specialabil:
   - name: Limning Light (Su)

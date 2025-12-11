@@ -41,14 +41,11 @@ image: "[[sombrian, solmyr.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "ill omens, searing radiance"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 13th)"
-  - name: "1/day"
-    desc: "[[Contact Other Plane]], [[Heat Leech]] (DC 24)"
-  - name: "3/day"
-    desc: "[[Divination]],  [[Holographic Image]] (4th level, DC 23), [[Invisibility, Greater]], [[Mind Thrust]] (4th level, DC 23)"
-  - name: "At will"
-    desc: "[[Slow]](DC 22), [[Prescience]] (DC 22)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 13th)"
+  - 1/day: "[[Contact Other Plane]], [[Heat Leech]] (DC 24)"
+  - 3/day: "[[Divination]],  [[Holographic Image]] (4th level, DC 23), [[Invisibility, Greater]], [[Mind Thrust]] (4th level, DC 23)"
+  - At will: "[[Slow]](DC 22), [[Prescience]] (DC 22)"
 otherabil: "divination expert, limited spaceflight"
 Perception: 28
 Ranged:
@@ -56,15 +53,15 @@ Ranged:
     desc: "firebolt +21 to hit (2d10+13 F plus cursed critical)"
 RP: 5 
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+16 (`dice: 1d20+16`)" 
+  - Fort: 14
+  - Ref: 14
+  - Will: 16 
 Senses: "[[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+28 (`dice: 1d20+28`)"
-  - Mysticism: "+23 (`dice: 1d20+23`)"
-  - Sense Motive: "+23 (`dice: 1d20+23`)" 
+  - Acrobatics: 28
+  - Mysticism: 23
+  - Sense Motive: 23 
 source: Alien Archive 4 
 specialabil:
   - name: "Cursed Critical (Su)"

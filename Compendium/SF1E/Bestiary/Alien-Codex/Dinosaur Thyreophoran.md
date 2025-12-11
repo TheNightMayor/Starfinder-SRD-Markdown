@@ -2,7 +2,7 @@
 cssclasses:
 abilitymods:
   - STR: 5
-  - DEX: "+0"
+  - DEX: 0
   - CON: 3
   - INT: -4
   - WIS: 1
@@ -38,11 +38,11 @@ Perception: 13
 planet: []
 reach: "15 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 11
+  - Ref: 8
+  - Will: 5
 Senses: "[[low-light vision]]"
-size: huge
+size: Huge
 source: Alien Archive 2 
 space: "15 ft."
 Speed: 30 ft.

@@ -39,27 +39,23 @@ image: "[[swarm xersk.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "demoralizing gaze (60 ft., Will DC 24), siphon fear"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 16th)"
-  - name: "1/day"
-    desc: "[[Inflict Pain, Mass]] (DC 26), [[Mind Thrust]] (6th level, DC 26)"
-  - name: "3/day"
-    desc: "[[Crush Skull]](DC 25), [[Feeblemind]] (DC 25), [[Command Greater]] (DC 25), [[Synaptic Pulse, Greater]] (DC 25)"
-  - name: "At will"
-    desc: "[[Fear]](4th level, DC 24), [[Mind Thrust]] (4th level, DC 24)"
-  - name: "Constant"
-    desc: "[[See Invisibility]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 16th)"
+  - 1/day: "[[Inflict Pain, Mass]] (DC 26), [[Mind Thrust]] (6th level, DC 26)"
+  - 3/day: "[[Crush Skull]](DC 25), [[Feeblemind]] (DC 25), [[Command Greater]] (DC 25), [[Synaptic Pulse, Greater]] (DC 25)"
+  - At will: "[[Fear]](4th level, DC 24), [[Mind Thrust]] (4th level, DC 24)"
+  - Constant: "[[See Invisibility]]"
 Perception: 33
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+21 (`dice: 1d20+21`)" 
+  - Fort: 14
+  - Ref: 16
+  - Will: 21 
 Senses: "[[blindsense]] (vibration) 30 ft., [[darkvision]] 60 ft., [[See Invisibility]]"
 size: Medium
 Skills:
-  - Acrobatics: "+28 (`dice: 1d20+28`) (+20 to fly)"
-  - Athletics: "+28 (`dice: 1d20+28`) (+36 to climb)"
-  - Sense Motive: "+33 (`dice: 1d20+33`)" 
+  - Acrobatics: 28
+  - Athletics: 28
+  - Sense Motive: 33 
 source: Alien Archive 3 
 specialabil:
   - name: "Demoralizing Gaze (Su)"

@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 2
   - CON: 3
   - INT: -4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: -3 
 ac: "EAC: 14 KAC: 16" 
 alignment: N
@@ -38,14 +38,14 @@ otherabil: "cold inured"
 Perception: 8
 reach: "5 ft."
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 2 
 Senses: "[[blindsense]] (scent) 60 ft., [[low-light vision]]"
 size: Large
 Skills:
-  - Athletics: "+13 (`dice: 1d20+13`)"
-  - Survival: "+8 (`dice: 1d20+8`)" 
+  - Athletics: 13
+  - Survival: 8 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

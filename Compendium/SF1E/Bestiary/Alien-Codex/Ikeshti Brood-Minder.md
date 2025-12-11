@@ -35,12 +35,10 @@ image: "[[Ikeshti Brood-Minder.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "squirt blood "
-  - name: Technomancer Spells Known
-    desc: (CL 2nd; melee +4, ranged +6)
-  - name: 1st (3/day)
-    desc: "[[Detect Tech]], [[Jolting Surge]]"
-  - name: (at will)
-    desc: "[[Detect Magic]], [[Energy Ray]]"
+Spells:
+  - "**Technomancer Spells Known** (CL 2nd; melee +4, ranged +6)"
+  - 1st (3/day): "[[Detect Tech]], [[Jolting Surge]]"
+  - at will: "[[Detect Magic]], [[Energy Ray]]"
 otherabil: "[[Technomancer#Spell Cache (SU) - 1ST Level|spell cache]] (wrist computer) "
 Perception: 7
 planet: Akiton
@@ -48,14 +46,14 @@ Ranged:
   - name: Ranged
     desc: tactical semi-auto pistol +6 to hit (1d6+2 P)
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+5 (`dice: 1d20+5`)"
-size: small
+  - Fort: 1
+  - Ref: 1
+  - Will: 5
+size: Small
 Skills:
-  - computers: "+12 (`dice: 1d20+12`)"
-  - Engineering: "+12 (`dice: 1d20+12`)"
-  - Sense Motive: "+7 (`dice: 1d20+7`)"
+  - computers: 12
+  - Engineering: 12
+  - Sense Motive: 7
 source: Alien Archive
 specialabil:
   - name: Squirt Blood (Ex)

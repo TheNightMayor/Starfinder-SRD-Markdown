@@ -35,14 +35,11 @@ name: "Hallajin"
 image: "[[Hallajin.png]]"
 
 offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 17th; melee +25)"
-  - name: "1/day"
-    desc: "[[Control Gravity]] (DC 26), [[Gravitational Singularity]] (DC 26)"
-  - name: "3/day"
-    desc: "greater [[Synaptic Pulse]] (DC 25), [[Retrocognition]], [[Synapse Overload]] (DC 25), [[Telekinesis]] (DC 25)"
-  - name: "At will"
-    desc: "[[Confusion]](DC 24), [[Mind Probe]] (DC 24)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 17th; melee +25)"
+  - 1/day: "[[Control Gravity]] (DC 26), [[Gravitational Singularity]] (DC 26)"
+  - 3/day: "greater [[Synaptic Pulse]] (DC 25), [[Retrocognition]], [[Synapse Overload]] (DC 25), [[Telekinesis]] (DC 25)"
+  - At will: "[[Confusion]](DC 24), [[Mind Probe]] (DC 24)"
 otherabil: "light leap, shining"
 Perception: 29
 planet: []
@@ -51,14 +48,14 @@ Ranged:
     desc: "energy surge +27 to hit (4d8+17 F)"
 reach: "10 ft."
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+15 (`dice: 1d20+15`)"
-  - Will: "+22 (`dice: 1d20+22`)" 
+  - Fort: 15
+  - Ref: 15
+  - Will: 22 
 Senses: "[[blindsight]] (thought) 120 ft., [[darkvision]] 60 ft., [[Sense Through]] (thought)"
-size: large
+size: Large
 Skills:
-  - culture:  "+34 (`dice: 1d20+34`)"
-  - Mysticism: "+34 (`dice: 1d20+34`)" 
+  - culture:  34
+  - Mysticism: 34 
 source: Alien Archive
 space: "10 ft."
 specialabil:

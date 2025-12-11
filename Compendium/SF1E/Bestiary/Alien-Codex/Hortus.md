@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 2
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: 1
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 13 KAC: 15" 
 alignment: NG
 cr: 2
@@ -45,15 +45,15 @@ Ranged:
 reach: "5 ft. (10 ft. with tactical pike)"
 RP: 3 
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+1 (`dice: 1d20+1`) +2 vs. mind-affecting, paralysis, poison, polymorph, sleep, stunned"
+  - Fort: 6
+  - Ref: 4
+  - Will: "+1 +2 vs. mind-affecting, paralysis, poison, polymorph, sleep, stunned"
 Senses: "[[low-light vision]]"
 size: Medium
 Skills:
-  - Engineering: "+7 (`dice: 1d20+7`)"
-  - Medicine: "+7 (`dice: 1d20+7`)"
-  - Physical Science: "+12 (`dice: 1d20+12`)" 
+  - Engineering: 7
+  - Medicine: 7
+  - Physical Science: 12 
 source: Alien Archive 3 
 space: "5 ft"
 specialabil:

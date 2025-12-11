@@ -2,7 +2,7 @@
 aliases: 
 cssclasses:
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
   - CON: 1
   - INT: 2
@@ -46,30 +46,27 @@ image: "[[grioth eclipse seer.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "mindshock"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 6th)"
-  - name: "1/day"
-    desc: "[[Hold Person]] (DC 18), [[Inflict Pain]] (DC 18)"
-  - name: "3/day"
-    desc: "[[Command]] (DC 17), [[Detect Thoughts]] (DC 17), [[Confusion Lesser]](DC 17)"
-  - name: "At will"
-    desc: "[[Daze]] (DC 16), [[Psychokinetic Hand]] (DC 16)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 6th)"
+  - 1/day: "[[Hold Person]] (DC 18), [[Inflict Pain]] (DC 18)"
+  - 3/day: "[[Command]] (DC 17), [[Detect Thoughts]] (DC 17), [[Confusion Lesser]](DC 17)"
+  - At will: "[[Daze]] (DC 16), [[Psychokinetic Hand]] (DC 16)"
 otherabil: "[[No Breath Ex]]"
 Perception: 13
 Ranged:
   - name: "Ranged"
     desc: "liquidator disintegration pistol +13 to hit (1d10+6 A)"
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 5
+  - Ref: 7
+  - Will: 11
 Senses: "[[blindsight]] (sound) 60 ft., [[See In Darkness (Su)]]"
 size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Intimidate: "+18 (`dice: 1d20+18`)"
-  - Mysticism: "+18 (`dice: 1d20+18`)"
-  - Physical Science: "+13 (`dice: 1d20+13`)" 
+  - Acrobatics: 13
+  - Intimidate: 18
+  - Mysticism: 18
+  - Physical Science: 13 
 source: Alien Archive 4 
 specialabil:
   - name: "Mindshock (Su)"

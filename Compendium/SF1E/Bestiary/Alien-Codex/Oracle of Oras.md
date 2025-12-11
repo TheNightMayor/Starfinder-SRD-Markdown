@@ -42,20 +42,14 @@ image: "[[Oracle of Oras.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "grasping vines (DC 21)"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 13th)
-  - name: At will
-    desc: "[[Mindlink]], [[Telepathic Bond]]"
-  - name: Mystic Spells Known
-    desc: (CL 13th melee +22)
-  - name: 5th (3/day)
-    desc: "[[Call Cosmos]], [[Commune with Nature]]"
-  - name: 4th (6/day)
-    desc: "[[Hold Monster]] (DC 23), [[Mind Thrust]] (DC 23), [[Mystic Cure]], [[Polymorph]]"
-  - name: 3rd (at will)
-    desc: "[[Entropic Grasp]], [[Tongues]]"
-  - name: [[Mystic#Connection - 1ST Level|Connection]]
-    desc: "[[Xenodruid]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 13th)"
+  - At will: "[[Mindlink]], [[Telepathic Bond]]"
+  - "**Mystic Spells Known** (CL 13th melee +22)"
+  - 5th (3/day): "[[Call Cosmos]], [[Commune with Nature]]"
+  - 4th (6/day): "[[Hold Monster]] (DC 23), [[Mind Thrust]] (DC 23), [[Mystic Cure]], [[Polymorph]]"
+  - 3rd (at will): "[[Entropic Grasp]], [[Tongues]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Xenodruid]]"
 otherabil: gene transfer, share resistance, verdant portal
 Perception: 23
 Ranged:
@@ -64,15 +58,15 @@ Ranged:
 reach: 20 ft. (25 ft. with branch)
 RP: 7
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+16 (`dice: 1d20+16`)"
+  - Fort: 14
+  - Ref: 12
+  - Will: 16
 Senses: "[[blindsight]] (life) 120 ft.; [[low-light vision]]"
 size: Gargantuan
 Skills:
-  - life science:  "+28 (`dice: 1d20+28`)"
-  - Mysticism: "+28 (`dice: 1d20+28`)"
-  - Survival: "+23 (`dice: 1d20+23`)"
+  - life science:  28
+  - Mysticism: 28
+  - Survival: 23
 space: 20 ft.
 specialabil:
   - name: Gene Transfer (Su)

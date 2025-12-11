@@ -2,7 +2,7 @@
 abilitymods:
   - STR: -2
   - DEX: 2
-  - CON: "+0"
+  - CON: 0
   - INT: -4
   - WIS: 1
   - CHA: -2 
@@ -30,15 +30,15 @@ image: "[[predator, small.jpg]]"
 
 Perception: 3
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+1 (`dice: 1d20+1`)"
+  - Fort: 0
+  - Ref: 2
+  - Will: 1
 Senses: "[[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+3 (`dice: 1d20+3`)"
-  - Athletics: "+3 (`dice: 1d20+3`)"
-  - Stealth: "+3 (`dice: 1d20+3`)"
+  - Acrobatics: 3
+  - Athletics: 3
+  - Stealth: 3
 source: Alien Archive 2 
 Speed: 30 ft. 
 statblock: true

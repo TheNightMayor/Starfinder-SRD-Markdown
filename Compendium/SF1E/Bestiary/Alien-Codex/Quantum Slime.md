@@ -3,9 +3,9 @@ abilitymods:
   - STR: 7
   - DEX: 5
   - CON: 9
-  - INT: "—"
-  - WIS: "+0"
-  - CHA: "+0"
+  - INT: —
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 28 KAC: 29"
 alignment: N
 cr: 15
@@ -27,23 +27,18 @@ Melee:
 modifier: 5
 name: "Quantum Slime"
 image: "[[Quantum Slime.png]]"
-
-offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 15th; melee +24, ranged +22)"
-  - name: "1/day"
-    desc: "[[Call Cosmos]], greater [[Dispel Magic]]"
-  - name: "3/day"
-    desc: "[[Cosmic Eddy]]  (DC 24), creation (4th level), dimension door, [[Enervationy]]"
-  - name: "At will"
-    desc: "bestow curse (DC 23), displacement"
+Spells: 
+  - "**Spell-Like Abilities** (CL 15th; melee +24, ranged +22)"
+  - 1/day: "[[Call Cosmos]], greater [[Dispel Magic]]"
+  - 3/day: "[[Cosmic Eddy]]  (DC 24), creation (4th level), dimension door, [[Enervationy]]"
+  - At will: "bestow curse (DC 23), displacement"
 otherabil: "[[Compression (Ex)]], [[Mindless Ex]], quantum superposition"
 Perception: 26
 reach: "10 ft."
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+16 (`dice: 1d20+16`)"
+  - Fort: 15
+  - Ref: 11
+  - Will: 16
   - name: "[[Immunity (Ex or Su)|Immunities]]"
     desc: "[[Ooze Immunities Ex]]"
   - name: "SR"
@@ -51,8 +46,8 @@ saves:
 Senses: "[[blindsight]] (vibration) 60 ft., [[Sightless Ex]]"
 size: Medium
 Skills:
-  - Acrobatics: "+26 (`dice: 1d20+26`)"
-  - Stealth: "+31 (`dice: 1d20+31`)"
+  - Acrobatics: 26
+  - Stealth: 31
 space: "5 ft."
 specialabil:
   - name: "Quantum Push (Su)"

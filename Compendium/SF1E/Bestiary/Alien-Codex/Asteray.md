@@ -36,14 +36,11 @@ name: "Asteray"
 image: "[[Asteray.png]]"
 
 offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 12th; melee +20)"
-  - name: "1/day"
-    desc: "[[Confusion]](DC 23), [[Overload Systems]] (DC 23)"
-  - name: "3/day"
-    desc: "[[Arcane Sight]], [[Charm Monster]] (DC 22), [[Discharge]](DC 22), [[Nondetection]]"
-  - name: "At will"
-    desc: "[[Holographic Image]] (2nd-level, DC 21), [[Spider Climb]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 12th; melee +20)"
+  - 1/day: "[[Confusion]](DC 23), [[Overload Systems]] (DC 23)"
+  - 3/day: "[[Arcane Sight]], [[Charm Monster]] (DC 22), [[Discharge]](DC 22), [[Nondetection]]"
+  - At will: "[[Holographic Image]] (2nd-level, DC 21), [[Spider Climb]]"
 otherabil: "[[No Breath Ex]], wake rider"
 Perception: "+22 (+30 in space)"
 planet: []
@@ -52,15 +49,15 @@ Ranged:
     desc: "electrical blast +18 to hit (2d8+12 E)"
 reach: "5 ft. (10 ft. with tail whip)"
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+15 (`dice: 1d20+15`)" 
+  - Fort: 13
+  - Ref: 13
+  - Will: 15 
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Bluff: "+27 (`dice: 1d20+27`)"
-  - Culture: "+27 (`dice: 1d20+27`)"
-  - Stealth: "+22 (`dice: 1d20+22`)" 
+  - Bluff: 27
+  - Culture: 27
+  - Stealth: 22 
 source: Alien Archive
 space: "5 ft."
 specialabil:

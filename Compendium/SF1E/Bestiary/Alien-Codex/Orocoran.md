@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 5
   - CON: 3
   - INT: -1
@@ -40,23 +40,21 @@ planet: Aucturn
 Ranged:
   - name: "Ranged"
     desc: "projectile vomit +16 to hit (1d10+6 A plus hallucinate)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 6th)"
-  - name: "1/day"
-    desc: "[[Augury]]"
-  - name: "Constant"
-    desc: "[[See Invisibility]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 6th)"
+  - 1/day: "[[Augury]]"
+  - Constant: "[[See Invisibility]]"
 RP: 1 
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+7 (`dice: 1d20+7`) (+9 vs. mind-affecting effects)"
+  - Fort: 8
+  - Ref: 8
+  - Will: 7
 Senses: "[[darkvision]] 60 ft., [[See Invisibility]]"
-size: medium
+size: Medium
 Skills:
-  - mysticism:  "+13 (`dice: 1d20+13`)"
-  - Stealth: "+18 (`dice: 1d20+18`)"
-  - Survival: "+13 (`dice: 1d20+13`)"
+  - mysticism:  13
+  - Stealth: 18
+  - Survival: 13
 source: Alien Archive 
 specialabil:
   - name: "Hallucinate (Ex)"

@@ -40,28 +40,25 @@ image: "[[protean, durgastr.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "warpwave"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 16th melee +26, ranged +26)"
-  - name: "1/day"
-    desc: "[[Disintegrate]] (DC 26), [[Shadow Walk]], [[Summon Creature]]  VI (proteans only), [[Terraform]]"
-  - name: "3/day"
-    desc: "[[Magic Seal, Greater]],  [[Song Of The Cosmos, Greater]] (DC 24), [[Mislead]] (DC 25)"
-  - name: "At will"
-    desc: "[[Confusion]](DC 24), entropic grasp (DC 23), probability prediction"
+Spells: 
+  - "**Spell-Like Abilities** (CL 16th melee +26, ranged +26)"
+  - 1/day: "[[Disintegrate]] (DC 26), [[Shadow Walk]], [[Summon Creature]]  VI (proteans only), [[Terraform]]"
+  - 3/day: "[[Magic Seal, Greater]],  [[Song Of The Cosmos, Greater]] (DC 24), [[Mislead]] (DC 25)"
+  - At will: "[[Confusion]](DC 24), entropic grasp (DC 23), probability prediction"
 otherabil: "call proteans, [[Change Shape Su]] (any Small, Medium, or Large creature), [[No Breath Ex]], [[Spaceflight (Su)]] (Mysticism)"
 Perception: 28
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+19 (`dice: 1d20+19`)" 
+  - Fort: 14
+  - Ref: 16
+  - Will: 19 
 Senses: "[[blindsense]] (vibration) 60 ft.; [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+28 (`dice: 1d20+28`) (+36 to fly)"
-  - Athletics: "+28 (`dice: 1d20+28`)"
-  - Bluff: "+33 (`dice: 1d20+33`)"
-  - Mysticism: "+33 (`dice: 1d20+33`)"
-  - Sense Motive: "+28 (`dice: 1d20+28`)" 
+  - Acrobatics: 28
+  - Athletics: 28
+  - Bluff: 33
+  - Mysticism: 33
+  - Sense Motive: 28 
 source: Alien Archive 4 
 specialabil:
   - name: "Call Proteans (Su)"

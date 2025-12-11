@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 3
   - CON: 2
   - INT: -4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 17 KAC: 19" 
 alignment: N
 cr: 5
@@ -41,13 +41,13 @@ Ranged:
     desc: "sonic burst +11 to hit (1d6+5 So)"
 reach: "10 ft."
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 9
+  - Ref: 9
+  - Will: 4 
 Senses: "[[blindsight]] (sound) 120 ft., [[Sightless Ex]]"
 size: Huge
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`)" 
+  - Acrobatics: 16 
 source: Alien Archive 3 
 space: "15 ft."
 specialabil:

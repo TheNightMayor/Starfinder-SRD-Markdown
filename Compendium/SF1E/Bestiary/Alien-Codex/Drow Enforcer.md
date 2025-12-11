@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 4
   - CON: 1
   - INT: -1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 1
 ac: "EAC: 16 KAC: 18"
 alignment: CE
@@ -40,32 +40,31 @@ KAC: 18
 Languages: Common, Drow
 Melee:
   - name: Melee
-    desc: standard taclash +5 to hit (4 (1d4+2) S)
+    desc: standard taclash +5 to hit (1d4+2 S)
 modifier: 4
 name: Drow Enforcer
 image: "[[Drow Enforcer.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Create Darkness (Su)]], [[Fighting Styles]] ([[Arcane Assailant]]), [[Arcane Assailant#Rune of the Eldritch Knight (SU)|rune of the eldritch knight]]"
-  - name: Spell-Like Abilities
-    desc: (CL 1st)
-  - name: At will
-    desc: "[[Dancing Lights]], [[Detect Magic]]"
+Spells:
+  - "**Spell-Like Abilities** (CL 1st)"
+  - At will: "[[Dancing Lights]], [[Detect Magic]]"
 Perception: 10
 planet: Apostae
 Ranged:
   - name: Ranged
-    desc: azimuth laser rifle +8 to hit (5 (1d8+1) F; critical burn 3 (1d6)) or shock grenade I +8 to hit (explode [15 ft., 4 (1d8) E, DC 10])
+    desc: azimuth laser rifle +8 to hit (1d8+1 F; critical burn 3 (1d6)) or shock grenade I +8 to hit (explode [15 ft., 4 (1d8) E, DC 10])
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 3
+  - Ref: 1
+  - Will: 3
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+5 (`dice: 1d20+5`)"
-  - Stealth: "+5 (`dice: 1d20+5`)"
+  - Acrobatics: 10
+  - Intimidate: 5
+  - Stealth: 5
 source: Alien Archive
 species: "[[Drow]]"
 Speed: 25 ft.

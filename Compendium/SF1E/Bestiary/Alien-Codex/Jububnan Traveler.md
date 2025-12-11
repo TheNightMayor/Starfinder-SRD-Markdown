@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 1
   - INT: 2
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 13 KAC: 14"
 alignment: N
 class: "[[Operative]]"
@@ -44,17 +44,17 @@ Ranged:
   - name: Ranged
     desc: static arc pistol +9 to hit (1d6+2 E; critical arc 2) or tactical shirren-eye rifle +9 to hit (1d10+2 P)
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+5 (`dice: 1d20+5`)"
+  - Fort: 1
+  - Ref: 4
+  - Will: 5
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Athletics: "+13 (`dice: 1d20+13`) (+21 to swim)"
-  - Culture: "+13 (`dice: 1d20+13`)"
-  - Life Science: "+8 (`dice: 1d20+8`)"
-  - Stealth: "+8 (`dice: 1d20+8`)"
+  - Acrobatics: 13
+  - Athletics: 13
+  - Culture: 13
+  - Life Science: 8
+  - Stealth: 8
 source: Alien Archive 4
 specialabil:
   - name: Astonishing Balance (Ex)

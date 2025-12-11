@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 4
   - DEX: 6
-  - CON: "—"
+  - CON: —
   - INT: 1
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 22 KAC: 23"
 alignment: N
 climate: any
@@ -51,16 +51,16 @@ Ranged:
   - name: "Ranged"
     desc: "advanced semi-auto pistol +20 to hit (2d6+9 P) or advanced shirren-eye rifle +20 to hit (2d10+9 P)"
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 6
+  - Ref: 10
+  - Will: 6
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+22 (`dice: 1d20+22`)"
-  - Athletics: "+17 (`dice: 1d20+17`) (+25 to climb)"
-  - Computers: "+17 (`dice: 1d20+17`)"
-  - Stealth: "+22 (`dice: 1d20+22`)"
+  - Acrobatics: 22
+  - Athletics: 17
+  - Computers: 17
+  - Stealth: 22
 source: Alien Archive 2 
 specialabil:
   - name: "Holographic Camouflage (Ex)"

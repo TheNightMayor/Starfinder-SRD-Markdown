@@ -1,14 +1,14 @@
 ---
 aliases: []
-cssclasses:
+cssclasses: 
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
-  - CON: "+0"
+  - CON: 0
   - INT: 3
-  - WIS: "-1 (`dice: 1d20+1`)"
-  - CHA: 5 
-ac: "EAC: 16 KAC: 17" 
+  - WIS: -1
+  - CHA: 5
+ac: "EAC: 16 KAC: 17"
 alignment: CE
 class: "[[Envoy]]"
 climate: any
@@ -20,42 +20,41 @@ EAC: 16
 Environment: any
 environment: any
 Gear:
-  - name: "Gear"
+  - name: Gear
     desc: "[[Stationwear#Stationwear, Casual|casual stationwear]], [[Zero Pistol#Zero Pistol, Frostbite-class|frostbite-class zero pistol]] with 1 [[Battery#Battery, Standard|Battery]] (20 charges), [[Knife#Knife, Survival|survival knife]]"
 hp: 45
 Init: 5
 KAC: 17
-Languages: "Common, up to 3 others"
+Languages: Common, up to 3 others
 Melee:
-  - name: "Melee"
-    desc: "survival knife +8 to hit (1d4+4 S)"
+  - name: Melee
+    desc: survival knife +8 to hit (1d4+4 S)
 modifier: 5
-name: "Cultists, Initiate"
+name: Cultists, Initiate
 image: "[[Cultists Initiate.png]]"
-
-otherabil: "cunning liar, [[Envoy Improvisations]] ([[Envoy Improvisations#Clever Feint (EX)|clever feint]], [[Envoy Improvisations#Quick Dispiriting Taunt (EX)|quick dispiriting taunt]])"
+otherabil: cunning liar, [[Envoy Improvisations]] ([[Envoy Improvisations#Clever Feint (EX)|clever feint]], [[Envoy Improvisations#Quick Dispiriting Taunt (EX)|quick dispiriting taunt]])
 Perception: 10
 Ranged:
-  - name: "Ranged"
-    desc: "frostbite-class zero pistol +10 to hit (1d6+4 C; critical staggered [DC 15])"
+  - name: Ranged
+    desc: frostbite-class zero pistol +10 to hit (1d6+4 C; critical staggered [DC 15])
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+7 (`dice: 1d20+7`)"
-size: medium
+  - Fort: 3
+  - Ref: 5
+  - Will: 7
+size: Medium
 Skills:
-  - Bluff:  "+15 (`dice: 1d20+15`)"
-  - Diplomacy: "+15 (`dice: 1d20+15`)"
-  - Intimidate: "+15 (`dice: 1d20+15`)"
-  - Mysticism: "+10 (`dice: 1d20+10`)"
-  - Sense Motive: "+10 (`dice: 1d20+10`)"
-  - Stealth: "+10 (`dice: 1d20+10`)" 
-source: Pact Worlds 
+  - Bluff: 15
+  - Diplomacy: 15
+  - Intimidate: 15
+  - Mysticism: 10
+  - Sense Motive: 10
+  - Stealth: 10
+source: Pact Worlds
 specialabil:
-  - name: "Cunning Liar (Ex)"
-    desc: "The first time a creature would succeed at a Sense Motive check to disbelieve the initiate's lie, treat that creature's result as if it had rolled a natural 1 on its Sense Motive check."
+  - name: Cunning Liar (Ex)
+    desc: The first time a creature would succeed at a Sense Motive check to disbelieve the initiate's lie, treat that creature's result as if it had rolled a natural 1 on its Sense Motive check.
 species: "[[Human]]"
-Speed: 30 ft. 
+Speed: 30 ft.
 statblock: true
 subtype: (human)
 tags:
@@ -64,7 +63,7 @@ tags:
   - humanoid
   - medium
 type: humanoid
-XP: 1200 
+XP: 1200
 ---
 
 ```statblock

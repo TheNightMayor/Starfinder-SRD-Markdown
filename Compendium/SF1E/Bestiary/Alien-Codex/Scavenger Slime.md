@@ -1,10 +1,12 @@
 ---
+aliases: []
+cssclasses:
 abilitymods:
   - STR: 4
   - DEX: 3
   - CON: 6
-  - INT: "—"
-  - WIS: "+0"
+  - INT: —
+  - WIS: 0
   - CHA: -2 
 ac: "EAC: 22 KAC: 24" 
 alignment: N
@@ -42,13 +44,13 @@ Ranged:
     desc: "aphelion artillery laser +21 to hit (3d8+9 F) or dual crossbolter +21 to hit (2d10+9 P) or red star plasma rifle +21 to hit (1d10+9 E & F)"
 reach: "5 ft."
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 13
+  - Ref: 9
+  - Will: 6 
 Senses: "[[blindsight]] (vibration) 60 ft., [[Sightless Ex]]"
-size: large
+size: Large
 Skills:
-  - stealth:  "+22 (`dice: 1d20+22`) (+27 in ruins or garbage)"
+  - stealth:  22
 source: Alien Archive
 space: "10 ft."
 specialabil:
@@ -58,7 +60,10 @@ specialabil:
     desc: "Scavenger slimes build protective shells for themselves out of refuse and their own natural resin, incorporating bits of repaired technology as they go. A scavenger slime’s shell grants the ooze DR 5/adamantine and resistance 10 to a random energy type depending on the technology it has incorporated, and also includes life-support systems similar to those in commercial armor, allowing it to survive in the vacuum of space. A scavenger slime can also incorporate weapons: one heavy weapon of an item level no greater than its Challenge Rating (9 for the typical scavenger slime), and either two longarms or three small arms each of an item level no greater than its CR – 1. A scavenger slime gains proficiency in whatever weapons it incorporates into its shell and powers these weapons naturally with the energy it produces. A weapon in a scavenger slime’s shell can be sundered as if it were an item with an item level equal to the slime’s CR. The scavenger slime listed here is resistant to fire and has incorporated an [[Artillery Laser#Artillery Laser, Aphelion|aphelion artillery laser]], a dual crossbolter, and a red star plasma rifle."
 Speed: 20 ft. 
 statblock: true
-tags: [large, Neutral, ooze]
+tags:
+  - large
+  - Neutral
+  - ooze
 type: ooze
 XP: 6400 
 ---

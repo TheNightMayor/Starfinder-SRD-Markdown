@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
   - CON: —
   - INT: 1
@@ -39,33 +39,28 @@ image: "[[Ghost.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Backlash]], corrupting gaze (DC 17), corrupting touch (DC 17), distraction (DC 17), frightful moan (DC 17), share pain, sow doubt"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 7th)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 7th)
-  - name: 3rd (3/day)
-    desc: "[[Psychokinetic Strangulation]] (DC 20), [[Synaptic Pulse]] (DC 20)"
-  - name: 2nd (6/day)
-    desc: "[[Hold Person]] (DC 19), [[Inflict Pain]] (DC 19), [[Mind Thrust]] (DC 19), [[See Invisibility]]"
-  - name: 1st (at will)
-    desc: "[[Detect Thoughts]] (DC 18), lesser [[Confusion]](DC 18)"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 7th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 7th)"
+  - 3rd (3/day): "[[Psychokinetic Strangulation]] (DC 20), [[Synaptic Pulse]] (DC 20)"
+  - 2nd (6/day): "[[Hold Person]] (DC 19), [[Inflict Pain]] (DC 19), [[Mind Thrust]] (DC 19), [[See Invisibility]]"
+  - 1st (at will): "[[Detect Thoughts]] (DC 18), lesser [[Confusion]](DC 18)"
 Perception: 19
 RP: 3
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 7
+  - Ref: 7
+  - Will: 11
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Disguise: "+19 (`dice: 1d20+19`)"
-  - Intimidate: "+14 (`dice: 1d20+14`)"
-  - Mysticism: "+19 (`dice: 1d20+19`)"
-  - Sense Motive: "+19 (`dice: 1d20+19`)"
-  - Stealth: "+19 (`dice: 1d20+19`)"
+  - Acrobatics: 14
+  - Disguise: 19
+  - Intimidate: 14
+  - Mysticism: 19
+  - Sense Motive: 19
+  - Stealth: 19
 source: Alien Archive 2
 specialabil:
   - name: Corrupting Gaze (Su)

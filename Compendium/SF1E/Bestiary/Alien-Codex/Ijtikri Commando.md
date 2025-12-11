@@ -3,9 +3,9 @@ abilitymods:
   - STR: 2
   - DEX: 3
   - CON: 3
-  - INT: "+0"
+  - INT: 0
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 16 KAC: 18"
 alignment: N
 class: "[[Soldier]]"
@@ -39,25 +39,24 @@ image: "[[ijtikri_1.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Fighting Styles]] ([[Sharpshoot]]), [[Sharpshoot#SNIPER’S Aim (EX)|sniper’s aim]]"
-  - name: Spell-Like Abilities
-    desc: (CL 4th)
-  - name: 1/day
-    desc:
+Spells:
+  - "**Spell-Like Abilities** (CL 4th)"
+  - 1/day:
       - - Keen Senses
 Perception: 10
 Ranged:
   - name: Ranged
     desc: thunderstrike sonic rifle +12 to hit (1d10+2 So; critical deafen [DC 13])
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+5 (`dice: 1d20+5`) +4 vs. critical hit effects"
+  - Fort: 6
+  - Ref: 4
+  - Will: +5 +4 vs. critical hit effects
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Athletics: "+10 (`dice: 1d20+10`)"
-  - Stealth: "+15 (`dice: 1d20+15`)"
+  - Acrobatics: 10
+  - Athletics: 10
+  - Stealth: 15
 source: Alien Archive 3
 specialabil:
   - name: Hardened Mantle (Ex)

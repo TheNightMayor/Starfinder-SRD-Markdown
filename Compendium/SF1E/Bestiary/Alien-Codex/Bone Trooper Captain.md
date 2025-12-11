@@ -51,16 +51,16 @@ Ranged:
     desc: red star plasma pistol +19 to hit (1d8+8 E & F; critical burn 1d8)
 RP: 4
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 10
+  - Ref: 10
+  - Will: 9
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - diplomacy: "+16 (`dice: 1d20+16`)"
-  - Engineering: "+16 (`dice: 1d20+16`)"
-  - Intimidate: "+16 (`dice: 1d20+16`)"
-  - Piloting: "+21 (`dice: 1d20+21`)"
+  - diplomacy: 16
+  - Engineering: 16
+  - Intimidate: 16
+  - Piloting: 21
 source: Alien Archive 2
 species: "[[Elebrian]]"
 Speed: 30 ft.

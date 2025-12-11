@@ -3,7 +3,7 @@ abilitymods:
   - STR: 1
   - DEX: 1
   - CON: 2
-  - INT: "+0"
+  - INT: 0
   - WIS: 4
   - CHA: 1
 ac: "EAC: 13 KAC: 14"
@@ -37,29 +37,23 @@ Perception: 8
 Ranged:
   - name: Ranged
     desc: azimuth laser pistol +7 to hit (1d4+3 F; critical burn 1d4)
-offabilities:
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 3rd)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 3rd)
-  - name: 1st (3/day)
-    desc: " [[Detect Thoughts]] (DC 16), [[Mind Thrust]] (DC 16)"
-  - name: (at will)
-    desc: "[[Daze]] (DC 15), [[Telepathic Message]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Empath]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 3rd)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 3rd)"
+  - 1st (3/day): "[[Detect Thoughts]] (DC 16), [[Mind Thrust]] (DC 16)"
+  - at will: "[[Daze]] (DC 15), [[Telepathic Message]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Empath]]"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 4
+  - Ref: 2
+  - Will: 6
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - diplomacy: "+8 (`dice: 1d20+8`)"
-  - Mysticism: "+13 (`dice: 1d20+13`)"
-  - Sense Motive: "+13 (`dice: 1d20+13`)"
+  - diplomacy: 8
+  - Mysticism: 13
+  - Sense Motive: 13
 source: Alien Archive 3
 species: "[[Brenneri]]"
 Speed: 30 ft., swim 20 ft.

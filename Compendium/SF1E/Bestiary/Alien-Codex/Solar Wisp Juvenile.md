@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 5
   - CON: 2
   - INT: -3
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 17 KAC: 19" 
 alignment: N
 combatType: combatant
@@ -43,13 +43,13 @@ otherabil: "aglow (20 ft.), [[Solar Adaptation Ex or Su]], [[Spaceflight (Su)]]"
 Perception: 11
 Reach: "5 ft."
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 9
+  - Ref: 7
+  - Will: 4 
 Senses: "[[darkvision]] 60 ft."
-size: huge
+size: Huge
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`) (+24 to fly)"
+  - Acrobatics: 16
 source: Alien Archive 2 
 Space: "15 ft."
 specialabil:

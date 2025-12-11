@@ -3,8 +3,8 @@ abilitymods:
   - STR: 1
   - DEX: 3
   - CON: 5
-  - INT: "—"
-  - WIS: "+0"
+  - INT: —
+  - WIS: 0
   - CHA: -3 
 ac: "EAC: 14 KAC: 16" 
 alignment: N
@@ -37,9 +37,9 @@ otherabil: "[[Mindless Ex]]"
 Perception: 8
 reach: "5 ft."
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 7
+  - Ref: 5
+  - Will: 2 
 Senses: "[[darkvision]] 60 ft."
 size: Large
 source: Alien Archive 2 

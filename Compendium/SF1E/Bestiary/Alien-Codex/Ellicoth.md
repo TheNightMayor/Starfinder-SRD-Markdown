@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 6
-  - DEX: "+0"
+  - DEX: 0
   - CON: 4
   - INT: -3
   - WIS: 3
@@ -39,15 +39,15 @@ Perception: 22
 planet: Eox
 reach: "20 ft."
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 13
+  - Ref: 13
+  - Will: 8
 Senses: "[[blindsense]] (life) 60 ft., [[low-light vision]]"
-size: gargantuan
+size: Gargantuan
 Skills:
-  - Athletics: "+17 (`dice: 1d20+17`)"
-  - Intimidate: "+17 (`dice: 1d20+17`)"
-  - Survival: "+17 (`dice: 1d20+17`)" 
+  - Athletics: 17
+  - Intimidate: 17
+  - Survival: 17 
 source: Alien Archive
 space: "20 ft."
 specialabil:

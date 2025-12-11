@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 2
   - DEX: 5
-  - CON: "+0"
+  - CON: 0
   - INT: 1
   - WIS: 4
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 20 KAC: 21"
 alignment: CN
 class: "[[Operative]]"
@@ -48,17 +48,17 @@ Ranged:
     desc: advanced semi-auto pistol +14 to hit (2d6+7 P)
 reach: 10 ft.
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 6
+  - Ref: 9
+  - Will: 10
 Senses: "[[darkvision]] 60 ft."
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+20 (`dice: 1d20+20`)"
-  - Engineering: "+15 (`dice: 1d20+15`)"
-  - Piloting: "+20 (`dice: 1d20+20`)"
-  - Profession (soldier): "+15 (`dice: 1d20+15`)"
-  - Stealth: "+20 (`dice: 1d20+20`)"
+  - Acrobatics: 20
+  - Engineering: 15
+  - Piloting: 20
+  - Profession (soldier): 15
+  - Stealth: 20
 source: Alien Archive
 space: 10 ft.
 specialabil:
@@ -66,7 +66,7 @@ specialabil:
     desc: A haan can create and inflate a web balloon and attach it to an adjacent enemy with a successful melee attack against kac. If the attack hits, the target immediately rises 30 feet off the ground in a straight line, and it continues to rise at a speed of 30 feet each round on the haan’s turn. Every round after the balloon is attached, the target can attempt a DC 14 Reflex save to cut or break free of the web balloon. If freeing itself from the balloon causes the creature to fall, it takes falling damage as normal. This ability does not function in a vacuum or zero gravity.
   - name: Firespray (Ex)
     desc: As a standard action, a haan can spray its flammable lifting gases and light them with sparks, creating a 30-foot cone of flame. All creatures within the cone take 3d6 fire damage (Reflex DC 14 half).
-species: "[[Starfinder-SRD/Compendium/Bestiary/Alien-Codex/Haan]]"
+species: "[[Starfinder-SRD/Compendium/Character/Species/Haan/Haan|Haan]]"
 Speed: 40 ft., climb 40 ft., fly 30 ft. (Ex, average), swim 40 ft. sure-footed
 statblock: true
 tags:

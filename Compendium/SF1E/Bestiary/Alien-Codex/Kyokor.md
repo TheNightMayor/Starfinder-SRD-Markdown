@@ -45,15 +45,15 @@ Perception: 34
 planet: Daimalko
 reach: "60 ft."
 saves:
-  - Fort: "+23 (`dice: 1d20+23`)"
-  - Ref: "+19 (`dice: 1d20+19`)"
-  - Will: "+21 (`dice: 1d20+21`)" 
+  - Fort: 23
+  - Ref: 19
+  - Will: 21 
 Senses: "[[blindsense]] (thought) 120 ft., sense the masses"
-size: colossal
+size: Colossal
 Skills:
-  - intimidate:  "+39 (`dice: 1d20+39`)"
-  - Sense Motive: "+34 (`dice: 1d20+34`)"
-  - Survival: "+34 (`dice: 1d20+34`)" 
+  - intimidate:  39
+  - Sense Motive: 34
+  - Survival: 34 
 source: Alien Archive
 space: "60 ft."
 specialabil:

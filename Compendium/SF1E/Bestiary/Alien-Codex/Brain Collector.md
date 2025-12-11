@@ -41,30 +41,27 @@ image: "[[Brain Collector.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "brain collection"
-  - name: "Spells Known"
-    desc: "(CL 7th; ranged +13)"
-  - name: 3rd (3/day)
-    desc: "[[arcing surge]] (DC 20), [[ray of exhaustion]] (DC 20)"
-  - name: 2nd (6/day)
-    desc: "[[caustic conversion]], [[hold person]] (DC 19), [[Invisibility]], [[polymorph]] (self only; four predetermined humanoid forms)"
-  - name: 1st (at will)
-    desc: "[[magic missile]], [[unseen servant]]"
+Spells:
+  - "**Spells Known** (CL 7th; ranged +13)"
+  - 3rd (3/day): "[[arcing surge]] (DC 20), [[ray of exhaustion]] (DC 20)"
+  - 2nd (6/day): "[[caustic conversion]], [[hold person]] (DC 19), [[Invisibility]], [[polymorph]] (self only; four predetermined humanoid forms)"
+  - 1st (at will): "[[magic missile]], [[unseen servant]]"
 Perception: 16
 Ranged:
   - name: "Ranged"
     desc: "bite +9 to hit (1d12+12 P plus brain collector venom), 2 claws +9 to hit (1d8+12 S)"
 reach: "5 ft."
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+13 (`dice: 1d20+13`)"
+  - Fort: 7
+  - Ref: 7
+  - Will: 13
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Acrobatics: "+2 (`dice: 1d20+2`) (+10 to fly)"
-  - Life Science: "+21 (`dice: 1d20+21`)"
-  - Mysticism: "+21 (`dice: 1d20+21`)"
-  - Physical Science: "+16 (`dice: 1d20+16`) see Strange Knowledge"
+  - Acrobatics: 2
+  - Life Science: 21
+  - Mysticism: 21
+  - Physical Science: "+16 see Strange Knowledge"
 space: "10 ft."
 specialabil:
   - name: "Brain Collection (Ex)"

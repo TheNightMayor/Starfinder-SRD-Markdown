@@ -23,14 +23,14 @@ Init: 4
 KAC: 14
 Melee:
   - name: "Melee"
-    desc: "tail slap +9 to hit (6 (1d4+3) B; critical siphon)"
+    desc: "tail slap +9 to hit (1d4+3 B; critical siphon)"
 modifier: 4
 name: "Electrovore"
 image: "[[Electrovore.png]]"
 
 offabilities:
   - name: "Offensive Abilities"
-    desc: "electrical [[Discharge]](6 (1d6+2) E plus staggered, Reflex DC 13 half)"
+    desc: "electrical [[Discharge]](1d6+2 E plus staggered, Reflex DC 13 half)"
 otherabil:
   - name: "Electrical Discharge (Ex)"
     desc: "As a standard action, an electrovore can spend 1 Resolve Point to discharge some of its stored electrical energy as a powerful attack. All creatures within 10 feet of the electrovore take 1d6+2 electricity damage and are staggered for 1 round. A target can attempt a DC 13 Reflex save to take half this damage and negate the staggered effect."
@@ -39,23 +39,23 @@ otherabil:
 Perception: 12
 RP: 3
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+1 (`dice: 1d20+1`)"
+  - Fort: 3
+  - Ref: 7
+  - Will: 1
 Senses:
   - name: "Senses"
     desc: "[[[darkvision]]] 60 ft., [[Low-Light Vision]]"
-size: small
+size: Small
 Skills:
-  - Acrobatics: "+7 (`dice: 1d20+7`)"
-  - Athletics: "+7 (`dice: 1d20+7`)"
-  - Stealth: "+12 (`dice: 1d20+12`)"
-  - Survival: "+12 (`dice: 1d20+12`)"
+  - Acrobatics: 7
+  - Athletics: 7
+  - Stealth: 12
+  - Survival: 12
 source: Alien Archive
 Speed: 30 ft., fly 30ft. (ex, average)
 statblock: true
 tags: [Neutral, small]
-type: Magical Beast
+type: magical beast
 ---
 
 ```statblock

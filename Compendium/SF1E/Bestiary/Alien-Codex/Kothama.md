@@ -42,15 +42,15 @@ otherabil: "[[Stellar Alignment Su|Stellar Alignment]] ([[Solarian#Graviton Mode
 Perception: 24
 reach: "10 ft."
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+17 (`dice: 1d20+17`)" 
+  - Fort: 7
+  - Ref: 11
+  - Will: 17 
 Senses: "[[darkvision]] 120 ft., [[low-light vision]]"
 size: Huge
 Skills:
-  - diplomacy:  "+19 (`dice: 1d20+19`)"
-  - Mysticism: "+24 (`dice: 1d20+24`)"
-  - Sense Motive: "+24 (`dice: 1d20+24`)" 
+  - diplomacy:  19
+  - Mysticism: 24
+  - Sense Motive: 24 
 source: Alien Archive 3 
 space: "15 ft."
 specialabil:

@@ -2,9 +2,9 @@
 abilitymods:
   - STR: 5
   - DEX: 2
-  - CON: "—"
-  - INT: "—"
-  - WIS: "+0"
+  - CON: —
+  - INT: —
+  - WIS: 0
   - CHA: -2 
 ac: "EAC: 18 KAC: 20" 
 alignment: N
@@ -40,13 +40,13 @@ otherabil: "[[Mindless Ex]], comm, [[Unliving Ex|unliving]]"
 Perception: 13
 reach: "10 ft."
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 6
+  - Ref: 6
+  - Will: 3 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Large
 Skills:
-  - stealth:  "+13 (`dice: 1d20+13`)" 
+  - stealth:  13 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

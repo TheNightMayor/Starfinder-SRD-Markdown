@@ -39,30 +39,26 @@ image: "[[thing from beyond time.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "ripping gaze (30 ft., 11d6 S; Fort DC 24)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 17th; ranged +29)"
-  - name: "1/day"
-    desc: "[[Haste]], [[Slow]](DC 21)"
-  - name: "3/day"
-    desc: "[[Fog Cloud]], [[Invisibility, Greater]], [[Plane Shift]] (self only)"
-  - name: "At will"
-    desc: "[[Dimensional Anchor]],[[Interplanetary Teleport]] (casting time swift action; self only)"
-  - name: Constant
-    desc: "[[Flight]] (3rd level; 50-ft. speed; self only)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 17th; ranged +29)"
+  - 1/day: "[[Haste]], [[Slow]](DC 21)"
+  - 3/day: "[[Fog Cloud]], [[Invisibility, Greater]], [[Plane Shift]] (self only)"
+  - At will: "[[Dimensional Anchor]],[[Interplanetary Teleport]] (casting time swift action; self only)"
+  - Constant: "[[Flight]] (3rd level; 50-ft. speed; self only)"
 otherabil: "angled entry"
 Perception: 34
 reach: "15 ft. (20 ft. with tongue)"
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+20 (`dice: 1d20+20`)"
-  - Will: "+17 (`dice: 1d20+17`)" 
+  - Fort: 15
+  - Ref: 20
+  - Will: 17 
 Senses: "[[darkvision]] 120 ft., discern prey"
 size: Huge
 Skills:
-  - Acrobatics: "+34 (`dice: 1d20+34`)"
-  - Mysticism: "+34 (`dice: 1d20+34`)"
-  - Sense Motive: "+29 (`dice: 1d20+29`)"
-  - Stealth: "+29 (`dice: 1d20+29`)" 
+  - Acrobatics: 34
+  - Mysticism: 34
+  - Sense Motive: 29
+  - Stealth: 29 
 source: Alien Archive 3 
 space: "15 ft."
 specialabil:

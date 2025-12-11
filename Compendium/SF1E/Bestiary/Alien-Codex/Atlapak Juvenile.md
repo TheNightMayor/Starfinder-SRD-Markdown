@@ -5,8 +5,8 @@ abilitymods:
   - STR: 1
   - DEX: 4
   - CON: 2
-  - INT: "—"
-  - WIS: "+0"
+  - INT: —
+  - WIS: 0
   - CHA: -1 
 ac: "EAC: 14 KAC: 16" 
 alignment: N
@@ -44,14 +44,14 @@ Ranged:
   - name: "Ranged"
     desc: "sonic snap +11 to hit (1d4+3 So; critical staggered [DC 12])"
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 7
+  - Ref: 5
+  - Will: 2 
 Senses: "[[darkvision]] 120 ft., [[Sense Through]] (vision [fog only]) 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`) (+5 to fly in normal atmosphere)"
-  - Athletics: "+8 (`dice: 1d20+8`) (+16 to swim)"
+  - Acrobatics: 13
+  - Athletics: 8
 source: Alien Archive 4 
 specialabil:
   - name: "Aerial Buoyancy (Ex)"

@@ -43,15 +43,15 @@ Ranged:
     desc: "archaic obsidian spear +9 to hit (1d6+7 P)"
 reach: "5 ft. (10 ft. with feeding tendril)"
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`) +2 vs. disease and poison effects"
+  - Fort: 5
+  - Ref: 7
+  - Will: "+4 +2 vs. disease and poison effects"
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Athletics: "+8 (`dice: 1d20+8`) (+16 to climb)"
-  - Stealth: "+13 (`dice: 1d20+13`)"
-  - Survival: "+8 (`dice: 1d20+8`)" 
+  - Athletics: 8
+  - Stealth: 13
+  - Survival: 8 
 source: Alien Archive 
 space: "5 ft."
 specialabil:
@@ -65,7 +65,7 @@ Speed: 40 ft., climb 30 ft.
 statblock: true
 subtype: (Skittermander)
 tags: [ChaoticNeutral, Medium, Monstrous Humanoid, Skittermander]
-type: Monstrous Humanoid
+type: monstrous humanoid
 Type: "CN Medium monstrous humanoid (skittermander)"
 XP: 800 
 ---

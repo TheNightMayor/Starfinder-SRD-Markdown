@@ -44,29 +44,26 @@ image: "[[Time Dimensional.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "temporal stasis, time stop"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 14th melee +26)"
-  - name: "1/day"
-    desc: "[[Modify Memory]] (DC 22), [[Waves of Fatigue]]"
-  - name: "3/day"
-    desc: "[[Dimension Door]], [[Hold Monster]] (DC 21)"
-  - name: "At will"
-    desc: "[[Entropic Grasp]] (DC 20), [[Haste]], i[[Interplanetary Teleport]] (self plus 5 bulk of objects), [[Plane Shift]] (self only)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 14th melee +26)"
+  - 1/day: "[[Modify Memory]] (DC 22), [[Waves of Fatigue]]"
+  - 3/day: "[[Dimension Door]], [[Hold Monster]] (DC 21)"
+  - At will: "[[Entropic Grasp]] (DC 20), [[Haste]], i[[Interplanetary Teleport]] (self plus 5 bulk of objects), [[Plane Shift]] (self only)"
 otherabil: "timestream knowledge"
 Perception: "+25 "
 reach: "10 ft."
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+17 (`dice: 1d20+17`)"
+  - Fort: 12
+  - Ref: 14
+  - Will: 17
 Senses: "[[darkvision]] 120 ft."
 size: Large
 Skills:
-  - Acrobatics: "+30 (`dice: 1d20+30`) (+38 to fly)"
-  - Diplomacy: "+25 (`dice: 1d20+25`)"
-  - Mysticism: "+30 (`dice: 1d20+30`)"
-  - Sense Motive: "+25 (`dice: 1d20+25`)"
-  - Stealth: "+30 (`dice: 1d20+30`)"
+  - Acrobatics: 30
+  - Diplomacy: 25
+  - Mysticism: 30
+  - Sense Motive: 25
+  - Stealth: 30
 space: "10 ft."
 specialabil:
   - name: Chronal Immunities (Ex)

@@ -4,7 +4,7 @@ abilitymods:
   - DEX: 4
   - CON: 8
   - INT: -2
-  - WIS: "+0"
+  - WIS: 0
   - CHA: -2 
 ac: "EAC: 28 KAC: 30" 
 alignment: CE
@@ -44,14 +44,14 @@ Perception: 25
 reach: "10 ft."
 RP: 5 
 saves:
-  - Fort: "+18 (`dice: 1d20+18`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 18
+  - Ref: 16
+  - Will: 12 
 Senses: "[[blindsense]] (scent) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
 size: Large
 Skills:
-  - Athletics: "+30 (`dice: 1d20+30`)"
-  - Intimidate: "+25 (`dice: 1d20+25`)" 
+  - Athletics: 30
+  - Intimidate: 25 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

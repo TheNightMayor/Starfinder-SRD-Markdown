@@ -1,9 +1,9 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
   - CON: 1
-  - INT: "+0"
+  - INT: 0
   - WIS: 1
   - CHA: 2 
 ac: "EAC: 11 KAC: 12" 
@@ -37,14 +37,11 @@ Melee:
     desc: "Attach +3 or bite +3 to hit (1d4+1 A & P; critical corrode 1d4) or wing +3 to hit (1d4+1 B; critical knockdown)"
   - name: "Multiattack"
     desc: "Attach Ex –3, bite –3 (1d4+1 A & P; critical corrode 1d4), and wing –3 (1d4+1 B; critical knockdown)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 2nd; ranged +2)"
-  - name: "1/day"
-    desc: "grease (DC 14), [[Hold Portal]], overheat (DC 14)"
-  - name: "At will"
-    desc: "[[Dancing Lights]], [[Energy Ray]] (electricity or fire only), [[Ghost Sound]] (DC 13)"
-  - name: "Constant"
-    desc: "[[Detect Tech]] (starships and their integrated systems only)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 2nd; ranged +2)"
+  - 1/day: "grease (DC 14), [[Hold Portal]], overheat (DC 14)"
+  - At will: "[[Dancing Lights]], [[Energy Ray]] (electricity or fire only), [[Ghost Sound]] (DC 13)"
+  - Constant: "[[Detect Tech]] (starships and their integrated systems only)"
 modifier: 3
 name: "Gremlin, Ship Glitch Gremlin"
 image: "[[gremlin, ship glitch.png]]"
@@ -52,16 +49,16 @@ image: "[[gremlin, ship glitch.png]]"
 otherabil: "[[Spaceflight (Su)]], stellar stowaway"
 Perception: 5
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 3
+  - Ref: 3
+  - Will: 4 
 Senses: "detect tech (starships and their integrated systems only), [[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+5 (`dice: 1d20+5`) (–3 to fly)"
-  - Computers: "+5 (`dice: 1d20+5`) (+10 to use starship systems)"
-  - Engineering: "+10 (`dice: 1d20+10`)"
-  - Piloting: "+10 (`dice: 1d20+10`)" 
+  - Acrobatics: 5
+  - Computers: 5
+  - Engineering: 10
+  - Piloting: 10 
 source: Alien Archive 2 
 specialabil:
   - name:  Aura(Ex)

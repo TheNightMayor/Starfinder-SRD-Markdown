@@ -30,13 +30,13 @@ image: "[[herd animal, medium.jpg]]"
 
 Perception: 4
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+1 (`dice: 1d20+1`)"
+  - Fort: 3
+  - Ref: 4
+  - Will: 1
 Senses: "[[low-light vision]]"
 size: Medium
 Skills:
-  - Athletics: "+4 (`dice: 1d20+4`)"
+  - Athletics: 4
 source: Alien Archive 2 
 Speed: 40 ft. 
 statblock: true

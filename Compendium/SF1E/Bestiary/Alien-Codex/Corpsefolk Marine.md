@@ -3,9 +3,9 @@ abilitymods:
   - STR: 2
   - DEX: 5
   - CON: —
-  - INT: "+0"
+  - INT: 0
   - WIS: 4
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 19 KAC: 22"
 alignment: NE
 class: "[[Soldier]]"
@@ -50,15 +50,15 @@ Ranged:
   - name: Ranged
     desc: dual acid dart rifle +17 to hit (2d8+9 A & P; critical corrode 2d4) or frag grenade II +17 to hit (explode [15 ft., 2d6 P, DC 15])
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 9
+  - Ref: 7
+  - Will: 8
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+19 (`dice: 1d20+19`)"
-  - Intimidate: "+14 (`dice: 1d20+14`)"
-  - Piloting: "+14 (`dice: 1d20+14`)"
+  - Athletics: 19
+  - Intimidate: 14
+  - Piloting: 14
 source: Alien Archive 2
 species: "[[Corpsefolk]]"
 Speed: 30 ft. (20 ft. in armor)

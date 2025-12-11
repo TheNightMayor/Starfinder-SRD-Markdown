@@ -6,7 +6,7 @@ abilitymods:
   - DEX: 3
   - CON: 5
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: -2
 ac: "EAC: 24 KAC: 26"
 alignment: CE
@@ -47,14 +47,14 @@ Ranged:
     desc: "corrosive jet +23 to hit (3d8+11 A & F; critical corrode 2d4)"
 reach: "10 ft."
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+12 (`dice: 1d20+12`)"
+  - Fort: 15
+  - Ref: 13
+  - Will: 12
 Senses: "[[blindsense]] (vibration) 30 ft., [[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Acrobatics: "+20 (`dice: 1d20+20`)"
-  - Athletics: "+25 (`dice: 1d20+25`) (+33 to climb) "
+  - Acrobatics: 20
+  - Athletics: "+25 "
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

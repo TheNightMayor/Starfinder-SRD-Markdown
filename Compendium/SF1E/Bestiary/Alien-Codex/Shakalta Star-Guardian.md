@@ -2,8 +2,8 @@
 abilitymods:
   - STR: 2
   - DEX: 2
-  - CON: "+0"
-  - INT: "+0"
+  - CON: 0
+  - INT: 0
   - WIS: 5
   - CHA: 4
 ac: "EAC: 19 KAC: 21"
@@ -43,36 +43,29 @@ image: "[[Shakalta Star-Guardian.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Solarian#Solar Manifestation (SU) - 1ST Level|solar manifestation]] ([[Solarian#Solar Weapon|solar weapon]]), [[Stellar Alignment Su|Stellar Alignment]], [[Stellar Revelations]] ([[Stellar Revelations#Black Hole (SU))|black hole]] [25-ft. radius, push 15 ft., DC 15], [[Stellar Revelations#Gravity Anchor (SU))|gravity anchor]], [[Stellar Revelations#Stellar Rush (SU))|stellar rush]], [[Stellar Revelations#GSupernova (SU))|supernova]] [10-ft. radius, 5d6 fire, DC 15])"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 3rd)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Shakalta Spell-Like Abilities
-    desc: (CL 7th; ranged +16)
-  - name: At will
-    desc: "[[Dancing Lights]], [[Energy Ray]] (electricity or fire only)"
-  - name: Mystic Spells Known
-    desc: (CL 3rd; ranged +16)
-  - name: 1st (3/day)
-    desc: "[[Reflecting Armor]] (DC 18), [[Magic Missile]]"
-  - name: (at will)
-    desc: "[[Stabilize]], [[Telekinetic Projectile]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Star Shaman]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 3rd)"
+  - At will: "[[Mindlink]]"
+  - "**Shakalta Spell-Like Abilities** (CL 7th; ranged +16)"
+  - At will: "[[Dancing Lights]], [[Energy Ray]] (electricity or fire only)"
+  - "**Mystic Spells Known** (CL 3rd; ranged +16)"
+  - 1st (3/day): "[[Reflecting Armor]] (DC 18), [[Magic Missile]]"
+  - at will: "[[Stabilize]], [[Telekinetic Projectile]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Star Shaman]]"
 otherabil: bonded souls, [[Star Shaman#Starlight Form (SU) - 3RD Level|starlight form]] (3 minutes), [[Star Shaman#Walk the Void (SU) - 1ST Level|walk the void]]
 Perception: 14
 Ranged:
   - name: Ranged
     desc: holy inertial cavitation pistol +16 to hit (2d6+7 E & F; critical pulse 1d6)
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 9
+  - Ref: 7
+  - Will: 8
 size: Medium
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Mysticism: "+19 (`dice: 1d20+19`)"
-  - Piloting: "+14 (`dice: 1d20+14`)"
+  - Acrobatics: 14
+  - Mysticism: 19
+  - Piloting: 14
 source: Alien Archive 3
 specialabil:
   - name: Aura of Light (Ex)

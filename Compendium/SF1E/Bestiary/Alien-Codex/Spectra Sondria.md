@@ -43,31 +43,27 @@ Melee:
 modifier: 6
 name: "Spectra, Sondria"
 image: "[[spectra sondria.png]]"
-
-offabilities:
-  - name: "Spell-Like Abilities"
-    desc: "(CL 14th)"
-  - name: "3/day"
-    desc: "[[Holographic Image]] (4th level, DC 19), [[Recharge]]"
-  - name: "At will"
-    desc: "[[Implant Data]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 14th)"
+  - 3/day: "[[Holographic Image]] (4th level, DC 19), [[Recharge]]"
+  - At will: "[[Implant Data]]"
 otherabil: "drift boost, [[Multiarmed Ex]] (6), rebuild, slip drive, [[Spaceflight (Su)]] (Mysticism)"
 Perception: 25
 Ranged:
   - name: "Ranged"
     desc: "vibrochitter +25 to hit (3d12+14 So)"
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+14 (`dice: 1d20+14`)" 
+  - Fort: 16
+  - Ref: 16
+  - Will: 14 
 Senses: "[[darkvision]] 60 ft."
 size: Small
 Skills:
-  - Acrobatics: "+25 (`dice: 1d20+25`) (+33 to fly)"
-  - Computers: "+30 (`dice: 1d20+30`)"
-  - Engineering: "+30 (`dice: 1d20+30`)"
-  - Mysticism: "+30 (`dice: 1d20+30`)"
-  - Sense Motive: "+25 (`dice: 1d20+25`)" 
+  - Acrobatics: 25
+  - Computers: 30
+  - Engineering: 30
+  - Mysticism: 30
+  - Sense Motive: 25 
 source: Alien Archive 4 
 specialabil:
   - name: "Drift Boost (Ex)"

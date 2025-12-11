@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
   - CON: 2
   - INT: 2
@@ -38,21 +38,14 @@ image: "[[Kiirinta Shaman.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Xenodruid#Grasping Vines (SU) - 3RD Level|grasping vines]] (DC 16), reverberating shriek (DC 16)"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 6th)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 6th)
-  - name: 2nd (3/day)
-    desc: "[[Fog Cloud]] , [[Force Blast]] (DC 18)"
-  - name: 1st (6/day)
-    desc: "[[Life Bubble]] , [[Mind Thrust]] (DC 17), [[Mystic Cure]]"
-  - name: (at will)
-    desc: "[[Detect Magic]], [[Stabilize]]"
-  - name:
-      - - Mystic#Connection - 1ST Level|Connection
-    desc: "[[Xenodruid]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 6th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 6th)"
+  - 2nd (3/day): "[[Fog Cloud]] , [[Force Blast]] (DC 18)"
+  - 1st (6/day): "[[Life Bubble]] , [[Mind Thrust]] (DC 17), [[Mystic Cure]]"
+  - at will: "[[Detect Magic]], [[Stabilize]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Xenodruid]]"
 otherabil: "[[Xenodruid#Animal Adaptation (SU) - 6TH Level|animal adaptation]] (6 minutes)"
 Perception: 13
 Ranged:
@@ -60,16 +53,16 @@ Ranged:
     desc: corona laser pistol +11 to hit (2d4+6 F; critical burn 1d4)
 RP: 4
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 7
+  - Ref: 7
+  - Will: 9
 Senses: "[[low-light vision]]"
 size: Small
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Life Science: "+18 (`dice: 1d20+18`)"
-  - Mysticism: "+18 (`dice: 1d20+18`)"
-  - Survival: "+13 (`dice: 1d20+13`)"
+  - Acrobatics: 13
+  - Life Science: 18
+  - Mysticism: 18
+  - Survival: 13
 source: Alien Archive 4
 specialabil:
   - name: Fluttercloud (Ex)

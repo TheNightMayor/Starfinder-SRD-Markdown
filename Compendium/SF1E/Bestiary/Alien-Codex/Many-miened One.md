@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 11
   - DEX: 6
-  - CON: "—"
+  - CON: —
   - INT: 4
   - WIS: 9
   - CHA: 3
@@ -41,12 +41,10 @@ image: "[[Many-miened One.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "[[Create Darkness (Su)]], phase radiance"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 19th)"
-  - name: 4/day
-    desc: "change phase ([[Chain Surge]], [[Control Gravity]], [[Gravitational Singularity]], [[Mind Thrust]] [6th level], [[Veil]])"
-  - name: "At will"
-    desc: "change phase ([[Confusion]], [[Dimension Door]], [[Gravity Well]], [[Invisibility, Greater]])"
+Spells: 
+  - "**Spell-Like Abilities** (CL 19th)"
+  - 4/day: "change phase ([[Chain Surge]], [[Control Gravity]], [[Gravitational Singularity]], [[Mind Thrust]] [6th level], [[Veil]])"
+  - At will: "change phase ([[Confusion]], [[Dimension Door]], [[Gravity Well]], [[Invisibility, Greater]])"
 otherabil: "change phase, [[Spaceflight (Su)]], [[Unliving Ex|unliving]]"
 Perception: 37
 Ranged:
@@ -55,14 +53,14 @@ Ranged:
 reach: "15 ft."
 RP: 7
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+19 (`dice: 1d20+19`)"
+  - Fort: 14
+  - Ref: 14
+  - Will: 19
 Senses: "[[blindsense]] (vibration) 60 ft., [[blindsight]] (thought, gibbous phase only) 200 ft.; [[darkvision]] 60 ft.; low light vision"
 size: Huge
 Skills:
-  - mysticism:  "+32 (`dice: 1d20+32`)"
-  - Sense Motive: "+32 (`dice: 1d20+32`)"
+  - mysticism:  32
+  - Sense Motive: 32
 source: Alien Archive 4 
 space: "15 ft."
 specialabil:

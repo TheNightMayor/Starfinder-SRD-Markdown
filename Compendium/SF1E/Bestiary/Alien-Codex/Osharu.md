@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
   - CON: -1
   - INT: 3
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 10 KAC: 11" 
 alignment: LG
 climate: any
@@ -44,17 +44,17 @@ Ranged:
   - name: "Ranged"
     desc: "pulsecaster pistol +5 to hit (1d4 E nonlethal)"
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+5 (`dice: 1d20+5`)" 
+  - Fort: 0
+  - Ref: 2
+  - Will: 5 
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - culture:  "+4 (`dice: 1d20+4`)"
-  - Life Science: "+9 (`dice: 1d20+9`)"
-  - Medicine: "+4 (`dice: 1d20+4`)"
-  - Mysticism: "+9 (`dice: 1d20+9`)"
-  - Physical Science: "+9 (`dice: 1d20+9`)" 
+  - culture:  4
+  - Life Science: 9
+  - Medicine: 4
+  - Mysticism: 9
+  - Physical Science: 9 
 source: Alien Archive 2 
 specialabil:
   - name: "Slime (Ex)"

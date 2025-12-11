@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
   - CON: 2
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 4
 ac: "EAC: 11 KAC: 12"
 alignment: N
@@ -38,16 +38,16 @@ Ranged:
   - name: "Ranged"
     desc: "pulsecaster pistol +7 to hit (1d4+1 E nonlethal)"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 1
+  - Ref: 3
+  - Will: 6
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+9 (`dice: 1d20+9`)"
-  - Culture: "+4 (`dice: 1d20+4`)"
-  - Diplomacy: "+4 (`dice: 1d20+4`)"
-  - Stealth: "+9 (`dice: 1d20+9`)"
+  - Acrobatics: 9
+  - Culture: 4
+  - Diplomacy: 4
+  - Stealth: 9
 source: Alien Archive 4 
 specialabil:
   - name: "Barb Poison (Ex)"

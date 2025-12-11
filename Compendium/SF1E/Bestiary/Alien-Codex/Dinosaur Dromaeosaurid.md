@@ -6,7 +6,7 @@ abilitymods:
   - CON: 1
   - INT: -4
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 13 KAC: 15" 
 aliases:
   - Dromaeosaur
@@ -41,14 +41,14 @@ offabilities:
 Perception: 8
 planet: []
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 6
+  - Ref: 7
+  - Will: 2
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+8 (`dice: 1d20+8`)"
-  - Stealth: "+13 (`dice: 1d20+13`)"
+  - Acrobatics: 8
+  - Stealth: 13
 source: Alien Archive 2 
 specialabil:
   - name: "Pounce (Ex)"

@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 8
-  - DEX: "+0"
+  - DEX: 0
   - CON: 5
   - INT: 3
   - WIS: 3
@@ -46,14 +46,11 @@ image: "[[dragon, young adult blue.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "[[Breath Weapon (Su)]] (80-ft. line, 12d8 E, Reflex DC 18 half, usable every 1d4 rounds), [[Crush (Ex)]] (4d6+19 B)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 11th; melee +24)"
-  - name: "1/day"
-    desc: "[[Dimension Door]], [[Overload Systems]] (DC 17)"
-  - name: "3/day"
-    desc: "[[Arcing Surge]] (DC 16), [[Discharge]] (DC 16), [[Instant Virus]] (DC 16), [[Tongues]]"
-  - name: "At will"
-    desc: "[[Recharge]], [[See Invisibility]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 11th; melee +24)"
+  - 1/day: "[[Dimension Door]], [[Overload Systems]] (DC 17)"
+  - 3/day: "[[Arcing Surge]] (DC 16), [[Discharge]] (DC 16), [[Instant Virus]] (DC 16), [[Tongues]]"
+  - At will: "[[Recharge]], [[See Invisibility]]"
 otherabil: "sound imitation"
 Perception: 20
 planet: []
@@ -62,17 +59,17 @@ Ranged:
     desc: "aurora arc rifle +21 to hit (2d12+11 E, critical arc 2d6)"
 reach: "10 ft. (15 ft. with bite)"
 saves:
-  - Fort: "+15 (`dice: 1d20+15`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+13 (`dice: 1d20+13`)" 
+  - Fort: 15
+  - Ref: 13
+  - Will: 13 
 Senses: "[[blindsense]] 60 ft., [[darkvision]] 120 ft."
-size: huge
+size: Huge
 Skills:
-  - Acrobatics: "+25 (`dice: 1d20+25`) (+17 when flying)"
-  - Bluff: "+25 (`dice: 1d20+25`)"
-  - Computers: "+20 (`dice: 1d20+20`)"
-  - Engineering: "+20 (`dice: 1d20+20`)"
-  - Mysticism: "+20 (`dice: 1d20+20`)" 
+  - Acrobatics: 25
+  - Bluff: 25
+  - Computers: 20
+  - Engineering: 20
+  - Mysticism: 20 
 source: Alien Archive
 space: "15 ft."
 specialabil:

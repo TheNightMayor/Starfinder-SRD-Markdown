@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 8
   - CON: 3
   - INT: 2
@@ -48,17 +48,17 @@ offabilities:
 Perception: 24
 reach: "15 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 11
+  - Ref: 11
+  - Will: 7 
 Senses: "[[blindsight]] (vibration) 120 ft."
-size: huge
+size: Huge
 Skills:
-  - Acrobatics: "+24 (`dice: 1d20+24`) (+32 to fly)"
-  - Life Science: "+19 (`dice: 1d20+19`)"
-  - Physical Science: "+19 (`dice: 1d20+19`)"
-  - Stealth: "+24 (`dice: 1d20+24`)"
-  - Survival: "+24 (`dice: 1d20+24`)" 
+  - Acrobatics: 24
+  - Life Science: 19
+  - Physical Science: 19
+  - Stealth: 24
+  - Survival: 24 
 source: Alien Archive 2 
 space: "15 ft."
 specialabil:

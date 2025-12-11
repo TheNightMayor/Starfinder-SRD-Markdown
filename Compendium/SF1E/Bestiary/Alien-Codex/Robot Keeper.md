@@ -4,10 +4,10 @@ cssclasses:
 abilitymods:
   - STR: 11
   - DEX: 8
-  - CON: "—"
+  - CON: —
   - INT: 5
   - WIS: 6
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 32 KAC: 34" 
 alignment: N
 cr: 18
@@ -53,15 +53,15 @@ Ranged:
     desc: "avalanche-class zero rifle +30 to hit (7d8+18 C; critical staggered [DC 23])"
 reach: "10 ft."
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+17 (`dice: 1d20+17`)"
-  - Will: "+14 (`dice: 1d20+14`)" 
+  - Fort: 17
+  - Ref: 17
+  - Will: 14 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Large
 Skills:
-  - Acrobatics: "+31 (`dice: 1d20+31`)"
-  - Athletics: "+31 (`dice: 1d20+31`)"
-  - Stealth: "+36 (`dice: 1d20+36`)" 
+  - Acrobatics: 31
+  - Athletics: 31
+  - Stealth: 36 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

@@ -3,8 +3,8 @@ abilitymods:
   - STR: 2
   - DEX: 3
   - CON: 5
-  - INT: "—"
-  - WIS: "+0"
+  - INT: —
+  - WIS: 0
   - CHA: -2 
 ac: "EAC: 17 KAC: 19" 
 alignment: N
@@ -37,14 +37,14 @@ offabilities:
 otherabil: "buoyant, [[Compression (Ex)]], [[Mindless Ex]]"
 Perception: 11
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`)" 
+  - Fort: 9
+  - Ref: 7
+  - Will: 4 
 Senses: "[[darkvision]] 60 ft."
 size: Small
 Skills:
-  - Acrobatics: "+11 (`dice: 1d20+11`)"
-  - Athletics: "+16 (`dice: 1d20+16`)" 
+  - Acrobatics: 11
+  - Athletics: 16 
 source: Alien Archive 3 
 specialabil:
   - name: "Buoyant (Ex)"

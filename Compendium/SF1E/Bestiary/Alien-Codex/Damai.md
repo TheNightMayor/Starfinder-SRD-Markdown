@@ -1,10 +1,10 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
   - CON: 1
   - INT: 1
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 2 
 ac: "EAC: 10 KAC: 11" 
 alignment: N
@@ -44,16 +44,16 @@ Ranged:
   - name: "Ranged"
     desc: "tactical semi-auto pistol +2 to hit (1d6 P)"
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 0
+  - Ref: 2
+  - Will: 3 
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - engineering:  "+4 (`dice: 1d20+4`)"
-  - Medicine: "+9 (`dice: 1d20+9`)"
-  - Stealth: "+9 (`dice: 1d20+9`)"
-  - Survival: "+4 (`dice: 1d20+4`)" 
+  - engineering:  4
+  - Medicine: 9
+  - Stealth: 9
+  - Survival: 4 
 source: Alien Archive 2 
 specialabil:
   - name: "Scrappy (Ex)"

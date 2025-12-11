@@ -40,31 +40,28 @@ image: "[[Calecor.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "ruined mind, sympathetic ruin"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 17th; ranged +27)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 17th; ranged +27)"
   - name: "1/week"
     desc: "[[interplanetary teleport]], [[plane shift]], [[Terraform]](for 6 rp)"
-  - name: "1/day"
-    desc: "[[control gravity]] (DC 26), [[Disintegrate]] (DC 26)"
-  - name: "3/day"
-    desc: "[[crush skull]] (DC 25), [[feeblemind]] (DC 25), [[holographic terrain]] (DC 25), [[mystic cure]] (5th level)"
-  - name: "At will"
-    desc: "[[corrosive haze]] (DC 24), [[remove radiation]]"
+  - 1/day: "[[control gravity]] (DC 26), [[Disintegrate]] (DC 26)"
+  - 3/day: "[[crush skull]] (DC 25), [[feeblemind]] (DC 25), [[holographic terrain]] (DC 25), [[mystic cure]] (5th level)"
+  - At will: "[[corrosive haze]] (DC 24), [[remove radiation]]"
 otherabil: "planetary bond"
 Perception: 29
 planet: []
 reach: "10 ft."
 RP: 6 
 saves:
-  - Fort: "+17 (`dice: 1d20+17`)"
-  - Ref: "+17 (`dice: 1d20+17`)"
-  - Will: "+20 (`dice: 1d20+20`)" 
+  - Fort: 17
+  - Ref: 17
+  - Will: 20 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+29 (`dice: 1d20+29`) (+37 to fly)"
-  - Life Science: "+34 (`dice: 1d20+34`)"
-  - Survival: "+34 (`dice: 1d20+34`)" 
+  - Acrobatics: 29
+  - Life Science: 34
+  - Survival: 34 
 source: Alien Archive 2
 space: "10 ft."
 specialabil:

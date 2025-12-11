@@ -1,11 +1,11 @@
 ---
 abilitymods:
   - STR: 1
-  - DEX: "+0"
+  - DEX: 0
   - CON: 3
   - INT: 2
   - WIS: 5
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 17 KAC: 18" 
 alignment: LN
 climate: any
@@ -39,16 +39,16 @@ Perception: 17
 planet: Bretheda
 reach: "10 ft."
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+10 (`dice: 1d20+10`)" 
+  - Fort: 4
+  - Ref: 4
+  - Will: 10 
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`)"
-  - Diplomacy: "+12 (`dice: 1d20+12`)"
-  - Life Science: "+12 (`dice: 1d20+12`)"
-  - Sense Motive: "+17 (`dice: 1d20+17`)" 
+  - Acrobatics: 17
+  - Diplomacy: 12
+  - Life Science: 12
+  - Sense Motive: 17 
 source: Alien Archive 
 space: "10 ft."
 specialabil:

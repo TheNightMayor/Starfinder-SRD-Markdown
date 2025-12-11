@@ -44,14 +44,14 @@ otherabil: "[[Compression (Ex)]], feast, [[Void Adaptation Ex or Su]]"
 Perception: 27
 reach: "5 ft. (10 ft. with claws)"
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 16
+  - Ref: 16
+  - Will: 11
 Senses: "[[blindsight]] (vibration) 60 ft., [[Sense Through]] ([[blindsight]] [vibration]) 60 ft., [[Sightless Ex]]"
 size: Large
 Skills:
-  - Athletics: "+27 (`dice: 1d20+27`)"
-  - Stealth: "+22 (`dice: 1d20+22`)"
+  - Athletics: 27
+  - Stealth: 22
 source: Alien Archive 4 
 space: "10 ft."
 specialabil:

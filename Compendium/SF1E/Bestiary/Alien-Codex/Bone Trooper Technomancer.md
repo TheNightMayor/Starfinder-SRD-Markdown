@@ -1,12 +1,12 @@
 ---
-aliases: 
-cssclasses: 
+aliases:
+cssclasses:
 abilitymods:
   - STR: 1
   - DEX: 3
   - CON: —
   - INT: 4
-  - WIS: "+0"
+  - WIS: 0
   - CHA: 1
 ac: "EAC: 13 KAC: 14"
 alignment: LE
@@ -42,13 +42,10 @@ Melee:
 modifier: 7
 name: Bone Trooper, Technomancer
 image: "[[bone trooper technomancer.png]]"
-offabilities:
-  - name: Technomancer Spells Known
-    desc: (CL 3rd; ranged +7)
-  - name: 1st (3/day)
-    desc: "[[magic missile]], [[supercharge weapon]]"
-  - name: (at will)
-    desc: "[[Daze]] (DC 15), [[Energy Ray]]"
+Spells:
+  - "**Technomancer Spells Known** (CL 3rd; ranged +7)"
+  - 1st (3/day): "[[magic missile]], [[supercharge weapon]]"
+  - (at will): "[[Daze]] (DC 15), [[Energy Ray]]"
 otherabil: "[[Magic Hacks#Countertech (SU)|Magic Hacks (countertech)]], [[Technomancer#Spell Cache (SU) - 1ST Level|spell cache (rank insignia)]], [[Unliving Ex|unliving]]"
 Perception: 8
 planet: Eox
@@ -56,15 +53,15 @@ Ranged:
   - name: Ranged
     desc: tactical semi-auto pistol +7 to hit (1d6+3 P)
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 2
+  - Ref: 2
+  - Will: 8
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Computers: "+13 (`dice: 1d20+13`)"
-  - Mysticism: "+8 (`dice: 1d20+8`)"
-  - Piloting: "+13 (`dice: 1d20+13`)"
+  - Computers: 13
+  - Mysticism: 8
+  - Piloting: 13
 source: Alien Archive 2
 species: "[[Elebrian]]"
 Speed: 30 ft.

@@ -33,22 +33,15 @@ image: "[[Dessamar Theurgist.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "twinkle"
-  - name: Dessamar Spell-Like Abilities 
-    desc: "(CL 6th)"
-  - name: "1/day"
-    desc: "[[Charm Person]] (DC 17)"
-  - name: "At will"
-    desc: "[[Detect Magic]], [[Telepathic Message]]"
-  - name: Mystic Spells Known 
-    desc: "(CL 6th)" 
-  - name: "2nd (3/day)"
-    desc: "[[Darkvision]], [[Mind-Thrust]] (DC 18)"
-  - name: "1st (6/day)"
-    desc: "[[Mystic-Cure|Mystic Cure]], [[Reflecting Armor]] (DC 17), shooting stars (as [[Magic Missile]])"
-  - name: "(at will)"
-    desc: "[[Detect Affliction]], [[Mindlink]], [[Token Spell]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Star Shaman]]"
+Spells:
+  - "**Dessamar Spell-Like Abilities** (CL 6th)"
+  - 1/day: "[[Charm Person]] (DC 17)"
+  - At will: "[[Detect Magic]], [[Telepathic Message]]"
+  - "**Mystic Spells Known** (CL 6th)" 
+  - 2nd (3/day): "[[Darkvision]], [[Mind-Thrust]] (DC 18)"
+  - 1st (6/day): "[[Mystic-Cure|Mystic Cure]], [[Reflecting Armor]] (DC 17), shooting stars (as [[Magic Missile]])"
+  - (at will): "[[Detect Affliction]], [[Mindlink]], [[Token Spell]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Star Shaman]]"
 otherabil: "[[Star Shaman#Stargazer (SU) - 6TH Level|stargazer]], [[Star Shaman#Starlight Form (SU) - 3RD Level|starlight form]] (6 minutes, DC 16), [[Star Shaman#Walk the Void (SU) - 1ST Level|walk the void]]"
 Perception: 13
 Ranged:
@@ -56,16 +49,16 @@ Ranged:
     desc: "shrieking larva +12 to hit (1d8+6 So; critical deafen [DC 16])"
 reach: "5 ft. (10 ft. with tactical living staff)"
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 5
+  - Ref: 5
+  - Will: 9
 Senses: "[[blindsense]] (scent) 30ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Mysticism: "+18 (`dice: 1d20+18`)"
-  - Piloting: "+13 (`dice: 1d20+13`)"
-  - Sense Motive: "+18 (`dice: 1d20+18`)" 
+  - Acrobatics: 13
+  - Mysticism: 18
+  - Piloting: 13
+  - Sense Motive: 18 
 source: Alien Archive 3 
 space: "5 ft."
 specialabil:

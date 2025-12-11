@@ -5,7 +5,7 @@ abilitymods:
   - CON: 2
   - INT: -3
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 13 KAC: 15"
 alignment: N
 climate: warm
@@ -37,15 +37,15 @@ Perception: 12
 planet: Castrovel
 reach: "5 ft."
 saves:
-  - Fort: "+6 (`dice: 1d20+6`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+1 (`dice: 1d20+1`)"
+  - Fort: 6
+  - Ref: 6
+  - Will: 1
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+7 (`dice: 1d20+7`)"
-  - Perception: "+12 (`dice: 1d20+12`)"
-  - Stealth: "+7 (`dice: 1d20+7`)"
+  - Acrobatics: 7
+  - Perception: 12
+  - Stealth: 7
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

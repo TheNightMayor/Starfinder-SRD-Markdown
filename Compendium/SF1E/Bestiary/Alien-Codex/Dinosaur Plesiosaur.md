@@ -38,13 +38,13 @@ Perception: 14
 planet: []
 reach: "20 ft."
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 12
+  - Ref: 10
+  - Will: 6
 Senses: "[[low-light vision]]"
-size: huge
+size: Huge
 Skills:
-  - Athletics: "+19 (`dice: 1d20+19`) (+27 to swim)"
+  - Athletics: 19
 source: Alien Archive 2 
 space: "15 ft."
 Speed: 20 ft., swim 50 ft. 

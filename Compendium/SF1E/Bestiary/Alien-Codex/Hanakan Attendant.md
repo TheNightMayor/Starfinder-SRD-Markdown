@@ -1,9 +1,9 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
   - CON: 1
-  - INT: "+0"
+  - INT: 0
   - WIS: 4
   - CHA: 2
 ac: "EAC: 11 KAC: 12"
@@ -32,35 +32,29 @@ Languages: Common, Akan
 Melee:
   - name: Melee
     desc: survival knife +3 to hit (1d4+1 S)
-  - name: Hanakan Spell-Like Abilities
-    desc: (CL 1st)
-  - name: 1/day
-    desc: "[[Wisp Ally]]"
-  - name: At will
-    desc: "[[Detect Magic]],[[Token Spell]]"
-  - name: Mystic Spells Known
-    desc: (CL 1st, ranged +5)
-  - name: 1st (3/day)
-    desc: "[[Detect Thoughts]] (DC 14), [[Mystic-Cure]]"
-  - name: (at will)
-    desc: "[[Ghost Sound]] (DC 13),[[Telekinetic Projectile]]"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Empath]]"
+Spells:
+  - "**Hanakan Spell-Like Abilities** (CL 1st)"
+  - 1/day: "[[Wisp Ally]]"
+  - At will: "[[Detect Magic]],[[Token Spell]]"
+  - "**Mystic Spells Known** (CL 1st, ranged +5)"
+  - 1st (3/day): "[[Detect Thoughts]] (DC 14), [[Mystic-Cure]]"
+  - at will: "[[Ghost Sound]] (DC 13),[[Telekinetic Projectile]]"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Empath]]"
 modifier: 1
 name: Hanakan, Attendant
 image: "[[Hanakan Attendant.png]]"
 otherabil: "[[Empath#Empathy (SU) - 1ST Level|Empathy]]"
 Perception: 10
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 3
+  - Ref: 3
+  - Will: 4
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Small
 Skills:
-  - medicine: "+5 (`dice: 1d20+5`)"
-  - Mysticism: "+10 (`dice: 1d20+10`)"
-  - Sense Motive: "+10 (`dice: 1d20+10`)"
+  - medicine: 5
+  - Mysticism: 10
+  - Sense Motive: 10
 source: Alien Archive 3
 specialabil:
   - name: Atmospheric Adaptation (Ex)

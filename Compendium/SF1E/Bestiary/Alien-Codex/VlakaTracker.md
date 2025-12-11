@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 2
   - CON: 1
   - INT: 4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 13 KAC: 14"
 alignment: LN
 class: "[[Mechanic]]"
@@ -49,17 +49,17 @@ Ranged:
     desc: static arc pistol +8 to hit (1d6+2 E; critical arc 2)
 RP: 3
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+3 (`dice: 1d20+3`)"
+  - Fort: 3
+  - Ref: 5
+  - Will: 3
 Senses: "[[blindsight]] (scent) 30 ft., deafened, [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - computers: "+12 (`dice: 1d20+12`)"
-  - Engineering: "+12 (`dice: 1d20+12`)"
-  - Life Science: "+7 (`dice: 1d20+7`)"
-  - Medicine: "+12 (`dice: 1d20+12`)"
-  - Stealth: "+7 (`dice: 1d20+7`)"
+  - computers: 12
+  - Engineering: 12
+  - Life Science: 7
+  - Medicine: 12
+  - Stealth: 7
 source: Alien Archive 2
 specialabil:
   - name: Buoy (Ex)

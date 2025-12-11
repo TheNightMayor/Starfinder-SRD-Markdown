@@ -38,15 +38,15 @@ Ranged:
   - name: "Ranged"
     desc: "corona laser rifle +18 to hit (2d6+7 F, critical burn 1d6)"
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+8 (`dice: 1d20+8`)"
+  - Fort: 9
+  - Ref: 11
+  - Will: 8
 Senses: "[[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+14 (`dice: 1d20+14`)"
-  - Stealth: "+19 (`dice: 1d20+19`)"
-  - Survival: "+14 (`dice: 1d20+14`)" 
+  - Acrobatics: 14
+  - Stealth: 19
+  - Survival: 14 
 source: Alien Archive 4 
 specialabil:
   - name: "Barb Poison (Ex)"

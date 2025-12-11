@@ -5,8 +5,8 @@ abilitymods:
   - CON: 4
   - INT: 2
   - WIS: 6
-  - CHA: 2 
-ac: "EAC: 19 KAC: 20" 
+  - CHA: 2
+ac: "EAC: 19 KAC: 20"
 alignment: CE
 class: "[[Mystic]]"
 climate: any
@@ -15,69 +15,66 @@ cr: 8
 date created: Monday, January 1st 2024, 3:13:12 pm
 date modified: Tuesday, July 30th 2024, 10:08:05 pm
 defabilities:
-  - name: "Defensive Abilities"
-    desc: "share pain (DC 18)"
+  - name: Defensive Abilities
+    desc: share pain (DC 18)
 EAC: 19
 Environment: any
 environment: any
 Gear:
-  - name: "Gear"
+  - name: Gear
     desc: "[[AbadarCorp Travel Suit#Abadarcorp Travel Suit, Silver|silver AbadarCorp travel suit]], [[Staff#Staff, Carbon|carbon staff]], [[Plasma Pistol#Plasma Pistol, Red Star|red star plasma pistol]] with 2 [[Battery#Battery, Standard|Batteries]] (20 charges each)"
 hp: 105
 Init: 1
 KAC: 20
-Languages: "Common, Shirren, up to 2 others; [[Limited Telepathy (Ex or Su)]] 30 ft."
+Languages: Common, Shirren, up to 2 others; [[Limited Telepathy (Ex or Su)]] 30 ft.
 Melee:
-  - name: "Melee"
-    desc: "carbon staff +14 to hit (1d8+9 S; critical knockdown)"
+  - name: Melee
+    desc: carbon staff +14 to hit (1d8+9 S; critical knockdown)
 modifier: 1
-name: "Cultists, Cult Leader"
+name: Cultists, Cult Leader
 image: "[[Cultists Cult Leader.png]]"
-
 offabilities:
-  - name: "Offensive Abilities"
+  - name: Offensive Abilities
     desc: "[[Backlash]] (8 damage), sow doubt (4 rounds, DC 18)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 8th)"
-  - name: "At will"
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known 
-    desc: "(CL 8th)" 
-  - name: "3rd (3/day)"
-    desc: "[[Fear]] (DC 20), [[Mind-Thrust]] (DC 20)"
-  - name: "2nd (6/day)"
-    desc: "[[Fog Cloud]], [[Hold Person]](DC 19), [[Inflict Pain]](DC 19), [[Status]]"
-  - name: "1st (at will)"
-    desc: "[[Charm Person]] (DC 18), [[Confusion Lesser]] (DC 18)"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Mindbreaker]]"
-otherabil: "communalism"
+Spells:
+  - "**Spell-Like Abilities**(CL 8th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 8th)"
+  - 3rd (3/day): "[[Fear]] (DC 20), [[Mind-Thrust]] (DC 20)"
+  - 2nd (6/day): "[[Fog Cloud]], [[Hold Person]](DC 19), [[Inflict Pain]](DC 19), [[Status]]"
+  - 1st (at will): "[[Charm Person]] (DC 18), [[Confusion Lesser]] (DC 18)"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Mindbreaker]]"
+otherabil: communalism
 Perception: 16
 Ranged:
-  - name: "Ranged"
+  - name: Ranged
     desc: "[[Plasma Pistol#Plasma Pistol, Red Star|red star plasma pistol]] +14 to hit (1d8+8 E & F; critical burn 1d8)"
-RP: 4 
+RP: 4
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+11 (`dice: 1d20+11`)" 
+  - Fort: 7
+  - Ref: 7
+  - Will: 11
 Senses: "[[blindsense]] (vibration) 30 ft."
-size: medium
+size: Medium
 Skills:
-  - Bluff:  "+21 (`dice: 1d20+21`)"
-  - Culture: "+16 (`dice: 1d20+16`)"
-  - Diplomacy: "+16 (`dice: 1d20+16`)"
-  - Intimidate: "+16 (`dice: 1d20+16`)"
-  - Mysticism: "+21 (`dice: 1d20+21`)"
-  - Sense Motive: +16 
-source: Pact Worlds 
+  - Bluff: 21
+  - Culture: 16
+  - Diplomacy: 16
+  - Intimidate: 16
+  - Mysticism: 21
+  - Sense Motive: +16
+source: Pact Worlds
 species: "[[Shirren]]"
-Speed: 30 ft. 
+Speed: 30 ft.
 statblock: true
 subtype: (shirren)
-tags: [ChaoticEvil, humanoid, medium, shirren]
+tags:
+  - ChaoticEvil
+  - humanoid
+  - medium
+  - shirren
 type: humanoid
-XP: 4800 
+XP: 4800
 ---
 
 ```statblock

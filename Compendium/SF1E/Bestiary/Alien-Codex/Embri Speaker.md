@@ -1,11 +1,11 @@
 ---
 aliases: []
-cssclasses: 
+cssclasses:
 abilitymods:
-  - STR: "+0"
-  - DEX: "+0"
+  - STR: 0
+  - DEX: 0
   - CON: 3
-  - INT: "+0"
+  - INT: 0
   - WIS: 8
   - CHA: 5
 ac: "EAC: 22 KAC: 23"
@@ -47,21 +47,14 @@ image: "[[embri speaker.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: "[[Overlord#Echoes of Obedience (SU) - 6TH Level|echoes of obedience]], [[Overlord#Greater Forced Amity (SP) - 9TH Level|greater forced amity]] (DC 21), [[Overlord#Inexplicable Commands (SU) - 1ST Level|inexplicable commands]]"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 10th)
-  - name: At will
-    desc: "[[Mindlink]]"
-  - name: Mystic Spells Known
-    desc: (CL 10th)
-  - name: 4th (3/day)
-    desc: "[[Confusion]](DC 22), [[Mind Thrust]] (DC 22)"
-  - name: 3rd (6/day)
-    desc: "[[Dispel Magic]], [[Slow]](DC 21), [[Suggestion]] (DC 21), [[Tongues]]"
-  - name: 2nd (at will)
-    desc: "[[Hold Person]] (DC 20), [[Inflict Pain]] (DC 20)"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc:
-      - - Overlord
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 10th)"
+  - At will: "[[Mindlink]]"
+  - "**Mystic Spells Known** (CL 10th)"
+  - 4th (3/day): "[[Confusion]](DC 22), [[Mind Thrust]] (DC 22)"
+  - 3rd (6/day): "[[Dispel Magic]], [[Slow]](DC 21), [[Suggestion]] (DC 21), [[Tongues]]"
+  - 2nd (at will): "[[Hold Person]] (DC 20), [[Inflict Pain]] (DC 20)"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Overlord]]"
 Perception: 19
 planet: Embroi
 Ranged:
@@ -69,16 +62,16 @@ Ranged:
     desc: aphelion laser pistol +18 to hit (3d4+10 F; critical burn 1d4)
 RP: 5
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+15 (`dice: 1d20+15`)"
+  - Fort: 9
+  - Ref: 9
+  - Will: 15
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - diplomacy: "+19 (`dice: 1d20+19`)"
-  - Intimidate: "+24 (`dice: 1d20+24`)"
-  - Mysticism: "+24 (`dice: 1d20+24`)"
-  - Sense Motive: "+24 (`dice: 1d20+24`)"
+  - diplomacy: 19
+  - Intimidate: 24
+  - Mysticism: 24
+  - Sense Motive: 24
 source: Alien Archive 2
 specialabil:
   - name: Masked Emotions (Ex)

@@ -5,8 +5,8 @@ abilitymods:
   - STR: 3
   - DEX: 2
   - CON: 1
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: -1 
 ac: "EAC: 10 KAC: 11" 
 alignment: LN
@@ -46,17 +46,17 @@ Ranged:
   - name: "Ranged"
     desc: "survival flare gun +3 to hit (1d3 F; critical burn 1d6)"
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+2 (`dice: 1d20+2`)" 
+  - Fort: 2
+  - Ref: 2
+  - Will: 2 
 Senses: "[[blindsense]] (scent) 30 ft., [[darkvision]] 60 ft."
-size: small
+size: Small
 Skills:
-  - Athletics: "+9 (`dice: 1d20+9`)"
-  - Engineering: "+9 (`dice: 1d20+9`)"
-  - Physical Science: "+4 (`dice: 1d20+4`)"
-  - Profession (miner): "+9 (`dice: 1d20+9`)"
-  - Survival: "+4 (`dice: 1d20+4`)" 
+  - Athletics: 9
+  - Engineering: 9
+  - Physical Science: 4
+  - Profession (miner): 9
+  - Survival: 4 
 source: Alien Archive 
 specialabil:
   - name: "Able Assistant (Ex)"

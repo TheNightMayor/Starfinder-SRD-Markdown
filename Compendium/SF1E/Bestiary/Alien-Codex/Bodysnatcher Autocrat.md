@@ -40,16 +40,16 @@ offabilities:
     desc: "bodysnatch"
 Perception: 19
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+11 (`dice: 1d20+11`)"
+  - Fort: 11
+  - Ref: 8
+  - Will: 11
 Senses: "[[blindsight]] (vibration) 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+19 (`dice: 1d20+19`) (+27 to climb)"
-  - Bluff: "+24 (`dice: 1d20+24`)"
-  - Disguise: "+19 (`dice: 1d20+19`)"
-  - Stealth: "+24 (`dice: 1d20+24`); see neural integration"
+  - Athletics: 19
+  - Bluff: 24
+  - Disguise: 19
+  - Stealth: "+24; see neural integration"
 source: Alien Archive 2 
 specialabil:
   - name: "Bodysnatch (Ex)"

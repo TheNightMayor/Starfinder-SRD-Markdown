@@ -2,10 +2,10 @@
 abilitymods:
   - STR: -2
   - DEX: 3
-  - CON: "+0"
+  - CON: 0
   - INT: -2
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 10 KAC: 11" 
 alignment: N
 climate: any
@@ -34,15 +34,15 @@ Perception: 7
 planet: Vesk-3
 reach: "0 ft. (5 ft. with bite)"
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+4 (`dice: 1d20+4`)"
-  - Will: "+0 (`dice: 1d20+0`)"
+  - Fort: 0
+  - Ref: 4
+  - Will: 0
 Senses: "[[low-light vision]]"
-size: diminutive
+size: Diminutive
 Skills:
-  - Acrobatics: "+7 (`dice: 1d20+7`)"
-  - Athletics: "+3 (`dice: 1d20+3`) (+11 when climbing)"
-  - Stealth: "+7 (`dice: 1d20+7`)"
+  - Acrobatics: 7
+  - Athletics: 3
+  - Stealth: 7
 source: Alien Archive
 space: "1 ft."
 specialabil:

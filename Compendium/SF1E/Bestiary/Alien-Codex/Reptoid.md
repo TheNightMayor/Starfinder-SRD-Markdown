@@ -1,7 +1,7 @@
 ---
 abilitymods:
   - STR: 1
-  - DEX: "+0"
+  - DEX: 0
   - CON: -1
   - INT: 2
   - WIS: 1
@@ -43,23 +43,21 @@ Perception: 5
 Ranged:
   - name: "Ranged"
     desc: "azimuth laser pistol +2 to hit (1d4+1 F; critical burn 1d4)"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 1st)"
-  - name: "1/day"
-    desc: "[[Charm Person]] (DC 15), [[Command]] (DC 15)"
-  - name: "At will"
-    desc: "[[Daze]] (DC 14), [[Telepathic Message]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 1st)"
+  - 1/day: "[[Charm Person]] (DC 15), [[Command]] (DC 15)"
+  - At will: "[[Daze]] (DC 14), [[Telepathic Message]]"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+6 (`dice: 1d20+6`)"
+  - Fort: 1
+  - Ref: 1
+  - Will: 6
 Senses: "[[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Bluff:  "+10 (`dice: 1d20+10`)"
-  - Diplomacy: "+10 (`dice: 1d20+10`)"
-  - Disguise: "+5 (`dice: 1d20+5`)"
-  - Sense Motive: "+5 (`dice: 1d20+5`)"
+  - Bluff:  10
+  - Diplomacy: 10
+  - Disguise: 5
+  - Sense Motive: 5
 source: Alien Archive 
 Speed: 30 ft.
 statblock: true

@@ -39,14 +39,14 @@ otherabil: "[[Tracking Ex]](scent)"
 Perception: 11
 reach: "10 ft."
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 9
+  - Ref: 7
+  - Will: 4
 Senses: "[[blindsense]] (scent) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
 size: Large
 Skills:
-  - Athletics: "+16 (`dice: 1d20+16`)"
-  - Intimidate: "+11 (`dice: 1d20+11`)"
+  - Athletics: 16
+  - Intimidate: 11
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

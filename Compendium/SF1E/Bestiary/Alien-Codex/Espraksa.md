@@ -1,9 +1,9 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 1
-  - CON: "+0"
-  - INT: "+0"
+  - CON: 0
+  - INT: 0
   - WIS: 2
   - CHA: 3 
 ac: "EAC: 10 KAC: 12" 
@@ -41,15 +41,15 @@ Ranged:
   - name: "Ranged"
     desc: "azimuth shoulder laser +6 to hit (1d3 F)"
 saves:
-  - Fort: "+0"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+4 (`dice: 1d20+4`)"
+  - Fort: 0
+  - Ref: 2
+  - Will: 4
 size: Medium
 Skills:
-  - Acrobatics: "+4 (`dice: 1d20+4`)"
-  - Culture: "+4 (`dice: 1d20+4`)"
-  - Diplomacy: "+4 (`dice: 1d20+4`)"
-  - Sense Motive: "+9 (`dice: 1d20+9`)" 
+  - Acrobatics: 4
+  - Culture: 4
+  - Diplomacy: 4
+  - Sense Motive: 9 
 source: Alien Archive 3 
 specialabil:
   - name: "Cold Inured (Ex)"

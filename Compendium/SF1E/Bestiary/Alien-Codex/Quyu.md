@@ -3,8 +3,8 @@ abilitymods:
   - STR: 2
   - DEX: 3
   - CON: 2
-  - INT: "+0"
-  - WIS: "+0"
+  - INT: 0
+  - WIS: 0
   - CHA: 5 
 ac: "EAC: 18 KAC: 19" 
 alignment: NE
@@ -37,28 +37,27 @@ image: "[[Quyu.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "pathetic gaze"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 6th)"
-  - name: "At will"
-    desc: "[[charm person]] (DC 15)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 6th)"
+  - At will: "[[charm person]] (DC 15)"
 otherabil: "facade form, [[No Breath Ex]]"
 Perception: 13
 Ranged:
   - name: "Ranged"
     desc: "spiked missile +14 to hit (1d8+6 P plus cruel dissection [DC 16])"
 saves:
-  - Fort: "+5 (`dice: 1d20+5`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+11 (`dice: 1d20+11`)" 
+  - Fort: 5
+  - Ref: 5
+  - Will: 11 
 Senses: "[[blindsight]] (vibration) 60ft., [[Sightless Ex]]"
 size: Medium
 Skills:
-  - Bluff: "+18 (`dice: 1d20+18`)"
-  - Culture: "+13 (`dice: 1d20+13`)"
-  - Diplomacy: "+18 (`dice: 1d20+18`)"
-  - Disguise: "+18 (`dice: 1d20+18`)"
-  - Life Science: "+13 (`dice: 1d20+13`)" 
-  - Sense Motive: "+13 (`dice: 1d20+13`)" 
+  - Bluff: 18
+  - Culture: 13
+  - Diplomacy: 18
+  - Disguise: 18
+  - Life Science: 13 
+  - Sense Motive: 13 
 source: Alien Archive 4 
 specialabil:
   - name: "Cruel Dissection (Ex)"

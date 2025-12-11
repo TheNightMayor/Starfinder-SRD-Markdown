@@ -3,8 +3,8 @@ abilitymods:
   - STR: 6
   - DEX: 3
   - CON: 4
-  - INT: "—"
-  - WIS: "+0"
+  - INT: —
+  - WIS: 0
   - CHA: -3 
 ac: "EAC: 22 KAC: 24" 
 alignment: N
@@ -43,9 +43,9 @@ Ranged:
     desc: "acid spit +19 to hit (4d6+4 A; critical corrode 1d6)"
 reach: "10 ft."
 saves:
-  - Fort: "+13 (`dice: 1d20+13`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+8 (`dice: 1d20+8`)" 
+  - Fort: 13
+  - Ref: 11
+  - Will: 8 
 Senses: "[[blindsense]] (vibration) 30 ft., [[darkvision]] 60 ft."
 size: Huge
 source: Alien Archive 2 

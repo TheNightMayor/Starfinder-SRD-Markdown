@@ -1,6 +1,6 @@
 ---
-aliases: 
-cssclasses: 
+aliases:
+cssclasses:
 abilitymods:
   - STR: 1
   - DEX: 3
@@ -47,22 +47,15 @@ image: "[[Mi-Go high priest.png]]"
 offabilities:
   - name: Offensive Abilities
     desc: evisceration
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 11th)
-  - name: At will
-    desc: "[[Mindlink]], [[Telepathic Bond]]"
-  - name: 1/day
-    desc: mind probe (DC 22)
-  - name: Mystic Spells Known
-    desc: (CL 11th; ranged +19)
-  - name: 4th (3/day)
-    desc: "[[Confusion]](DC 22), [[Mind Thrust]] (DC 22)"
-  - name: 3rd (6/day)
-    desc: "[[Charm Monster]] (DC 21), [[Dispel Magic]], [[Suggestion]] (DC 21), [[Tongues]]"
-  - name: 2nd (at will)
-    desc: "[[Fog Cloud]] , [[Inflict Pain]] (DC 20)"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Akashic]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 11th)"
+  - At will: "[[Mindlink]], [[Telepathic Bond]]"
+  - 1/day: mind probe (DC 22)
+  - "**Mystic Spells Known** (CL 11th; ranged +19)"
+  - 4th (3/day): "[[Confusion]](DC 22), [[Mind Thrust]] (DC 22)"
+  - 3rd (6/day): "[[Charm Monster]] (DC 21), [[Dispel Magic]], [[Suggestion]] (DC 21), [[Tongues]]"
+  - 2nd (at will): "[[Fog Cloud]] , [[Inflict Pain]] (DC 20)"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Akashic]]"
 otherabil: "[[Akashic#Access Akashic Record (SU) - 3RD Level|access Akashic record]], [[Akashic#Akashic Knowledge (EX) - 1ST Level|Akashic knowledge]], mi-go technology, [[Spaceflight (Su)]] (Mysticism), [[Akashic#Peer into the Future (SU) - 6TH Level|peer into the future]] (2/day)"
 Perception: 20
 planet: []
@@ -71,17 +64,17 @@ Ranged:
     desc: mi-go hailstorm-class zero pistol +19 to hit (2d6+13 C; critical staggered [DC 20])
 RP: 5
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+14 (`dice: 1d20+14`)"
+  - Fort: 12
+  - Ref: 10
+  - Will: 14
 Senses: "[[blindsight]] (vibration) 30 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+20 (`dice: 1d20+20`)"
-  - Bluff: "+25 (`dice: 1d20+25`)"
-  - Life Science: "+20 (`dice: 1d20+20`)"
-  - Medicine: "+20 (`dice: 1d20+20`)"
-  - Mysticism: "+25 (`dice: 1d20+25`)"
+  - Acrobatics: 20
+  - Bluff: 25
+  - Life Science: 20
+  - Medicine: 20
+  - Mysticism: 25
 source: Alien Archive 2
 specialabil:
   - name: Evisceration (Ex)

@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 1
   - INT: 3
@@ -30,14 +30,11 @@ modifier: 6
 name: Morlamaw, Mayor
 image: "[[Morlamaw Mayor.png]]"
 offabilities:
-  - name: Spell-Like Abilities
-    desc: (CL 9th)
-  - name: 1/day
-    desc: "[[Mystic Cure]] (3rd level)"
-  - name: 3/day
-    desc: "[[Mind Thrust]] (2nd level, DC 17)"
-  - name: At will
-    desc: "[[Mindlink]]"
+Spells:
+  - "**Spell-Like Abilities** {CL 9th)"
+  - 1/day: "[[Mystic Cure]] (3rd level)"
+  - 3/day: "[[Mind Thrust]] (2nd level, DC 17)"
+  - At will: "[[Mindlink]]"
 otherabil: "[[Amphibious (Ex)]], [[Envoy Improvisations]] ([[Envoy Improvisations#Desperate Defense (EX)|desperate defense]], [[Envoy Improvisations#Heads up (EX)|heads up]], [[Envoy Improvisations#Hurry (EX)|hurry]]), [[Water Breathing Ex]]"
 Perception: 18
 Ranged:
@@ -45,18 +42,18 @@ Ranged:
     desc: underwater advanced semi-auto pistol +19 to hit (2d6+9 P)
 reach: 10 ft.
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+12 (`dice: 1d20+12`)"
+  - Fort: 8
+  - Ref: 10
+  - Will: 12
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Athletics: "+23 (`dice: 1d20+23`) (+31 to swim)"
-  - Bluff: "+18 (`dice: 1d20+18`)"
-  - Diplomacy: "+18 (`dice: 1d20+18`)"
-  - Intimidate: "+23 (`dice: 1d20+23`)"
-  - Mysticism: "+18 (`dice: 1d20+18`)"
-  - Sense Motive: "+23 (`dice: 1d20+23`)"
+  - Athletics: 23
+  - Bluff: 18
+  - Diplomacy: 18
+  - Intimidate: 23
+  - Mysticism: 18
+  - Sense Motive: 23
 source: Alien Archive 3
 space: 10 ft.
 specialabil:

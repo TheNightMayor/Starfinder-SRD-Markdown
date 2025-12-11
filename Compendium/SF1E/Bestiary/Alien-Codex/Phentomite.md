@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 1
   - DEX: 3
-  - CON: "+0"
+  - CON: 0
   - INT: 1
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 10 KAC: 11"
 alignment: NG
 climate: any
@@ -45,17 +45,17 @@ Ranged:
   - name: "Ranged"
     desc: "tactical semi-auto pistol +4 to hit (1d6 P)"
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+3 (`dice: 1d20+3`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 0
+  - Ref: 3
+  - Will: 2
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+9 (`dice: 1d20+9`)"
-  - Athletics: "+9 (`dice: 1d20+9`)"
-  - Culture: "+4 (`dice: 1d20+4`)"
-  - Engineering: "+4 (`dice: 1d20+4`)"
-  - Survival: "+9 (`dice: 1d20+9`)"
+  - Acrobatics: 9
+  - Athletics: 9
+  - Culture: 4
+  - Engineering: 4
+  - Survival: 9
 source: Alien Archive 2 
 specialabil:
   - name: "Acclimated (Ex)"

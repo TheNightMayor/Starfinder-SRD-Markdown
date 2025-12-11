@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 1
   - DEX: 4
-  - CON: "+0"
+  - CON: 0
   - INT: 6
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 19 KAC: 20" 
 alignment: CG
 Aura: "draining (20 ft.)"
@@ -41,29 +41,26 @@ image: "[[Epokasite Runner.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "anachronistic strike, regressing glare"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 8th ranged +15)"
-  - name: "1/day"
-    desc: "[[Discharge]] (DC 20)"
-  - name: "3/day"
-    desc: "[[Caustic Conversion]], [[Digital Shield]], [[Holographic Image]] (level 2) (DC 19), [[Make Whole]], [[Manipulate Tech]]"
-  - name: "At will"
-    desc: "[[Identify]], [[Incompetence]], [[Jolting Surge]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 8th ranged +15)"
+  - 1/day: "[[Discharge]] (DC 20)"
+  - 3/day: "[[Caustic Conversion]], [[Digital Shield]], [[Holographic Image]] (level 2) (DC 19), [[Make Whole]], [[Manipulate Tech]]"
+  - At will: "[[Identify]], [[Incompetence]], [[Jolting Surge]]"
 Perception: 16
 Ranged:
   - name: "Ranged"
     desc: "archaic blaze flame pistol +14 to hit (2d4+8 F; critical burn 1d4)"
 saves:
-  - Fort: "+9 (`dice: 1d20+9`)"
-  - Ref: "+9 (`dice: 1d20+9`)"
-  - Will: "+11 (`dice: 1d20+11`)" 
+  - Fort: 9
+  - Ref: 9
+  - Will: 11 
 Senses: "[[low-light vision]]"
 size: Medium
 Skills:
-  - Bluff:  "+16 (`dice: 1d20+16`)"
-  - Culture: "+16 (`dice: 1d20+16`)"
-  - Disguise: "+21 (`dice: 1d20+21`)"
-  - Engineering: "+16 (`dice: 1d20+16`)" 
+  - Bluff:  16
+  - Culture: 16
+  - Disguise: 21
+  - Engineering: 16 
 source: Alien Archive 4 
 specialabil:
   - name: "Anachronistic Strike (Su)"

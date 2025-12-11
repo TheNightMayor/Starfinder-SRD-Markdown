@@ -42,15 +42,15 @@ otherabil: "hibernation"
 Perception: 19
 reach: "15 ft."
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 14
+  - Ref: 14
+  - Will: 9
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], [[blindsense]] (vibration) 30 ft."
 size: Huge
 Skills:
-  - Acrobatics: "+19 (`dice: 1d20+19`)"
-  - Athletics: "+24 (`dice: 1d20+24`)"
-  - Survival: "+19 (`dice: 1d20+19`)"
+  - Acrobatics: 19
+  - Athletics: 24
+  - Survival: 19
 source: Alien Archive 4 
 space: "15 ft."
 specialabil:

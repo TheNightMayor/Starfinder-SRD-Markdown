@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 1
   - DEX: 2
-  - CON: "+0"
-  - INT: "+0"
+  - CON: 0
+  - INT: 0
   - WIS: 4
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 11 KAC: 12" 
 alignment: N
 cr: 1
@@ -43,17 +43,17 @@ Ranged:
   - name: "Ranged"
     desc: "light ray +7 to hit (1d4+1 F)"
 saves:
-  - Fort: "+1 (`dice: 1d20+1`)"
-  - Ref: "+1 (`dice: 1d20+1`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 1
+  - Ref: 1
+  - Will: 6 
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+5 (`dice: 1d20+5`)"
-  - Mysticism: "+10 (`dice: 1d20+10`)"
-  - Sense Motive: "+10 (`dice: 1d20+10`)"
-  - Stealth: "+5 (`dice: 1d20+5`)" 
+  - Acrobatics: 10
+  - Intimidate: 5
+  - Mysticism: 10
+  - Sense Motive: 10
+  - Stealth: 5 
 source: Alien Archive 4 
 specialabil:
   - name: "Forced Reflection (Su)"

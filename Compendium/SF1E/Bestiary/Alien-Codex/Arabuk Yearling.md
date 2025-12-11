@@ -5,7 +5,7 @@ abilitymods:
   - CON: 1
   - INT: -4
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 14 KAC: 16"
 alignment: N
 cr: 3
@@ -39,15 +39,15 @@ Ranged:
   - name: Ranged
     desc: antler reverberation +8 to hit (5 (1d4+3)) So plus staggered DC 12 critical deafen DC 12)
 saves:
-  - Fort: "+7 (`dice: 1d20+7`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 7
+  - Ref: 7
+  - Will: 2
 Senses: "[[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - Athletics: "+13 (`dice: 1d20+13`)"
-  - Stealth: "+8 (`dice: 1d20+8`)"
-  - Survival: "+8 (`dice: 1d20+8`)"
+  - Athletics: 13
+  - Stealth: 8
+  - Survival: 8
 source: Alien Archive 4
 specialabil:
   - name: Antler Reverberation (Ex)

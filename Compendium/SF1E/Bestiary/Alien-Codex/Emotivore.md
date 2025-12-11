@@ -1,8 +1,8 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
-  - CON: "—"
+  - CON: —
   - INT: 1
   - WIS: 4
   - CHA: 6 
@@ -45,10 +45,9 @@ image: "[[Emotivore.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "feed"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 9th)"
-  - name: "At will"
-    desc: "[[Detect Thoughts]] (1st level, DC 18), [[Holographic Image]] (DC 18), [[Mind Thrust]] (1st level, DC 18)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 9th)"
+  - At will: "[[Detect Thoughts]] (1st level, DC 18), [[Holographic Image]] (DC 18), [[Mind Thrust]] (1st level, DC 18)"
 otherabil: "[[Change Shape Su]] Su]] (Medium or Small humanoid), emotionsense, [[Unliving Ex|unliving]]"
 Perception: 17
 planet: []
@@ -56,19 +55,19 @@ Ranged:
   - name: "Ranged"
     desc: "hailstorm-class zero pistol +16 to hit (2d6+9 C; critical staggered [DC 18])"
 saves:
-  - Fort: "+8 (`dice: 1d20+8`)"
-  - Ref: "+8 (`dice: 1d20+8`)"
-  - Will: "+12 (`dice: 1d20+12`)" 
+  - Fort: 8
+  - Ref: 8
+  - Will: 12 
 Senses: "[[blindsense]] (emotion) 60 ft., [[darkvision]] 60 ft., [[low-light vision]]"
-size: medium
+size: Medium
 Skills:
-  - Acrobatics: "+17 (`dice: 1d20+17`) (+25 to fly)"
-  - Bluff: "+22 (`dice: 1d20+22`)"
-  - Culture: "+17 (`dice: 1d20+17`)"
-  - Diplomacy: "+17 (`dice: 1d20+17`)"
-  - Intimidate: "+17 (`dice: 1d20+17`)"
-  - Sense Motive: "+17 (`dice: 1d20+17`)"
-  - Stealth: "+17 (`dice: 1d20+17`)" 
+  - Acrobatics: 17
+  - Bluff: 22
+  - Culture: 17
+  - Diplomacy: 17
+  - Intimidate: 17
+  - Sense Motive: 17
+  - Stealth: 17 
 source: Alien Archive 2 
 specialabil:
   - name: "[[Change Shape Su]]"

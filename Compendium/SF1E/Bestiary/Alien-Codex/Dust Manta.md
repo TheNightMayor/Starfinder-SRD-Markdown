@@ -5,7 +5,7 @@ abilitymods:
   - CON: 2
   - INT: -1
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 18 KAC: 20" 
 alignment: N
 combatType: combatant
@@ -42,15 +42,15 @@ offabilities:
 Perception: 13
 reach: "10 ft."
 saves:
-  - Fort: "+10 (`dice: 1d20+10`)"
-  - Ref: "+10 (`dice: 1d20+10`)"
-  - Will: "+5 (`dice: 1d20+5`)" 
+  - Fort: 10
+  - Ref: 10
+  - Will: 5 
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], [[Sense Through]] (vision [sand only])"
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+13 (`dice: 1d20+13`)"
-  - Athletics: "+13 (`dice: 1d20+13`)"
-  - Stealth: "+18 (`dice: 1d20+18`)"
+  - Acrobatics: 13
+  - Athletics: 13
+  - Stealth: 18
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

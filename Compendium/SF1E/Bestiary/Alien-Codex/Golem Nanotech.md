@@ -2,9 +2,9 @@
 abilitymods:
   - STR: 6
   - DEX: 8
-  - CON: "—"
-  - INT: "—"
-  - WIS: "+0"
+  - CON: —
+  - INT: —
+  - WIS: 0
   - CHA: -2 
 ac: "EAC: 29 KAC: 29"
 alignment: N
@@ -43,9 +43,9 @@ Ranged:
     desc: "nanite scattershot +27 to hit (4d12+14 P)"
 reach: "10 ft. (15 ft. with nanite filament)"
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+10 (`dice: 1d20+10`)" 
+  - Fort: 12
+  - Ref: 16
+  - Will: 10 
 Senses: "all-around vision, [[darkvision]] 60 ft., low.light vision"
 size: Large
 source: Alien Archive 2 

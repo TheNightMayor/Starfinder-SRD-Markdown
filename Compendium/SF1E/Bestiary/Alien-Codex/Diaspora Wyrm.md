@@ -5,7 +5,7 @@ abilitymods:
   - CON: 2
   - INT: -2
   - WIS: 1
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 20 KAC: 22" 
 alignment: N
 cr: 8
@@ -39,15 +39,15 @@ image: "[[Diaspora Wyrm.png]]"
 Perception: 16
 reach: "10 ft. (30 ft. with tongue)"
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+7 (`dice: 1d20+7`)" 
+  - Fort: 12
+  - Ref: 12
+  - Will: 7 
 Senses: "[[blindsight]] 150 ft. (electromagnetism), [[Sightless Ex]]"
 size: Large
 Skills:
-  - Acrobatics: "+16 (`dice: 1d20+16`)"
-  - Stealth: "+21 (`dice: 1d20+21`)"
-  - Survival: "+16 (`dice: 1d20+16`)" 
+  - Acrobatics: 16
+  - Stealth: 21
+  - Survival: 16 
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

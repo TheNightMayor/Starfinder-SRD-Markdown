@@ -7,7 +7,7 @@ abilitymods:
   - CON: 4
   - INT: 3
   - WIS: 4
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 28 KAC: 30"
 alignment: CE
 climate: any
@@ -48,16 +48,16 @@ planet: the Drift
 reach: "10 ft."
 RP: 5
 saves:
-  - Fort: "+16 (`dice: 1d20+16`)"
-  - Ref: "+16 (`dice: 1d20+16`)"
-  - Will: "+14 (`dice: 1d20+14`)"
+  - Fort: 16
+  - Ref: 16
+  - Will: 14
 Senses: "[[blindsight]] (emotion) 60 ft., [[darkvision]] 60 ft., [[Sense Through]] (emotion) 60 ft."
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+30 (`dice: 1d20+30`) (+38 to fly)"
-  - Athletics: "+25 (`dice: 1d20+25`)"
-  - Stealth: "+30 (`dice: 1d20+30`)"
-  - Survival: "+25 (`dice: 1d20+25`)"
+  - Acrobatics: 30
+  - Athletics: 25
+  - Stealth: 30
+  - Survival: 25
 source: Alien Archive 2 
 space: "10 ft."
 specialabil:

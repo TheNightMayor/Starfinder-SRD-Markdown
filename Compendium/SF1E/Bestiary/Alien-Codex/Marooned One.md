@@ -2,7 +2,7 @@
 abilitymods:
   - STR: 2
   - DEX: 4
-  - CON: "—"
+  - CON: —
   - INT: 6
   - WIS: 1
   - CHA: 1 
@@ -48,17 +48,17 @@ Ranged:
   - name: "Ranged"
     desc: "advanced semi-auto pistol +15 to hit (2d6+8 P)"
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+7 (`dice: 1d20+7`)"
-  - Will: "+13 (`dice: 1d20+13`)" 
+  - Fort: 11
+  - Ref: 7
+  - Will: 13 
 Senses: "[[blindsight]] (life) 60 ft., [[darkvision]] 60 ft."
-size: medium
+size: Medium
 Skills:
-  - computers:  "+21 (`dice: 1d20+21`)"
-  - Culture: "+16 (`dice: 1d20+16`)"
-  - Engineering: "+21 (`dice: 1d20+21`) (+26 to disable life-support systems)"
-  - Stealth: "+21 (`dice: 1d20+21`)"
-  - Survival: "+16 (`dice: 1d20+16`)" 
+  - computers:  21
+  - Culture: 16
+  - Engineering: 21
+  - Stealth: 21
+  - Survival: 16 
 source: Alien Archive
 specialabil:
   - name: "Sabotage Life Support (Ex)"

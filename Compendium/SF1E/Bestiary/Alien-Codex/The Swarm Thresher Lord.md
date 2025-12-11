@@ -43,15 +43,15 @@ offabilities:
 Perception: 19
 reach: "10 ft."
 saves:
-  - Fort: "+14 (`dice: 1d20+14`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+11 (`dice: 1d20+11`)" 
+  - Fort: 14
+  - Ref: 14
+  - Will: 11 
 Senses: "[[darkvision]] 60 ft., [[blindsense]] (vibration) 30 ft."
-size: large
+size: Large
 Skills:
-  - Acrobatics: "+19 (`dice: 1d20+19`)"
-  - Athletics: "+19 (`dice: 1d20+19`) (+27 when climbing)"
-  - Stealth: "+24 (`dice: 1d20+24`)" 
+  - Acrobatics: 19
+  - Athletics: 19
+  - Stealth: 24 
 source: Alien Archive 
 space: "10 ft."
 specialabil:

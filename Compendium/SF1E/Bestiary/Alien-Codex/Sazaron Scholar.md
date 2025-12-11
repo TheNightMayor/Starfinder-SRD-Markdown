@@ -3,11 +3,11 @@ aliases: []
 cssclasses: 
 abilitymods:
   - STR: 2
-  - DEX: "+0"
+  - DEX: 0
   - CON: 1
   - INT: 5
   - WIS: 3
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 16 KAC: 17"
 alignment: NG
 cr: 5
@@ -34,14 +34,11 @@ modifier: 0
 name: Sazaron, Scholar
 image: "[[sazaron scholar.png]]"
 offabilities:
-  - name: Spell-Like Abilities
-    desc: (CL 5th)
-  - name: 1/day
-    desc: "[[Augury]], [[Zone of Truth]] (DC 17)"
-  - name: 3/day
-    desc: "[[identify]], [[Mystic Cure]] (1st level), [[Share Language]]"
-  - name: At will
-    desc: "[[Detect Affliction]], [[Detect Magic]]"
+Spells: 
+  - "**Spell-Like Abilities** (CL 5th)"
+  - 1/day: "[[Augury]], [[Zone of Truth]] (DC 17)"
+  - 3/day: "[[identify]], [[Mystic Cure]] (1st level), [[Share Language]]"
+  - At will: "[[Detect Affliction]], [[Detect Magic]]"
 otherabil: "[[Estex Suit#Estex Suit, Ii|estex suit II]], [[Zero Pistol#Zero Pistol, Frostbite-class|frostbite-class zero pistol]] with 2 [[Battery#Battery, Standard|Batteries]] (20 charges each)"
 Perception: 11
 Ranged:
@@ -49,16 +46,16 @@ Ranged:
     desc: frostbite-class zero pistol +9 to hit (1d6+5 C; critical staggered [DC 15])
 reach: 5 ft. (10 ft. with tail slap)
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+10 (`dice: 1d20+10`)"
+  - Fort: 4
+  - Ref: 6
+  - Will: 10
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - culture: "+16 (`dice: 1d20+16`)"
-  - Life Science: "+16 (`dice: 1d20+16`)"
-  - Mysticism: "+11 (`dice: 1d20+11`)"
-  - Physical Science: "+16 (`dice: 1d20+16`)"
+  - culture: 16
+  - Life Science: 16
+  - Mysticism: 11
+  - Physical Science: 16
 source: Alien Archive 3
 space: 10 ft.
 Speed: 30 ft.

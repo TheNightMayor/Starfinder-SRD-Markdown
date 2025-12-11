@@ -37,27 +37,24 @@ image: "[[gremlin, computer glitch.png]]"
 offabilities:
   - name: "Offensive Abilities"
     desc: "glitch module, networked technomancy"
-  - name: "Spell-Like Abilities"
-    desc: "(CL 1st; melee +1, ranged +1)"
-  - name: "1/day"
-    desc: "[[Erase]], [[Jolting Surge]]"
-  - name: "At will"
-    desc: "[[Energy Ray]] (electricity only), [[Ghost Sound]] (DC 13), [[Transfer Charge]]"
-  - name: "Constant"
-    desc: "[[Detect Tech]] (computers only)"
+Spells: 
+  - "**Spell-Like Abilities** (CL 1st; melee +1, ranged +1)"
+  - 1/day: "[[Erase]], [[Jolting Surge]]"
+  - At will: "[[Energy Ray]] (electricity only), [[Ghost Sound]] (DC 13), [[Transfer Charge]]"
+  - Constant: "[[Detect Tech]] (computers only)"
 Perception: 4
 planet: []
 reach: "0 ft."
 saves:
-  - Fort: "+2 (`dice: 1d20+2`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+3 (`dice: 1d20+3`)" 
+  - Fort: 2
+  - Ref: 2
+  - Will: 3 
 Senses: "[[low-light vision]]"
-size: tiny
+size: Tiny
 Skills:
-  - computers:  "+9 (`dice: 1d20+9`)"
-  - Engineering: "+4 (`dice: 1d20+4`) (+9 to use computers)"
-  - Stealth: "+9 (`dice: 1d20+9`)"
+  - computers:  9
+  - Engineering: 4
+  - Stealth: 9
 source: Alien Archive 2 
 space: "2-1/2 ft."
 specialabil:

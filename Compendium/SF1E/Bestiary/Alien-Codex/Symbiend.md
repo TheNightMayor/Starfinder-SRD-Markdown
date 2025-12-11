@@ -1,11 +1,11 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
-  - CON: "+0"
+  - CON: 0
   - INT: 1
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 11 KAC: 11" 
 alignment: N
 climate: any
@@ -35,13 +35,13 @@ otherabil: "symbiosis"
 Perception: 7
 reach: "0 ft."
 saves:
-  - Fort: "+0 (`dice: 1d20+0`)"
-  - Ref: "+2 (`dice: 1d20+2`)"
-  - Will: "+2 (`dice: 1d20+2`)"
+  - Fort: 0
+  - Ref: 2
+  - Will: 2
 size: Diminutive
 Skills:
-  - stealth:  "+7 (`dice: 1d20+7`)"
-  - Survival: "+7 (`dice: 1d20+7`)" 
+  - stealth:  7
+  - Survival: 7 
 source: Alien Archive 
 space: "1 ft."
 specialabil:

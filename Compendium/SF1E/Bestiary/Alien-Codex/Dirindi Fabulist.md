@@ -1,6 +1,6 @@
 ---
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 4
   - CON: 2
   - INT: 6
@@ -40,24 +40,22 @@ Perception: 29
 Ranged:
   - name: Ranged
     desc: aurora arc pistol +24 to hit (3d6+13 E; critical arc 2d6)
-  - name: Spell-Like Abilities
-    desc: (CL 13th; melee + 22, ranged + 24)
-  - name: 1/day
-    desc: "[[Jolting Surge]]"
-  - name: At will
-    desc: "[[Energy Ray]] (electricity only)"
+Spells:
+  - "**Spell-Like Abilities** (CL 13th; melee + 22, ranged + 24)"
+  - 1/day: "[[Jolting Surge]]"
+  - At will: "[[Energy Ray]] (electricity only)"
 RP: 5
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+14 (`dice: 1d20+14`)"
-  - Will: "+16 (`dice: 1d20+16`)"
+  - Fort: 12
+  - Ref: 14
+  - Will: 16
 Senses: "[[blindsight]] (electricity) 60 ft., [[low-light vision]]"
 size: Medium
 Skills:
-  - Acrobatics: "+24 (`dice: 1d20+24`)"
-  - Culture: "+29 (`dice: 1d20+29`)"
-  - Diplomacy: "+29 (`dice: 1d20+29`)"
-  - Sense Motive: "+24 (`dice: 1d20+24`)"
+  - Acrobatics: 24
+  - Culture: 29
+  - Diplomacy: 29
+  - Sense Motive: 24
 source: Alien Archive 3
 species: "[[Dirindi]]"
 Speed: 30 ft., fly 30 ft. (jetpack, average)

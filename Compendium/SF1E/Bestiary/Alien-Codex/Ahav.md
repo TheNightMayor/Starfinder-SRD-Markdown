@@ -32,22 +32,21 @@ Languages: Common
 modifier: 8
 name: Ahav
 image: "[[Ahav.png]]"
-
 otherabil: MODEL, [[Unliving Ex|unliving Ex|Unliving Ex|unliving]]
 Perception: 27
 planet: 
 Ranged:
   - name: Ranged
-    desc: medium machine gun +26 to hit (27 (3d10+12) P) or hellhound-class flamethrower +26 to hit (24 (4d6+12) F; critical burn (12 (4d6))
+    desc: medium machine gun +26 to hit (3d10+12 P) or hellhound-class flamethrower +26 to hit (4d6+12 F; critical burn (4d6))
 reach: 15 ft.
 saves:
-  - Fort: "+12 (`dice: 1d20+12`)"
-  - Ref: "+12 (`dice: 1d20+12`)"
-  - Will: "+9 (`dice: 1d20+9`)"
+  - Fort: 12
+  - Ref: 12
+  - Will: 9
 Senses: "[[darkvision]] 60 ft., [[low-light vision]], sensor suite"
-size: huge
+size: Huge
 Skills:
-  - Stealth: "+22 (`dice: 1d20+22`)"
+  - Stealth: 22
 source: Alien Archive
 space: 15 ft.
 specialabil:

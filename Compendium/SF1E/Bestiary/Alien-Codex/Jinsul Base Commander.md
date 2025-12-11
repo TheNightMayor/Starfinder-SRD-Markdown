@@ -1,13 +1,13 @@
 ---
 aliases: []
-cssclasses: 
+cssclasses:
 abilitymods:
-  - STR: "+0"
+  - STR: 0
   - DEX: 3
-  - CON: "+0"
+  - CON: 0
   - INT: 5
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 16 KAC: 17"
 alignment: CE
 class: "[[Technomancer]]"
@@ -42,25 +42,22 @@ Perception: 16
 Ranged:
   - name: Ranged
     desc: frostbite‑class zero pistol +11 to hit (1d6+5 C; critical staggered [DC 15])
-  - name: Technomancer Spells Known
-    desc: (CL 5th; melee + 9, ranged +11)
-  - name: 2nd (3/day)
-    desc: "[[Logic Bomb]] (DC 17), [[Spider Climb]]"
-  - name: 1st (6/day)
-    desc: "[[Comprehend Languages]] (DC 16), [[Jolting Surge]], [[Magic Missile]]"
-  - name: (at will)
-    desc: "[[Energy Ray]], [[Psychokinetic Hand]]"
+Spells:
+  - "**Technomancer Spells Known** (CL 5th; melee + 9, ranged +11)"
+  - 2nd (3/day): "[[Logic Bomb]] (DC 17), [[Spider Climb]]"
+  - 1st (6/day): "[[Comprehend Languages]] (DC 16), [[Jolting Surge]], [[Magic Missile]]"
+  - (at will): "[[Energy Ray]], [[Psychokinetic Hand]]"
 saves:
-  - Fort: "+4 (`dice: 1d20+4`)"
-  - Ref: "+6 (`dice: 1d20+6`)"
-  - Will: "+10 (`dice: 1d20+10`) +4 vs. fear"
+  - Fort: 4
+  - Ref: 6
+  - Will: +10 +4 vs. fear
 Senses: "[[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Athletics: "+16 (`dice: 1d20+16`)"
-  - Computers: "+16 (`dice: 1d20+16`)"
-  - Intimidate: "+11 (`dice: 1d20+11`)"
-  - Mysticism: "+11 (`dice: 1d20+11`)"
+  - Athletics: 16
+  - Computers: 16
+  - Intimidate: 11
+  - Mysticism: 11
 source: Alien Archive 3
 specialabil:
   - name: Powerful Leap (Ex)

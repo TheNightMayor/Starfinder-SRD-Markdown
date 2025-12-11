@@ -2,10 +2,10 @@
 abilitymods:
   - STR: 1
   - DEX: 4
-  - CON: "+0"
-  - INT: "+0"
+  - CON: 0
+  - INT: 0
   - WIS: 2
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 11 KAC: 13"
 alignment: N
 class: "[[Soldier]]"
@@ -44,15 +44,15 @@ Ranged:
   - name: Ranged
     desc: azimuth laser rifle +9 to hit (1d8+1 F; critical burn 1d6)
 saves:
-  - Fort: "+3 (`dice: 1d20+3`)"
-  - Ref: "+5 (`dice: 1d20+5`)"
-  - Will: "+3 (`dice: 1d20+3`) +2 vs. mind-affecting effects"
+  - Fort: 3
+  - Ref: 5
+  - Will: +3 +2 vs. mind-affecting effects
 Senses: "[[blindsense]] (vibration) 30 ft., [[darkvision]] 60 ft."
 size: Medium
 Skills:
-  - Acrobatics: "+10 (`dice: 1d20+10`)"
-  - Intimidate: "+5 (`dice: 1d20+5`)"
-  - Stealth: "+5 (`dice: 1d20+5`)"
+  - Acrobatics: 10
+  - Intimidate: 5
+  - Stealth: 5
 source: Alien Archive 3
 specialabil:
   - name: Shapable (Ex)

@@ -4,8 +4,8 @@ abilitymods:
   - DEX: 2
   - CON: 4
   - INT: -4
-  - WIS: "+0"
-  - CHA: "+0"
+  - WIS: 0
+  - CHA: 0
 ac: "EAC: 19 KAC: 21" 
 alignment: N
 cr: 7
@@ -35,14 +35,14 @@ image: "[[Defrex Juvenile.png]]"
 Perception: 14
 reach: "5 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+6 (`dice: 1d20+6`)" 
+  - Fort: 11
+  - Ref: 11
+  - Will: 6 
 Senses: "[[blindsense]] (scent) 30 ft., [[low-light vision]]"
 size: Large
 Skills:
-  - Athletics: "+14 (`dice: 1d20+14`)"
-  - Survival: "+19 (`dice: 1d20+19`)"
+  - Athletics: 14
+  - Survival: 19
 source: Alien Archive 3 
 space: "10 ft."
 specialabil:

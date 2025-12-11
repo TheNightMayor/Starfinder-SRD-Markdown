@@ -5,7 +5,7 @@ abilitymods:
   - CON: 5
   - INT: 1
   - WIS: 4
-  - CHA: "+0"
+  - CHA: 0
 ac: "EAC: 26 KAC: 27"
 alignment: N
 cr: 12
@@ -38,16 +38,16 @@ otherabil: "healing incandescence, hyperspace master, [[Spaceflight (Su)]]"
 Perception: 27
 reach: "10 ft."
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+13 (`dice: 1d20+13`)"
-  - Will: "+15 (`dice: 1d20+15`)"
+  - Fort: 11
+  - Ref: 13
+  - Will: 15
 Senses: "[[darkvision]] 60 ft."
 size: Large
 Skills:
-  - Acrobatics: "+27 (`dice: 1d20+27`) (+35 to fly)"
-  - Athletics: "+22 (`dice: 1d20+22`)"
-  - Piloting: "+27 (`dice: 1d20+27`) (to navigate only)"
-  - Stealth: "+22 (`dice: 1d20+22`)"
+  - Acrobatics: 27
+  - Athletics: 22
+  - Piloting: 27
+  - Stealth: 22
 space: "10 ft."
 specialabil:
   - name: "Healing Incandescence (Su)"

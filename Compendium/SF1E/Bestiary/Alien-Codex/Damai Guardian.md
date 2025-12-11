@@ -44,33 +44,26 @@ planet: Daimalko
 Ranged:
   - name: Ranged
     desc: "[[Semi-Auto Pistol#Semi-auto Pistol, Paragon|paragon semi-auto pistol]] +19 to hit (4d6+12 P)"
-  - name: Mystic Spell-Like Abilities
-    desc: (CL 12th)
-  - name: 12/day
-    desc: "[[Discern Lies]] (DC 21)"
-  - name: At will
-    desc: "[[Mindlink]], [[Telepathic Bond]]"
-  - name: Mystic Spells Known
-    desc: (CL 12th)
-  - name: 4th (3/day)
-    desc: "[[Hold Monster]] (DC 23), [[Mind Probe]] (DC 23)"
-  - name: 3rd (6/day)
-    desc: "[[ClairaudienceClairvoyance]], [[Haste]], [[Mind-Thrust]] (DC 22), [[Mystic-Cure|Mystic Cure]]"
-  - name: 2nd (at will)
-    desc: "[[Augury]], [[Zone of Truth]] (DC 21)"
-  - name: "[[Mystic#Connection - 1ST Level|Connection]]"
-    desc: "[[Empath]]"
+Spells:
+  - "**Mystic Spell-Like Abilities** (CL 12th)"
+  - 12/day: "[[Discern Lies]] (DC 21)"
+  - At will: "[[Mindlink]], [[Telepathic Bond]]"
+  - "**Mystic Spells Known** (CL 12th)"
+  - 4th (3/day): "[[Hold Monster]] (DC 23), [[Mind Probe]] (DC 23)"
+  - 3rd (6/day): "[[ClairaudienceClairvoyance]], [[Haste]], [[Mind-Thrust]] (DC 22), [[Mystic-Cure|Mystic Cure]]"
+  - 2nd (at will): "[[Augury]], [[Zone of Truth]] (DC 21)"
+  - "**[[Mystic#Connection - 1ST Level|Connection]]** [[Empath]]"
 RP: 5
 saves:
-  - Fort: "+11 (`dice: 1d20+11`)"
-  - Ref: "+11 (`dice: 1d20+11`)"
-  - Will: "+17 (`dice: 1d20+17`)"
+  - Fort: 11
+  - Ref: 11
+  - Will: 17
 Senses: greater emotionsense, [[low-light vision]]
-size: medium
+size: Medium
 Skills:
-  - diplomacy: "+22 (`dice: 1d20+22`)"
-  - Mysticism: "+27 (`dice: 1d20+27`)"
-  - Sense Motive: "+27 (`dice: 1d20+27`)"
+  - diplomacy: 22
+  - Mysticism: 27
+  - Sense Motive: 27
 source: Alien Archive 2
 specialabil:
   - name: Empathic Bond (Su)
