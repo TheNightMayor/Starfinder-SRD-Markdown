@@ -1,8 +1,8 @@
 ---
 aliases: 
+
 price: 20
-tags:
-  - ammunition
+tags: 
 type: Ammo
 ---
 

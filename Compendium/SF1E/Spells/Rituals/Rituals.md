@@ -13,7 +13,7 @@ Some spells require more than a few moments of concentration and the expenditure
 ``` dataview
 TABLE
 Level, Assistants
-FROM "Compendium/SF1E/Spells/Rituals"
+FROM "Starfinder-SRD/Compendium/Spells/Rituals"
 SORT Level ASC
 ```
 

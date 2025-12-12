@@ -8,17 +8,17 @@ tags:
 ``` dataview
 TABLE
 System
-FROM "Compendium/SF1E/Items/Augmentations/Necrografts"
+FROM "Starfinder-SRD/Compendium/Items/Augmentations/Necrografts"
 SORT Level ASC
 WHERE file.name != "Necrografts"
 ```
 
 **Source**:: _Starfinder Armory pg. 94_  
-Necrografts are [[Augmentations|augmentations]] utilizing [[Eoxian]] organs and necromantic [[Starfinder-SRD/Compendium/Spells/Rituals/Rituals]] rather than technology. They were invented on [[Eox]], and they are most commonly available in [[Orphys]] and at the Necroforge within [[Eox]]’s Lifeline. Most other [[Pact Worlds]] outlaw the creation and installation of necrografts (though not their possession), but they can still be found in some less reputable back-alley augmentation clinics on multiple worlds throughout the system and beyond.  
+Necrografts are [[Augmentations|augmentations]] utilizing [[Eoxian]] organs and necromantic [[Starfinder-SRD/Compendium/Spells/Rituals/Rituals]] rather than technology. They were invented on [[EOX]], and they are most commonly available in [[Orphys]] and at the Necroforge within [[EOX]]’s Lifeline. Most other [[THE PACT WORLDS]] outlaw the creation and installation of necrografts (though not their possession), but they can still be found in some less reputable back-alley augmentation clinics on multiple worlds throughout the system and beyond.  
   
 Necrografts follow the existing rules for [[Augmentations|augmentations]] (_Core Rulebook_ 208), but they use different components than [[Biotech]] and [[Cybernetics]]. Any [[Biotech]] or cybernetic augmentation can be created as a necrograft and installed for only 90% of the augmentation’s normal cost, but doing so causes the recipient to gain the necrograft subtype (see below). Necrografts have the same system restrictions that all [[Augmentations|augmentations]] share.  
   
-For those low on funds, some bone sages and corporations on [[Eox]] are willing to defer the cost of [[Starship Travel Mechanics]] to [[Eox]] and augmentation for any client who signs a corpse-lease agreement. Necrograft versions of standard prosthetic limbs (_Core Rulebook_ 210) and necrograft ears, eyes, or tongues (which use the same mechanics as prosthetic limbs but serve as sensory organs and occupy the corresponding system) can even be implanted with no up-front cost. However, the corpselease agreement states that if the recipient dies before paying off all the costs associated with the [[Starship Travel Mechanics]] and augmentation, the leasing Eoxian group owns the patient’s body, which it then uses in creating undead servitors or more necrografts. More advanced necrografts aren’t generally available without payment in full (though complimentary [[Starship Travel Mechanics]] is likely to still be offered to customers within the [[Pact Worlds]]). 
+For those low on funds, some bone sages and corporations on [[EOX]] are willing to defer the cost of [[Starship Travel Mechanics]] to [[EOX]] and augmentation for any client who signs a corpse-lease agreement. Necrograft versions of standard prosthetic limbs (_Core Rulebook_ 210) and necrograft ears, eyes, or tongues (which use the same mechanics as prosthetic limbs but serve as sensory organs and occupy the corresponding system) can even be implanted with no up-front cost. However, the corpselease agreement states that if the recipient dies before paying off all the costs associated with the [[Starship Travel Mechanics]] and augmentation, the leasing Eoxian group owns the patient’s body, which it then uses in creating undead servitors or more necrografts. More advanced necrografts aren’t generally available without payment in full (though complimentary [[Starship Travel Mechanics]] is likely to still be offered to customers within the [[THE PACT WORLDS]]). 
 
 ## Necrograft Subtype
 

@@ -14,8 +14,7 @@ tags: []
 > [[One-Handed - Basic Melee| One Handed]]
 > [[Two-Handed - Basic Melee| Two Handed]]
 > # **RANGED WEAPONS**
-> [[Smallarms|Smallarms]]
-> [[Longarms]]
+> [[Smallarms| Smallarms]]
 > [[Heavy Weapons| Heavy Weapons]]
 > [[Sniper-Weapons| Sniper Weapons]]
 
@@ -23,7 +22,7 @@ It’s a dangerous galaxy, and a smart explorer knows that the difference betwee
 
 # Currency
 
-Many worlds still retain coins or other forms of physical money from the time before the Pact, and they may occasionally use them for local trade. However, the standard unit of currency in the [[Pact Worlds]] (and the Starfinder RPG rules) is the credit. All interplanetary business is conducted in standardized credits, thanks to their backing and regulation through the [[Pact Worlds]] government and the church of Abadar. Converting a world’s economy to the credit standard is a requirement of joining the [[Pact Worlds]], and even worlds far outside the Pact’s official jurisdiction often prefer to use them, since they are so universally carried and understood.
+Many worlds still retain coins or other forms of physical money from the time before the Pact, and they may occasionally use them for local trade. However, the standard unit of currency in the [[THE PACT WORLDS]] (and the Starfinder RPG rules) is the credit. All interplanetary business is conducted in standardized credits, thanks to their backing and regulation through the [[THE PACT WORLDS]] government and the church of Abadar. Converting a world’s economy to the credit standard is a requirement of joining the [[THE PACT WORLDS]], and even worlds far outside the Pact’s official jurisdiction often prefer to use them, since they are so universally carried and understood.
 
 Credits are a combination of digital and physical currency. Most individuals and corporations in Starfinder store their funds digitally in accounts with major banking houses, protected by the strongest spells and encryption money can buy. Yet the price of such security is high: accessing these funds requires jumping through significant hoops, and official transactions between accounts must be transparent to government and banking officials, making true privacy impossible.
 
@@ -33,7 +32,7 @@ Fortunately, the widespread use of the credstick circumvents issues related to s
 
 Once loaded onto the credstick, the funds become completely anonymous, and the owner can dole out any amount to other credsticks wirelessly—sometimes, it’s easiest for owners to simply hand over the credstick itself and acquire a new one later. In addition to allowing individuals to make purchases anonymously, credsticks also provide users with peace of mind—they help keep identity theft rare and difficult, and the pickpocket who nabs your credstick gains access only to whatever funds were left on it, not your entire net worth.
 
-Individuals in the [[Pact Worlds]] sometimes receive money via direct account transfers, particularly if they’re being employed by reputable organizations, but most everyday purchases are made with credsticks, and nearly all black-market or confidential transactions use them. While credsticks can theoretically hold any amount, most people opt to carry smaller denominations—sticks holding only a few tens or hundreds of credits— so as not to tempt fate. As such, criminal deals often involve sacks full of credsticks with small denominations, to raise less suspicion. Only those looking to flaunt their wealth use luxury credsticks like the infamous Abadar Black stick, known throughout the [[Pact Worlds]] for its built-in secure link to an unlimited line of credit.
+Individuals in the [[THE PACT WORLDS]] sometimes receive money via direct account transfers, particularly if they’re being employed by reputable organizations, but most everyday purchases are made with credsticks, and nearly all black-market or confidential transactions use them. While credsticks can theoretically hold any amount, most people opt to carry smaller denominations—sticks holding only a few tens or hundreds of credits— so as not to tempt fate. As such, criminal deals often involve sacks full of credsticks with small denominations, to raise less suspicion. Only those looking to flaunt their wealth use luxury credsticks like the infamous Abadar Black stick, known throughout the [[THE PACT WORLDS]] for its built-in secure link to an unlimited line of credit.
 
 In most technologically advanced urban areas, no one bothers to track fractions of credits, and few things cost a fraction of a credit. Mass production makes it cheaper to sell entire suits of clothing, prebundled into 1-credit packages, than to sell individual items worth less than a credit each. However, some credsticks are designed to allow fractional credit purchases.
 
@@ -41,7 +40,7 @@ As a GM, assume that most individuals in civilized areas carry only enough creds
 
 # Selling Equipment
 
-In general, you can sell equipment of any type anywhere you could buy the same equipment. Since any equipment sold by PCs comes without the guarantees and reputation of major merchants and producers (and may be [[Conditions#Broken|Broken]], cursed, defective, or stolen), in general PCs can sell equipment for only 10% of its purchase price. A GM may change this based on the spare credits of a community, market conditions, or the factors an adventure dictates. Trade goods (see page 232) are the exception to this, since they are considered more universal, more easily checked for defects, and less traceable (and thus less likely to cause issues if they are of a questionable provenance). Trade goods can generally be sold for 100% of their purchase price, and in some cases can be used as money themselves (subject to the GM’s discretion).
+In general, you can sell equipment of any type anywhere you could buy the same equipment. Since any equipment sold by PCs comes without the guarantees and reputation of major merchants and producers (and may be [[broken]], cursed, defective, or stolen), in general PCs can sell equipment for only 10% of its purchase price. A GM may change this based on the spare credits of a community, market conditions, or the factors an adventure dictates. Trade goods (see page 232) are the exception to this, since they are considered more universal, more easily checked for defects, and less traceable (and thus less likely to cause issues if they are of a questionable provenance). Trade goods can generally be sold for 100% of their purchase price, and in some cases can be used as money themselves (subject to the GM’s discretion).
 
 # Carrying Capacity
 
@@ -57,17 +56,17 @@ Add together the numerical bulk values of all items you are wearing and carrying
 
 ## Bulk Limits
 
-You can carry an amount of bulk up to half your Strength score without difficulty. If you carry more than that, you gain the [[Conditions#Encumbered|encumbered]] condition, as described below, until the amount of bulk you carry becomes less than or equal to half your Strength score. You can’t voluntarily wear or hold an amount of bulk that is greater than your Strength score. If you are forced to do so (due to changing gravity, for example), you gain the [[Conditions#Overburdened|Overburdened]] condition, as described below, until the bulk you carry becomes less than or equal to your Strength score.
+You can carry an amount of bulk up to half your Strength score without difficulty. If you carry more than that, you gain the [[encumbered]] condition, as described below, until the amount of bulk you carry becomes less than or equal to half your Strength score. You can’t voluntarily wear or hold an amount of bulk that is greater than your Strength score. If you are forced to do so (due to changing gravity, for example), you gain the [[overburdened]] condition, as described below, until the bulk you carry becomes less than or equal to your Strength score.
 
-If you are wearing [[Armor]], use the worse penalty (from [[Armor]] or bulk) for speed adjustments and [[Skills#Skill Checks|Skill Checks]]. The penalties do not stack. 
+If you are wearing [[Armor]], use the worse penalty (from [[Armor]] or bulk) for speed adjustments and [[Skill Checks]]. The penalties do not stack. 
 
 ## [[ENCUMBERED]]
 
-While [[Conditions#Encumbered|encumbered]], you reduce each of your movement speeds by 10 feet, reduce your maximum Dexterity bonus to AC to +2, and take a –5 penalty to Strength- and Dexterity-based checks. 
+While [[encumbered]], you reduce each of your movement speeds by 10 feet, reduce your maximum Dexterity bonus to AC to +2, and take a –5 penalty to Strength- and Dexterity-based checks. 
 
 ## [[OVERBURDENED]]
 
-If you have the [[Conditions#Overburdened|Overburdened]] condition, you reduce each of your movement speeds to 5 feet, reduce your maximum Dexterity bonus to AC to +0, and take a –5 penalty to Strength- and Dexterity-based checks.
+If you have the [[overburdened]] condition, you reduce each of your movement speeds to 5 feet, reduce your maximum Dexterity bonus to AC to +0, and take a –5 penalty to Strength- and Dexterity-based checks.
 
 ## Estimating Bulk
 
@@ -77,7 +76,7 @@ As a general rule, an item that weighs around 5 to 10 pounds is 1 bulk (and ever
 
 In Starfinder, all [[Armor]], equipment, and weapons (whether magic, technological, or hybrid) are assigned an item level. While characters can utilize items of any level, Game Masters should keep in mind that allowing characters access to items far above their current level may imbalance the game.
 
-An object’s item level represents the scarcity and value of the technology and/or magic employed in its construction—higher-level items generally incorporate more advanced technology or mystical forces. An object’s item level also determines its hardness and Hit Points (see [[Structures, Walls & Objects#Breaking Objects|breaking objects]]) and is an indicator of the level at which a character should typically expect to both have access to the item and be able to craft it (see [[Crafting]] Equipment and [[Magic Items]]).
+An object’s item level represents the scarcity and value of the technology and/or magic employed in its construction—higher-level items generally incorporate more advanced technology or mystical forces. An object’s item level also determines its hardness and Hit Points (see Breaking Objects on page 409) and is an indicator of the level at which a character should typically expect to both have access to the item and be able to craft it (see [[Crafting]] Equipment and [[Atlas Magic Items]] on page 235).
 
 Item level also helps convey the fact that buying equipment is more involved than just placing an order. Even finding the items you desire isn’t always easy, and those who have access to things such as powerful weapons and [[Armor]] tend to deal only with people they trust. Legitimate vendors don’t want to get reputations for selling hardware to pirates or criminals, and even criminal networks must be careful with whom they do business.
 
@@ -85,4 +84,4 @@ Rather than meticulously track every arms dealer, contact, guild, and license a 
 
 # Magic and Technology
 
-A number of abilities and effects specifically target equipment that utilizes technology or magic. All weapons and [[Armor]] are assumed to be technological in nature unless they have the [[Special Properties, Weapons#Analog|Analog]] special property. Other equipment is listed as being magic, technological, or a hybrid of both (making it subject to effects that target either kind of item). [[Armor Upgrades]] and [[Weapon Fusions]] note whether they are magic, technological, or a hybrid. If a magic fusion or upgrade is added to a technological item, that item becomes a hybrid item.
+A number of abilities and effects specifically target equipment that utilizes technology or magic. All weapons and [[Armor]] are assumed to be technological in nature unless they have the analog special property (see page 180). Other equipment is listed as being magic, technological, or a hybrid of both (making it subject to effects that target either kind of item). [[Armor]] upgrades (see page 204) and [[Weapon Fusions]] (see page 191) note whether they are magic, technological, or a hybrid. If a magic fusion or upgrade is added to a technological item, that item becomes a hybrid item.

@@ -1,7 +1,6 @@
 ---
-aliases: 
-tags:
-  - ammunition
+aliases: []
+tags: []
 type: Ammo
 ---
 
@@ -15,5 +14,5 @@ type: Ammo
 **Damage**:: —
 **Critical**:: —
 **Capacity**:: 50 thasteron pellets  
-**Bulk**:: L;
-**Special**:: —
+**Bulk** L;
+**Special** —

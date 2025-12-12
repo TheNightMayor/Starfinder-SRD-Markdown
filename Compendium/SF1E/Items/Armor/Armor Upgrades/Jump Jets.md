@@ -1,12 +1,13 @@
 ---
 aliases: 
 ArmorType: Light, Heavy
-Item:
+Item: 
 NoteType: Armor
 price: 1000
 Slots: 1
 tags: 
 Type: Armor Upgrades
+dg-publish: true
 ---
 
 # Jump Jets

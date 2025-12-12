@@ -17,7 +17,7 @@ Scanners are common items that allow you to extend your senses and record your e
 
 [[Scanner, Laser Microphone]]
 
-[[Scanner, Motion DETECTOR]]
+[[Scanner, Motion Detector]]
 
 [[Scanner, True-frame Camera]]
 

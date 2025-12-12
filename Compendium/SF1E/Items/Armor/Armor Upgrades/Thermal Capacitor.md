@@ -1,11 +1,12 @@
 ---
-aliases: 
+cssclasses:
+aliases: []
 ArmorType: any
 Item:
 NoteType: Armor
 price:  
 Slots: 1
-tags: 
+tags: []
 Type: Armor Upgrades
 ---
 
@@ -17,30 +18,26 @@ This upgrade regulates heat, protecting you from extreme temperatures. You can e
 -   **Mk 2**: Resistance 10
 -   **Mk 3**: Resistance 15
 
-  
-
 ## Thermal Capacitor, Mk 1
 
-**Source**:: _Starfinder Core Rulebook pg. 205_  
+**Source**:: _Starfinder Core Rulebook pg. 205_
 **Level**:: 5
-**Price**::  3600  
+**Price**::  3600
 **Slots** 1 **Armor Type** Any 
-**Bulk**:: —  
+**Bulk**:: —
 
 ## Thermal Capacitor, Mk 2
 
-**Source**:: _Starfinder Core Rulebook pg. 205_  
+**Source**:: _Starfinder Core Rulebook pg. 205_
 **Level**:: 12
-**Price**::  36250  
+**Price**::  36250
 **Slots** 1 **Armor Type** Any 
-**Bulk**:: —  
-  
-  
+**Bulk**:: —
 
 ## Thermal Capacitor, Mk 3
 
-**Source**:: _Starfinder Core Rulebook pg. 205_  
+**Source**:: _Starfinder Core Rulebook pg. 205_
 **Level**:: 15
-**Price**::  120000  
+**Price**::  120000
 **Slots** 1 **Armor Type** Any 
 **Bulk**:: —

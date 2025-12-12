@@ -1,11 +1,12 @@
 ---
-aliases: 
+cssclasses:
+aliases: []
 ArmorType: any
 Item:
 NoteType: Armor
 price:  
 Slots: 1
-tags: 
+tags: []
 Type: Armor Upgrades
 ---
 
@@ -17,30 +18,26 @@ This field over your armor grants you electricity resistance, and any creature t
 -   **Mk 2**: Resistance 10 and 2d6 electricity damage.
 -   **Mk 3**: Resistance 15 and 3d6 electricity damage.
 
-  
-
 ## Electrostatic Field, Mk 1
 
-**Source**:: _Starfinder Core Rulebook pg. 205_  
+**Source**:: _Starfinder Core Rulebook pg. 205_
 **Level**:: 5
-**Price**::  3000  
+**Price**::  3000
 **Slots** 1 **Armor Type** Any 
-**Bulk**:: —  
+**Bulk**:: —
 
 ## Electrostatic Field, Mk 2
 
-**Source**:: _Starfinder Core Rulebook pg. 205_  
+**Source**:: _Starfinder Core Rulebook pg. 205_
 **Level**:: 9
-**Price**::  13000  
+**Price**::  13000
 **Slots** 1 **Armor Type** Any 
-**Bulk**:: —  
-  
-  
+**Bulk**:: —
 
 ## Electrostatic Field, Mk 3
 
-**Source**:: _Starfinder Core Rulebook pg. 205_  
+**Source**:: _Starfinder Core Rulebook pg. 205_
 **Level**:: 12
-**Price**::  35000  
+**Price**::  35000
 **Slots** 1 **Armor Type** Any 
 **Bulk**:: —

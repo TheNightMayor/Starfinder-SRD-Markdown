@@ -6,7 +6,7 @@ price:
 tags: []
 ---
 
-## Scanner, Motion DETECTOR]
+## Scanner, Motion Detector
 
 **Source**:: _Starfinder Core Rulebook pg. 219_
 **Level**:: 7

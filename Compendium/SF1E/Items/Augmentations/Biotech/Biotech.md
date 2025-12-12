@@ -10,7 +10,7 @@ Functioning similarly to [[Cybernetics]], biotech items include modifications to
 ``` dataview
 TABLE
 System, Level, Price
-FROM "Compendium/SF1E/Items/Augmentations/Biotech"
+FROM "Starfinder-SRD/Compendium/Items/Augmentations/Biotech"
 SORT Level ASC
 WHERE file.name != "Biotech"
 ```

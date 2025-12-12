@@ -1,7 +1,8 @@
 ---
-aliases: []
-price:  
-tags: []
+aliases: 
+price: 
+tags: 
+dg-publish: true
 ---
 
 # Aeon Stone

@@ -13,9 +13,8 @@ Beyond weapons, armor, and crucial technological, magical, and hybrid equipment,
 ``` dataview
 TABLE
 Category, Price
-FROM "Compendium/SF1E/Items/Public Items/Food, Drinks _ Lodgings"
+FROM "Pact Worlds & Beyond/Public Items/Food, Drinks & Lodgings"
 SORT Category ASC
-WHERE file.name != "Food, Drinks _ Lodgings"
 ```
 
 ## Transportation
@@ -23,7 +22,7 @@ WHERE file.name != "Food, Drinks _ Lodgings"
 ``` dataview
 TABLE
 Price, type
-FROM "Compendium/SF1E/Items/Public Items/Transportation"
+FROM "Starfinder-SRD/Compendium/Items/Public Items/Transportation"
 WHERE !contains(file.name, "Transportation")
 SORT Category ASC
 ```
@@ -33,9 +32,8 @@ SORT Category ASC
 ``` dataview
 TABLE
 Category, Price
-FROM "Compendium/SF1E/Items/Public Items/Trade Goods"
+FROM "Pact Worlds & Beyond/Public Items/Trade Goods"
 SORT Category ASC
-WHERE file.name != "Trade Goods"
 ```
 
 ## Recharging Stations
@@ -43,8 +41,7 @@ WHERE file.name != "Trade Goods"
 ``` dataview
 TABLE
 Category, Price
-FROM "Compendium/SF1E/Items/Public Items/Recharging Stations"
-WHERE file.name != "Recharging Stations"
+FROM "Pact Worlds & Beyond/Public Items/Recharging Stations"
 ```
 
 ## Personal Items
@@ -52,8 +49,7 @@ WHERE file.name != "Recharging Stations"
 ``` dataview
 TABLE
 Category, Price
-FROM "Compendium/SF1E/Items/Public Items/Personal Items"
-WHERE file.name != Personal Items
+FROM "Pact Worlds & Beyond/Public Items/Personal Items"
 ```
 
 ## Professional Services
@@ -61,8 +57,7 @@ WHERE file.name != Personal Items
 ``` dataview
 TABLE
 Category, Price
-FROM "Compendium/SF1E/Items/Public Items/Professional Services"
-WHERE file.name != "Professional Services"
+FROM "Pact Worlds & Beyond/Public Items/Professional Services"
 ```
 
 ## Medicinals
@@ -70,6 +65,5 @@ WHERE file.name != "Professional Services"
 ``` dataview
 TABLE
 Category, Price
-FROM "Compendium/SF1E/Items/Public Items/Medicinals"
-WHERE file.name != "Medicinals"
+FROM "Pact Worlds & Beyond/Public Items/Medicinals"
 ```

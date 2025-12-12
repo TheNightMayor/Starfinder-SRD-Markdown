@@ -3,19 +3,6 @@ aliases: []
 tags: []
 ---
 
-> [!infobox|left n-th clean]
-> # **ADVANCED MELEE**
-> [[One Handed - Advanced Melee| One Handed]]
-> [[Two Handed - Advanced Melee| Two Handed]]
-> # **BASIC MELEE**
-> [[One-Handed - Basic Melee| One Handed]]
-> [[Two-Handed - Basic Melee| Two Handed]]
-> # **RANGED WEAPONS**
-> [[Smallarms|Smallarms]]
-> [[Longarms]]
-> [[Heavy Weapons| Heavy Weapons]]
-> [[Sniper-Weapons| Sniper Weapons]]
-
 # Armaments
 
 An adventurer’s weapon can be all that stands between them and death. Weapons primarily deal [[Damage]], and some have additional special properties. Some weapons also cause specific [[critical hit effects]], which are listed in the weapon tables and described beginning on page 182. See Critical Hits on page 245 for information. 

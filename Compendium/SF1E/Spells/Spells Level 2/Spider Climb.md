@@ -1,24 +1,25 @@
 ---
-aliases: 
+cssclasses:
+aliases: []
 Level: 2
 Mystic: X
 NoteType: Spell
 Precog: 
 
-tags: 
+tags: []
 Technomancer: X
 Witchwarper: 
 ---
 
 # Spider Climb
 
-**Source**:: _Starfinder Core Rulebook pg. 378_  
-**Classes**:: Mystic 2, Technomancer 2  
-**School**:: transmutation  
-**Casting-Time**:: 1 standard action  
-**Range**:: touch  
-**Targets**:: one creature  
-**Duration**:: 10 minutes/level  
+**Source**:: _Starfinder Core Rulebook pg. 378_
+**Classes**:: Mystic 2, Technomancer 2
+**School**:: transmutation
+**Casting-Time**:: 1 standard action
+**Range**:: touch
+**Targets**:: one creature
+**Duration**:: 10 minutes/level
 **Saving-Throw**:: Will negates (harmless);
 **Spell Resistance**:: yes (harmless)
 

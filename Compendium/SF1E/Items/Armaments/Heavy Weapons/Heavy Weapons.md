@@ -16,9 +16,9 @@ Heavy weapons are military-grade, high-damage weapons that require specialized t
 **Minimum Strength**: The minimum Strength score is 12 for 1st- through 10th-level heavy weapons and 14 for 11th-level and higher heavy weapons. A character using a heavy weapon without the appropriate minimum Strength takes a –2 penalty to attack rolls with that weapon.
 
 ``` dataview
-TABLE WITHOUT ID
-file.link AS "Weapon", Level, Price, Damage, Critical
-FROM "Compendium/SF1E/Items/Armaments/Heavy Weapons"
+TABLE
+Level, Price, Damage, Critical
+FROM "Starfinder-SRD/Compendium/Items/Armaments/Heavy Weapons"
 SORT Level ASC
 WHERE file.name != "Heavy Weapons"
 ```

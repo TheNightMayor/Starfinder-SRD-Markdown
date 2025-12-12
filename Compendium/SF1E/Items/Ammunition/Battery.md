@@ -1,9 +1,11 @@
 ---
-aliases: 
-price: 
+aliases:
+  - Batteries
+  - batteries
+price:
 tags:
-  - ammunition
 type: Ammo
+dg-publish: true
 ---
 
 # Battery

@@ -8,7 +8,7 @@ tags:
 ``` dataview
 TABLE
 System, Level, Price
-FROM "Compendium/SF1E/Items/Augmentations/Species Graft"
+FROM "Starfinder-SRD/Compendium/Items/Augmentations/Species Graft"
 SORT Level ASC
 WHERE file.name != "Species Graft"
 ```

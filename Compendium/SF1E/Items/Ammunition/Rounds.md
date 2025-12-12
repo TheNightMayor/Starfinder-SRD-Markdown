@@ -1,9 +1,9 @@
 ---
 aliases: 
 price: 
-tags:
-  - ammunition
+tags: 
 type: Ammo
+dg-publish: true
 ---
 
 # Rounds

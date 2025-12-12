@@ -5,7 +5,7 @@ tags:
 
 # Trade Goods
 
-Trade goods can normally be sold for their full value, subject to the GM’s discretion. These are given only as common baselines, most applicable to the [[Pact Worlds]], as regional variances can have a significant impact on the value of trade goods.
+Trade goods can normally be sold for their full value, subject to the GM’s discretion. These are given only as common baselines, most applicable to the [[THE PACT WORLDS]], as regional variances can have a significant impact on the value of trade goods.
 
 ``` dataview
 TABLE

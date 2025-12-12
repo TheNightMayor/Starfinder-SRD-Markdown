@@ -1,11 +1,11 @@
 ---
 aliases: 
 Hands: One-Handed
-
 Notetype: Weapon
 price: 
 tags: 
 type: Advanced-Melee
+dg-publish: true
 ---
 When a pulse gauntlet strikes its target, it releases a surge of sonic energy that can knock the target down. Pulse gauntlets are made of heavy-duty nylon with reinforced pads over the items’ knuckles.
 

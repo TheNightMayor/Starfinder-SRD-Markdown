@@ -5,7 +5,7 @@ tags: []
 
 # Weapon Fusions
 
-A weapon fusion is a small, prepackaged add-on that can be attached to any weapon to infuse it with magic. Adventurers use weapon fusions to customize their weapons for a specific enemy or to increase a weapon’s overall effectiveness. Weapon fusions are magic unless stated otherwise. While this causes the weapons they are installed in to be considered [[Hybrid Items]], in truth the weapon and the fusion still operate separately. An ability that affects a magic item could affect the fusion installed in a weapon, but that would not prevent the weapon’s core function from operating normally unless the weapon was also independently a magic device. The _[[Hybridized]]_ fusion (see page 194) is an exception to this rule, as noted in its description. Weapons with fusions are considered magic for the purpose of overcoming [[Starship Damage|damage]] reduction.
+A weapon fusion is a small, prepackaged add-on that can be attached to any weapon to infuse it with magic. Adventurers use weapon fusions to customize their weapons for a specific enemy or to increase a weapon’s overall effectiveness. Weapon fusions are magic unless stated otherwise. While this causes the weapons they are installed in to be considered [[Atlas Hybrid Items]], in truth the weapon and the fusion still operate separately. An ability that affects a magic item could affect the fusion installed in a weapon, but that would not prevent the weapon’s core function from operating normally unless the weapon was also independently a magic device. The _[[Hybridized]]_ fusion (see page 194) is an exception to this rule, as noted in its description. Weapons with fusions are considered magic for the purpose of overcoming [[Starship Damage|damage]] reduction.
 
 ## Installing and Transferring Fusions
 
@@ -63,7 +63,7 @@ The price of a weapon fusion depends on the item level of the weapon into which 
 ``` dataview
 TABLE
 Level
-FROM "Compendium/SF1E/Items/Weapon Fusions"
+FROM "Starfinder-SRD/Compendium/Items/Weapon Fusions"
 SORT Level ASC
 WHERE file.name != "Weapon Fusions"
 ```

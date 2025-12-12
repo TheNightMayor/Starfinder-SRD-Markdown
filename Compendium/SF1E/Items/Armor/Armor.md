@@ -23,7 +23,7 @@ Each entry on the armor tables starting on page 197 describes a single suit of a
 **KAC**::: This is the bonus your armor adds to your Kinetic Armor Class, which protects against projectiles, most melee weapons, and other solid objects (see page 240).
 -   **Maximum Dex Bonus**: You normally add your Dexterity modifier to your Armor Class (for both EAC and KAC), but it’s limited by your armor. Your armor’s maximum Dexterity bonus indicates how much of your Dexterity modifier you can add to AC. Any excess Dexterity doesn’t raise your AC further and is simply ignored for this purpose.
 -
-**Armor-Check-Penalty**::: You take a penalty to most Strengthand Dexterity-based [[Skills#Skill Checks|Skill Checks]] equal to this number. See Chapter 5 for a more complete list of which [[Skills]] apply.
+**Armor-Check-Penalty**::: You take a penalty to most Strengthand Dexterity-based [[Skill Checks]] equal to this number. See Chapter 5 for a more complete list of which [[Skills]] apply.
 -
 **Speed-Adjustment**::: While wearing the armor, your speed is adjusted by this number.
 -   **Upgrade slots**::: You can improve your armor with magic and technological upgrades. This entry shows how many total upgrades your armor can accommodate. Some [[Armor Upgrades]] are larger or more complicated and take up multiple upgrade slots (see page 204.)
@@ -74,11 +74,11 @@ All armor can facilitate self-contained breathing, protecting you against vacuum
 
 ## Radiation
 
-Armor protects you against low levels of radiation (see page 403) and grants a +4 circumstance bonus to [[Combat Mechanics#Saving Throws|Saving Throws]] against higher levels of radiation. Armor of 7th level and higher grants immunity to medium radiation levels and provides a +6 circumstance bonus to [[Combat Mechanics#Saving Throws|Saving Throws]] against higher levels of radiation. No armor’s bonuses apply to saves against radiation sickness, regardless of the level of radiation exposure that caused you to contract it. 
+Armor protects you against low levels of radiation (see page 403) and grants a +4 circumstance bonus to [[Saving Throws]] against higher levels of radiation. Armor of 7th level and higher grants immunity to medium radiation levels and provides a +6 circumstance bonus to [[Saving Throws]] against higher levels of radiation. No armor’s bonuses apply to saves against radiation sickness, regardless of the level of radiation exposure that caused you to contract it. 
 
 ## Temperature
 
-Armor’s environmental protections reasonably protect you against both cold (temperatures below –20° F) and heat (air temperatures over 140° F). This prevents you from having to attempt Fortitude [[Combat Mechanics#Saving Throws|Saving Throws]] to avoid [[Damage]] from the [[Environment, Atmospheres & Dangers]], and it prevents you from taking any [[Damage]] listed for breathing in the [[Environment, Atmospheres & Dangers]]. This does not protect against cold or fire [[Damage]] from other sources or against environments that deal [[Damage]] without allowing a Fortitude saving throw or breathing the [[Starships in Atmosphere]] (such as lava).)
+Armor’s environmental protections reasonably protect you against both cold (temperatures below –20° F) and heat (air temperatures over 140° F). This prevents you from having to attempt Fortitude [[Saving Throws]] to avoid [[Damage]] from the [[Environment, Atmospheres & Dangers]], and it prevents you from taking any [[Damage]] listed for breathing in the [[Environment, Atmospheres & Dangers]]. This does not protect against cold or fire [[Damage]] from other sources or against environments that deal [[Damage]] without allowing a Fortitude saving throw or breathing the [[Starships in Atmosphere]] (such as lava).)
 
 # Armor Descriptions
 

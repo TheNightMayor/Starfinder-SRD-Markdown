@@ -1,9 +1,9 @@
 ---
 aliases: 
-
 price: 
 tags: 
 type: Grenades
+dg-publish: true
 ---
 
 # Frag Grenade

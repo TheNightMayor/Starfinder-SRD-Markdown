@@ -7,7 +7,7 @@ tags: []
 # Technological Items
 
 **Source** Starfinder Core Rulebook pg. 218
-Technology is everywhere in Starfinder, and includes any number of devices useful to adventurers, such as those presented on Table 7–26: Technological Items. Unless otherwise indicated, activating or deactivating an item is a standard action. Items that can be activated to modify an action you’re taking last for the duration of that action (such as those that modify [[Skills#Skill Checks|Skill Checks]]), in which case activating the item is part of that action.
+Technology is everywhere in Starfinder, and includes any number of devices useful to adventurers, such as those presented on Table 7–26: Technological Items. Unless otherwise indicated, activating or deactivating an item is a standard action. Items that can be activated to modify an action you’re taking last for the duration of that action (such as those that modify [[Skill Checks]]), in which case activating the item is part of that action.
 
 Unless otherwise specified, technological items use a [[Battery]] and are subject to [[Special Abilities]] that work against items using batteries, charges, or technology. If an item doesn’t specify a usage, it needs very little power and has an internal [[Battery]] designed to function for decades or even centuries without recharging. Items with a specified usage use a [[Battery]] that comes fully charged when purchased. Such batteries can be recharged as normal using generators or recharging stations (see Professional Services on page 234), or they can be replaced (see Table 7–9: Ammunition for [[Battery]] prices).
 
@@ -26,7 +26,7 @@ Of course, there’s a vast array of technological devices available in most set
 ``` dataview
 TABLE
 Level, Price, Bulk
-FROM "Compendium/SF1E/Items"
+FROM "Starfinder-SRD/Compendium/Items"
 SORT Level ASC
 WHERE file.name != "Technological Items"
 WHERE type = "Technological Item"

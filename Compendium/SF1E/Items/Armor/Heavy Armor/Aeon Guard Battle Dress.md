@@ -1,10 +1,10 @@
 ---
 aliases: 
-
 NoteType: Armor
 price: 
 tags: 
 Type: Heavy Armor
+dg-publish: true
 ---
 
 # Aeon Guard, Battle Dress

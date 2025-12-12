@@ -1,10 +1,10 @@
 ---
 aliases: 
-
 Notetype: Weapon
 price: 
 tags: 
 type: Longarms
+dg-publish: true
 ---
 
 # Aeon Guard, Rifle

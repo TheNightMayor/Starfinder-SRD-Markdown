@@ -1,9 +1,10 @@
 ---
-aliases: 
+cssclasses:
+aliases: []
 
 Notetype: Weapon
 price: 2500
-tags: 
+tags: []
 type: Smallarm
 ---
 
@@ -11,15 +12,15 @@ type: Smallarm
 
 ## Mood Goo Emitter
 
-**Source**:: _Drift Crisis pg. 51_  
+**Source**:: _Drift Crisis pg. 51_
 **Level**:: 4
-**Price**:: 2500  
+**Price**:: 2500
 **Hands**:: 1
-**Proficiency**:: Small Arms  
-**Damage**:: — 
+**Proficiency**:: Small Arms
+**Damage**:: —
 **Range**:: 30 ft.
-**Critical**:: Knockdown  
-**Capacity**:: 10 mood goo ; **Usage** 1  
+**Critical**:: Knockdown
+**Capacity**:: 10 mood goo ; **Usage** 1
 **Bulk**:: 1**Special**:: Analog, line, unwieldy
 
 ### Description
