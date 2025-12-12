@@ -14,7 +14,7 @@ It is sometimes possible to procure long-distance passage at reduced prices or e
 ``` dataview
 TABLE
 Category, Price
-FROM "Pact Worlds & Beyond/Public Items/Transportation"
+FROM "Compendium/SF1E/Items/Public Items/Transportation"
 SORT Category ASC
 WHERE file.name != "Transportation"
 ```

@@ -1,0 +1,352 @@
+body {
+  /* --background-primary: transparent; */
+  --background-secondary: transparent;
+  --background-secondary-alt: transparent !important;
+  --background-modifier-form-field: transparent;
+  --divider-color: steelblue;
+  --tab-background-active: transparent;
+  --divider-vertical-height: 96.4% !important;
+  --ribbon-padding: 0px;
+  --ribbon-background-collapsed: transparent;
+  --file-line-width: 1000px !important;
+  --titlebar-bubble-colors: steelblue !important;
+  /* --ribbon-width: 30px !important; */
+}
+
+.callout[data-callout="where"] {
+    --callout-color: 147, 112, 219;
+    --callout-icon: map-pinned;
+}
+
+.statblock.starfinder-layout .image img, .statblock.starfinder-character-layout .image img {
+    object-position: center top;
+}
+
+div.statblock-inline-item.image-container > div {
+    object-position: center top;
+
+}
+
+.view-header-nav-buttons {
+padding-left: 30px;  
+}
+
+.workspace-tab-header.is-active {
+  box-shadow: 0px 0px 5px 2px var(--titlebar-bubble-colors) !important;
+  /* margin-left: 2px; */
+}
+
+.workspace-tab-header-container {
+  margin: 0px 30px;
+}
+
+div.nav-files-container > div > .tree-item {
+  margin-left: 40px;
+}
+div.workspace-split.mod-root,
+body.is-focused .titlebar,
+.workspace-ribbon,
+.workspace-tab-header,
+.workspace-leaf,
+.workspace-split,
+.workspace-leaf-content,
+.view-header,
+.view-header-title-container::after,
+.view-content {
+  background: transparent !important;
+}
+
+body.background-image:is(.theme-dark, .theme-light) .workspace {
+  background-size: 100% 100%;
+}
+
+div.side-dock-ribbon {
+  position: absolute;
+}
+div.workspace-ribbon .side-dock-actions, div.mod-left-split div.workspace-tab-container{
+  padding: 30px 5px;
+  clip-path: polygon(
+    0% 0px,
+    0px 0%,
+    calc(100% - 20px) 0px,
+    100% 20px,
+    100% calc(100% - 20px),
+    calc(100% - 20px) 100%,
+    0 100%,
+    0 0
+  );
+  background: 
+  linear-gradient(
+    225deg, 
+    rgba(137, 222, 255, 0.5) 15px 16px,
+    transparent 16px 21px,
+    rgba(137, 222, 255, 0.5) 21px 22px,
+    transparent 23px
+  ),
+  linear-gradient(
+      315deg,
+      rgba(137, 222, 255, 0.5) 15px 15px,
+      transparent 16px,
+      rgba(137, 222, 255, 0.5) 17px 18px,
+      transparent 18px
+    ),
+    linear-gradient(
+      to top,
+      rgba(137, 222, 255) 0 0px,
+      transparent 1px 3px,
+      rgba(137, 222, 255) 3px 3px,
+      transparent 4px
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 8px,
+      rgba(137, 222, 255) 8px 8px,
+      transparent 9px
+    ),
+    linear-gradient(to left, rgba(137, 222, 255) 0px 1px, transparent 2px),
+    linear-gradient(
+      to left,
+      rgba(137, 222, 255, 0.1) 1% 10px,
+      transparent 10px 100%
+    ),
+    radial-gradient(70% 100px at bottom, rgba(137, 222, 255, 0.2), transparent),
+    radial-gradient(
+      40% 100px at top,
+      rgba(137, 222, 255, 0.2) 1%,
+      rgba(0, 9, 29) 50%
+    );
+}
+
+div > .nav-files-container {
+  padding: 0;
+}
+
+div.tree-item-self {
+  position: relative;
+}
+
+.nav-folder-title-content, .side-dock-ribbon-action .svg-icon{
+  transform: skew(30deg);
+}
+
+.nav-folder-title, .side-dock-ribbon-action {
+  border-radius: 0;
+  box-shadow: 2px 3px 4px 0px steelblue;
+  transform: skew(-30deg) translate(2px);
+}
+
+.nav-folder-title:hover {
+  opacity: 0.5;
+}
+
+/* .sfs > .markdown-preview-section {
+    clip-path: polygon(
+        25px 25px, 
+        50% 25px, 
+        55% 0%, 
+        95% 0%, 
+        100% 50px, 
+        100% 50%,
+        calc(100% - 25px) calc(50% + 25px),
+        calc(100% - 25px) 100%,
+        75% 100%,
+        80% calc(100% - 25px),
+        10% calc(100% - 25px),
+        25px calc(100% - 25px),
+        0px calc(100% - 50px),
+        0px 75%,
+        25px calc(75% - 25px),
+        25px calc(25% + 25px),
+        0px 25%,
+        0% 50px
+        );
+        background-color: darkblue;
+} */
+/* .sfs div.cm-contentContainer,
+.sfs > .markdown-preview-section {
+   border-image: url(https://cdn.discordapp.com/attachments/1010293559217365102/1315561783204773909/textblock-vert.png?ex=6757dbe3&is=67568a63&hm=056f96eba44feabeb296f7990beba0f43a762acd9ec7cd074dd6374f38571ff4&)
+    40% 60% 40% 30% fill / 500px 300px 500px 300px / 0 stretch; 
+  
+} */
+
+/* .handout > .markdown-preview-section,
+.handout div.cm-content {
+  border-image: url(https://cdn.discordapp.com/attachments/1010293559217365102/1315785574048862281/small_window.png?ex=6758ac4e&is=67575ace&hm=600a99c11e4dd9b5a13f2574408b2019e989aba4748fac6685ed5ef77fabea9e&)
+    20% fill / 100px 50px/ 20px 20px stretch;
+  padding-bottom: 100px !important;
+} */
+
+html {
+  --s: 14px; /* control the size*/
+  --c1: #2a3734a2;
+  --c2: #446a624c;
+  
+  --c:#0000,var(--c1) .5deg 119.5deg,#0000 120deg;
+  --g1:conic-gradient(from  60deg at 56.25% calc(425%/6),var(--c));
+  --g2:conic-gradient(from 180deg at 43.75% calc(425%/6),var(--c));
+  --g3:conic-gradient(from -60deg at 50%   calc(175%/12),var(--c));
+  background:
+    var(--g1),var(--g1) var(--s) calc(1.73*var(--s)),
+    var(--g2),var(--g2) var(--s) calc(1.73*var(--s)),
+    var(--g3) var(--s) 0,var(--g3) 0 calc(1.73*var(--s)) 
+    var(--c2);
+  background-size: calc(2*var(--s)) calc(3.46*var(--s));
+}
+
+div.workspace {
+  position: relative;
+  z-index: 0;
+  background: 
+  conic-gradient(from 210deg at 85% 10%, transparent 0 20deg, rgba(0, 0, 0, 0.177) 20deg 30deg,transparent 20deg 200deg, rgba(0, 0, 0, 0.221) 300deg),
+  conic-gradient(from 220deg at 65% 60%, transparent 0 60deg, rgba(0, 0, 0, 0.221) 45deg),
+  radial-gradient(circle at 5% 95%, rgba(38, 0, 0, 0.67) 100px, transparent 700px),
+  repeating-linear-gradient(160deg, black 50px, rgba(15, 112, 192, 0.139) 600px, rgba(74, 74, 179, 0.208) 900px, black),
+  repeating-linear-gradient(180deg, black 50px, rgba(15, 112, 192, 0.139) 600px, rgba(74, 74, 179, 0.208), transparent),
+  radial-gradient(circle at 95% 95%, rgba(82, 28, 1, 0.743) 100px, transparent 300px),
+  linear-gradient(70deg in hsl shorter hue, rgba(91, 2, 2, 0.319), rgba(2, 2, 76, 0.615), transparent),
+  radial-gradient(circle at 80% 160%, transparent 0px 1400px, white 1400px 1401px, transparent 1401px),
+  radial-gradient(circle at 40% 220%, transparent 0px 2000px, white 2000px 2001px, transparent 2001px),
+  radial-gradient(circle at 100% 220%, transparent 0px 1400px, white 1400px 1401px, transparent 1401px),
+  radial-gradient(at 90% 80%, steelblue 0% 5%, transparent 10%),
+  radial-gradient(at 70% 70%, steelblue 0% 2%, transparent 15%),
+  radial-gradient(circle at 90% 50%, steelblue 0% 2%, transparent 25%),
+  radial-gradient(at 70% 80%, steelblue 0% 2%, transparent 15%),
+  radial-gradient(at 70% 90%, steelblue 0% 3%,darkblue 8%, transparent 20%),
+  radial-gradient(at 80% 90%, steelblue 0% 7%,darkblue 8%, transparent 25%)
+  ;
+}
+
+div.workspace::before {
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: rotate(30deg);
+  background: url(https://cdn.discordapp.com/attachments/1010293559217365102/1315557265801089064/the_drift.png?ex=6758806e&is=67572eee&hm=4facd69fc6e91665d80408981ecea1c747b1234cea1061563c280a20ec00f238&);
+  background: 
+
+    radial-gradient(circle at 90% 70%,transparent 0px 500px, rgba(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(1000px 900px at 90% 70%,transparent 0px 500px,  rgb(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(1000px 800px at 90% 70%,transparent 0px 500px,  rgb(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(1000px 800px at 90% 70%,transparent 0px 500px,  rgb(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(1000px 600px at 90% 70%,transparent 0px 500px,  rgb(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(1000px 500px at 90% 70%,transparent 0px 500px,  rgb(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(1000px 400px at 90% 70%,transparent 0px 500px,  rgb(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(1000px 300px at 90% 70%,transparent 0px 500px,  rgb(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(1000px 200px at 90% 70%,transparent 0px 500px,  rgb(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(1000px 100px at 90% 70%,transparent 0px 500px,  rgb(75, 153, 255, 0.05) 500px 501px, transparent 501px 100%),
+    radial-gradient(50px 495px at 90% 70%,transparent 0px 50px,  rgb(75, 153, 255, 0.05) 50px 51px, transparent 51px 100%),
+    radial-gradient(100px 500px at 90% 70%,transparent 0px 100px,  rgb(75, 153, 255, 0.05) 100px 101px, transparent 101px 100%),
+    radial-gradient(150px 500px at 90% 70%,transparent 0px 150px,  rgb(75, 153, 255, 0.05) 150px 151px, transparent 151px 100%),
+    radial-gradient(200px 500px at 90% 70%,transparent 0px 200px,  rgb(75, 153, 255, 0.05) 200px 201px, transparent 201px 100%),
+    radial-gradient(250px 500px at 90% 70%,transparent 0px 250px,  rgb(75, 153, 255, 0.05) 250px 251px, transparent 251px 100%),
+    radial-gradient(300px 500px at 90% 70%,transparent 0px 300px,  rgb(75, 153, 255, 0.05) 300px 301px, transparent 301px 100%),
+    radial-gradient(350px 500px at 90% 70%,transparent 0px 350px,  rgb(75, 153, 255, 0.05) 350px 351px, transparent 351px 100%),
+    radial-gradient(400px 500px at 90% 70%,transparent 0px 400px,  rgb(75, 153, 255, 0.05) 400px 401px, transparent 401px 100%),
+    radial-gradient(450px 500px at 90% 70%,transparent 0px 450px,  rgb(75, 153, 255, 0.05) 450px 451px, transparent 451px 100%)
+    /* linear-gradient(70deg red, blue) */
+    /* radial-gradient(500px 500px at 80% 80%,transparent 0px 250px, cyan 250px 251px, transparent 251px 100%) */
+    ;
+  background-size: cover;
+  background-position: top;
+}
+
+.sfs div.cm-contentContainer {
+  border-image-outset: 40px 40px 0px;
+}
+
+.sfs > .markdown-preview-section {
+  border-image-outset: 0px 40px 0px;
+}
+.markdown-preview-view:not(.is-readable-line-width).markdown-preview-section{
+  margin: 15px !important;
+}
+
+/* .sfs div.el-h1 h1,
+.sfs span.cm-header.cm-header-1 {
+  display: table;
+  color: cornsilk;
+  padding: 0 50px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.discordapp.com/attachments/1010293559217365102/1315578314571911188/header-1.png?ex=67783808&is=6776e688&hm=8ace877e635270a6a24795b2c951aa0567cd6f2920441274a4249d5ddb112603&);
+} */
+
+/* .sfs div.el-h3 h3,
+.sfs span.cm-header.cm-header-3 {
+  display: table;
+  color: wheat;
+  padding: 0 25px;
+  background-size: 100% 100%;
+  background: url(https://cdn.discordapp.com/attachments/1010293559217365102/1315578352567848980/header-2.png?ex=67783811&is=6776e691&hm=9d41fbc4b2d47a1b41c7e65cd17cbfa93d8f16289c5715ed7264428b8e013a14&)
+    left 0/ 100% 100% no-repeat;
+} */
+
+/* .callout.callout.callout[data-callout~="aside"]:is(
+    [data-callout-metadata~="left"],
+    [data-callout-metadata~="p+l"]
+  )[data-callout-metadata~="tufte"]:not(.is-collapsed) {
+  margin-left: -21em !important;
+  margin-right: -21em !important;
+}
+
+.callout[data-callout~="aside"][data-callout-metadata~="tufte"]:not(
+    .is-collapsed
+  ) {
+  margin-left: -21em !important;
+  margin-right: -21em !important;
+} */
+
+.callout.callout[data-callout~=infobox], .markdown-preview-section {
+  padding: 1%;
+  clip-path: polygon(
+    20px 0px,
+    calc(100% - 20px) 0px,
+    100% 20px,
+    100% calc(100% - 20px),
+    calc(100% - 20px) 100%,
+    20px 100%,
+    0 calc(100% - 20px),
+    0 20px
+  );
+  border: 4px double darkblue ;
+  box-shadow: 0px 0px 30px 5px inset rgba(70, 131, 180, 0.457);
+  background: 
+  linear-gradient(
+    225deg, 
+   darkblue 10px 11px,
+    transparent 11px 13px,
+    darkblue 13px 14px,
+    transparent 14px
+  ),
+  linear-gradient(
+    315deg, 
+   darkblue 10px 11px,
+    transparent 11px 13px,
+    darkblue 13px 14px,
+    transparent 14px
+  ),
+  linear-gradient(
+    45deg, 
+   darkblue 10px 11px,
+    transparent 11px 13px,
+    darkblue 13px 14px,
+    transparent 14px
+  ),
+  linear-gradient(
+    135deg, 
+   darkblue 10px 11px,
+    transparent 11px 13px,
+    darkblue 13px 14px,
+    transparent 14px
+  ),
+  radial-gradient(70% 100px at bottom, rgba(137, 222, 255, 0.2), transparent),
+  radial-gradient(
+    40% 100px at top,
+    rgba(137, 222, 255, 0.2) 1%,
+    rgba(0, 9, 29, 0.576) 50%
+  );
+}
+

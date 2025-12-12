@@ -10,7 +10,7 @@ Countermeasures form a computer system’s last defense against hackers trying t
 ``` dataview
 TABLE
 Category, price
-FROM "Starfinder-SRD/Compendium/Items/Computer Gear/Computer Countermeasures"
+FROM "Compendium/SF1E/Items/Computer Gear/Computer Countermeasures"
 SORT Level ASC
 WHERE file.name != "Computer Countermeasures"
 ```

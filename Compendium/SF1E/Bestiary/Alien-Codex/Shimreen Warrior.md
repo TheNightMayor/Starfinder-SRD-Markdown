@@ -37,7 +37,7 @@ Melee:
   - name: Melee
     desc: crystal lance +14 to hit (1d3+12 P)
 modifier: 7
-name: Shimreen, Warrior
+name: Shimreen Warrior
 image: "[[Shimreen Warrior.png]]"
 offabilities:
   - name: Offensive Abilities
@@ -64,7 +64,7 @@ specialabil:
     desc: A shimreen constantly emits dim, normal, or bright light in a 5-foot radius and is immune to the dazzled condition. A shimreen can adjust their current level of light as a move action, but they can’t extinguish it.
   - name: Shift Limb (Ex)
     desc: As a swift action, a shimreen can transform one of their hands into a natural weapon that deals piercing damage. While transformed, this hand can’t be used to hold or use anything. The shimreen can reverse the transformation as a swift action.
-species: "[[Starfinder-SRD/Compendium/Bestiary/Alien-Codex/stubs/Shimreen]]"
+species: "[[Shimreen]]"
 Speed: 40 ft. (35 ft. in armor)
 statblock: true
 subtype: (shimreen)
@@ -79,7 +79,7 @@ XP: 1,600
 ---
 
 ```statblock
-creature: Shimreen, Warrior
+creature: Shimreen Warrior
 ```
 
 ## Shimreen Warrior Cr 5

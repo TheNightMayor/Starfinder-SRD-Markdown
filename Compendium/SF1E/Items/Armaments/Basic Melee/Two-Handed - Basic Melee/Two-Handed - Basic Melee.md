@@ -8,7 +8,7 @@ tags:
 ``` dataview
 TABLE
 Level, Price, Damage , Critical
-FROM "Starfinder-SRD/Compendium/Items/Armaments/Basic Melee/Two-Handed - Basic Melee"
+FROM "Compendium/SF1E/Items/Armaments/Basic Melee/Two-Handed - Basic Melee"
 SORT Level ASC
 WHERE file.name != "Two-Handed - Basic Melee"
 ```

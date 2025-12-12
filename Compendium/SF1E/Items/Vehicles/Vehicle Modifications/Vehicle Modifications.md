@@ -8,7 +8,7 @@ tags:
 ``` dataview
 TABLE
 Price
-FROM "Starfinder-SRD/Compendium/Items/Vehicles/Vehicle Modifications"
+FROM "Compendium/SF1E/Items/Vehicles/Vehicle Modifications"
 SORT Level ASC
 WHERE file.name != "Vehicle Modifications"
 ```

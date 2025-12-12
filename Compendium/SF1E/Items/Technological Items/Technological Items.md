@@ -26,7 +26,7 @@ Of course, there’s a vast array of technological devices available in most set
 ``` dataview
 TABLE
 Level, Price, Bulk
-FROM "Starfinder-SRD/Compendium/Items"
+FROM "Compendium/SF1E/Items"
 SORT Level ASC
 WHERE file.name != "Technological Items"
 WHERE type = "Technological Item"

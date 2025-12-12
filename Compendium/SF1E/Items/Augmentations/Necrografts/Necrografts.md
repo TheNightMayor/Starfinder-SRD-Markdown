@@ -8,7 +8,7 @@ tags:
 ``` dataview
 TABLE
 System
-FROM "Starfinder-SRD/Compendium/Items/Augmentations/Necrografts"
+FROM "Compendium/SF1E/Items/Augmentations/Necrografts"
 SORT Level ASC
 WHERE file.name != "Necrografts"
 ```

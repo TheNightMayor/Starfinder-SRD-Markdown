@@ -63,7 +63,7 @@ The price of a weapon fusion depends on the item level of the weapon into which 
 ``` dataview
 TABLE
 Level
-FROM "Starfinder-SRD/Compendium/Items/Weapon Fusions"
+FROM "Compendium/SF1E/Items/Armaments/Weapon Fusions"
 SORT Level ASC
 WHERE file.name != "Weapon Fusions"
 ```

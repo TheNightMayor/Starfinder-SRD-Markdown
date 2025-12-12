@@ -30,7 +30,7 @@ Melee:
   - name: "Melee"
     desc: "slam +13 to hit (1d6+6 B)"
 modifier: 3
-name: "Anacite, Ambassador"
+name: "Anacite Ambassador"
 image: "[[Anacite Ambassador.png]]"
 
 otherabil: "language assimilation, [[Unliving Ex|unliving]]"
@@ -70,7 +70,7 @@ XP: 2400
 ---
 
 ```statblock
-creature: Anacite, Ambassador
+creature: Anacite Ambassador
 ```
 
 # Anacite, Ambassador

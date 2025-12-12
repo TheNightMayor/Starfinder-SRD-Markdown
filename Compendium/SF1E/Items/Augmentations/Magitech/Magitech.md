@@ -13,7 +13,7 @@ Magitech [[Augmentations]]  follow much the same rules as all other [[Augmentati
 ``` dataview
 TABLE
 System, Level, Price
-FROM "Starfinder-SRD/Compendium/Items/Augmentations/Magitech"
+FROM "Compendium/SF1E/Items/Augmentations/Magitech"
 SORT Level ASC
 WHERE file.name != "Magitech"
 ```

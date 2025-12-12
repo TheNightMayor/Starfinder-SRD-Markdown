@@ -9,6 +9,6 @@ Though numerous pharmaceuticals and similar substances can be referred to as med
 ``` dataview
 TABLE
 Category, Price
-FROM "Pact Worlds & Beyond/Public Items/Medicinals"
+FROM "Compendium/SF1E/Items/Public Items/Medicinals"
 WHERE file.name != "Medicinals"
 ```

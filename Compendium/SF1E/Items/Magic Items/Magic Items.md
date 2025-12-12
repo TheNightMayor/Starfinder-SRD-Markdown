@@ -20,7 +20,7 @@ In a few rare cases, magic items require charges. However, such charged magic it
 TABLE
 Level, Price, Bulk
 
-FROM "Starfinder-SRD/Compendium/Items"
+FROM "Compendium/SF1E/Items"
 SORT Level ASC
 WHERE type = "Magic Item"
 WHERE file.name != "Magic Items"

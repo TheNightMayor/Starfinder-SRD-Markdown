@@ -10,7 +10,7 @@ These modules improve the overall effectiveness, security, and utility of a comp
 ``` dataview
 TABLE
 Category, price
-FROM "Starfinder-SRD/Compendium/Items/Computer Gear/Computer Upgrades"
+FROM "Compendium/SF1E/Items/Computer Gear/Computer Upgrades"
 SORT Level ASC
 WHERE file.name != "Computer Upgrades"
 ```

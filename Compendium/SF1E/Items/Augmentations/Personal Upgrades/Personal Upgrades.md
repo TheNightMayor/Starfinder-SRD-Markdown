@@ -8,7 +8,7 @@ tags:
 ``` dataview
 TABLE
 Level
-FROM "Starfinder-SRD/Compendium/Items/Augmentations/Personal Upgrades"
+FROM "Compendium/SF1E/Items/Augmentations/Personal Upgrades"
 SORT Level ASC
 WHERE file.name != "Personal Upgrades"
 ```

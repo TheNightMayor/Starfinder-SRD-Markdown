@@ -79,4 +79,4 @@ A typical domesticated shotalashu is over 10 feet long from snout to tail-tip, a
 
 ## Shotalashu Equipment
 
-As technology has advanced, [[Telepathic Bond]]ing with shotalashus has become possible for those who aren’t lashunta. The lashuntas have also maintained traditional gear for shotalashu riding: the shotalashu link cortex and the shotalashu saddle.
+As technology has advanced, Telepathic Bonding with shotalashus has become possible for those who aren’t lashunta. The lashuntas have also maintained traditional gear for shotalashu riding: the shotalashu link cortex and the shotalashu saddle.

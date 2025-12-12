@@ -19,7 +19,7 @@ Hybrid items you wear on your body count as [[Magic Items]]  when you are determ
 ``` dataview
 TABLE
 Level, Price, Bulk
-FROM "Starfinder-SRD/Compendium/Items/Hybrid Items"
+FROM "Compendium/SF1E/Items/Hybrid Items"
 SORT Level ASC
 WHERE file.name != "Hybrid Items"
 ```

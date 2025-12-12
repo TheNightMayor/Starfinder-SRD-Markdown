@@ -10,6 +10,6 @@ Most settlements of any significant size have public recharging stations for bat
 ``` dataview
 TABLE
 Category, Price
-FROM "Pact Worlds & Beyond/Public Items/Recharging Stations"
+FROM "Compendium/SF1E/Items/Public Items/Recharging Stations"
 WHERE file.name != "Recharging Stations"
 ```

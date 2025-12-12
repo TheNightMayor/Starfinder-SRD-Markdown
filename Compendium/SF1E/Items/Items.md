@@ -6,17 +6,23 @@ tags: []
 
 # Gear
 
-> [!infobox|left n-th clean]
-> # **ADVANCED MELEE**
-> [[One Handed - Advanced Melee| One Handed]]
-> [[Two Handed - Advanced Melee| Two Handed]]
-> # **BASIC MELEE**
-> [[One-Handed - Basic Melee| One Handed]]
-> [[Two-Handed - Basic Melee| Two Handed]]
-> # **RANGED WEAPONS**
-> [[Smallarms| Smallarms]]
+> [!infobox|right n-th clean]
+> # Weapons
+> ## **MELEE**
+> [[One-Handed - Basic Melee|Basic One Handed]]
+> [[Two-Handed - Basic Melee|Basic Two Handed]]
+> [[One Handed - Advanced Melee|Advanced One Handed]]
+> [[Two Handed - Advanced Melee|Advanced Two Handed]]
+> ## **RANGED**
+> [[Smallarms| Small Arms]]
+> [[Longarms]]
 > [[Heavy Weapons| Heavy Weapons]]
 > [[Sniper-Weapons| Sniper Weapons]]
+> # Armor
+> [[Light Armor]]
+> [[Heavy Armor]]
+> [[Power Armor]]
+> [[Shields]]
 
 It’s a dangerous galaxy, and a smart explorer knows that the difference between success and failure—or even life and death— may be the equipment you have at the ready. This chapter presents all sorts of different equipment, from weapons and [[Armor]] to adventuring gear for scouting new worlds. Yet not everything in this chapter is a purely technological wonder, and many of the items included here are the products of spellcasting artisans or are a blending of magic and advanced science.
 

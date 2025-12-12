@@ -18,7 +18,7 @@ Heavy weapons are military-grade, high-damage weapons that require specialized t
 ``` dataview
 TABLE
 Level, Price, Damage, Critical
-FROM "Starfinder-SRD/Compendium/Items/Armaments/Heavy Weapons"
+FROM "Compendium/SF1E/Items/Armaments/Heavy Weapons"
 SORT Level ASC
 WHERE file.name != "Heavy Weapons"
 ```

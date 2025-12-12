@@ -12,7 +12,7 @@ The solitude of space can prove tough to bear for even the most hardened soloist
 TABLE
 
 level, Type
-FROM "Starfinder-SRD/Compendium/Items/Creature Companions"
+FROM "Compendium/SF1E/Items/Creature Companions"
 SORT 
 level ASC
 WHERE file.name != "Creature Companions"

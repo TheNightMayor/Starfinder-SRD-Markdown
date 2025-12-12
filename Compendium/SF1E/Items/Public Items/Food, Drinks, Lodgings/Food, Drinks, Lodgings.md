@@ -10,7 +10,7 @@ A surprisingly wide range of creatures, including all the Starfinder core races,
 ``` dataview
 TABLE
 Category, Price
-FROM "Pact Worlds & Beyond/Public Items/Food, Drinks & Lodgings"
+FROM "Compendium/SF1E/Items/Public Items/Food, Drinks, Lodgings"
 SORT Category ASC
 WHERE file.name != "Food, Drinks & Lodgings"
 ```

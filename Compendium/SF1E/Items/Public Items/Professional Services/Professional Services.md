@@ -10,6 +10,6 @@ These services assume an individual or small group is hired legally in free-mark
 ``` dataview
 TABLE
 Category, Price
-FROM "Pact Worlds & Beyond/Public Items/Professional Services"
+FROM "Compendium/SF1E/Items/Public Items/Professional Services"
 WHERE file.name != "Professional Services"
 ```

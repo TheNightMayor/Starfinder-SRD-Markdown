@@ -29,7 +29,7 @@ Some [[Armor]] upgrades are magic or a hybrid of magic and technology. This is i
 ``` dataview
 TABLE
 ItemLevel as I-Level, ArmorType,  Slots, Price
-FROM "Codex/Gear, Weapons, Vehicles & more/Armor/Armor Upgrades"
+FROM "Compendium/SF1E/Items/Armor/Armor Upgrades"
 SORT ItemLevel ASC
 WHERE file.name != "Armor Upgrades"
 ```

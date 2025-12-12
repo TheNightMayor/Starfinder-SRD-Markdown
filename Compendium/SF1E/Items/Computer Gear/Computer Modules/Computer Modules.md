@@ -16,7 +16,7 @@ Note that modules are a combination of both hardware and software, and as such t
 ``` dataview
 TABLE
 Category, price
-FROM "Starfinder-SRD/Compendium/Items/Computer Gear/Computer Modules"
+FROM "Compendium/SF1E/Items/Computer Gear/Computer Modules"
 SORT Level ASC
 WHERE file.name != "Computer Modules"
 ```

@@ -10,7 +10,7 @@ Trade goods can normally be sold for their full value, subject to the GM’s dis
 ``` dataview
 TABLE
 Category, Price
-FROM "Pact Worlds & Beyond/Public Items/Trade Goods"
+FROM "Compendium/SF1E/Items/Public Items/Trade Goods"
 SORT Category ASC
 WHERE file.name != "Trade Goods"
 ```

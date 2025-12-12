@@ -10,13 +10,13 @@ type:
 ## Core
 
 ```dataviewjs
-const data = dv.pages('"Starfinder-SRD/Compendium/Species"')
+const data = dv.pages('"Compendium/SF1E/Character/Species"')
   .where(p => p.section && p.section == "core");
   
 dv.table(
   ["Species", "HP", "Mods", "Size", "Type"],
   data.map((page, index) => [
-    dv.span('<a aria-label="'+page.file.path+'" data-href="'+page.file.path+'" href="'+page.file.path+'" class="internal-link" target="_blank" ref="noopener"><img src="'+app.vault.getResourcePath(dv.fileLink(page.blurb.path))+'" referrerpolicy="no-referrer" height="100px" width="auto"></a>'),
+    dv.span(page.blurb.complete ? ('<a aria-label="'+page.file.path+'" data-href="'+page.file.path+'" href="'+page.file.path+'" class="internal-link" target="_blank" ref="noopener"><img src="'+app.vault.getResourcePath(dv.fileLink(page.blurb.path))+'" referrerpolicy="no-referrer" height="100px" width="auto"></a>') : page.file.link),
  page.hitpoints, page.abilitymodifiers, page.size, page.type]), 
 );
 ```
@@ -24,20 +24,20 @@ dv.table(
 ## Legacy
 
 ```dataviewjs
-const data = dv.pages('"Starfinder-SRD/Compendium/Species"')
+const data = dv.pages('"Compendium/SF1E/Character/Species"')
   .where(p => p.section && p.section == "legacy");
   
 dv.table(
   ["Species", "HP", "Mods", "Size", "Type"],
   data.map((page, index) => [
-    dv.span('<a aria-label="'+page.file.path+'" data-href="'+page.file.path+'" href="'+page.file.path+'" class="internal-link" target="_blank" ref="noopener"><img src="'+app.vault.getResourcePath(dv.fileLink(page.blurb.path))+'" referrerpolicy="no-referrer" height="100px" width="auto"></a>'),
+    dv.span(page.blurb.complete ? ('<a aria-label="'+page.file.path+'" data-href="'+page.file.path+'" href="'+page.file.path+'" class="internal-link" target="_blank" ref="noopener"><img src="'+app.vault.getResourcePath(dv.fileLink(page.blurb.path))+'" referrerpolicy="no-referrer" height="100px" width="auto"></a>') : page.file.link),
  page.hitpoints, page.abilitymodifiers, page.size, page.type]), 
 );
 ```
 
 ## Alien Species
 ```dataviewjs
-const data = dv.pages('"Starfinder-SRD/Compendium/Species"')
+const data = dv.pages('"Compendium/SF1E/Character/Species"')
   .where(p => p.blurb).where(p => p.section != "legacy").where(p => p.section != "core");
   
 dv.table(
@@ -45,13 +45,13 @@ dv.table(
   data
   .sort(page => page.file.name)
   .map((page, index) => [
-    dv.span('<a aria-label="'+page.file.path+'" data-href="'+page.file.path+'" href="'+page.file.path+'" class="internal-link" target="_blank" ref="noopener"><img src="'+app.vault.getResourcePath(dv.fileLink(page.blurb.path))+'" referrerpolicy="no-referrer" height="100px" width="auto"></a>'),
+    dv.span(page.blurb.complete ? ('<a aria-label="'+page.file.path+'" data-href="'+page.file.path+'" href="'+page.file.path+'" class="internal-link" target="_blank" ref="noopener"><img src="'+app.vault.getResourcePath(dv.fileLink(page.blurb.path))+'" referrerpolicy="no-referrer" height="100px" width="auto"></a>') : page.file.link),
  page.hitpoints, page.abilitymodifiers, page.size, page.type]) 
 );
 ```
 
 ```dataviewjs
-const data = dv.pages('"Starfinder-SRD/Compendium/Species"')
+const data = dv.pages('"Compendium/SF1E/Character/Species"')
   .where(p => !p.blurb);
   
 dv.table(

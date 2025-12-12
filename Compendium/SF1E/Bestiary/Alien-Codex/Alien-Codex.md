@@ -11,7 +11,7 @@ tags: []
 ```dataview
 TABLE WITHOUT ID
 	R.cr AS "CR", R.file.link AS "Name", R.type AS "Type", embed(link(R.image, "75")) AS "Image"
-FROM "Starfinder-SRD/Compendium/Bestiary/Alien-Codex" and !"Starfinder-SRD/Compendium/Bestiary/Alien-Codex/Alien-Codex.md" 
+FROM "Compendium/SF1E/Bestiary/Alien-Codex" and !"Starfinder-SRD/Compendium/Bestiary/Alien-Codex/Alien-Codex.md" 
 GROUP BY cr
 FLATTEN rows as R
 SORT R.cr ASC, R.file.link ASC
